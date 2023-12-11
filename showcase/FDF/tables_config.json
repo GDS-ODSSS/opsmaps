@@ -1,0 +1,16 @@
+{
+    "tables": {
+        "table1": {
+            "label": "Shelters status",
+            "values": [
+                "All/almost all shelters",
+                "Majority of shelters",
+                "Few shelters",
+                "None/almost no shelters",
+                "I dont know"
+            ]
+        }
+    }
+}
+
+

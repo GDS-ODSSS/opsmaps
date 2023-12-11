@@ -1,0 +1,314 @@
+{
+    "charts": {
+        "polar_area_chart#3": {
+            "type": "polar"
+        },
+        "age_pyramid#1": {
+            "type": "bar",
+            "direction": "horizontal",
+            "barType": "duo",
+            "axis": {
+                "x": {
+                    "title": "charts.titleX"
+                },
+                "y": {
+                    "title": "charts.titleY",
+                    "labels": [
+                        {
+                            "fr": "60+"
+                        },
+                        {
+                            "fr": "18-59"
+                        },
+                        {
+                            "fr": "12-17"
+                        },
+                        {
+                            "fr": "5-11"
+                        },
+                        {
+                            "fr": "0-4"
+                        }
+                    ]
+                }
+            },
+            "series": [
+                {
+                    "id": "m",
+                    "index": 0,
+                    "color": "#6FC5BC",
+                    "label": "charts.male"
+                },
+                {
+                    "id": "f",
+                    "index": 1,
+                    "color": "#1B657C",
+                    "label": "charts.female"
+                }
+            ]
+        },
+        "age_pyramid#2": {
+            "type": "bar",
+            "direction": "horizontal",
+            "barType": "single",
+            "axis": {
+                "x": {
+                    "title": {
+                        "fr": "# personne",
+                        "en": "# people",
+                        "ar": "# الناس"
+                    },
+                    "min": 0,
+                    "max": 300,
+                    "interval": 10
+                },
+                "y": {
+                    "title": {
+                        "fr": "Interval d'âge",
+                        "en": "Age range",
+                        "ar": "الفئة العمرية"
+                    },
+                    "labels": [
+                        {
+                            "fr": "(60+)",
+                            "en": "(60+)"
+                        },
+                        {
+                            "fr": "(18-59)",
+                            "en": "(18-59)"
+                        },
+                        {
+                            "fr": "(12-17)",
+                            "en": "(12-17)"
+                        },
+                        {
+                            "fr": "(5-11)",
+                            "en": "(5-11)"
+                        },
+                        {
+                            "fr": "(0-4)",
+                            "en": "(0-4)"
+                        }
+                    ]
+                }
+            },
+            "series": [
+                {
+                    "id": "g",
+                    "index": 0,
+                    "color": "#F5F3E8",
+                    "label": {
+                        "fr": "Non genré/inclusif",
+                        "en": "Gender neutral/inclusive",
+                        "ar": "محايد/شامل بين الجنسين"
+                    }
+                }
+            ]
+        },
+        "bar#5": {
+            "type": "bar",
+            "direction": "vertical",
+            "barType": "single",
+            "axis": {
+                "y": {
+                    "title": {
+                        "fr": "Nombre",
+                        "en": "Number"
+                    }
+                },
+                "x": {
+                    "title": {
+                        "fr": "Articles non alimentaires (NFI)",
+                        "en": "Non-Food Items (NFIs)"
+                    },
+                    "labels": [
+                        {
+                            "fr": "Matelas",
+                            "en": "Mattress",
+                            "ar": "فراش"
+                        },
+                        {
+                            "fr": "Bidons d'eau",
+                            "en": "Water containers\buckets",
+                            "ar": "حاويات/دلاء المياه"
+                        },
+                        {
+                            "fr": "Articles de cuisine",
+                            "en": "Kitchen items",
+                            "ar": "مستلزمات المطبخ"
+                        },
+                        {
+                            "fr": "Articles d'hygiène",
+                            "en": "Hygiene items",
+                            "ar": "مواد النظافة"
+                        },
+                        {
+                            "fr": "Moustiquaires",
+                            "en": "Mosquito nets",
+                            "ar": "شبكات البعوض"
+                        },
+                        {
+                            "fr": "Lampes solaires",
+                            "en": "Solar lamps",
+                            "ar": "المصابيح الشمسية"
+                        }
+                    ]
+                }
+            },
+            "series": [
+                {
+                    "id": "nfi_int",
+                    "index": 0,
+                    "color": "#6FC5BC"
+                }
+            ]
+        },
+        "bar#6": {
+            "type": "bar",
+            "direction": "vertical",
+            "barType": "single",
+            "axis": {
+                "x": {
+                    "title": {
+                        "fr": "Nombre",
+                        "en": "Number",
+                        "ar": "رقم"
+                    }
+                },
+                "y": {
+                    "title": {
+                        "fr": "Articles non alimentaires (NFI)",
+                        "en": "Non-Food Items (NFIs)",
+                        "ar": "المواد غير الغذائية"
+                    },
+                    "labels": [
+                        {
+                            "fr": "Matelas",
+                            "en": "Mattress",
+                            "ar": "فراش"
+                        },
+                        {
+                            "fr": "Bidons d'eau",
+                            "en": "Water containers\buckets",
+                            "ar": "حاويات/دلاء المياه"
+                        },
+                        {
+                            "fr": "Articles de cuisine",
+                            "en": "Kitchen items",
+                            "ar": "مستلزمات المطبخ"
+                        },
+                        {
+                            "fr": "Articles d'hygiène",
+                            "en": "Hygiene items",
+                            "ar": "مواد النظافة"
+                        },
+                        {
+                            "fr": "Moustiquaires",
+                            "en": "Mosquito nets",
+                            "ar": "شبكات البعوض"
+                        },
+                        {
+                            "fr": "Lampes solaires",
+                            "en": "Solar lamps",
+                            "ar": "المصابيح الشمسية"
+                        }
+                    ]
+                }
+            },
+            "series": [
+                {
+                    "id": "nfi",
+                    "index": 0,
+                    "color": "#EC6B4D",
+                    "label": {
+                        "fr": "Articles non alimentaires du site",
+                        "en": "Site Non-Food Items",
+                        "ar": "موقع المواد غير الغذائية"
+                    }
+                }
+            ],
+            "mapping": {
+                "none_almost_no_households": {
+                    "value": 1,
+                    "label": {
+                        "fr": "Aucune",
+                        "ar": "لا أحد",
+                        "en": ""
+                    }
+                },
+                "few_households": {
+                    "value": 2,
+                    "label": {
+                        "fr": "Un peu",
+                        "ar": "عدد قليل",
+                        "en": "Few"
+                    }
+                },
+                "half_of_households": {
+                    "value": 3,
+                    "label": {
+                        "fr": "Moitié",
+                        "ar": "نصف",
+                        "en": "Half"
+                    }
+                },
+                "majority_of_households": {
+                    "value": 4,
+                    "label": {
+                        "fr": "Majorité",
+                        "ar": "غالبية",
+                        "en": "Majority"
+                    }
+                },
+                "all_almost_all_households": {
+                    "value": 5,
+                    "label": {
+                        "fr": "Toutes",
+                        "ar": "الكل، الكل تقريبًا",
+                        "en": "All, almost all"
+                    }
+                }
+            }
+        },
+        "doughnut_chart#4": {
+            "type": "doughnut"
+        },
+        "radar#7": {
+            "type": "radar",
+            "mapping": {
+                "all": {
+                    "value": 1,
+                    "label": {
+                        "fr": "Tous",
+                        "en": "All",
+                        "ar": "الجميع"
+                    }
+                },
+                "lot": {
+                    "value": 2,
+                    "label": {
+                        "fr": "Majorité",
+                        "en": "Lot",
+                        "ar": "كثير"
+                    }
+                },
+                "few": {
+                    "value": 3,
+                    "label": {
+                        "fr": "Minorité",
+                        "en": "Few",
+                        "ar": "عدد قليل"
+                    }
+                },
+                "none": {
+                    "value": 4,
+                    "label": {
+                        "fr": "Aucun",
+                        "en": "None",
+                        "ar": "لا أحد"
+                    }
+                }
+            }
+        }
+    }
+}

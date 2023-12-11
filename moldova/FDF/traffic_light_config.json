@@ -1,0 +1,46 @@
+﻿{
+    "trafficLights": {
+        "yesno": {
+            "type": "key_value",
+            "values": {
+                "Yes": "green",
+                "No": "red"
+            }
+        },
+        "noyes": {
+            "type": "key_value",
+            "values": {
+                "Yes": "red",
+                "No": "green"
+            }
+        },
+        "n_y_ns": {
+            "type": "key_value",
+            "values": {
+                "Yes": "red",
+                "No": "green",
+                "not_sure": "yellow"
+            }
+        },
+        "number": {
+            "type": "key_value",
+            "values": {
+                "one": "red",
+                "two": "orange",
+                "three": "green",
+                "more_three": "green",
+                "not_sure": "grey"
+            }
+        },
+        "meal": {
+            "type": "key_value",
+            "values": {
+                "very_dissatisfied": "darkred",
+                "dissatisfied": "red",
+                "neither_satisfied_dissatisfied": "yellow",
+                "satisfied": "green",
+                "very_satisfied": "green"
+            }
+        }
+    }
+}

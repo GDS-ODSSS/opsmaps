@@ -1,0 +1,38 @@
+{
+    "charts": {
+        "doughnut_chart#1": {
+            "type": "doughnut"
+        },
+        "polar_area_chart#1": {
+            "type": "polar"
+        },
+        "age_pyramid#1": {
+            "type": "bar",
+            "axis": {
+                "x": {
+                    "title": "charts.titleX"
+                },
+                "y": {
+                    "title": "charts.titleY",
+                    "labels": [
+                        {
+                            "en": "0-5 years"
+                        },
+                        {
+                            "en": "6-17 year"
+                        },
+                        {
+                            "en": "18-35 years"
+                        },
+                        {
+                            "en": "36-59 years"
+                        },
+                        {
+                            "en": "60 or older"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

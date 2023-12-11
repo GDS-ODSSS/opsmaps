@@ -1,0 +1,55 @@
+{
+    "charts": {
+        "age_pyramid#2": {
+            "type": "bar",
+            "direction": "horizontal",
+            "barType": "single",
+            "axis": {
+                "x": {
+                    "title": {
+                        "fr": "# Enfants",
+                        "en": "# Childs"
+                    }
+                },
+                "y": {
+                    "title": {
+                        "fr": "Interval d'âge",
+                        "en": "Age range"
+                    },
+                    "labels": [
+                        {
+                            "fr": "12-18",
+                            "en": "12-18"
+                        },
+                        {
+                            "fr": "7-11",
+                            "en": "7-11"
+                        },
+                        {
+                            "fr": "2-6",
+                            "en": "2-6"
+                        },
+                        {
+                            "fr": "0-2",
+                            "en": "0-2"
+                        }
+                    ]
+                }
+            },
+            "series": [
+                {
+                    "id": "g",
+                    "index": 1,
+                    "color": "#6FC5BC",
+                    "label": {
+                        "fr": "Non genré/inclusif",
+                        "en": "Gender neutral/inclusive"
+                    },
+                    "min": 0,
+                    "max": 50,
+                    "interval": 5
+                }
+            ]
+        }
+    }
+}

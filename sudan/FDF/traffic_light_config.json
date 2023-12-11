@@ -1,0 +1,81 @@
+{
+    "trafficLights": {
+        "yesno": {
+            "type": "key_value",
+            "values": {
+                "Yes": "green",
+                "No": "red"
+            }
+        },
+        "noyes": {
+            "type": "key_value",
+            "values": {
+                "Yes": "red",
+                "No": "green"
+            }
+        },
+        "sex_violence": {
+            "type": "key_value",
+            "values": {
+                "Increase": "red",
+                "Decrease": "green",
+                "No change": "orange"
+            }
+        },
+        "electricity_cov": {
+            "type": "key_value",
+            "values": {
+                "< 30%": "red",
+                "30-50%": "orange",
+                ">50%": "green",
+                "all (100%)": "green"
+            }
+        },
+        "nfi_per": {
+            "type": "key_value",
+            "values": {
+                "Never": "red",
+                "<3 months": "green",
+                "3 - 6 months": "orange",
+                "6-12 months": "red",
+                "> 12 month": "red"
+            }
+        },
+        "education_faci": {
+            "type": "key_value",
+            "values": {
+                "On site": "green",
+                "Around (< 2 km)": "orange",
+                "Around (3-5 km)": "red",
+                "Around (> 5 km)": "darkred"
+            }
+        },
+        "pcentage_formal": {
+            "type": "key_value",
+            "values": {
+                "< 25%": "red",
+                "25-50 %": "red",
+                ">50 %": "orange",
+                "all IDP children (100%)": "green"
+            }
+        },
+        "queuing_health": {
+            "type": "key_value",
+            "values": {
+                "> 30 min": "green",
+                "30-60 min": "orange",
+                "60-90 min": "red",
+                "> 90 min": "red"
+            }
+        },
+        "pcentage_healthcare": {
+            "type": "key_value",
+            "values": {
+                "< 25%": "red",
+                "25-50 %": "orange",
+                ">50 %": "green",
+                "all IDP households (100%)": "green"
+            }
+        }
+    }
+}

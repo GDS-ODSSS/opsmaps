@@ -1,0 +1,194 @@
+﻿{
+    "trafficLights": {
+        "yesno": {
+            "type": "key_value",
+            "values": {
+                "Yes": "green",
+                "No": "red"
+            }
+        },
+        "noyes": {
+            "type": "key_value",
+            "values": {
+                "Yes": "red",
+                "No": "green"
+            }
+        },
+        "biopercentage": {
+            "type": "math",
+            "values": {
+                "x<=25": "red",
+                "x<=50": "orange",
+                "x<=75": "yellow",
+                "x>75": "green"
+            }
+        },
+        "nfidistrange": {
+            "type": "list",
+            "values": {
+                "within_1month": "green",
+                "within_2months": "orange",
+                "within_3month": "red"
+            }
+        },
+        "WaterWaitingTime": {
+            "type": "list",
+            "values": {
+                "time1": "green",
+                "time2": "yellow",
+                "time3": "orange",
+                "time4": "red"
+            }
+        },
+        "dedicatedSfVsPopulation": {
+            "type": "math",
+            "values": {
+                "x<=2500": "green",
+                "x>2500": "red"
+            }
+        },
+        "mobileSfVsPopulation": {
+            "type": "math",
+            "values": {
+                "x<=500": "green",
+                "x>500": "red"
+            }
+        },
+        "TotalLatrinesVsIndidual": {
+            "type": "math",
+            "values": {
+                "x<=20": "green",
+                "x>20 and x<=25": "yellow",
+                "x>>25": "red"
+            }
+        },
+        "TotalShowersVsIndidual": {
+            "type": "math",
+            "values": {
+                "x<=20": "green",
+                "x>20 and x<=25": "yellow",
+                "x>>25": "red"
+            }
+        },
+        "DistanceToX": {
+            "type": "key_value",
+            "values": {
+                "distancex1": "green",
+                "distancex2": "green",
+                "distancex3": "orange",
+                "distancex4": "red"
+            }
+        },
+        "NumberHHLivingOutside": {
+            "type": "math",
+            "values": {
+                "x<1": "green",
+                "x>=1": "red"
+            }
+        },
+        "NumberHHSharingShelter": {
+            "type": "math",
+            "values": {
+                "x<1": "green",
+                "x>=1": "red"
+            }
+        },
+        "NumberTransitionaldamagedShelters": {
+            "type": "math",
+            "values": {
+                "x<1": "green",
+                "x>=1": "red"
+            }
+        },
+        "TotalMalnutrition": {
+            "type": "math",
+            "values": {
+                "x<1": "green",
+                "x>=1": "red"
+            }
+        },
+        "NumberFemaleChildwithDisability": {
+            "type": "math",
+            "values": {
+                "x<1": "green",
+                "x>=1": "red"
+            }
+        },
+        "NumberMaleChildwithDisability": {
+            "type": "math",
+            "values": {
+                "x<1": "green",
+                "x>=1": "red"
+            }
+        },
+        "NumberFemaleAdultswithDisability": {
+            "type": "math",
+            "values": {
+                "x<1": "green",
+                "x>=1": "red"
+            }
+        },
+        "NumberMaleAdultswithDisability": {
+            "type": "math",
+            "values": {
+                "x<1": "green",
+                "x>=1": "red"
+            }
+        },
+        "NumberLitresppPerday": {
+            "type": "math",
+            "values": {
+                "x>=15": "green",
+                "x<15": "red"
+            }
+        },
+        "PartnerPresenceLivelihood": {
+            "type": "equal_value",
+            "value": "none",
+            "ok": "green",
+            "notok": "red"
+        },
+        "PartnerPresenceEducation": {
+            "type": "equal_value",
+            "value": "none",
+            "ok": "green",
+            "notok": "red"
+        },
+        "PartnerPresenceFoodSecurity": {
+            "type": "equal_value",
+            "value": "none",
+            "ok": "green",
+            "notok": "red"
+        },
+        "PartnerPresenceHealth": {
+            "type": "equal_value",
+            "value": "none",
+            "ok": "green",
+            "notok": "red"
+        },
+        "PartnerPresenceNutrition": {
+            "type": "equal_value",
+            "value": "none",
+            "ok": "green",
+            "notok": "red"
+        },
+        "PartnerPresenceProtection": {
+            "type": "equal_value",
+            "value": "none",
+            "ok": "green",
+            "notok": "red"
+        },
+        "PartnerPresenceShelter": {
+            "type": "equal_value",
+            "value": "none",
+            "ok": "green",
+            "notok": "red"
+        },
+        "PartnerPresenceWash": {
+            "type": "equal_value",
+            "value": "none",
+            "ok": "green",
+            "notok": "red"
+        }
+    }
+}

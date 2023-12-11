@@ -1,0 +1,26 @@
+﻿{
+    "trafficLights": {
+        "yesno": {
+            "type": "key_value",
+            "values": {
+                "Yes": "green",
+                "No": "red"
+            }
+        },
+        "noyes": {
+            "type": "key_value",
+            "values": {
+                "Yes": "red",
+                "No": "green"
+            }
+        },
+        "lowurgent": {
+            "type": "key_value",
+            "values": {
+                "Low": "green",
+                "Medium": "orange",
+                "Urgent": "grey"
+            }
+        }
+    }
+}

@@ -1,3 +1,1 @@
-# opsmaps
-
-commit from Pierre
+# opsmap-datasets

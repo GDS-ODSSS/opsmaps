@@ -1,0 +1,27 @@
+{
+    "trafficLights": {
+        "yesno": {
+            "type": "key_value",
+            "values": {
+                "yes": "green",
+                "no": "red"
+            }
+        },
+        "noyes": {
+            "type": "key_value",
+            "values": {
+                "yes": "red",
+                "no": "green"
+            }
+        },
+        "yesnonosure": {
+            "type": "key_value",
+            "values": {
+                "yes": "green",
+                "no": "red",
+                "not_sure": "orange",
+                "no_relevant": "grey"
+            }
+        }
+    }
+}

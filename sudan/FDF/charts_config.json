@@ -1,0 +1,13 @@
+{
+    "charts": {
+        "doughnut_chart#1": {
+            "type": "doughnut"
+        },
+        "doughnut_chart#2": {
+            "type": "doughnut"
+        },
+        "polar_area_chart#3": {
+            "type": "polar"
+        }
+    }
+}

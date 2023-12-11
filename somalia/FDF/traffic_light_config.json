@@ -1,0 +1,166 @@
+{
+    "trafficLights": {
+        "yesno": {
+            "type": "key_value",
+            "values": {
+                "yes": "green",
+                "no": "red"
+            }
+        },
+        "noyes": {
+            "type": "key_value",
+            "values": {
+                "yes": "red",
+                "no": "green"
+            }
+        },
+        "eviction": {
+            "type": "key_value",
+            "values": {
+                "3_months": "red",
+                "1_month": "red",
+                "6_months": "red",
+                "7_months_1_year": "red",
+                "1_2_year": "orange",
+                "no_renewal": "green",
+                "more_2_years": "green",
+                "dnk": "green"
+            }
+        },
+        "eviction_risk": {
+            "type": "key_value",
+            "values": {
+                "low": "green",
+                "moderate_moderate": "orange",
+                "NC": "green",
+                "very_high": "red",
+                "pnta": "green"
+            }
+        },
+        "latr_pwd": {
+            "type": "key_value",
+            "values": {
+                "all": "green",
+                "many": "yellow",
+                "some": "orange",
+                "few": "red",
+                "none": "darkred"
+            }
+        },
+        "cccm_cfm": {
+            "type": "key_value",
+            "values": {
+                "none": "red",
+                "few": "orange",
+                "some": "orange",
+                "many": "green",
+                "all": "green",
+                "NC": "red"
+            }
+        },
+        "water_sources_working": {
+            "type": "key_value",
+            "values": {
+                "none": "red",
+                "some": "orange",
+                "few": "orange",
+                "many": "green"
+            }
+        },
+        "water_access_distance_min": {
+            "type": "key_value",
+            "values": {
+                "less_15": "green",
+                "15_30": "orange",
+                "31_60": "orange",
+                "more_60": "red",
+                "NC": "red"
+            }
+        },
+        "sanitation_desludging": {
+            "type": "key_value",
+            "values": {
+                "no_desludging": "red",
+                "daily": "green",
+                "weekly": "green",
+                "1_3_months": "green",
+                "4_6_months": "orange",
+                "1_2_years": "orange",
+                "more_2_years": "red",
+                "dnk": "red"
+            }
+        },
+        "adeqaute_health_men": {
+            "type": "key_value",
+            "values": {
+                "none": "green",
+                "few": "orange",
+                "some": "orange",
+                "many": "red",
+                "all": "red",
+                "NC": "green"
+            }
+        },
+        "type_agreement": {
+            "type": "key_value",
+            "values": {
+                "oral": "orange",
+                "written": "green",
+                "dnk": "red"
+            }
+        },
+        "sanitation": {
+            "type": "math",
+            "values": {
+                "x<=5": "red",
+                "x>5 and x<=10": "orange",
+                "x>10": "green"
+            }
+        },
+        "score_g": {
+            "type": "math",
+            "values": {
+                "x>=4": "red",
+                "x>2 and x<4": "orange",
+                "x>=2": "green"
+            }
+        },
+        "score": {
+            "type": "math",
+            "values": {
+                "x==2": "red",
+                "x==1": "orange",
+                "x==0": "green"
+            }
+        },
+        "water_sources_present": {
+            "type": "math",
+            "values": {
+                "x==0": "red",
+                "x>0 and x<=2": "orange",
+                "x>=2": "green"
+            }
+        },
+        "sickness": {
+            "type": "key_value",
+            "values": {
+                "none": "green",
+                "few": "green",
+                "some": "orange",
+                "many": "red",
+                "all": "darkred",
+                "NC": "grey"
+            }
+        },
+        "difficulty": {
+            "type": "key_value",
+            "values": {
+                "no_difficulty": "green",
+                "some_difficulty": "orange",
+                "cannot_at_all": "green",
+                "lot_difficulty": "red",
+                "NC": "grey"
+            }
+        }
+    }
+}

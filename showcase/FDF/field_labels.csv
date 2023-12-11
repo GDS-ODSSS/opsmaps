@@ -1,0 +1,182 @@
+field_name;field_label_en;field_label_fr;field_label_ar
+country;Country;Pays;دولة
+region;Region;Région;منطقة
+dep;Department;Département;قسم
+city;City;Commune;مدينة
+address;Address;Adresse;عنوان
+site_id;Site ID;Identifiant du site;معرف موقع دو
+adm2_pcode;PCode Admin 2;Admin 2 PCode;مشرف كود الكمبيوتر 2
+site_pcode;Site PCode;PCode du site;رمز PC للموقع
+shelter_need_repair;In need of repair/maintenance (for emergency shelter, transitional shelter, buildings);Besoin de réparation/entretien (pour les abris d'urgence, les abris provisoires, les bâtiments);بحاجة إلى إصلاح/صيانة (لمأوى الطوارئ، والمأوى الانتقالي، والمباني)
+shelter_need_replacement;In need of replacement (for emergency shelter, transitional shelter, makeshift shelter, tents);Besoin de remplacement (pour les abris d'urgence, les abris de transition, les abris de fortune, les tentes);بحاجة إلى استبدال (لمأوى الطوارئ، المأوى الانتقالي، المأوى المؤقت، الخيام)
+shelter_need_reconstruction;In need of reconstruction (for public buildings, core housing/vacant building);Besoin de reconstruction (pour les bâtiments publics, les logements principaux/les bâtiments vacants);بحاجة إلى إعادة الإعمار (للمباني العامة، الإسكان الأساسي/المبنى الشاغر)
+shelter_need_rehabilitation;In need of rehabilitation (for public buildings, core housing/vacant building);Besoin de réhabilitation (pour les bâtiments publics, les logements principaux et les bâtiments vacants);بحاجة إلى إعادة تأهيل (للمباني العامة، السكن الأساسي/المبنى الشاغر)
+shelter_need_extension;In need of extension (overcrowded);Besoin d'extension (surpeuplement);في حاجة إلى تمديد (مكتظة)
+shelter_need_new;In need of new shelter (new HHs);Besoin d'un nouvel abri (nouveaux ménages);بحاجة إلى مأوى جديد (أسر جديدة)
+blanket_int;#Blankets;#Couvertures;#البطانيات
+mattresses_int;#Mattress;#Matelas;#فراش
+water_containers_buckets_int;#Water containers \buckets;#Bidons d'eau;#حاويات/دلاء مياه
+kitchen_items_int;#Kitchen items;#Articles de cuisine;#مستلزمات المطبخ
+hygiene_items_pct_int;#Hygiene items;#Articles d'hygiène;#مستلزمات النظافة
+mosquito_nets_int;#Mosquito nets;#Moustiquaires;#شبكات البعوض
+solar_lamps_int;#Solar lamps;#Lampes solaires;#مصابيح الطاقة الشمسية
+blanket;Blankets access;Accès aux couvertures;وصول البطانيات
+mattresses;Mattress access;Accès à des matelas;الوصول إلى المرتبة
+water_containers_buckets;Water containers \buckets access;Accès à des bidons d'eau;الوصول إلى حاويات المياه \ الدلاء
+kitchen_items;Kitchen items access;Accès à des articles de cuisine;الوصول إلى عناصر المطبخ
+hygiene_items_pct;Hygiene items access;Accès à des articles d'hygiène;الوصول إلى مواد النظافة
+mosquito_nets;Mosquito nets access;Accès à des moustiquaires;الوصول إلى الناموسيات
+solar_lamps;Solar lamps access;Accès à des lampes solaires;الوصول إلى المصابيح الشمسية
+demo_female_60+;Females (60+);Femmes (60+);إناث (+60)
+demo_female_18_59;Females (18 - 59);Femmes (18 - 59);إناث (18 - 59)
+demo_female_12_17;Females (12 - 17);Femmes (12 - 17);إناث (12 - 17)
+demo_female_5_11;Females (5 - 11);Femmes (5 - 11);إناث (5 - 11)
+demo_female_0_4;Females (0 - 4);Femmes (0 - 4);إناث (0 - 4)
+demo_male_60+;Males (60+);Hommes (60+);ذكور (+60)
+demo_male_18_59;Males (18 - 59);Hommes (18 - 59);ذكور (18 - 59)
+demo_male_12_17;Males (12 - 17);Hommes (12 - 17);ذكور (12 - 17)
+demo_male_5_11;Males (5 - 11);Hommes (5 - 11);ذكور (5 - 11)
+demo_male_0_4;Males (0 - 4);Hommes (0 - 4);ذكور (0 - 4)
+demo_num_indv;No. of Individuals;Nombre d'individus;عدد الأفراد
+demo_allgender_60+;Gender-neutral/inclusive (60+);Non genré/inclusif (60+);محايد جنسانيًا/شاملًا (60+)
+demo_allgender_18_59;Gender-neutral/inclusive (18 - 59);Non genré/inclusif (18 - 59);محايد جنسانياً/شاملاً (18 - 59)
+demo_allgender_12_17;Gender-neutral/inclusive (12 - 17);Non genré/inclusif (12 - 17);محايد جنسانياً/شاملاً (12 - 17)
+demo_allgender_5_11;Gender-neutral/inclusive (5 - 11);Non genré/inclusif (5 - 11);محايد جنسانياً/شاملاً (5 - 11)
+demo_allgender_0_4;Gender-neutral/inclusive (0 - 4);Non genré/inclusif (0 - 4);محايد جنسانياً/شاملاً (0 - 4)
+demo_num_hh;No. of Families;Nombre de familles;عدد العائلات
+demo_num_indigs;No. of Indigenous;Nombre d'indigènes;عدد السكان الأصليين
+demo_num_asy;No. of Asylum Seekers;Nombre de demandeurs d'asile;عدد طالبي اللجوء
+demo_num_ref;No. of Refugees;Nombre de réfugiés;عدد اللاجئين
+demo_num_ooc;No. of Others of Concern;Nombre d'autres personnes concernées;عدد الأشخاص الآخرين الذين يثيرون القلق
+demo_num_temp_resd;No. of Temporary Resident;Nombre de résidents temporaires;رقم المقيم المؤقت
+demo_num_undocud;No. of Undocumented;Nombre de sans-papiers;عدد غير موثقة
+cccm_shelter_max_capacity;Shelter Max Capacity;Maximum de capacité du site;سعة المأوى القصوى
+cccm_site_at_full_capacity;Site at Full Capacity;Maximum de capacité du site atteinte;الموقع بكامل طاقته
+cccm_possibility_expand_site;Possibility to Expand Site;Possibilité d'extension du site;إمكانية توسيع الموقع
+HebergementCapacite;Maximum capacity of the site (Ha);Capacité d'accueil maximale du site (Ha);السعة القصوى للموقع (ها)
+nfi_distributed;Last time NFI were distributed;Dernière fois que des NFI ont été distribués;آخر مرة تم فيها توزيع المواد غير الغذائية
+shelter_equip_type;Shelter equipements type;Type d'équipement de l'hébergement;نوع معدات المأوى
+cccm_shelter_opened;Shelter Opened;Ouverture du centre d'hébergement;تم فتح المأوى
+cccm_shelter_admin;Shelter Administration;Administration du centre d'hébergement;إدارة الملجأ
+cccm_shelter_coordination;Shelter Coordination;Coordination des abris;تنسيق المأوى
+cccm_shelter_management;Shelter Management;Gestion des abris;إدارة المأوى
+cccm_num_of_staff;No. of Staff;Nombre d'employés;عدد الموظفين
+cccm_num_of_RHUs;No. of RHUs;Nombre d'UHR;عدد وحدات RHUs
+All_makeshift_shelter;Households in makeshift shelters;Ménages dans des abris de fortune;الأسر في ملاجئ مؤقتة
+All_public_facility_shelter;Households in public facility;Ménages dans un établissement public;الأسر في المرافق العامة
+transi_shel;Households in transitional shelters;Ménages dans des abris de transition;الأسر في الملاجئ الانتقالية
+All_commu_shelter;Households in communal/ collective shelters;Ménages dans des abris collectifs/communautaires;الأسر في الملاجئ الجماعية/الجماعية
+emerge_shel;Households in emergency shelters;Ménages dans des abris d'urgence;الأسر في ملاجئ الطوارئ
+makeshi_localmaterial;Households in makeshift shelters built using local materials;Ménages dans des abris de fortune construits avec des matériaux locaux;أسر تعيش في ملاجئ مؤقتة مبنية باستخدام مواد محلية
+makeshi_blankets;Households in makeshift shelters built using blankets/ nets;Ménages dans des abris de fortune construits avec des couvertures/moustiquaires;الأسر التي تعيش في ملاجئ مؤقتة مبنية باستخدام البطانيات/الشبكات
+school_shel;Households in public facility- school;Ménages dans un établissement public - école;الأسر في المرافق العامة- المدرسة
+health_shel;Households in public facility- health facility;Ménages dans un établissement public - établissement de santé;الأسر في المنشأة العامة- المنشأة الصحية
+other_shel;Households in public facility- other;Ménages dans un établissement public - autre;الأسر في المرافق العامة - أخرى
+commu_partitioned;Households in communal/ collective shelters (partitioned);Ménages dans des abris collectifs/communautaires (cloisonnés);الأسر في الملاجئ الجماعية/الجماعية (المقسمة)
+commu_unpartitioned;Households in collective/ communal shelters (unpartitioned);Ménages dans des abris collectifs (non cloisonnés);الأسر في الملاجئ الجماعية/المجتمعية (غير المقسمة)
+cccm_avg_stay_in_shelter_months;Avg stay in shelter (months);Durée moyenne de séjour au foyer (mois);متوسط ​​الإقامة في المأوى (أشهر)
+cccm_num_of_entries_in_last_month;No. of entries in last month;Nombre d'entrées au cours du mois dernier;عدد الإدخالات في الشهر الماضي
+cccm_num_of_exits_in_last_month;No. of exits in last month;Nombre de sorties au cours du mois dernier;عدد المخارج في الشهر الماضي
+litreEauPersonn;Water: Number of liters/person/day;Eau : Nombre de litres/personne/jour;الماء: عدد اللترات/شخص/يوم
+Sourceeau;Main source of drinking water for the SITE;Principale source d'eau potable pour le SITE;المصدر الرئيسي لمياه الشرب للموقع
+eauqualite;Quality of main water source (Is it accessible?);Qualite de la principale source en eau (Elle -t-est accpetable?);جودة مصدر المياه الرئيسي (هل يمكن الوصول إليه؟)
+water_quality_access;Drinking water available;Eau potable disponible;المياه الصالحة للشرب متاحة
+Disponibilitesavon;Availability of soap for hand washing;Disponibilite de savon pour le lavage des mains;توافر الصابون لغسل اليدين
+Inondations;Floods that have damaged shelters and infrastructure (within the last 6 months);Inondations qui ont  les abris et les infrastructures endommage à la suite d'inondation  (au cours des 6 derniers mois );الفيضانات التي دمرت الملاجئ والبنية التحتية (خلال الأشهر الستة الماضية)
+eliminationdechets;Primary method of waste disposal;Principale methode d'elimination des dechets;الطريقة الأساسية للتخلص من النفايات
+latrines;Types of functional latrines;Types de latrines fonctionnelles;أنواع المراحيض الوظيفية
+NombreLatrines;Number of functional latrines (TL ratio %);Nombre de latrines fonctionnelles (TL ratio %);عدد المراحيض الصالحة للاستخدام (نسبة إجمالي الموارد البشرية %)
+NombreLatrines2;Number of functional latrines (TL simple);Nombre de latrines fonctionnelles (TL simple);عدد المراحيض العاملة (TL بسيطة)
+nb_ind_per_latrines;# Number of individuals per latrine (values calculated on-the-fly);# Nombre d'individus par latrine (valeurs calculées à la volée);# عدد الأفراد لكل مرحاض (القيم المحسوبة بشكل فوري)
+Typesdouche;Types of functional showers/baths;Types de douches/bains fonctionnels;أنواع الدش/الحمامات الوظيفية
+Nbdouche;Number of showers (TL= rate/population);Nombre de douches (TL= taux/population);عدد مرات الاستحمام (TL= المعدل/عدد السكان)
+nb_ind_per_showers;# Number of individuals per shower (values calculated on-the-fly);# Nombre de personnes par douche (valeurs calculées à la volée);# عدد الأفراد لكل دش (القيم المحسوبة بسرعة)
+douchesepare;Are showers separated between men and women?;Les douches sont-elles separees entre les hommes et les femmes?;هل يتم فصل الاستحمام بين الرجال والنساء؟
+latrinevidance;Latrine Emptying;Vidanges des latrines;تفريغ المراحيض
+latrinevidanceMois;Date of last emptying;Date de la dernière vidange;تاريخ آخر إفراغ
+LatrinesEclairage;lighting around latrines/showers at night;eclairage autour des latrines/douches la nuit;الإضاءة حول المراحيض/الاستحمام في الليل
+Enfnonaccp;Unaccompanied children;Enfant non accompagne;الطفل غير مرافق
+HandicapPhysiq;People with permanent physical disabilities;Personnes souffrant de handicaps physiques permanents;الأشخاص الذين يعانون من الإعاقة الجسدية الدائمة
+Besoinsspeciaux;People with mental disabilities;Personnes souffrant d'un handicap mental;يعاني الأشخاص من إعاقة عقلية
+Maladiechronique;People with chronic diseases;Personnes souffrant de maladies chroniques;يعاني الأشخاص من أمراض مزمنة
+PersonnAgeeisol;Isolated elderly households (over 60 years old);Menages âges isoles (plus de 60 ans);العزلات العمرية (زائد عن 60 سنة)
+FemaleHoHH;Female headed households (18-59 years old);Ménages dirigés par des femmes (18-59 ans);الأسر التي ترأسها إناث (18-59 سنة)
+ChildHoHH;Child headed households (Below 18 years old);Ménages dirigés par des enfants (âgés de moins de 18 ans);الأسر التي يرأسها أطفال (أقل من 18 سنة)
+PhysicalDisability;Persons with permanent physical disabilities;Personnes souffrant de handicaps physiques permanents;الأشخاص الذين يعانون من إعاقات جسدية دائمة
+SpecialNeeds;Persons with mental health disabilities;Personnes souffrant d'un handicap mental;الأشخاص الذين يعانون من إعاقات الصحة العقلية
+SingleElderly;Single elderly households (above 60 years old);Ménages âgés isolés (plus de 60 ans);الأسر المسنة العازبة (فوق 60 سنة)
+number_of_unacc;Number of unaccompanied children;Nombre d'enfants non accompagnés;عدد الأطفال غير المصحوبين
+number_of_preglac_dis;Number of pregnant/lactating women;Nombre de femmes enceintes/allaitantes;عدد النساء الحوامل/المرضعات
+Allg_sikness_txt;Sickness;Maladie;المرض
+Allg_wound_txt;Wound;Blessure;جرح
+Allg_disabilities_txt;Disabilities;Handicaps;الإعاقات
+Allg_mental_health_txt;Mental health;Santé mentale;الصحة النفسية
+Allg_other_disorders_txt;Other disorders;Autre troubles;اضطرابات أخرى
+Allg_sikness;Sickness;Maladie;المرض
+Allg_wound;Wound;Blessure;جرح
+Allg_disabilities;Disabilities;Handicaps;الإعاقات
+Allg_mental_health;Mental health;Santé mentale;الصحة النفسية
+Allg_other_disorders;Other disorders;Autre troubles;اضطرابات أخرى
+male_sikness;Male sickness;Maladie masculine;مرض الذكور
+male_wound;Male wound;Blessure masculine;جرح ذكر
+male_disabilities;Male disabilities;Handicaps masculins;إعاقات الذكور
+male_mental_health;Male mental health;Santé mentale masculine;الصحة العقلية للذكور
+male_other_disorders;Male other disorders;Autre troubles masculin;اضطرابات الذكورة الأخرى
+female_sikness;Female sickness;Femme maladie;مرض الأنثى
+female_wound;Female wound;Blessure féminine;جرح انثى
+female_disabilities;Female disabilities;Handicap féminin;إعاقات الإناث
+female_mental_health;Female mental health;Santé mentale de la femme;الصحة النفسية للإناث
+female_other_disorders;Female other disorders;Autre troubles féminin;اضطرابات نسائية أخرى
+educ_num_trains_wrkshp_year;No. Trainings / Workshops Conducted Per Year;Nombre de formations/ateliers organisés par an;عدد التشكيلات/المشاغل المنظمة من قبل
+educ_educ_provided_in_shelter;Education Provided in Shelter;Éducation dispensée dans les abris;التعليم الاستغناء عن les abris
+educ_num_chldrn_in_frml_schl;No. of Children in Formal School;Nombre d'enfants scolarisés;أسماء الأطفال الحاصلين على شهادات
+educ_num_adolsct_in_frml_schl;No. of Adolescent in Formal School;Nombre d'adolescents dans des écoles traditionelles;أسماء المراهقين في المدارس التقليدية
+educ_eng_class_avlble;English Class Available;Cours d'anglais disponibles;الدورات البرتغالية المتاحة
+educ_vocnl_course_avlbe;Vocational Course Available;Cours de formation professionnelle disponibles;دورات التكوين المهني المتاحة
+envrn_envrntl_issues;Environmental Sensitivities and Critical Environmental Issues;Sensibilités environnementales et problèmes environnementaux critiques;الحساسيات البيئية والقضايا البيئية الحرجة
+envrn_flood_prone_areas;Flood Prone Areas;Zones sujettes aux inondations;المناطق المعرضة للفيضانات
+envrn_active_veg_med_plant_gardens;Active Vegetable Gardens And / Or Medicinal Plant Gardens;Jardins potagers actifs et / ou jardins de plantes médicinales;حدائق الخضروات النشطة و/أو حدائق النباتات الطبية
+envrn_afforestn_progs;Afforestation Programmes;Programmes de reboisement;برامج إعادة البناء
+envrn_rnwble_enrgy_gen_sln;Existing Decentralized Renewable Energy Generation Solution;Solution existante de production décentralisée d'énergie renouvelable;الحل الموجود للإنتاج اللامركزي للطاقة المتجددة
+envrn_prim_enrgy_srce_typ;Additional or Primary Energy Source and Type;Source d'énergie additionelle ou primaire et type;مصدر الطاقة الإضافية أو الأولية والنوع
+envrn_active_envrntl_educ_progs;Active Environmental Education Programme;Programme d'éducation environnementale actif;برنامج التعليم البيئي النشط
+envrn_active_comnl_kitchen;Active Communal Kitchen;Cuisine collective active;المطبخ الجماعي نشط
+envrn_srce_fuel_cooking;Source of Fuel for Cooking;Source de combustible pour la cuisine;مصدر قابل للاحتراق للمطبخ
+envrn_active_assmt_wtr_quality;Active Assessment of Water Quality;Évaluation active de la qualité de l'eau;التقييم النشط لجودة المياه
+envrn_wtr_quality;Water Quality;Qualité de l'eau;جودة المياه
+envrn_wtr_quality_assmt_dt;Water Quality Assessment Date;Date de l'évaluation de la qualité de l'eau;تاريخ تقييم جودة المياه
+envrn_solid_wste_colln;Selective Solid Waste Collection in Place;Collecte sélective des déchets solides en place;اجمع المناديل الصلبة الانتقائية في مكانها
+envrn_gnrl_sntry_hygiene_behavior;General Sanitary/Hygiene Behaviour;Comportement général en matière de santé et d'hygiène;السلوك العام فيما يتعلق بالصحة والنظافة
+envrn_hlth_issues_pollution;Health Issues Associated with Pollution;Problèmes de santé liés à la pollution;مشاكل الصحة تكمن في التلوث
+envrn_hlth_issues_sntry_vector-borne_dseas;Health Issues Associated with Sanitary Conditions (Vector-Borne Diseases);Problèmes de santé liés aux conditions sanitaires (maladies à transmission vectorielle);مشاكل الصحة المتعلقة بالظروف الصحية (أمراض النقل المتجهي)
+problemeSante;Health problems encountered by SITE residents in the past 30 days;Problèmes de sante les residents du SITE ont-ils rencontres au cours des 30 derniers jours;ستتم لقاءات المشكلات الصحية التي يواجهها سكان SITE على مدار 30 يومًا
+SoinSanteFonctionnel;Functional health care provider;Prestataire de soins de sante fonctionnel;مقدم الرعاية الصحية الوظيفية
+PresenceSite;Health care provider present inside the SITE;Prestataire de soins de sante present à l'interieur du SITE;مقدم الرعاية الصحية موجود داخل الموقع
+Distance;Distance to nearest health care facility (in km);Distance du poste de sante de le plus proche (en km);المسافة du poste de sante de le plus proche (بالكم)
+ServicesUrgences;Emergency services;Services d'urgence;خدمات الطوارئ
+ServicesChirurgicaux;Surgical services;Services chirurgicaux;الخدمات العلاجية
+ServicesPediatriq;Pediatric services;Services pediatriques;خدمات طب الأطفال
+PrenatalServices;Prenatal services;Services prenataux;خدمات ما قبل الولادة
+Ambulance;Presence of an ambulance;Presence d'une ambulance;وجود سيارة إسعاف
+ProblemAccesSante;Main problems in accessing health care;Principaux problèmes pour acceder aux soins de sante;المشاكل الأساسية للوصول إلى أصول الصحة
+Vaccination;Children under 5 years old do not have vaccines against polio and measles;Enfants de moins de 5 ans non vaccinés contre la polio et la rougeole;الأطفال الذين تقل أعمارهم عن 5 أعوام لم يحصلوا على لقاحات ضد شلل الأطفال والأحمر
+TypeSupport;Types of psychosocial support services available to people in SITE, through government, humanitarian or private service providers;Types de services de soutien psychosocial disponibles pour les personnes du SITE, par le biais de prestataires de services gouvernementaux, humanitaires ou prives;أنواع خدمات الدعم النفسي الاجتماعي المتاحة لأفراد الموقع، سواء من جانب مقدمي الخدمات الحكومية أو الإنسانية أو الخاصة
+covidinfo;Information campaigns on COVID-19 (in the last 6 months);Campagnes d'information sur la COVID-19  (au cours des 6 derniers mois);حملات المعلومات حول فيروس كورونا (COVID-19) (خلال 6 أشهر)
+covidprevention;Provisions for prevention of COVID-19;Dispositions de prevention contre la COVID-19;تدابير الوقاية من كوفيد-19
+lavage_main;Increase frequency of hand washing/use of sanitary gel;Augmenter la fréquence du lavage des mains/ utilisation de gel sanitaire;زيادة تكرار غسل اليدين/استخدام الجل الصحي
+distanciation;Increase physical distance from others;Augmenter la distanciation physique avec les autres;زيادة المسافة الجسدية عن الآخرين
+masque;Cover your nose and mouth in public;Couvrir votre nez et votre bouche en public;قم بتغطية أنفك وفمك في الأماكن العامة
+evite_transport;Avoid public transport;Éviter les transports publics;تجنب وسائل النقل العام
+evite_sortir;Avoid leaving home;Éviter de sortir de chez moi;تجنب مغادرة المنزل
+autres_precautions;Other precautions;Autres précautions;احتياطات أخرى
+bien_etre_social;Social well-being and social ties;Bien-être social et lien social;الرفاه الاجتماعي والعلاقات الاجتماعية
+pb_covid;Corona virus issues and concerns;Problèmes liés au corona virus et inquiétudes;قضايا ومخاوف فيروس كورونا
+stigma_covid;Social stigma and discrimination;Stigmatisation sociale et discrimination;الوصمة الاجتماعية والتمييز
+bien_etre_psy;Psychological well-being;Bien-être psychologique;الراحه النفسية
+shelter_type;Shelter type;Type d'abris;اكتب دابريس
+site_name;Site name;Nom du site;اسم الموقع
+hh_size;Number of individuals per household (value calculated on-the-fly);Nombre d'individus par ménage (valeur calculée à la volée);عدد الأفراد في كل أسرة (القيمة المحسوبة بشكل فوري)
+pct_occupation;Number of household per shelter (value calculated on-the-fly);Nombre de ménages par abri (valeur calculée à la volée);عدد الأسرة في كل مأوى (القيمة المحسوبة بشكل فوري)؛
+staff_hh;Number of individuals per staff (value calculated on-the-fly);Nombre de personnes par employé (valeur calculée à la volée);عدد الأفراد لكل موظف (القيمة المحسوبة بسرعة)
+demo_child_5to17;Number of children of school age (5 -17)(value calculated on-the-fly); Nombre d'enfants en âge d'être scolarisés (5-17)(valeur calculée à la volée);عدد الأطفال في سن المدرسة (5 - 17) (القيمة المحسوبة بشكل فوري)
+nb_shelters;Number of shelters in the site;Nombre d'abris sur le site;عدد المآوي في الموقع

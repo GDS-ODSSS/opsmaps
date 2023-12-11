@@ -1,0 +1,223 @@
+{
+    "version": "v1.0.1",
+    "textContent": {
+        "name": {
+            "en": "Bangladesh",
+            "bn": "বাংলাদেশ"
+        },
+        "opsmapDescr": {
+            "en": "The Site Management and Site Development (SMSD) Sector, and the Shelter and Non-Food Items (NFI) Sector are interlinked by nature. The merger of the two Sectors in 2023 will lead to cohesive planning and an integrated response under the co-leadership of IOM and UNHCR, who manage the humanitarian interventions in the two areas of their respective responsibility, following the guidance of the Government of Bangladesh. From the first quarter of 2023, this sector is named the Shelter & Camp Coordination and Camp Management sector.",
+            "bn": "সাইট ম্যানেজমেন্ট অ্যান্ড সাইট ডেভেলপমেন্ট (এসএমএসডি) সেক্টর এবং আশ্রয় ও অখাদ্য আইটেম (এনএফআই) সেক্টর প্রকৃতির দ্বারা পরস্পর সংযুক্ত। 2023 সালে দুটি সেক্টরের একত্রীকরণ আইওএম এবং ইউএনএইচসিআর-এর সহ-নেতৃত্বের অধীনে সমন্বিত পরিকল্পনা এবং একটি সমন্বিত প্রতিক্রিয়ার দিকে পরিচালিত করবে, যারা বাংলাদেশ সরকারের নির্দেশনা অনুসরণ করে তাদের নিজ নিজ দায়িত্বের দুটি ক্ষেত্রে মানবিক হস্তক্ষেপ পরিচালনা করে। 2023 সালের প্রথম ত্রৈমাসিক থেকে, এই সেক্টরটির নামকরণ করা হয় আশ্রয় ও ক্যাম্প সমন্বয় এবং ক্যাম্প ব্যবস্থাপনা সেক্টর।."
+        }
+    },
+    "locale": {
+        "locales": [
+            "en",
+            "bn"
+        ],
+        "override": {
+            "en": {
+                "title": "Camp profile",
+                "infosAdmins": {
+                    "admin1": "Division",
+                    "admin2": "District",
+                    "admin3": "Upazila"
+                }
+            },
+            "bn": {
+                "title": "ক্যাম্প প্রোফাইল",
+                "infosAdmins": {
+                    "admin1": "বিভাগ",
+                    "admin2": "জেলা",
+                    "admin3": "উপজেলা"
+                }
+            }
+        }
+    },
+    "headerLogos": [
+        {
+            "name": "CCCM Bangladesh",
+            "urlLogo": "Logo/SCCCM_Logo_small.png",
+            "urlRedirection": "https://www.cccmcluster.org/where-we-work/bangladesh"
+        }
+    ],
+    "footerLogos": [
+        {
+            "title": {
+                "en": "Webdev",
+                "bn": "ওয়েবডেভ"
+            },
+            "logos": [
+                {
+                    "name": "CartONG",
+                    "urlLogo": "Logo/CartONG_logo.png",
+                    "urlRedirection": "https://www.cartong.org"
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Fieldwork",
+                "bn": "মাঠকর্ম"
+            },
+            "logos": []
+        },
+        {
+            "title": {
+                "en": "Coordination and IM support",
+                "bn": "সমন্বয় এবং IM সমর্থন"
+            },
+            "logos": []
+        },
+        {
+            "title": {
+                "en": "Sector Lead",
+                "bn": "সেক্টর লিড"
+            },
+            "logos": []
+        }
+    ],
+    "spatial": {
+        "mapConfig": {
+            "bounds": [
+                87.517,
+                26.695,
+                93.11,
+                20.83
+            ]
+        },
+        "dbConfig": {
+            "admin1": "pcode",
+            "admin2": "pcode",
+            "admin3": "pcode"
+        },
+       "adminLevels": [
+            "admin1",
+            "admin2",
+            "admin3"
+        ],
+        "adminLevelsMap": [
+            "admin1",
+            "admin2"
+        ]
+    },
+    "surveys": [
+        {
+            "type": "gsheet",
+            "name": "Survey A",
+            "fdf": {
+                "folder": "FDF"
+            },
+            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR1FjIohCvSE6Hk9YV4kS0rK_7YW5t7JjrkSy9WXW5gvomwrE8avGhKwKTKA5YbPj3_PBWZ0rRhmaH/pub?gid=0&single=true&output=csv",
+            "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR1FjIohCvSE6Hk9YV4kS0rK_7YW5t7JjrkSy9WXW5gvomwrE8avGhKwKTKA5YbPj3_PBWZ0rRhmaH/pub?gid=2106117370&single=true&output=csv",
+            "options": {
+                "sitesMapVisualisation": [
+                    {
+                        "type": "populationCount",
+                        "field": "demo_num_indv"
+                    }
+                ]
+            },
+            "additionalFiltersDescription": [
+                {
+                    "field": "cccm_shelter__mangmt",
+                    "name": {
+                        "en": "Manage by",
+                        "bn": "দ্বারা পরিচালনা করুন"
+                    }
+                }            
+            ],
+            "indicators": {
+                "area": [
+                    {
+                        "type": "site_count"
+                    },
+                    {
+                        "type": "people_count",
+                        "entryCode": "demo_num_indv"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Number families",
+                            "bn": "সংখ্যা পরিবার"
+                        },
+                        "entryCode": "demo_num_hh",
+                        "iconOchaName": "People-targeted"
+                    }
+                ],
+                "site": [
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Number families",
+                            "bn": "সংখ্যা পরিবার"
+                        },
+                        "entryCode": "demo_num_hh",
+                        "iconOchaName": "People-targeted"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Number individuals",
+                            "bn": "সংখ্যা ব্যক্তি"
+                        },
+                        "entryCode": "demo_num_indv",
+                        "iconOchaName": "People-in-need"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "# Shelters & NFI",
+                            "bn": "# আশ্রয়কেন্দ্র এবং NFI"
+                        },
+                        "entryCode": "Total_Shelter_and_NFI_distribution_points",
+                        "iconOchaName": "Shelter"
+                    }
+                ]
+            },
+            "spatial": {
+                "siteFields": {
+                    "id": "site_id",
+                    "lastUpdate": "last_update",
+                    "latitude": "latitude",
+                    "longitude": "longitude",
+                    "manageBy": "cccm_shelter__mangmt",
+                    "name": "site_name",
+                    "type": "type"
+                },
+                "admins": {
+                    "admin1": {
+                        "pcode": "adm1_pcode",
+                        "name": "Division"
+                    },
+                    "admin2": {
+                        "pcode": "adm2_pcode",
+                        "name": "District"
+                    },
+                    "admin3": {
+                        "pcode": "adm3_pcode",
+                        "name": "Upazila"
+                    }
+                }
+            },
+            "inputDateFormat": "DD/MM/YYYY",
+                "displayDateFormat": "DD/MM/YYYY",
+                "listSeparator": ";",
+                "anonymousMode": "none",
+                "sitesMapVisualisation": [
+                    {
+                        "type": "populationCount",
+                        "field": "demo_num_indv"
+                    }
+                ]
+        }
+    ],
+    "options": {
+        "showCCCMLogo": false,
+        "pdfColumnCount": 3,
+        "showDemoBanner": true,
+        "exportAsCSVonHomePage": true,
+        "keepThematicOrderFromFDF": true
+    }
+}

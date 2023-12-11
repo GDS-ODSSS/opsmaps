@@ -1,0 +1,26 @@
+﻿{
+    "trafficLights": {
+        "yesno": {
+            "type": "key_value",
+            "values": {
+                "Yes": "green",
+                "No": "red"
+            }
+        },
+        "noyes": {
+            "type": "key_value",
+            "values": {
+                "Yes": "red",
+                "No": "green"
+            }
+        },
+        "status_site_t": {
+            "type": "key_value",
+            "values": {
+                "Open": "green",
+                "Unknown": "orange",
+                "Close": "red"
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+﻿{
+    // (Optional) Very optional
+    // Allow the configuration of the properties for all the traffic light defined in this FDF
+    // Propertries contains two fields colormap and colorerror
+    "properties": {
+        // colormap is the definition of a colormap (see below)
+        // it represents a dictionary
+        // each entry defines a traffic light item --> name : value
+        "colormap": {
+            // name is grey
+            "grey": {
+                // color: compatible with css processing. https://developer.mozilla.org/fr/docs/Web/CSS/color_value
+                "color": "#999999",
+                // label: can be either the entry in the app locales file definition or a TKLabel definition.
+                // - entry -> "trafficlight.undefined"
+                // - TKLabel -> {
+                //     "fr": "OK",
+                //     "en": "OK"
+                // }
+                //
+                "label": "trafficlight.undefined"
+            },
+            "green": {
+                "color": "#A8D08D",
+                "label": {
+                    "fr": "OK",
+                    "en": "OK"
+                }
+            },
+            "yellow", // ...
+            "orange", // ...
+            "red", // ...
+            "darkred", // ...
+            "purple" // ...
+        },
+        // - colorerror is the name of the entry of the colormap that represent the error
+        "colorerror": "purple"
+    },
+    // (Mandatory) Very mandatory. Define a list of traffic light configuration
+    // - Those onfiguration have a optional (very optional) "properties" field. 
+    //   It can contains a local definition that will be used instead of the global one
+    // - Those configuration can be either "key_value" or "math"
+    "trafficLights": {
+        // Type: "key_value"
+        // the attributes values describe a mapping from a value in the data to a colormap item.
+        "yesno": {
+            "type": "key_value",
+            "values": {
+                "Yes": "green",
+                "No": "red"
+            }
+        },
+        // Type: "math"
+        // The math attribute compute an boolean expression, based on particular scope.
+        // If the expression is valid, the corresponding colormap item is used.
+        // - scope: A scope is described as follow: a set of [var name]: submission_rules
+        //          "scope": {
+        //             "x": "HebergementCapacite"
+        //          },
+        //          The scope is optional: if none is defined, a dfault is created with the current item value as x
+        // - values: The values field is map [formula] -> criteria
+        //           all simple operator can be used here, including logical ones (and, or, etc.)
+        "niveaucongestionsite": {
+            "type": "math",
+            "values": {
+                "x>30": "green",
+                "x>15": "orange",
+                "x<=15": "red"
+            }
+        },
+        "niveaucongestionsite2": {
+            "type": "math",
+            "scope": {
+                "x": "HebergementCapacite"
+            },
+            "values": {
+                "x>30": "green",
+                "x>15": "orange",
+                "x<=15": "red"
+            }
+        },
+    }
+}

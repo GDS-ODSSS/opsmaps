@@ -1,0 +1,252 @@
+﻿{
+    "trafficLights": {
+        "yesno": {
+            "type": "key_value",
+            "values": {
+                "yes": "green",
+                "no": "red"
+            }
+        },
+        "noyes": {
+            "type": "key_value",
+            "values": {
+                "yes": "red",
+                "no": "green"
+            }
+        },
+        "occ_agree": {
+            "type": "key_value",
+            "values": {
+                "written": "green",
+                "verbal": "orange",
+                "none": "red"
+            }
+        },
+        "smc_code_of_conduct": {
+            "type": "math",
+            "values": {
+                "x>1": "green",
+                "x<1": "red"
+            }
+        },
+        "iso_loc": {
+            "type": "key_value",
+            "values": {
+                "site_is_located_within_a_community": "green",
+                "site_is_located_outside_a_community": "red"
+            }
+        },
+        "land_own": {
+            "type": "key_value",
+            "values": {
+                "disputed": "green",
+                "private": "orange",
+                "public": "red"
+            }
+        },
+        "sett_att": {
+            "type": "key_value",
+            "values": {
+                "concentrated": "orange",
+                "dispersed": "orange",
+                "don_t_know": "red"
+            }
+        },
+        "site_capa": {
+            "type": "key_value",
+            "values": {
+                "available_land_for_extension": "green",
+                "available_shelters_if_selected_how_many_shelters": "green",
+                "at_capacity": "orange",
+                "overcrowded": "red"
+            }
+        },
+        "need_hh": {
+            "type": "key_value",
+            "values": {
+                "all_almost_all_households": "green",
+                "majority_of_households": "orange",
+                "half_of_households": "orange",
+                "few_households": "red",
+                "none_almost_no_households": "red"
+            }
+        },
+        "need_shelter": {
+            "type": "key_value",
+            "values": {
+                "none_almost_no_households": "green",
+                "few_households": "orange",
+                "half_of_households": "orange",
+                "majority_of_households": "red",
+                "all_almost_all_households": "red"
+            }
+        },
+        "access_protection": {
+            "type": "key_value",
+            "values": {
+                "accessible": "green",
+                "not_accessible": "red"
+            }
+        },
+        "avg_time": {
+            "type": "key_value",
+            "values": {
+                "less_than_30_minutes": "green",
+                "x30_60_minutes": "orange",
+                "more_than_60_minutes": "orange",
+                "market_available_in_site": "green",
+                "no_functional_market_available_accessible": "red",
+                "primary_school_accessible_in_site": "green",
+                "secondary_school_accessible_in_site": "green",
+                "no_functional_primary_school_accessible_for_children_in_sites": "red",
+                "no_functional_secondary_school_accessible_for_children_in_sites": "red",
+                "static_health_facility_in_site": "green",
+                "mobile_health_facility_in_site": "green",
+                "secondary_health_facility_in_site": "green"
+            }
+        },
+        "pct_sanitation": {
+            "type": "key_value",
+            "values": {
+                "none_0_percent": "red",
+                "few_1_25_percent": "red",
+                "about_half_around_50_percent": "orange",
+                "most_around_75_percent": "green",
+                "everyone_around_100_percent": "green",
+                "latrines_none_0_percent": "red",
+                "latrines_few_1_25_percent": "red",
+                "latrines_about_half_around_50_percent": "orange",
+                "latrines_most_around_75_percent": "green",
+                "latrines_everyone_around_100_percent": "green",
+                "showers_none_0_percent": "red",
+                "showers_few_1_25_percent": "red",
+                "showers_about_half_around_50_percent": "orange",
+                "showers_most_around_75_percent": "green",
+                "showers_everyone_around_100_percent": "green",
+                "all_around_100_percent": "green"
+            }
+        },
+        "up_to_0_green": {
+            "type": "math",
+            "values": {
+                "x>0": "green",
+                "x<=0": "red"
+            }
+        },
+        "up_to_0_red": {
+            "type": "math",
+            "values": {
+                "x<=0": "green",
+                "x>0": "red"
+            }
+        },
+        "up_to_pct": {
+            "type": "math",
+            "values": {
+                "x>=80": "green",
+                "x>=50 and x<80": "orange",
+                "x<50": "red"
+            }
+        },
+        "pct_occ": {
+            "type": "math",
+            "values": {
+                "x<0.8": "green",
+                "x>=0.8 and x<1": "orange",
+                "x>=1": "red"
+            }
+        },
+        "nb_ind_vs_staff": {
+            "type": "math",
+            "values": {
+                "x<=1000": "green",
+                "x>1000": "red"
+            }
+        },
+        "health_services_type": {
+            "type": "key_value",
+            "values": {
+                "none_of_the_above": "red",
+                "basic_primary_healthcare": "green",
+                "child_healthcare": "green",
+                "maternal_healthcare": "green",
+                "nutrition_counselling_services": "green",
+                "hiv_counselling_and_testing": "green"
+            }
+        },
+        "damage": {
+            "type": "key_value",
+            "values": {
+                "no_damage_injuries": "green",
+                "limited_damage_minor_injuries": "orange",
+                "medium_damage_injuries": "red",
+                "excessive_damage_critical_injuries_death": "red"
+            }
+        },
+        "flood_exposure": {
+            "type": "key_value",
+            "values": {
+                "low_no_flooding_events_reported_in_the_last_two_years": "green",
+                "medium": "orange",
+                "high": "red",
+                "very_high_multiple_flooding_events": "red"
+            }
+        },
+        "frequency_updating": {
+            "type": "key_value",
+            "values": {
+                "weekly": "green",
+                "bi_weekly": "green",
+                "monthly": "red",
+                "bi_monthly": "orange",
+                "Upon_arrival_of_new_IDPs_in_site": "orange"
+            }
+        },
+        "methodology_demo": {
+            "type": "key_value",
+            "values": {
+                "counting": "green",
+                "estimation": "red"
+            }
+        },
+        "source_demo": {
+            "type": "key_value",
+            "values": {
+                "government_authorities": "green",
+                "ngo_un_agency": "green",
+                "smc_team": "green",
+                "community_representative": "green"
+            }
+        },
+        "water_com": {
+            "type": "key_value",
+            "values": {
+                "present_and_equipped_with_tools_for_maintenance": "green",
+                "present_but_not_equipped_with_tools_for_maintenance": "orange",
+                "non_existent": "red"
+            }
+        },
+        "pct_school": {
+            "type": "math",
+            "values": {
+                "x<50": "red",
+                "x>=50 and x<90": "orange",
+                "x>=90": "green"
+            }
+        },
+        "info_board": {
+            "type": "math",
+            "values": {
+                "x<1": "red",
+                "x>=1": "green"
+            }
+        },
+        "ind_per_latrines_showers": {
+            "type": "math",
+            "values": {
+                "x<=20": "green",
+                "x>20": "red"
+            }
+        }
+    }
+}

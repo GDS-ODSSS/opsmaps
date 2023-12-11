@@ -1,0 +1,388 @@
+{
+    // (Optional) Strongly advised. Version tag of the file
+    "version": "v1.1",
+    // Section that describe the text items in the app.
+    // "name": (Mandatory) Name of the opsmap, as displayed in the header bar of the app
+    // "description": (Mandatory) Opsmap description is the text displayed on the home page at the "more information" section
+    "textContent": {
+        "name": {
+            "en": "Brazil",
+            "pt": "Brasil"
+        },
+        "opsmapDescr": {
+            "en": "More than 260,000 refugees and migrants have traveled to Brazil in search of protection as a result of the political, social and economic crisis ravaging Venezuela.<br/>Considering the urgent needs for humanitarian assistance, such as food, shelter, health and protection, especially for people with vulnerabilities (children, pregnant women, the elderly, people with disabilities, etc.), the Brazilian Federal Government edited Law no. 13,684/2018, providing for the execution of emergency assistance measures for the reception of affected people.<br/>Currently, Roraima has 9 reception spaces, including shelters (indigenous and non-indigenous), with the potential to serve more than nine thousand refugees, asylum seekers, and migrants. Of these, 7 are in the city of Boa Vista, 2 in the city of Pacaraima.<br/>All 9 spaces are coordinated by UNHCR, because of the agreement signed with the Ministry of Citizenship, in partnership with the Armed Forces.",
+            "pt": "Mais de 260 mil refugiados e migrantes deslocaram-se ao Brasil em busca de proteção em decorrência da crise política, social e econômica que assola a Venezuela.<br/>Considerando-se as necessidades urgentes de assistência humanitária, como alimentação, abrigamento, saúde e proteção, especialmente para pessoas com vulnerabilidades (crianças, mulheres grávidas, idosos, pessoas com deficiência, etc.), o Governo Federal Brasileiro editou a Lei no. 13.684/2018, prevendo a execução de medidas de assistência emergencial para acolhimento da pessoas afetadas.<br/>Atualmente, Roraima conta com 9 espaços de acolhimento, entre abrigos (entre abrigos indígenas e não-indígenas), com potencial de atender mais de nove mil refugiados, solicitantes de refúgio e migrantes. Desses abrigos, 7 estão na cidade de Boa Vista, 2 cidade de Pacaraima.<br/>Todos os 9 espaços são coordenados pelo ACNUR, por conta do convênio firmado com o Ministério da Cidadania, em parceria com as Forças Armadas."
+        }
+    },
+    // Section that describe the locale configuration of the app
+    // "locales": (Optional): array that rerpesents the locale(s) available throught the app. Default is ['en'], english only
+    // "default": (Optional): locale that is by default in the app. Default is 'en'
+    // "override": (Optional): override of local entries for this specific opsmap. Default is {}
+    "locale": {
+        "locales": [
+            "pt",
+            "en"
+        ],
+        "default": "pt",
+        // Warning: if you override a section, like trafficlight, you need to redeclare all of the content. Not only the ones that are changing.
+        "override": {
+            "en": {
+                "title": "Site profile"
+            },
+            "pt": {
+                "title": "Perfil do site"
+            }
+        }
+    },
+    // "iframe": (Optional) iframe that can be displayed on the home page. Default value is null
+    // - "url": of the iframe
+    // - "display": boolean that enable or not the display of the iframe
+    "iframe": {
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiZTRhOWVlOTgtYTk2MS00YmY3LWEyY2YtMGM1Y2MzODFjMmVjIiwidCI6ImU1YzM3OTgxLTY2NjQtNDEzNC04YTBjLTY1NDNkMmFmODBiZSIsImMiOjh9",
+        "display": true
+    },
+    // "headerLogos": (Optional) List of the logo to be displayed on the header. Default is value is []
+    // This is a list of logo
+    // - "name": name of the logo. Must be unique
+    // - "urlImage": url of the image
+    // - "urlRedirection": url of the website associated to the logo. Destination on the click. 
+    "headerLogos": [],
+    // "footerLogos": (Mandatory) List of the logo to be displayed for each sqections on the footer. Default is value is []. 
+    // The sections are: title + logos []
+    // - "logos"
+    //   - "name": name of the logo. Must be unique
+    //   - "urlImage": url of the image
+    //   - "urlRedirection": url of the website associated to the logo. Destination on the click. 
+    "footerLogos": [
+        {
+            "title": {
+                "en": "Webdev",
+                "pt": "Desenvolvimento Web"
+            },
+            "logos": [
+                {
+                    "name": "CartONG",
+                    "urlLogo": "/data/demo/DEMO_brazil/BR_Logo/CartONG_logo_long_0_0_0.png",
+                    "urlRedirection": "https://www.cartong.org"
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Fieldwork",
+                "pt": "Trabalho de campo"
+            },
+            "logos": [
+                {
+                    "name": "FSF",
+                    "urlLogo": "/data/demo/DEMO_brazil/BR_Logo/FSF.png",
+                    "urlRedirection": "https://www.fraternidadesemfronteiras.org.br/"
+                },
+                {
+                    "name": "AVSI",
+                    "urlLogo": "/data/demo/DEMO_brazil/BR_Logo/AVSI_BRASIL.png",
+                    "urlRedirection": "http://www.avsibrasil.org.br/"
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Coordination and IM support",
+                "pt": "Coordenação e IM apoio"
+            },
+            "logos": [
+                {
+                    "name": "UNHCR",
+                    "urlLogo": "/data/demo/DEMO_brazil/BR_Logo/UNHCR_PT.jpg",
+                    "urlRedirection": "https://www.acnur.org.br"
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Sector Lead",
+                "pt": "Líder do seto"
+            },
+            "logos": [
+                {
+                    "name": "UNHCR",
+                    "urlLogo": "/data/demo/DEMO_brazil/BR_Logo/UNHCR_PT.jpg",
+                    "urlRedirection": "https://www.acnur.org.br"
+                },
+                {
+                    "name": "Ministério da Cidadania",
+                    "urlLogo": "/data/demo/DEMO_brazil/BR_Logo/Ministrerio_da_CIDADANIA.png",
+                    "urlRedirection": "https://www.gov.br/cidadania/pt-br"
+                }
+            ]
+        }
+    ],
+    // Spatial configuration the app
+    // The spatial configuration is:
+    // "mapConfig" (Optional): but setting the correct bound is highly recommended. 
+    // "dbConfig": (Optional) For each adminlevel, the foreign key on the db side (unhcr side). Default is "pcode" for ["admin1", "admin2", "admin3", "admin4"]
+    // "localFiles": (Optional) It contains the url of the admin0 geojson file. Default is "map/admin0.geojson"
+    // "adminLevels": (Optional) List of the admins levels to be considered by the app. The values must belong to ["admin1", "admin2", "admin3", "admin4"]. Default is ["admin1", "admin2"]
+    // "adminLevelsMap": (Optional) List of the admins levels to be considered within the map (boundaries, zoom, etc.). The values must belong to ["admin1", "admin2", "admin3", "admin4"]. Default is ["admin1", "admin2"]
+    "spatial": {
+        // "mapConfig": mapbox related options
+        // - "token". Default is mapbox token
+        // - "style". Default is first item of TKBasemapsLayer, "mapbox://styles/unhcr/ckvl4xy2mj45z15mpkq6w2nv8"
+        // - "padding". Default is 100
+        // - "zoomspeed". Default is 2
+        // - "bounds". Default is [-74.17, -33.34, -33.57, 5.02])
+        // (Optional, but setting the correct bounds is highly recommended)
+        "mapConfig": {
+            "token": "mapbox-token",
+            "style": "mapbox://styles/unhcr/ckvl4xy2mj45z15mpkq6w2nv8",
+            "padding": 100,
+            "zoomspeed": 2,
+            "bounds": [
+                -74.17,
+                -33.34,
+                -33.57,
+                5.02
+            ]
+        },
+        "dbConfig": {
+            "admin1": "pcode",
+            "admin2": "pcode"
+        },
+        "localFiles": {
+            "admin0LocalURL": "map/admin0.geojson"
+        },
+        "adminLevels": [
+            "admin1",
+            "admin2"
+        ],
+        "adminLevelsMap": [
+            "admin1",
+            "admin2"
+        ]
+    },
+    // The list of the different survey represented by the app
+    // (Mandatory)
+    // This is the most complex
+    // It is a list of surveys, that could be one of 3 differents types: "kobo" | "gsheet" | "csv" | "ridl"
+    // All of them have:
+    // The others fields are survey type dependant.
+    "surveys": [
+        {
+            // fdf (Optional) folder that contains the fdf informations. Default is { "folder" : "FDF" }
+            // - folder: string url of the folder that contains the fdf
+            "fdf": {
+                "folder": "BR_FDF_s1_080421"
+            },
+            // "name": string (Mandatory)
+            "name": "Form A",
+            // "options": (Optional)
+            //    - inputDateFormat: (Optional) Date format in the input data. Default is "DD/MM/YYYY"
+            //    - displayDateFormat: (Optional) Date format as displayed within the app. Default is "DD/MM/YYYY"
+            //    - listSeparator: (Optional) Separator used as separator for list in the dataset. Default is ";"
+            //    - anonymousMode: (Optional) "none" | "text" | "text and map". Default is "none"
+            //           "none" --> as it is. no anonymation
+            //           "text" --> sites location are set to their exact location on the map, but gps coordinates are removed from text fields
+            //           "text and map" --> sites location are set to the centroid of the parent admin level (ex admin2) and gps coordinates are removed from text fields
+            //    - siteZoomMode: (Optional) "site" | "admin". Default is site
+            //           "site" --> zoom at the selected site
+            //           "admin" --> zoom at the closest admin parent of the selected site
+            //    - siteZoomBuffer: (Optional) radius in meter around the selected site (only when "siteZoomMode": "site") Don't exagerate with this one. 
+        //     - "sitesMapVisualisation": (Optional) description of other way to visualise sites on map. Default is []
+        // A visualisation is {
+            // - "label": name that will appears in the legend
+            // - "visualisationType": {
+                //     "type": "populationCount", -> type of representation
+                //     "field": "demo_num_indv", -> name of the field to use
+                //     "tresholds": [300, 600] -> limits for circles size and legends
+                // }
+            // }
+            "options": {
+                "inputDateFormat": "DD/MM/YYYY",
+                "displayDateFormat": "DD/MM/YYYY",
+                "listSeparator": ";",
+                "anonymousMode": "none",
+                "siteZoomMode": "site",
+                "siteZoomBuffer": 100,
+                "sitesMapVisualisation": [
+                    {
+                        "type": "populationCount",
+                        "field": "demo_num_indv",
+                        "tresholds": [300, 600]
+                    }
+                ]
+            },
+            // "additionalFiltersDescription": (Optional). List of additional filter to add to the app. Default is []
+            // A filter is {
+            // - "field": entry in the dataset concerned by that filter
+            // - "name": name of the filter, as it must be displayed within the app
+            // }
+            "additionalFiltersDescription": [
+                {
+                    "field": "cccm_shelter_type",
+                    "name": {
+                        "en": "Additional Filter 1 en",
+                        "pt": "Additional Filter 1 pt"
+                    }
+                }
+            ],
+            // "ndicators": (Mandatory) 2 list -> area (group of surveys) and site (single survey). CF sections below
+            "indicators": {
+                "area": [
+                    // The first one is "site count"
+                    // - type: "site_count"
+                    {
+                        "type": "site_count"
+                    },
+                    // The second one is "people_count"
+                    // - type: "people_count"
+                    // - entryCode: entry of the field that referes to population count
+                    {
+                        "type": "people_count",
+                        "entryCode": "demo_num_indv"
+                    },
+                    // The third one is one of twos: "standard" | "value_count"
+                    // - standard: do the sum of a numeric value field
+                    //   - type: "standard"
+                    //   - name: label
+                    //   - iconOchaName: string
+                    //   - entryCode: string
+                    // - value_count: count the references for a specific value (ex: shelter = "new")
+                    //   - type: "value_count"
+                    //   - name: TKLabel (name)
+                    //   - entryCode: string (field to look at)
+                    //   - refValue: string (value of reference)
+                    //   - iconOchaName: string
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Shelter Max Capacity",
+                            "pt": "Capacidade Máxima dos Abrigos"
+                        },
+                        "entryCode": "cccm_shelter_max_capacity",
+                        "iconOchaName": "Camp-Coordination-and-Camp-Management"
+                    }
+                ],
+                // Can be one of 3 types: "standard" | "site_occcupation" | "computation"
+                // - standard: display field content
+                //   - type: "standard"
+                //   - name: label
+                //   - iconOchaName: string
+                //   - entryCode: string
+                // - site_occupation: display occupation ratio of site
+                //   - type: "site_occcupation"
+                //   - name: label
+                //   - iconOchaName: string
+                //   - entryCodePeopleCount: field that contains the number of people
+                //   - entryCodeMaxPeopleCount: field that contains the maximum number of people
+                //   - entryCodeMaxCapacity (optional): field that contains a field content to be assocaited to the indicator. default is null
+                // - computation: offer the possibility of a mathematical operation between two fields. 
+                //   - type: "computation"
+                //   - name: label
+                //   - iconOchaName: string
+                //   - entryCode1: field 1
+                //   - entryCode2: field 2
+                //   - operator: operation between those two fields
+                //   - numberStrategy: "round" (optional). Round number in the end if flag is active
+                "site": [
+                    {
+                        "type": "site_occupation",
+                        "name": {
+                            "en": "Site at Full Capacity",
+                            "pt": "Abrigo em plena capacidade"
+                        },
+                        "iconOchaName": "Camp-Coordination-and-Camp-Management",
+                        "entryCodeMaxCapacity": "cccm_site_at_full_capacity",
+                        "entryCodePeopleCount": "demo_num_indv",
+                        "entryCodeMaxPeopleCount": "cccm_shelter_max_capacity"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Shelter Type",
+                            "pt": "Tipo de Abrigo"
+                        },
+                        "entryCode": "cccm_shelter_type",
+                        "iconOchaName": "Camp-Coordination-and-Camp-Management"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "No. of Individuals",
+                            "pt": "Nº de Indivíduos"
+                        },
+                        "entryCode": "demo_num_indv",
+                        "iconOchaName": "People-in-need"
+                    }
+                ]
+            },
+            // "spatial": (Mandatory) a spatial description
+            // - "siteFields":(Mandatory) site characteristics from the dataset
+            //   - "id": (Mandatory)
+            //   - "lastUpdate": (Mandatory)
+            //   - "name": (Mandatory)
+            //   - "type": (Mandatory)
+            //   - "latitude": (Optional). Default is undefined: survey option "anonymousMode" switch to "text and map"
+            //   - "longitude": (Optional) Default is undefined: survey option "anonymousMode" switch to "text and map"
+            // - "admins": (Mandatory): list fo fields that contains the pcode + name  assocaited to each admins. The keys must belong to ["admin1", "admin2", "admin3", "admin4"]
+            //   - "adminX" { "pcode": "string", "name": "string" }
+            "spatial": {
+                "siteFields": {
+                    "id": "group_general_info/site",
+                    "lastUpdate": "date",
+                    "latitude": "group_general_info/latitude",
+                    "longitude": "group_general_info/longitude",
+                    "name": "group_general_info/site_name",
+                    "type": "group_general_info/site_type"
+                },
+                "admins": {
+                    "admin1": {
+                        "pcode": "group_general_info/state",
+                        "name": "group_general_info/state_name"
+                    },
+                    "admin2": {
+                        "pcode": "group_general_info/lga",
+                        "name": "group_general_info/lga_name"
+                    }
+                }
+            },
+            // Survey Type KOBO
+            // - type: "kobo"
+            // - url: url of the json exported survey. It should be something like: https://kobo.humanitarianresponse.info/api/v2/assets/{{ASSETS_ID}}/data.json
+            // - token: token used to access kobo server
+            // Survey Type GSHEET
+            // - type: "gsheet"
+            // - submissionsUrl: url of the submissions
+            // - submissionsTrUrl: url of the translation file associated to the submissions
+            // Survey Type CSV
+            // - type: "csv"
+            // - submissionsLocalUrl: url of the submissions
+            // - submissionsTrLocalUrl: url of the translation file associated to the submissions
+            // Survey Type RIDL
+            // - type: "ridl"
+            // - submissionsUrl: url of the submissions xslx file on ridl
+            // - submissionsTrUrl: url of the translation xslx file on ridl
+            "type": "gsheet", // - type: "kobo" | "gsheet" | "csv"
+            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRblO4ExeANFNL0ti5S4d-4x1k9AxCA93lfarcRyrUZMUABV7NwezMAUUmwKKN9AMLywoSTZZRSIfdn/pub?gid=0&single=true&output=csv",
+            "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRblO4ExeANFNL0ti5S4d-4x1k9AxCA93lfarcRyrUZMUABV7NwezMAUUmwKKN9AMLywoSTZZRSIfdn/pub?gid=1157434408&single=true&output=csv",
+        }
+    ],
+    // Options of the app (Optional)
+    // - "showCCCMLogo": (Optional) display the cccm logo in the header? Default is "true"
+    // - "dark": (Optional) app in dark mode? Default is "false"
+    // - "pdfColumnCount": (Optional) number of column in the pdf report. Default is "3"
+    // - "exportForEsite": (Optional) display the export for esite button? Default is "false"
+    // - "showDemoBanner": (Optional) display the demo banner? Default is "false"
+    // - "exportAsCSVonHomePage": (Optional) display the export as CSV on the home page? Default is "false"
+    // - "keepThematicOrderFromFDF": (Optional) keep thematic order from FDF? if false, it is computed on the fly. Default is "false"
+    // - "mapLegendDisplayStyle": (Optional) Display of the legend , possibles valyes are 'default', 'folded' and 'hidden'
+    "options": {
+        "showCCCMLogo": true,
+        "dark": false,
+        "pdfColumnCount": 3,
+        "exportForEsite": false,
+        "showDemoBanner": false,
+        "exportAsCSVonHomePage": false,
+        "keepThematicOrderFromFDF": false,
+        "mapLegendDisplayStyle": "default"
+    }
+}

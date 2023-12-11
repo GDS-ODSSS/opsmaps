@@ -1,0 +1,87 @@
+field_name;field_label_en;field_label_fr;field_label_ar
+site_id;ID;ID;بطاقة تعريف
+adm1_pcode;adm1 pcode;adm1 pcode;كود adm1
+adm2_pcode;adm2 pcode;adm2 pcode;كود adm2
+latitude;Latitude;Latitude;خط العرض
+longitude;Longitude;Longitude;خط الطول
+General_Site_Type;General Site type;Généralités Type de site;نوع الموقع العام
+Date_of_the_Monitoring_Visit;Date of visit;Date de la visite;موعد زيارة
+round;Survey round ID;ID du tour d'enquête;معرف جولة المسح
+Province_of_the_monitored_location;Province;Province;مقاطعة
+Site_Location;Site Location;Emplacement du site;مكان الموقع
+site_name;Name of the Site;Nom du site;اسم الموقع
+Type_of_the_Site;Type of the Site;Type de site;نوع الموقع
+Address_of_the_Site;Address of the Site;Adresse du site;عنوان الموقع
+Hotline_or_Contact_Number_of_the_Site;Hotline or Contact Number of the Site;Numéro d'urgence ou de contact du site;الخط الساخن أو رقم الاتصال بالموقع
+Does_Site_works_24_7;Does Site works 24/7?;Le site fonctionne-t-il 24 heures sur 24 et 7 jours sur 7 ?;هل يعمل الموقع 24/7؟
+Select_working_days;Working days;Jours ouvrables;أيام العمل
+Indicate_sites_working_Hours;Indicate sites working Hours;Indiquer les heures de travail du site;الإشارة إلى ساعات عمل المواقع
+Sites_Capacity;Sites Capacity;Capacité des sites;سعة المواقع
+Sites_managed_by;Sites managed by;Sites gérés par;المواقع التي يديرها
+Name_of_the_Managing_Organisation;Name of the Managing Organisation;Nom de l'organisation gestionnaire;اسم المنظمة الإدارية
+Are_the_volunteers_engaged;Are the volunteers engaged?;Les volontaires sont-ils engagés ?;هل المتطوعون منخرطون؟
+Select_the_sectors_of_volunteers_engagement;Sector(s) of volunteers' engagement;Secteur(s) d'engagement des volontaires;قطاع (قطاعات) مشاركة المتطوعين
+Number_of_volunteers_mobilised;Number of volunteers mobilised;Nombre de volontaires mobilisés;عدد المتطوعين الذين تم تعبئتهم
+Who_is_managing_volunteers;Who is managing volunteers?;Qui gère les volontaires ?;من يدير المتطوعين؟
+Are_there_interpreters_engaged;Are there interpreters engaged?;Des interprètes sont-ils engagés ?;هل يوجد مترجمين فوريين؟
+Number_of_interpreters_engaged;Number of interpreters engaged?;Nombre d'interprètes engagés ?;عدد المترجمين الفوريين المشاركين؟
+Are_procedures_for_identificaiton_and_referral_of_Unaccompanied_and_Separated_Children_in_place;Are procedures for identificaiton and referral of Unaccompanied and Separated Children in place?;Des procédures d'identification et d'orientation des enfants non accompagnés et séparés ont-elles été mises en place ?;هل توجد إجراءات لتحديد وإحالة الأطفال غير المصحوبين والمنفصلين عن ذويهم؟
+Organizations_involved_in_identification_and_referral_of_UASCs;Organization(s) involved in identification and referral of UASCs;Organisation(s) impliquée(s) dans l'identification et l'orientation des UASC;المنظمة (المنظمات) المشاركة في تحديد وإحالة الأشخاص غير المصحوبين جنسيا
+Are_family_tracing_services_available_at_the_site;Are family tracing services available at the site?;Des services de recherche des familles sont-ils disponibles sur le site ?;هل تتوفر خدمات البحث عن العائلة في الموقع؟
+Organization_providing_family_tracing_services;Organization providing family tracing services;Organisation fournissant des services de recherche des familles;منظمة تقدم خدمات تتبع الأسرة
+Is_Child_friendly_space_is_available_at_the_Site;Is Child-friendly space is available at the Site?;Un espace adapté aux enfants est-il disponible sur le site ?;هل تتوفر مساحة صديقة للأطفال في الموقع؟
+Is_there_specific_organization_managing_the_Child_friendly_space_If_yes_name_of_organization;Is there specific organization managing the Child-friendly space? If yes, name of organization;Y a-t-il une organisation spécifique qui gère l'espace ami des enfants ? Si oui, nom de l'organisation;هل هناك منظمة محددة تدير المساحة الملائمة للأطفال؟ إذا كانت الإجابة بنعم، اسم المنظمة
+Number_of_staff_volunteers_working_in_the_Child_friendly_space;Number of staff/volunteers working in the Child-friendly space?;Nombre d'employés/bénévoles travaillant dans l'espace ami des enfants ?;عدد الموظفين/المتطوعين العاملين في المساحة الملائمة للأطفال؟
+Is_there_registration_for_Temporary_Protection_conducted;Is there registration for Temporary Protection conducted?;L'enregistrement au titre de la protection temporaire a-t-il été effectué ?;هل تم إجراء التسجيل للحماية المؤقتة؟
+Number_of_staff_conducting_registration_under_TP;Number of staff conducting registration under TP;Nombre d'employés chargés de l'enregistrement dans le cadre de la protection temporaire;عدد الموظفين الذين يقومون بالتسجيل بموجب برنامج TP
+Average_registration_time_processing_per_person;Average registration time processing per person;Temps moyen de traitement de l'enregistrement par personne;متوسط ​​وقت معالجة التسجيل لكل شخص
+TP_ID_card_is_issued_on_the_same_day_after_the_registration;TP ID card is issued on the same day after the registration;La carte d'identité TP est délivrée le jour même de l'enregistrement.;يتم إصدار بطاقة هوية TP في نفس اليوم بعد التسجيل
+Is_registration_for_internaitonal_protection_humanitarian_status_conducted;Is registration for internaitonal protection/humanitarian status conducted?;L'enregistrement pour la protection internationale/le statut humanitaire est-il effectué ?;هل يتم التسجيل للحصول على الحماية الدولية/الوضع الإنساني؟
+Number_of_SAR_staff_engaged;Number of SAR staff engaged?;Nombre de membres du personnel SAR engagés ?;عدد موظفي SAR المشاركين؟
+Is_accomodation_for_short_rest_overnight_available_within_the_Site;Is accomodation for short rest/overnight available within the Site?;Un hébergement pour un court repos/une nuit est-il disponible sur le site ?;هل يتوفر مكان للإقامة للراحة القصيرة/الليلة داخل الموقع؟
+is_privacy_ensured_at_the_bedroom_area;is privacy ensured at the bedroom area?;L'intimité est-elle assurée dans la chambre à coucher ?;هل يتم ضمان الخصوصية في منطقة غرفة النوم؟
+Number_of_beds_available;Number of beds available;Nombre de lits disponibles;عدد الأسرة المتاحة
+Are_security_measures_in_place_in_the_Site;Are security measures in place in the Site?;Des mesures de sécurité sont-elles en place dans le site ?;هل توجد إجراءات أمنية في الموقع؟
+Is_there_check_in_system_in_place;Is there check-in system in place?;Un système d'enregistrement est-il en place ?;هل يوجد نظام تسجيل دخول؟
+Are_rooms_other_space_allocated_for_private_counseling;Are rooms/other space allocated for private counseling?;Des chambres/autres espaces sont-ils prévus pour les consultations privées ?;هل يتم تخصيص غرف أو مساحات أخرى للاستشارات الخاصة؟
+Is_free_internet_available_in_the_Site;Is free internet available in the Site;L'internet est-il disponible gratuitement sur le site ?;هل يتوفر إنترنت مجاني في الموقع
+Are_there_recreational_activities_organized_in_the_Site;Are there recreational activities organized in the Site?;Des activités récréatives sont-elles organisées sur le site ?;هل هناك أنشطة ترفيهية يتم تنظيمها في الموقع؟
+Organizations_providing_recreational_activities;Organization(s) providing recreational activities;Organisation(s) proposant des activités récréatives;المنظمة (المنظمات) التي تقدم الأنشطة الترفيهية
+Describe_the_types_of_recreational_activities;Describe the types of recreational activities;Décrire les types d'activités récréatives;وصف أنواع الأنشطة الترفيهية
+Sanitation_Facilities_in_place;Sanitation Facilities in place;Installations sanitaires en place;مرافق الصرف الصحي موجودة
+Are_hygiene_kits_distributed;Are hygiene kits distributed?;Des kits d'hygiène sont-ils distribués ?;هل يتم توزيع مستلزمات النظافة؟
+Specific_hygiene_kits_are_available_and_accessible_for_women_and_children;Specific hygiene kits are available and accessible for women and children?;Des kits d'hygiène spécifiques sont-ils disponibles et accessibles pour les femmes et les enfants ?;هل تتوفر مجموعات النظافة المحددة ويمكن الوصول إليها للنساء والأطفال؟
+List_describe_the_items_included_in_the_hygienic_kit_including_specific;Items included in the hygienic kit (including specific);Articles inclus dans le kit d'hygiène (y compris les articles spécifiques);العناصر المدرجة في مجموعة أدوات النظافة (بما في ذلك العناصر المحددة)
+Organizations_distributing_hygienic_kits;Organization(s) distributing hygienic kits;Organisation(s) distribuant les kits hygiéniques;المنظمة (المنظمات) التي تقوم بتوزيع أطقم النظافة
+Is_food_provided_to_the_site;Is food provided to the site ?;De la nourriture est-elle fournie sur le site ?;هل يتم توفير الطعام للموقع؟
+list_food_distributed_in_the_Site;List of food distributed in the Site?;Liste de la nourriture distribuée dans le site ?;قائمة المواد الغذائية الموزعة في الموقع؟
+Organization_distributing_food;Organization distributing food;Organisation distribuant la nourriture;منظمة توزيع المواد الغذائية
+Are_medical_services_available_in_the_Site;Are medical services available in the Site?;Des services médicaux sont-ils disponibles dans le site ?;هل الخدمات الطبية متوفرة في الموقع؟
+Organization_providing_medical_services;Organization providing medical services;Organisation fournissant des services médicaux;منظمة تقدم الخدمات الطبية
+Type_of_medical_services;Type of medical services;Type de services médicaux;نوع الخدمات الطبية
+is_mental_health_and_psychosocial_support_MHPS_available_at_the_Site;is mental health and psychosocial support (MHPS) available at the Site?;La santé mentale et le soutien psychosocial sont-ils disponibles sur le site ?;هل يتوفر الدعم النفسي والاجتماعي (MHPS) على الموقع؟
+Organization_providing_MHPS_services;Organization providing MHPS services;Organisation fournissant des services de santé mentale et de soutien psychosocial;المنظمة التي تقدم خدمات MHPS
+Is_a_Mother_and_baby_area_available_at_the_Site;Is a Mother-and-baby area available at the Site?;Le site dispose-t-il d'un espace pour les mères et les bébés ?;هل تتوفر منطقة للأم والطفل في الموقع؟
+Select_types_of_information_provided_in_the_Site;Type(s) of information provided in the Site;Type(s) d'informations fournies sur le site;نوع (أنواع) المعلومات المقدمة في الموقع
+Organizations_providing_information_on_accomodation;Organization(s) providing information on accomodation;Organisation(s) fournissant des informations sur l'hébergement;المنظمة (المنظمات) التي تقدم معلومات عن الإقامة
+Organizations_providing_information_on_Child_Services;Organization(s) providing information on Child Services;Organisation(s) fournissant des informations sur les services à l'enfance;المنظمة (المنظمات) التي تقدم معلومات عن خدمات الأطفال
+Organizations_providing_information_on_Entry_Exit_requirements;Organization(s) providing information on Entry/Exit requirements;Organisation(s) fournissant des informations sur les conditions d'entrée/sortie;المنظمة (المنظمات) التي تقدم معلومات عن متطلبات الدخول/الخروج
+Organizations_providing_information_on_International_Protection_and_Humanitarian_Status;Organization(s) providing information on International Protection and Humanitarian Status;Organisation(s) fournissant des informations sur la protection internationale et le statut humanitaire;المنظمة (المنظمات) التي تقدم معلومات عن الحماية الدولية والحالة الإنسانية
+Organizations_providing_information_on_Risks_of_Sexual_Exploitation_and_Trafficking;Organization(s) providing information on Risks of Sexual Exploitation and Trafficking;Organisation(s) fournissant des informations sur les risques d'exploitation sexuelle et de traite des êtres humains;المنظمة (المنظمات) التي تقدم معلومات عن مخاطر الاستغلال الجنسي والاتجار
+Organizations_providing_information_on_Services_Available;Organization(s) providing information on Services Available;Organisation(s) fournissant des informations sur les services disponibles;المنظمة (المنظمات) التي تقدم معلومات عن الخدمات المتاحة
+Organizations_providing_information_on_Temporary_Protection;Organization(s) providing information on Temporary Protection;Organisation(s) fournissant des informations sur la protection temporaire;المنظمة (المنظمات) التي تقدم معلومات عن الحماية المؤقتة
+Organizations_providing_information_on_Transport_including_for_people_in_transit;Organization(s) providing information on Transport including for people in transit;Organisation(s) fournissant des informations sur le transport, y compris pour les personnes en transit;المنظمة (المنظمات) التي تقدم معلومات عن النقل بما في ذلك للأشخاص العابرين
+Legal_counselling_and_assistance_is_available_in_the_Site;Legal counselling and assistance is available in the Site?;Des conseils et une assistance juridiques sont-ils disponibles sur le site ?;الاستشارة والمساعدة القانونية متوفرة في الموقع؟
+Organizations_providing_legal_assistance;Organization(s) providing legal assistance;Organisation(s) fournissant une assistance juridique;المنظمة (المنظمات) التي تقدم المساعدة القانونية
+Type_of_staff_providing_legal_assistance;Type of staff providing legal assistance;Type de personnel fournissant une assistance juridique;نوع الموظفين الذين يقدمون المساعدة القانونية
+Number_of_staff_providing_legal_information_assistance;Number of staff providing legal information/assistance;Nombre de personnes fournissant des informations/une assistance juridique;عدد الموظفين الذين يقدمون المعلومات/المساعدة القانونية
+Are_referrals_for_accommodation_provision_established_in_the_Site;Are referrals for accommodation provision established in the Site?;Le site dispose-t-il d'un système d'orientation pour l'hébergement ?;هل تم إنشاء الإحالات الخاصة بتوفير الإقامة في الموقع؟
+Organization_making_referrals_for_accomodation;Organization making referrals for accomodation;Organisation qui oriente les personnes vers un hébergement;المنظمة التي تقدم إحالات للإقامة
+Are_services_for_persons_in_transit_available;Are services for persons in transit available?;Des services sont-ils disponibles pour les personnes en transit ?;هل تتوفر الخدمات للأشخاص العابرين؟
+Organization_providing_assistance_to_people_in_tranzit;Organization providing assistance to people in tranzit;Organisation fournissant une assistance aux personnes en transit;منظمة تقدم المساعدة للناس في tranzit
+Is_humanitarian_assistance_provided_at_the_Entry_Point_or_Registration_Hub;Is humanitarian assistance provided at the Entry Point or Registration Hub?;L'assistance humanitaire est-elle fournie au point d'entrée ou au centre d'enregistrement ?;هل يتم تقديم المساعدة الإنسانية عند نقطة الدخول أو مركز التسجيل؟
+Are_non_food_items_NFIs_distributed_in_the_Site;Are non-food items (NFIs) distributed in the Site?;Des articles non alimentaires (NFI) sont-ils distribués dans le site ?;هل يتم توزيع المواد غير الغذائية في الموقع؟
+Organizaitons_distributing_NFIs;Organizaiton(s) distributing NFIs;Organisation(s) distribuant des NFIs;المنظمة (المنظمات) التي تقوم بتوزيع المواد غير الغذائية
+List_the_NFI_items_distributed;NFI items distributed;Articles non alimentaires distribués;تم توزيع المواد غير الغذائية
+COVID_19_Measures_in_place;COVID-19 Measures in place;COVID-19 Mesures en place;تدابير كوفيد-19 المعمول بها
+demo_num_indv;No. of Individuals;Nombre d'individus;عدد الأفراد

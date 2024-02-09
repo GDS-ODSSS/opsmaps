@@ -1,6 +1,6 @@
 field_name;type;thematic_group;traffic_light_name;chart_id;chart_data;display_condition;computed_rule
+group_general_question/camp;string;group_general_info;;;;;
 site_id;string;group_general_info;;;;hide;
-site_name;string;group_general_info;;;;hide;
 country;string;group_general_info;;;;hide;
 Division;string;group_general_info;;;;hide;
 Upazila;string;group_general_info;;;;hide;
@@ -23,6 +23,10 @@ Camp_Manager;string;group_general_info;;;;;
 type;string;group_general_info;;;;;
 demo_num_hh;integer;group_demo;;;;;
 demo_num_indv;integer;group_demo;;;;;
+INDS_19_24Yrs;integer;group_education_cohort;;age_pyramid#2;g;;
+INDS_15_18Yrs;integer;group_education_cohort;;age_pyramid#2;g;;
+INDS_5_14Yrs;integer;group_education_cohort;;age_pyramid#2;g;;
+INDS_3_4Yrs;integer;group_education_cohort;;age_pyramid#2;g;;
 demo_male_60+;integer;group_demo;;age_pyramid#1;m;;
 demo_female_60+;integer;group_demo;;age_pyramid#1;f;;
 demo_male_18_59;integer;group_demo;;age_pyramid#1;m;;
@@ -43,12 +47,4 @@ PSN_ChildrenRisk;integer;Specific_Groups;;doughnut_chart#2;Pdisability#Persons w
 PSN_UASC;integer;Specific_Groups;;doughnut_chart#2;Sneeds#Persons with mental health disabilities;;
 PSN_OlderAtRisk;integer;Specific_Groups;;doughnut_chart#2;Selderly#Single elderly  households;;
 PSN_OtherPSN;integer;Specific_Groups;;doughnut_chart#2;Unacc#Unaccompanied children;;
-Percent_of_health_facilities_with_operational_CFRMs;string;group_health;;;;;
-Percent_of_CFRM_health_cases_resolved_within_30_days;string;group_health;CFRMCasesResolved;;;;
-Percent_of_distribution_centers_that_are_accessible_for_people_with_special_needs_and_women;string;group_fs;;;;;
-Percent_Nutritiona_facilities_accessible_for_PWSN;string;group_nutrition;facilities_accessible_PWDs;;;;
-Percent__Shelter_distribution_points_that_are_accessible_for_people_with_special_needs;string;group_nutrition;facilities_accessible_PWDs;;;;
-Total_Shelter_and_NFI_distribution_points;string;group_shelternfi;;;;;
-Percent_of_shelter-related_feedback_received_at_the_CFRM_that_is_resolved_within_30_days;string;group_shelternfi;CFRMCasesResolved;;;;
-Percent_Protection_refferal_cases_actioned;string;group_protection;CFRMCasesResolved;;;;
-Percent_Child_friendly_space__in_risk_zones;string;group_protection;;;;;
+group_snfi/SNFI_12;integer;group_general_info;;;;;

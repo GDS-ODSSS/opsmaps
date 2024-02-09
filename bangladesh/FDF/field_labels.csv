@@ -1,6 +1,6 @@
 field_name;field_label_en;field_label_bn
+group_general_question/camp;Camp;ক্যাম্প
 site_id;site id;সাইট আইডি
-site_name;site name;সাইটের নাম
 country;country;দেশ
 Division;Division;বিভাগ
 Upazila;Upazila;উপজেলা
@@ -26,8 +26,12 @@ CiC_Officer;CiC Officer:;সিআইসি অফিসার:
 Camp_Commander;Camp Commander:;ক্যাম্প কমান্ডার:
 Camp_Manager;Camp Manager:;ক্যাম্প ম্যানেজার:
 type;Location type:;অবস্থানের ধরন:
-demo_num_hh;Number families:;পরিবারের সংখ্যা:
-demo_num_indv;Number individuals:;ব্যক্তি সংখ্যা:
+demo_num_hh;Number families;পরিবারের সংখ্যা
+demo_num_indv;Number individuals;ব্যক্তি সংখ্যা
+INDS_3_4Yrs;Number individuals 3-4 years;সংখ্যা ব্যক্তি 3-4 বছর
+INDS_5_14Yrs;Number individuals 5-14 years;সংখ্যা ব্যক্তি 5-14 বছর
+INDS_15_18Yrs;Number individuals 15-18 years;সংখ্যা ব্যক্তি 15-18 বছর
+INDS_19_24Yrs;Number individuals 19-24 years;সংখ্যা ব্যক্তি 19-24 বছর
 demo_male_0_1;Males 0-1 years:;পুরুষ 0-1 বছর:
 demo_female_0_1;Females 0-1 years:;মহিলা 0-1 বছর:
 demo_male_1_4;Males 1-4 years:;পুরুষ 1-4 বছর:
@@ -57,3 +61,4 @@ Total_Shelter_and_NFI_distribution_points;Total Shelter and NFI distribution poi
 Percent_of_shelter-related_feedback_received_at_the_CFRM_that_is_resolved_within_30_days;% of shelter-related feedback received at the CFRM that is resolved within 30 days:;CFRM-এ প্রাপ্ত আশ্রয়-সম্পর্কিত প্রতিক্রিয়ার % যা 30 দিনের মধ্যে সমাধান করা হয়:
 Percent_Protection_refferal_cases_actioned;% Protection refferal cases actioned:;% সুরক্ষা রেফারাল কেস অ্যাকশন করা হয়েছে:
 Percent_Child_friendly_space__in_risk_zones;% Child friendly space  in risk zones:;ঝুঁকিপূর্ণ অঞ্চলে % শিশুবান্ধব স্থান:
+group_snfi/SNFI_12;Number of shelters in the camp;ক্যাম্পে আশ্রয়কেন্দ্রের সংখ্যা

@@ -1,14 +1,18 @@
 {
-    "version": "v1.0.1",
+    "version": "v1.1",
     "textContent": {
         "name": {
             "en": "Bangladesh",
             "bn": "বাংলাদেশ"
         },
         "opsmapDescr": {
-            "en": "The Site Management and Site Development (SMSD) Sector, and the Shelter and Non-Food Items (NFI) Sector are interlinked by nature. The merger of the two Sectors in 2023 will lead to cohesive planning and an integrated response under the co-leadership of IOM and UNHCR, who manage the humanitarian interventions in the two areas of their respective responsibility, following the guidance of the Government of Bangladesh. From the first quarter of 2023, this sector is named the Shelter & Camp Coordination and Camp Management sector.",
-            "bn": "সাইট ম্যানেজমেন্ট অ্যান্ড সাইট ডেভেলপমেন্ট (এসএমএসডি) সেক্টর এবং আশ্রয় ও অখাদ্য আইটেম (এনএফআই) সেক্টর প্রকৃতির দ্বারা পরস্পর সংযুক্ত। 2023 সালে দুটি সেক্টরের একত্রীকরণ আইওএম এবং ইউএনএইচসিআর-এর সহ-নেতৃত্বের অধীনে সমন্বিত পরিকল্পনা এবং একটি সমন্বিত প্রতিক্রিয়ার দিকে পরিচালিত করবে, যারা বাংলাদেশ সরকারের নির্দেশনা অনুসরণ করে তাদের নিজ নিজ দায়িত্বের দুটি ক্ষেত্রে মানবিক হস্তক্ষেপ পরিচালনা করে। 2023 সালের প্রথম ত্রৈমাসিক থেকে, এই সেক্টরটির নামকরণ করা হয় আশ্রয় ও ক্যাম্প সমন্বয় এবং ক্যাম্প ব্যবস্থাপনা সেক্টর।."
+            "en": "<p> The Service Monitoring tool plays a pivotal role in the Rohingya refugee crisis in Bangladesh, providing essential information on the situation across 33 camps. It ensures adherence to minimum humanitarian standards and enables targeted service delivery through its analysis of standardized indicators, essential for effective coordination. Historically, the large-scale forced displacement of the Rohingya — an ethnic, linguistic, and religious minority from Myanmar’s northern Rakhine State — into Bangladesh occurred in 1978, 1992, 2012, and again in 2016. On all occasions, Bangladesh has generously sheltered Rohingya refugees temporarily. For the most part on previous occasions, the Rohingya have returned to their ancestral home in Rakhine State. Under the leadership of the Government of Bangladesh, the humanitarian response of over 116+ partners including 10 UN agencies and 106 NGOs, is working to support the refugees and the half-million Bangladeshi host community members. Efforts are focused on finding a durable solution, outlined in the annually issued Joint Response Plan.</p><p><span class=\"font-weight-medium\">Other information on 4W dashboard</p><p> <a href=\"https://app.powerbi.com/view?r=eyJrIjoiYTViNzkwMDgtMTEwYy00NjNlLTlmYmQtMjVmMjI5MDNhYWQ2IiwidCI6IjE1ODgyNjJkLTIzZmItNDNiNC1iZDZlLWJjZTQ5YzhlNjE4NiIsImMiOjh9&pageName=ReportSection\" target=\"_blank\">https://app.powerbi.com/view?r=eyJrIjoiYTViNzkwMDgtMTEwYy00NjNlLTlmYmQtMjVmMjI5MDNhYWQ2IiwidCI6IjE1ODgyNjJkLTIzZmItNDNiNC1iZDZlLWJjZTQ5YzhlNjE4NiIsImMiOjh9&pageName=ReportSection</a></span></p>",
+            "bn": "<p> বাংলাদেশে রোহিঙ্গা শরণার্থী সংকটে সার্ভিস মনিটরিং টূল একটি কেন্দ্রীয় ভূমিকা পালন করে, ৩৩টি শিবির জুড়ে পরিস্থিতি সম্পর্কিত অপরিহার্য তথ্য সরবরাহ করে। এটি ন্যূনতম মানবিক মানদণ্ডের প্রতি অনুগত থাকার নিশ্চিত করে এবং প্রমিত সূচকগুলির বিশ্লেষণের মাধ্যমে লক্ষ্যবস্তু সেবা প্রদান সক্ষম করে, যা কার্যকর সমন্বয়ের জন্য অপরিহার্য।. ইতিহাসগতভাবে, রোহিঙ্গা—মায়ানমারের উত্তর রাখাইন রাজ্য থেকে একটি জাতিগত, ভাষাগত, এবং ধর্মীয় সংখ্যালঘু—এর বড় মাপের জোরপূর্বক উচ্ছেদ বাংলাদেশে ১৯৭৮, ১৯৯২, ২০১২, এবং ২০১৬ সালে ঘটেছিল। সব ঘটনায়, বাংলাদেশ সাময়িকভাবে রোহিঙ্গা শরণার্থীদের উদারভাবে আশ্রয় দিয়েছে। অধিকাংশ ঘটনায়, রোহিঙ্গারা তাদের ঐতিহ্যগত বাড়ি রাখাইন রাজ্যে ফিরে গিয়েছিল।.বাংলাদেশ সরকারের নেতৃত্বে, ১১৬+ অংশীদারসহ ১০টি জাতিসংঘ সংস্থা এবং ১০৬টি এনজিও, শরণার্থীদের এবং অর্ধ-মিলিয়ন বাংলাদেশি আতিথেয়তা সম্প্রদায়ের সদস্যদের সমর্থ. <a href=\"https://app.powerbi.com/view?r=eyJrIjoiYTViNzkwMDgtMTEwYy00NjNlLTlmYmQtMjVmMjI5MDNhYWQ2IiwidCI6IjE1ODgyNjJkLTIzZmItNDNiNC1iZDZlLWJjZTQ5YzhlNjE4NiIsImMiOjh9&pageName=ReportSection\" target=\"_blank\">https://app.powerbi.com/view?r=eyJrIjoiYTViNzkwMDgtMTEwYy00NjNlLTlmYmQtMjVmMjI5MDNhYWQ2IiwidCI6IjE1ODgyNjJkLTIzZmItNDNiNC1iZDZlLWJjZTQ5YzhlNjE4NiIsImMiOjh9&pageName=ReportSection</a></span></p>"
         }
+    },
+    "iframe": {
+        "url": "https://www.arcgis.com/apps/dashboards/64b39338db334ea892eee051ad4423e3",
+        "display": true
     },
     "locale": {
         "locales": [
@@ -18,6 +22,7 @@
         "override": {
             "en": {
                 "title": "Camp profile",
+                "infosSite": "Camp",
                 "infosAdmins": {
                     "admin1": "Division",
                     "admin2": "District",
@@ -26,6 +31,7 @@
             },
             "bn": {
                 "title": "ক্যাম্প প্রোফাইল",
+                "infosSite": "শিবির",
                 "infosAdmins": {
                     "admin1": "বিভাগ",
                     "admin2": "জেলা",
@@ -80,10 +86,10 @@
     "spatial": {
         "mapConfig": {
             "bounds": [
-                87.517,
-                26.695,
-                93.11,
-                20.83
+                91.84,
+                21.378,
+                92.64,
+                20.88
             ]
         },
         "dbConfig": {
@@ -91,7 +97,7 @@
             "admin2": "pcode",
             "admin3": "pcode"
         },
-       "adminLevels": [
+        "adminLevels": [
             "admin1",
             "admin2",
             "admin3"
@@ -104,7 +110,7 @@
     "surveys": [
         {
             "type": "gsheet",
-            "name": "Survey A",
+            "name": "Population",
             "fdf": {
                 "folder": "FDF"
             },
@@ -114,7 +120,11 @@
                 "sitesMapVisualisation": [
                     {
                         "type": "populationCount",
-                        "field": "demo_num_indv"
+                        "field": "demo_num_indv",
+                        "tresholds": [
+                            300,
+                            50000
+                        ]
                     }
                 ]
             },
@@ -125,7 +135,7 @@
                         "en": "Manage by",
                         "bn": "দ্বারা পরিচালনা করুন"
                     }
-                }            
+                }
             ],
             "indicators": {
                 "area": [
@@ -168,10 +178,228 @@
                     {
                         "type": "standard",
                         "name": {
-                            "en": "# Shelters & NFI",
-                            "bn": "# আশ্রয়কেন্দ্র এবং NFI"
+                            "en": "Total Number of shelters",
+                            "bn": "আশ্রয়কেন্দ্রের মোট সংখ্যা"
                         },
-                        "entryCode": "Total_Shelter_and_NFI_distribution_points",
+                        "entryCode": "group_snfi/SNFI_12",
+                        "iconOchaName": "Shelter"
+                    }
+                ]
+            },
+            "spatial": {
+                "siteFields": {
+                    "id": "site_id",
+                    "lastUpdate": "last_update",
+                    "latitude": "latitude",
+                    "longitude": "longitude",
+                    "manageBy": "cccm_shelter__mangmt",
+                    "name": "group_general_question/camp",
+                    "type": "type"
+                },
+                "admins": {
+                    "admin1": {
+                        "pcode": "adm1_pcode",
+                        "name": "Division"
+                    },
+                    "admin2": {
+                        "pcode": "adm2_pcode",
+                        "name": "District"
+                    },
+                    "admin3": {
+                        "pcode": "adm3_pcode",
+                        "name": "Upazila"
+                    }
+                }
+            }
+        },
+        {
+            "type": "gsheet",
+            "name": "Info & Service monitoring",
+            "fdf": {
+                "folder": "FDF_2"
+            },
+            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR1FjIohCvSE6Hk9YV4kS0rK_7YW5t7JjrkSy9WXW5gvomwrE8avGhKwKTKA5YbPj3_PBWZ0rRhmaH/pub?gid=47417686&single=true&output=csv",
+            "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR1FjIohCvSE6Hk9YV4kS0rK_7YW5t7JjrkSy9WXW5gvomwrE8avGhKwKTKA5YbPj3_PBWZ0rRhmaH/pub?gid=1729489555&single=true&output=csv",
+            "options": {
+                "inputDateFormat": "DD/MM/YYYY",
+                "displayDateFormat": "DD/MM/YYYY",
+                "listSeparator": ";",
+                "anonymousMode": "none",
+                "siteZoomMode": "site",
+                "sitesMapVisualisation": [
+                    {
+                        "type": "populationCount",
+                        "field": "demo_num_indv",
+                        "tresholds": [
+                            300,
+                            600
+                        ]
+                    }
+                ]
+            },
+            "additionalFiltersDescription": [
+                {
+                    "field": "cccm_shelter__mangmt",
+                    "name": {
+                        "en": "Manage by",
+                        "bn": "দ্বারা পরিচালনা করুন"
+                    }
+                }
+            ],
+            "indicators": {
+                "area": [
+                    {
+                        "type": "site_count"
+                    },
+                    {
+                        "type": "people_count",
+                        "entryCode": "demo_num_indv"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Number families",
+                            "bn": "সংখ্যা পরিবার"
+                        },
+                        "entryCode": "demo_num_hh",
+                        "iconOchaName": "People-targeted"
+                    }
+                ],
+                "site": [
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Number families",
+                            "bn": "সংখ্যা পরিবার"
+                        },
+                        "entryCode": "demo_num_hh",
+                        "iconOchaName": "People-targeted"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Number individuals",
+                            "bn": "সংখ্যা ব্যক্তি"
+                        },
+                        "entryCode": "demo_num_indv",
+                        "iconOchaName": "People-in-need"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Total Number of shelters",
+                            "bn": "আশ্রয়কেন্দ্রের মোট সংখ্যা"
+                        },
+                        "entryCode": "group_snfi/SNFI_12",
+                        "iconOchaName": "Shelter"
+                    }
+                ]
+            },
+            "spatial": {
+                "siteFields": {
+                    "id": "site_id",
+                    "lastUpdate": "group_general_question/date_entry",
+                    "latitude": "latitude",
+                    "longitude": "longitude",
+                    "manageBy": "cccm_shelter__mangmt",
+                    "name": "group_general_question/camp",
+                    "type": "type"
+                },
+                "admins": {
+                    "admin1": {
+                        "pcode": "adm1_pcode",
+                        "name": "Division"
+                    },
+                    "admin2": {
+                        "pcode": "adm2_pcode",
+                        "name": "District"
+                    },
+                    "admin3": {
+                        "pcode": "adm3_pcode",
+                        "name": "Upazila"
+                    }
+                }
+            }
+        },
+        {
+            "type": "gsheet",
+            "name": "Contact",
+            "fdf": {
+                "folder": "FDF_contact"
+            },
+            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR1FjIohCvSE6Hk9YV4kS0rK_7YW5t7JjrkSy9WXW5gvomwrE8avGhKwKTKA5YbPj3_PBWZ0rRhmaH/pub?gid=1894791392&single=true&output=csv",
+            "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR1FjIohCvSE6Hk9YV4kS0rK_7YW5t7JjrkSy9WXW5gvomwrE8avGhKwKTKA5YbPj3_PBWZ0rRhmaH/pub?gid=236996970&single=true&output=csv",
+            "options": {
+                "inputDateFormat": "DD/MM/YYYY",
+                "displayDateFormat": "DD/MM/YYYY",
+                "listSeparator": ";",
+                "anonymousMode": "none",
+                "siteZoomMode": "site",
+                "sitesMapVisualisation": [
+                    {
+                        "type": "populationCount",
+                        "field": "demo_num_indv",
+                        "tresholds": [
+                            300,
+                            600
+                        ]
+                    }
+                ]
+            },
+            "additionalFiltersDescription": [
+                {
+                    "field": "cccm_shelter__mangmt",
+                    "name": {
+                        "en": "Manage by",
+                        "bn": "দ্বারা পরিচালনা করুন"
+                    }
+                }
+            ],
+            "indicators": {
+                "area": [
+                    {
+                        "type": "site_count"
+                    },
+                    {
+                        "type": "people_count",
+                        "entryCode": "demo_num_indv"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Number families",
+                            "bn": "সংখ্যা পরিবার"
+                        },
+                        "entryCode": "demo_num_hh",
+                        "iconOchaName": "People-targeted"
+                    }
+                ],
+                "site": [
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Number families",
+                            "bn": "সংখ্যা পরিবার"
+                        },
+                        "entryCode": "demo_num_hh",
+                        "iconOchaName": "People-targeted"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Number individuals",
+                            "bn": "সংখ্যা ব্যক্তি"
+                        },
+                        "entryCode": "demo_num_indv",
+                        "iconOchaName": "People-in-need"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Total Number of shelters",
+                            "bn": "আশ্রয়কেন্দ্রের মোট সংখ্যা"
+                        },
+                        "entryCode": "group_snfi/SNFI_12",
                         "iconOchaName": "Shelter"
                     }
                 ]
@@ -200,24 +428,15 @@
                         "name": "Upazila"
                     }
                 }
-            },
-            "inputDateFormat": "DD/MM/YYYY",
-                "displayDateFormat": "DD/MM/YYYY",
-                "listSeparator": ";",
-                "anonymousMode": "none",
-                "sitesMapVisualisation": [
-                    {
-                        "type": "populationCount",
-                        "field": "demo_num_indv"
-                    }
-                ]
+            }
         }
     ],
     "options": {
         "showCCCMLogo": false,
         "pdfColumnCount": 3,
-        "showDemoBanner": true,
+        "showDemoBanner": false,
         "exportAsCSVonHomePage": true,
-        "keepThematicOrderFromFDF": true
+        "keepThematicOrderFromFDF": true,
+        "mapLegendDisplayStyle": "default"
     }
 }

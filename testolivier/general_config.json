@@ -1,0 +1,284 @@
+{
+    "version": "v1.7",
+    "locale": {
+        "locales": [
+            "en",
+            "uk"
+        ],
+        "override": {
+            "en": {
+                "infosAdmins": {
+                    "admin1": "Oblast",
+                    "admin2": "Raion",
+                    "admin3": "Hromada"
+                },
+                "infosSite": "Site Pcode",
+                "indicator": {
+                    "siteCount": "Sites surveyed in CSM round",
+                    "peopleCount": "People residing in sites covered in CSM round"
+                }
+            },
+            "uk": {
+                "infosAdmins": {
+                    "admin1": "Область",
+                    "admin2": "Район",
+                    "admin3": "Громада"
+                },
+                "infosSite": "П-код МКП",
+                "indicator": {
+                    "siteCount": "Кількість MКП, які були досліджені під час моніторингу",
+                    "peopleCount": "Кількість ВПО у МКП, які були досліджені під час моніторингу"
+                },
+                "home": {
+                    "lastUpdate": "Останнє оновлення",
+                    "moreInfosTitle": "Більше інформації",
+                    "combosTitle": "Приблизити на карті",
+                    "exportToCSV": "Експорт поточної вибірки в CSV"
+                }
+            }
+        }
+    },
+    "textContent": {
+        "name": {
+            "en": "Ukraine",
+            "uk": "Україна"
+        },
+        "opsmapDescr": {
+            "en": "The Collective Sites Monitoring (CSM) site profile dashboard is an output of the CCCM cluster in Ukraine implemented with the technical support of the REACH Initiative. The profiles display site-level information collected by REACH, Neeka, Neemia, Proliska, R2P, Rokada, ACTED, TTA, Crimea SOS, NRC, UNHCR, and KIIS with the overall objective of strengthening the effectiveness of multi-sectorial interventions at site level. Information is collected through key informant interviews with site managers reflecting the latest two rounds of Collective Site Monitoring surveys. For further information, please visit the CCCM Cluster Ukraine website https://cccmcluster.org/operations/ukraine, or provide feedback to the cluster Coordinator Miranda Gaanderse at gaanders@unhcr.org or Information Management Officer at saifutdi@unhcr.org",
+            "uk": "Iнформаційна панель з профілювання місць колективного проживання ВПО є результатом роботи кластеру CCCM в Україні, що реалізується за технічної підтримки Ініціативи REACH. Профілі відображають інформацію на рівні окремих місць колективного проживання ВПО, зібрану REACH, Neeka, Neemia, Proliska, R2P, Rokada, ACTED, TTA, Крим SOS, NRC та КМІС із загальною метою посилення ефективності міжсекторальних втручань на рівні місць колективного проживання. Інформація збирається шляхом опитування ключових інформаторів з керівниками об’єктів, що відображає останні два раунди опитувань у рамках моніторингу місць колективного проживання ВПО. Для отримання додаткової інформації відвідайте веб-сайт Кластеру з питань управління та координації МКП в Україні https://cccmcluster.org/operations/ukraine або надішліть відгук на електронну адресу Координатора кластера (Міранда Гаандерсе) за адресою gaanders@unhcr.org або Спеціаліста з управління інформацією за адресою saifutdi@unhcr.org"
+        }
+    },
+    "iframe": {
+        "url": "https://reach-info.org/ukr/unhcr_cccm/",
+        "display": true
+    },
+    "footerLogos": [
+        {
+            "title": {
+                "en": "",
+                "uk": ""
+            },
+            "logos": [
+                {
+                    "name": "ACTED",
+                    "urlLogo": "Logo/acted.png",
+                    "urlRedirection": "https://www.acted.org/en/"
+                },
+                {
+                    "name": "CartONG",
+                    "urlLogo": "Logo/CartONG_logo_long_0_0_0.png",
+                    "urlRedirection": "https://www.cartong.org"
+                },
+                {
+                    "name": "CCCM cluster in Ukraine",
+                    "urlLogo": "Logo/cccm.png",
+                    "urlRedirection": "https://cccmcluster.org/operations/ukraine"
+                },
+                {
+                    "name": "Crimea SOS",
+                    "urlLogo": "Logo/Crimea_SOS.png",
+                    "urlRedirection": "https://krymsos.com/en/"
+                },
+                {
+                    "name": "KIIS",
+                    "urlLogo": "Logo/kiis.png",
+                    "urlRedirection": "https://www.kiis.com.ua/?lang=eng"
+                },
+                {
+                    "name": "IOM",
+                    "urlLogo": "Logo/iom.png",
+                    "urlRedirection": "https://ukraine.iom.int/"
+                },
+                {
+                    "name": "Neeka",
+                    "urlLogo": "Logo/neeka.png",
+                    "urlRedirection": "http://new.neeka.org/"
+                },
+                {
+                    "name": "Nehemia",
+                    "urlLogo": "Logo/nehemia.png",
+                    "urlRedirection": "https://nehemia-team.org/"
+                },
+                {
+                    "name": "NRC",
+                    "urlLogo": "Logo/nrc.png",
+                    "urlRedirection": "https://www.nrc.no/"
+                },
+                {
+                    "name": "Ombudsman of Ukraine",
+                    "urlLogo": "Logo/ombudsman.png",
+                    "urlRedirection": "https://www.ombudsman.gov.ua/"
+                },
+                {
+                    "name": "Proliska",
+                    "urlLogo": "Logo/proliska.png",
+                    "urlRedirection": "https://proliska.org/en/"
+                },
+                {
+                    "name": "REACH Initiative",
+                    "urlLogo": "Logo/reach.png",
+                    "urlRedirection": "https://www.reach-initiative.org/"
+                },
+                {
+                    "name": "Rokada",
+                    "urlLogo": "Logo/rokada.png",
+                    "urlRedirection": "https://www.rokada-group.com/"
+                },
+                {
+                    "name": "R2P",
+                    "urlLogo": "Logo/r2p.png",
+                    "urlRedirection": "https://www.globalr2p.org/"
+                },
+                {
+                    "name": "TTA",
+                    "urlLogo": "Logo/tta.png",
+                    "urlRedirection": "https://civitta.com/"
+                },
+                {
+                    "name": "UNHCR",
+                    "urlLogo": "Logo/unhcr.png",
+                    "urlRedirection": "https://www.unhcr.org/ua"
+                }
+            ]
+        }
+    ],
+    "spatial": {
+        "mapConfig": {
+            "bounds": [
+                43.74,
+                52.7,
+                20.9,
+                42.97
+            ]
+        },
+        "dbConfig": {
+            "admin1": "adm1_source_code",
+            "admin2": "adm2_source_code"
+        },
+        "adminLevels": [
+            "admin1",
+            "admin2",
+            "admin3"
+        ],
+        "adminLevelsMap": [
+            "admin1",
+            "admin2"
+        ]
+    },
+    "surveys": [
+        {
+            "type": "gsheet",
+            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBmbKAnHKCbcUedyc4xtDvtio-BHnTgPDgaKD-jFlHbrfBOrr4yxtJF9zBvWVgglJs9g9oMeQ7rys6/pub?gid=1300856791&single=true&output=csv",
+            "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBmbKAnHKCbcUedyc4xtDvtio-BHnTgPDgaKD-jFlHbrfBOrr4yxtJF9zBvWVgglJs9g9oMeQ7rys6/pub?gid=1362757150&single=true&output=csv",
+            "options": {
+                "anonymousMode": "text",
+                "siteZoomMode": "admin",
+                "listSeparator": ";",
+                "sitesMapVisualisation": [
+                    {
+                        "type": "populationCount",
+                        "field": "site_individuals"
+                    }
+                ]
+            },
+            "additionalFiltersDescription": [
+                {
+                    "field": "round",
+                    "name": {
+                        "en": "Round",
+                        "uk": "Раунд"
+                    }
+                },
+                {
+                    "field": "settlement_name",
+                    "name": {
+                        "en": "Settlement",
+                        "uk": "Населений пункт"
+                    },
+                    "afterAdminFilters": true
+                }
+            ],
+            "spatial": {
+                "siteFields": {
+                    "id": "site_pcode_updated",
+                    "lastUpdate": "date_assessment",
+                    "latitude": "latitude",
+                    "longitude": "longitude",
+                    "manageBy": "organization_manages_2",
+                    "name": "site_pcode_updated",
+                    "type": "site_type"
+                },
+                "admins": {
+                    "admin1": {
+                        "pcode": "oblast",
+                        "name": "strata"
+                    },
+                    "admin2": {
+                        "pcode": "raion",
+                        "name": "raion_name"
+                    },
+                    "admin3": {
+                        "pcode": "hromada",
+                        "name": "hromada_name"
+                    }
+                }
+            },
+            "indicators": {
+                "area": [
+                    {
+                        "type": "site_count"
+                    },
+                    {
+                        "type": "people_count",
+                        "entryCode": "site_individuals"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Total people who can be hosted in sites covered in CSM round",
+                            "uk": "Місткість МКП, які були досліджені під час моніторингу"
+                        },
+                        "entryCode": "people_can_hosted_number",
+                        "iconOchaName": "Camp-Coordination-and-Camp-Management"
+                    }
+                ],
+                "site": [
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Site active?",
+                            "uk": "Чи активне MКП?"
+                        },
+                        "entryCode": "site_active",
+                        "iconOchaName": "Selected"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Type of building",
+                            "uk": "Тип будівлі"
+                        },
+                        "entryCode": "building_type",
+                        "iconOchaName": "Building"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Individuals",
+                            "uk": "Кількість осіб, розміщених в МКП"
+                        },
+                        "entryCode": "site_individuals",
+                        "iconOchaName": "People-in-need"
+                    }
+                ]
+            }
+        }
+    ],
+    "options": {
+        "showCCCMLogo": false,
+        "pdfColumnCount": 3,
+        "showDemoBanner": true,
+        "exportAsCSVonHomePage": true,
+        "keepThematicOrderFromFDF": true
+    }
+}

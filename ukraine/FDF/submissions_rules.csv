@@ -302,9 +302,9 @@ _submitted_by;string;group_general_info;;;;hide;;
 __version__;string;group_general_info;;;;hide;;
 _index;string;group_general_info;;;;hide;;
 strata;string;group_general_info;;;;;;oblast2_opt
-raion_name;string;group_general_info;;;;;;raion_opt
-hromada_name;string;group_general_info;;;;;;hromada_opt
-settlement_name;string;group_general_info;;;;;;settlement_opt
+raion_name;list;group_general_info;;;;;;raion_opt
+hromada_name;list;group_general_info;;;;;;hromada_opt
+settlement_name;list;group_general_info;;;;;;settlement_opt
 Hub;list;group_general_info;;;;;;hub_opt
 admin4ClassType_1;list;group_general_info;;;;;;admin4ClassType_1_opt
 site_pcode_updated;string;group_general_info;;;;;;

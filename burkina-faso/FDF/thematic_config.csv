@@ -1,5 +1,7 @@
 formatted_name;icon_file_name;traffic_light_name;thematic_label_en;thematic_label_fr
 group_general_info;About;;General;Généralité
+group_besoin;Needs-assessment;mean;Needs;Besoins
+group_acces_service;Analysis;mean;Access to services;Accès aux services
 group_cccm;Camp-Coordination-and-Camp-Management;;Temporary Shelter Sites Management;Gestion des Sites d'Accueil Temporaires (GSAT)
 group_demo;People-in-need;;Demographic distribution;Démographie
 group_shelternfi;Shelter;;Shelter - NFI;Abris - NFI

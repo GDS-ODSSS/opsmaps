@@ -1,9 +1,8 @@
 {
-    "version": "v1.5",
+    "version": "v1.7",
     "locale": {
         "locales": [
-            "en",
-            "uk"
+            "en"
         ],
         "override": {
             "en": {
@@ -168,9 +167,9 @@
     "surveys": [
         {
             "type": "ridl",
-            "name": "UA_DATA_Round9_10",
-            "submissionsUrl": "data/UKR_Round_9_10_MA.xlsx",
-            "submissionsTrUrl": "data/UKR_Round_9_10_Trans_MA.xlsx",
+            "name": "UKR_Round_9_10",
+            "submissionsUrl": "data/UKR_Round_9_10_Dec.xlsx",
+            "submissionsTrUrl": "data/UKR_Round_9_10_Trans_Dec.xlsx",
             "options": {
                 "anonymousMode": "text",
                 "siteZoomMode": "admin",

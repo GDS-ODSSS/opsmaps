@@ -161,3 +161,22 @@ education_need;Education Severity score;Dhibcaha darnaanta waxbarashada
 wash_need;WASH Severity Score;Dhibcaha darnaanta nadaafadda
 protection_need;Protection Severity Score;Dhibcaha darnaanta ilaalinta
 hlp_need;Eviction Likelyhood Score;Dhibcaha Suuragalnimada Ka saarida Dhibcaha Kala hormarinta
+receive_new_idp;Receive new idp;Hel idp cusub
+newly_dislaced_prop;Newly dislaced prop;Mashiin cusub oo la furay
+preferred_future_settlement;Preferred future settlement;dejinta mustaqbalka ee la door biday
+contigency_plan;Does the site have contingency plans developed;Goobtu ma leedahay qorshayaal kadis ah oo la sameeyay
+nfi_access_dist_min_int;How long does it take for MOST residents of the site to reach the nearest market where Non-Food Items and/or construction materials can be purchased using regular mode of transport;Intee in le'eg ayay ku qaadataa inta badan dadka deggan goobta inay gaaraan suuqa ugu dhow halkaas oo Alaabooyinka Aan Cuntada ahayn iyo/ama qalabka dhismaha laga iibsan karo iyadoo la isticmaalayo habka caadiga ah ee gaadiidka
+shelter_access_impediments;Are there population groups facing barriers to accessing shelter construction materials in markets?;Ma jiraan kooxo dadwayne ah oo wajahaya caqabado si ay u helaan agabka dhismaha hoyga ee suuqyada?
+employed_sector;Proportion of site residents employed in the formal or informal labour sectors ;Saamiga dadka degan goobta ee ka shaqeeya waaxaha shaqada ee rasmiga ah ama aan rasmiga ahayn
+primary_profession;Primary profession of MOST members of the site? ;Xirfadda aasaasiga ah ee xubnaha BADAN ee goobta?
+sustainable_income;Proportion of the site’s population relied primarily on sustainable income sources over the last 30 days;Saamiga dadka goobtu waxa ay ugu horayn ku tiirsanaayeen ilo dakhli oo waara 30kii maalmood ee la soo dhaafay
+agriculture_cultivation;Is there land available to residents in this site for agriculture / cultivation purposes?;Ma jiraa dhul ay heli karaan dadka degan goobtan ujeeddooyin beero/beerasho?
+income_generating;Proportion of residents involved in production or income generating activities like fishing, livestock, agriculture, small trading.;Qaybta dadka deegaanka ee ku lug leh wax soo saarka ama hawlaha dakhli-abuurka sida kalluumaysiga, xoolaha, beeraha, ganacsiga yaryar.
+barriers_access_food;Proportion of residents facing barriers to access enough food in the settlement owing to social and cultural causes: due gender, disability, marginalization, minority affiliation ;Tirada dadka deegaanka oo wajahaya caqabado si ay u helaan cunto ku filan deegaanka iyadoo ay ugu wacan tahay arrimaha bulshada iyo dhaqanka: jinsiga saxda ah, naafanimada, takoorid, ku xirnaanta dadka laga tirada badan yahay
+received_aid;Proportion of residents in the site that have received humanitarian food assistance (in-kind, cash, or vouchers);Tirada dadka degan goobta ee helay gargaarka cuntada bini'aadantinimo (nooc, lacag caddaan ah, ama foojarro)
+obtained_monetary;proportion of the site’s population obtained a monetary/financial loan (from financial institution or friends or families or neighbours) to cover basic expenses in the last 12 months;saamiga dadweynaha goobta ayaa helay amaah lacageed/amaah lacageed (laga bilaabo hay'ad maaliyadeed ama saaxiibo ama qoysaska ama deriska) si ay u daboosho kharashyada aasaasiga ah 12kii bilood ee la soo dhaafay
+target_victims;Primary targets or victims of protection incidents;Bartilmaameedyada aasaasiga ah ama dhibanayaasha shilalka ilaalinta
+protection_incidents_place;Where do such incidents typically occur?;Halkee ayay caadiyan dhacdooyinkan oo kale ka dhacaan?
+additional_idp_index;Additional IDP index;Tilmaamaha IDP ee dheeraadka ah
+birth_cert;Proportion of the site’s population is currently in possession of valid birth certificates, national ID cards, or other personal identification document;Saamiga dadka goobta ayaa hadda haysta shahaadooyin dhalasho oo ansax ah, kaararka aqoonsiga qaranka, ama dukumeenti kale oo shaqsi
+replace_docs;Have MOST members of the site been able to replace their personal or other documentation since arriving in the settlement?;Inta badan xubnaha goobta miyay awoodeen inay beddelaan dukumeentigooda shakhsi ahaaneed ama kuwa kale tan iyo markii ay yimaadeen dejinta?

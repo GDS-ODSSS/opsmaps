@@ -1,9 +1,5 @@
 formatted_name;icon_file_name;traffic_light_name;thematic_label_en;thematic_label_bn;
 group_general_info;About;;General;সাধারণ
 group_demo;People-in-need;;Demographic distribution;ডেমোগ্রাফিক ডিস্ট্রিবিউশন
+group_education_cohort;Education;;Education cohorts;শিক্ষা দল
 Specific_Groups;Elderly;;Vulnerable population;ঝুঁকিপূর্ণ জনসংখ্যা
-group_health;Health;;Health;স্বাস্থ্য
-group_fs;Food-Security;;Food security;খাদ্য নিরাপত্তা
-group_nutrition;Nutrition;;Nutrition;পুষ্টি
-group_shelternfi;Shelter;;Shelter - NFI;আশ্রয় - NFI
-group_protection;Protection;;Protection;সুরক্ষা

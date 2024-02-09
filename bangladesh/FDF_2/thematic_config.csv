@@ -1,0 +1,12 @@
+formatted_name;icon_file_name;traffic_light_name;thematic_label_en;thematic_label_bn
+group_general_info;About;;General information;সাধারণ জ্ঞাতব্য
+group_demo;People-in-need;;Demographic distribution;ডেমোগ্রাফিক ডিস্ট্রিবিউশন
+group_snfi;Shelter;;Shelter - NFI;আশ্রয় - NFI
+group_smsd;Spontaneous-site;;Camp Management;ক্যাম্প ব্যবস্থাপনা
+group_wash;Water-source;;Water, sanitation and hygiene;জল, স্যানিটেশন এবং স্বাস্থ্যবিধি
+group_health;Health;;Healthcare;স্বাস্থ্যসেবা
+group_food_security;Food-Security;;Food Security;খাদ্য নিরাপত্তা
+group_protection;Protection;;Protection & Information provision;সুরক্ষা এবং তথ্য বিধান
+group_nutrition;Nutrition;;Nutrition;পুষ্টি
+group_education;Education;;Education;শিক্ষা
+group_cwc;Community-engagement;;Communicating with Communities;সম্প্রদায়ের সাথে যোগাযোগ

@@ -18,7 +18,7 @@
             "type": "key_value",
             "values": {
                 "3_months": "red",
-                "1_month": "red",
+                "1_month": "darkred",
                 "6_months": "red",
                 "7_months_1_year": "red",
                 "1_2_year": "orange",
@@ -32,9 +32,9 @@
             "values": {
                 "low": "green",
                 "moderate_moderate": "orange",
-                "NC": "green",
-                "very_high": "red",
-                "pnta": "green"
+                "NC": "grey",
+                "very_high": "darkred",
+                "pnta": "grey"
             }
         },
         "latr_pwd": {
@@ -50,12 +50,12 @@
         "cccm_cfm": {
             "type": "key_value",
             "values": {
-                "none": "red",
-                "few": "orange",
-                "some": "orange",
-                "many": "green",
+                "none": "darkred",
+                "few": "red",
+                "some": "yellow",
+                "many": "orange",
                 "all": "green",
-                "NC": "red"
+                "NC": "grey"
             }
         },
         "water_sources_working": {
@@ -72,9 +72,9 @@
             "values": {
                 "less_15": "green",
                 "15_30": "orange",
-                "31_60": "orange",
-                "more_60": "red",
-                "NC": "red"
+                "31_60": "red",
+                "more_60": "darkred",
+                "NC": "grey"
             }
         },
         "sanitation_desludging": {
@@ -83,11 +83,11 @@
                 "no_desludging": "red",
                 "daily": "green",
                 "weekly": "green",
-                "1_3_months": "green",
+                "1_3_months": "yellow",
                 "4_6_months": "orange",
-                "1_2_years": "orange",
-                "more_2_years": "red",
-                "dnk": "red"
+                "1_2_years": "red",
+                "more_2_years": "darkred",
+                "dnk": "grey"
             }
         },
         "adeqaute_health_men": {
@@ -97,8 +97,8 @@
                 "few": "orange",
                 "some": "orange",
                 "many": "red",
-                "all": "red",
-                "NC": "green"
+                "all": "darkred",
+                "NC": "grey"
             }
         },
         "type_agreement": {
@@ -106,7 +106,7 @@
             "values": {
                 "oral": "orange",
                 "written": "green",
-                "dnk": "red"
+                "dnk": "grey"
             }
         },
         "sanitation": {
@@ -160,6 +160,34 @@
                 "cannot_at_all": "green",
                 "lot_difficulty": "red",
                 "NC": "grey"
+            }
+        },
+        "nfi_access_dist_min_int": {
+            "type": "math",
+            "values": {
+                "x<=15": "green",
+                "x>15 and x<=30": "yellow",
+                "x>30 and x<=45": "orange",
+                "x>45": "red"
+            }
+        },
+        "lattrines": {
+            "type": "key_value",
+            "values": {
+                "none": "red",
+                "protacted_standard": "green",
+                "1st_phase_emergency_standard": "green",
+                "2nd_phase_emergency_standard": "green",
+                "below_standards": "orange"
+            }
+        },
+        "contigency_plan": {
+            "type": "key_value",
+            "values": {
+                "yes_floods": "green",
+                "yes_fires": "green",
+                "spontaneous_arrivals_returns": "green",
+                "no_contigency": "red"
             }
         }
     }

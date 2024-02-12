@@ -48,7 +48,7 @@ idps_pay_utility_bills_yn;list;group_site_management;;;;hide;;yn_opt
 idps_pay_utility_bills;integer;group_site_management;;;;;;
 feedback_mechanism;bullet;group_protection;mechanism_opt;;;;;mechanism_opt
 feedback_mechanism_other;string;group_protection;;;;;;
-administration_training;bullet;group_protection;administration_training_opt;;;;;administration_training_opt
+administration_training;bullet;group_protection;;;;;;administration_training_opt
 administration_training_other;string;group_protection;;;;;;
 data_availability;bullet;group_protection;;;;;;data_availability_opt
 gbv_report;list;group_protection;yesnosure;;;;;ynn_opt
@@ -321,8 +321,8 @@ settlement_name;list;group_general_info;;;;;;settlement2_opt
 Hub;list;group_general_info;;;;;;hub_opt
 admin4ClassType_1;list;group_general_info;;;;;;admin4ClassType_1_opt
 site_pcode_updated;list;group_general_info;;;;;;site_pcode_updated_opt
-site_name_eng;list;group_general_info;;;;;;site_name_eng_opt
-site_address_ukr;list;group_general_info;;;;;;site_address_ukr_opt
+site_name_eng;list;group_general_info;;;;hide;;site_name_eng_opt
+site_address_ukr;list;group_general_info;;;;hide;;site_address_ukr_opt
 site_address_eng;list;group_general_info;;;;;;site_address_eng_opt
 latitude;integer;group_general_info;;;;hide;;
 longitude;integer;group_general_info;;;;hide;;

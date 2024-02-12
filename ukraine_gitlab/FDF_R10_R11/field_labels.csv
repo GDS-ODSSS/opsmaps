@@ -248,7 +248,7 @@ sufficient_food_received_spices;Was the food received sufficient to answer the n
 sufficient_food_received_sweets;Was the food received sufficient to answer the needs of IDPs in the collective site? -{Sweets (sugar, candy, cookies)};Чи достатньо було отриманих продуктів харчування для задоволення потреб ВПО в МКП? -{Солодощі (цукор, цукерки, печиво)}
 sufficient_food_received_babyfood_puree;Was the food received sufficient to answer the needs of IDPs in the collective site? -{Babyfood - instant formula};Чи достатньо було отриманих продуктів харчування для задоволення потреб ВПО в МКП? -{Молочна суміш для дітей}
 sufficient_food_received_oth;Was the food received sufficient to answer the needs of IDPs in the collective site? -{Babyfood - puree};Чи достатньо було отриманих продуктів харчування для задоволення потреб ВПО в МКП? -{Дитячі пюре}
-types_nfi_need;Was the food received sufficient to answer the needs of IDPs in the collective site? - Other (*${e3_1_types_food_provided_other}*);Чи достатньо було отриманих продуктів харчування для задоволення потреб ВПО в МКП? - Other (*${e3_1_types_food_provided_other}*)
+types_nfi_need;What types of NFIs are needed in the collective site?;Які непродовольчі товари потрібні в МТП?
 types_nfi_need_other;Other (specify);Інше, уточніть
 furniture_need;What furniture NFIs are needed?;Які меблі потрібні?
 furniture_need_other;Other (specify);Інше, уточніть

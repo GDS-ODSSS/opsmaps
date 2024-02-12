@@ -110,7 +110,7 @@
     "surveys": [
         {
             "type": "gsheet",
-            "name": "Population",
+            "name": "Camp Basic Information",
             "fdf": {
                 "folder": "FDF"
             },
@@ -214,7 +214,7 @@
         },
         {
             "type": "gsheet",
-            "name": "Info & Service monitoring",
+            "name": "Service monitoring",
             "fdf": {
                 "folder": "FDF_2"
             },
@@ -303,115 +303,6 @@
                     "longitude": "longitude",
                     "manageBy": "cccm_shelter__mangmt",
                     "name": "group_general_question/camp",
-                    "type": "type"
-                },
-                "admins": {
-                    "admin1": {
-                        "pcode": "adm1_pcode",
-                        "name": "Division"
-                    },
-                    "admin2": {
-                        "pcode": "adm2_pcode",
-                        "name": "District"
-                    },
-                    "admin3": {
-                        "pcode": "adm3_pcode",
-                        "name": "Upazila"
-                    }
-                }
-            }
-        },
-        {
-            "type": "gsheet",
-            "name": "Contact",
-            "fdf": {
-                "folder": "FDF_contact"
-            },
-            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR1FjIohCvSE6Hk9YV4kS0rK_7YW5t7JjrkSy9WXW5gvomwrE8avGhKwKTKA5YbPj3_PBWZ0rRhmaH/pub?gid=1894791392&single=true&output=csv",
-            "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR1FjIohCvSE6Hk9YV4kS0rK_7YW5t7JjrkSy9WXW5gvomwrE8avGhKwKTKA5YbPj3_PBWZ0rRhmaH/pub?gid=236996970&single=true&output=csv",
-            "options": {
-                "inputDateFormat": "DD/MM/YYYY",
-                "displayDateFormat": "DD/MM/YYYY",
-                "listSeparator": ";",
-                "anonymousMode": "none",
-                "siteZoomMode": "site",
-                "sitesMapVisualisation": [
-                    {
-                        "type": "populationCount",
-                        "field": "demo_num_indv",
-                        "tresholds": [
-                            300,
-                            600
-                        ]
-                    }
-                ]
-            },
-            "additionalFiltersDescription": [
-                {
-                    "field": "cccm_shelter__mangmt",
-                    "name": {
-                        "en": "Manage by",
-                        "bn": "দ্বারা পরিচালনা করুন"
-                    }
-                }
-            ],
-            "indicators": {
-                "area": [
-                    {
-                        "type": "site_count"
-                    },
-                    {
-                        "type": "people_count",
-                        "entryCode": "demo_num_indv"
-                    },
-                    {
-                        "type": "standard",
-                        "name": {
-                            "en": "Number families",
-                            "bn": "সংখ্যা পরিবার"
-                        },
-                        "entryCode": "demo_num_hh",
-                        "iconOchaName": "People-targeted"
-                    }
-                ],
-                "site": [
-                    {
-                        "type": "standard",
-                        "name": {
-                            "en": "Number families",
-                            "bn": "সংখ্যা পরিবার"
-                        },
-                        "entryCode": "demo_num_hh",
-                        "iconOchaName": "People-targeted"
-                    },
-                    {
-                        "type": "standard",
-                        "name": {
-                            "en": "Number individuals",
-                            "bn": "সংখ্যা ব্যক্তি"
-                        },
-                        "entryCode": "demo_num_indv",
-                        "iconOchaName": "People-in-need"
-                    },
-                    {
-                        "type": "standard",
-                        "name": {
-                            "en": "Total Number of shelters",
-                            "bn": "আশ্রয়কেন্দ্রের মোট সংখ্যা"
-                        },
-                        "entryCode": "group_snfi/SNFI_12",
-                        "iconOchaName": "Shelter"
-                    }
-                ]
-            },
-            "spatial": {
-                "siteFields": {
-                    "id": "site_id",
-                    "lastUpdate": "last_update",
-                    "latitude": "latitude",
-                    "longitude": "longitude",
-                    "manageBy": "cccm_shelter__mangmt",
-                    "name": "site_name",
                     "type": "type"
                 },
                 "admins": {

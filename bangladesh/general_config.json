@@ -21,7 +21,7 @@
         ],
         "override": {
             "en": {
-                "title": "Camp profile",
+                "title": "Service Monitoring",
                 "infosSite": "Camp",
                 "infosAdmins": {
                     "admin1": "Division",

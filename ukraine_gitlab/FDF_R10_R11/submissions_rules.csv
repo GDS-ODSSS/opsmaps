@@ -231,7 +231,7 @@ waste_disposal_capacity;list;group_wash;yesnosure;;;;;ynd_opt
 garbage_bins_radius_50;list;group_wash;yesnodont;;;;;ynd_opt
 access_food;bullet;group_food_security;;;;;;food_access_opt
 access_food_other;string;group_food_security;;;;;;
-food_products_needs;string;group_food_security;ypn_opt;;;;;food_products_needs_opt
+food_products_needs;string;group_food_security;food_products_needs_opt;;;;;food_products_needs_opt
 food_products_type;bullet;group_food_security;;;;;;food_opt
 top_3_food_products_needs;bullet;group_food_security;;;;;;food_opt
 types_food_provided;bullet;group_food_security;;;;;;food_support_opt

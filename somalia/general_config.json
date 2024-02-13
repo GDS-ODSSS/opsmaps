@@ -180,5 +180,13 @@
                 ]
             }
         }
-    ]
+    ],
+    "options": {
+        "showCCCMLogo": false,
+        "pdfColumnCount": 3,
+        "showDemoBanner": false,
+        "exportAsCSVonHomePage": true,
+        "keepThematicOrderFromFDF": true,
+        "mapLegendDisplayStyle": "default"
+    }
 }

@@ -129,7 +129,7 @@ nutrition_need;integer;group_score;score;;;
 nutrition_distributions;bullet;group_nutrition;;;;
 nutrition_access_distance_min;list;group_nutrition;water_access_distance_min;;;hide
 nutrition_services;bullet;group_nutrition;;;;
-nutrition_need;integer;group_nutrition;score;;;
+nutrition_need;integer;group_nutrition;score;;;hide
 education_need;integer;group_score;score;;;
 education_facilities;bullet;group_education;;;;
 education_facilities_furniture;list;group_education;cccm_cfm;;;

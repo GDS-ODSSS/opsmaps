@@ -1,0 +1,15 @@
+formatted_name;icon_file_name;traffic_light_name;thematic_label_en;thematic_label_so
+group_general_info;About;;General;Guud
+group_score;Needs-assessment;mean;Vulnerability score;Dhibcaha nuglaanta
+group_demo;People-in-need;mean;Demographic distribution;Qaybinta dadka
+group_cccm;Camp-Coordination-and-Camp-Management;mean;Camp Coordination and Camp Management;Isku-dubbaridka Xerada iyo Maamulka Xerada
+group_shelternfi;Shelter;mean;Shelter - NFI;Hoyga - NFI
+group_wash;Water-Sanitation-and-Hygiene;mean;Water, sanitation and hygiene;Biyo, fayadhowr iyo nadaafad
+group_fs;Food-Security;mean;Food Security;Sugnaanta Cuntada
+group_health;Health;mean;Health;Caafimaadka Caafimaadka
+group_education;Education;mean;Education;Waxbarashada
+group_vulpop;Elderly;mean;Vulnerable population;Waayeel
+group_displacement;Deployment;mean;Displacement;Shaqaalaysiinta
+group_protection;Protection;mean;Protection;Ilaalinta
+group_nutrition;Nutrition;mean;Nutrition;Nafaqada
+group_com;Public-information;mean;Communication;Isgaarsiinta

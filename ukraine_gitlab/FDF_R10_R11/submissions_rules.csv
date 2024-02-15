@@ -124,7 +124,7 @@ square_meters_per_person;list;group_shelter;square_meters_per_person;;;;;square_
 sleeping_in_common_use;list;group_shelter;noyesdont;;;;;ynd_opt
 gender_individual_zones;list;group_shelter;yesnodont;;;;;individual_zones_opt
 evacuation_plan;list;group_protection;yesnodont;;;;;ynd_opt
-fire_extinguishers;list;group_protection;;;;;;fire_extinguishers_opt
+fire_extinguishers;list;group_protection;fire_extinguishers_opt;;;;;fire_extinguishers_opt
 lockers;list;group_shelter;lockers_opt;;;;;lockers_opt
 conditions_site;list;group_shelter;;;;;;conditions_site_opt
 shelter_concerns_or_needs;bullet;group_shelter;;;;hide;;shelter_concerns_or_needs_opt
@@ -204,9 +204,9 @@ bathing_facilities;list;group_wash;yesnosure;;;;;ynn_opt
 distance_to_bathing_facilities;list;group_wash;;;;;;ynd_opt
 number_showers_yn;list;group_wash;;;;hide;;yn_opt
 number_showers;integer;group_wash;number_showers;;;;;
-shower_facilities_private;list;group_wash;ypn_opt;;;;;shower_facilities_private_opt
-shower_gender;list;group_wash;ypn_opt;;;;;shower_gender_opt
-shower_hot_water;list;group_wash;ypn_opt;;;;;shower_hot_water_opt
+shower_facilities_private;list;group_wash;shower_facilities_private_opt;;;;;shower_facilities_private_opt
+shower_gender;list;group_wash;shower_gender_opt;;;;;shower_gender_opt
+shower_hot_water;list;group_wash;shower_hot_water_opt;;;;;shower_hot_water_opt
 disability_showers;list;group_wash;yesnosure;;;;;ynn_opt
 number_disability_showers_yn;list;group_wash;;;;hide;;yn_opt
 number_disability_showers;integer;group_wash;;;;;;

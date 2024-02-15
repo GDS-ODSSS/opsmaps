@@ -301,9 +301,9 @@
             "toilet_private_opt": {
                 "type": "key_value",
                 "values": {
-                    "yes": "green",
+                    "yes_completely_toilets_are_fully_enclosed": "green",
                     "no_partially": "orange",
-                    "no": "red"
+                    "no_multiple_toilets": "red"
                 }
             },
             "social_activity_opt": {
@@ -373,8 +373,8 @@
             "food_products_needs_opt": {
                 "type": "key_value",
                 "values": {
-                    "yes": "red",
-                    "partially": "orange",
+                    "yes_extreme_need": "red",
+                    "partially_need": "orange",
                     "no": "green",
                     "not_sure": "orange"
                 }
@@ -436,6 +436,41 @@
                     "yes": "red",
                     "partially": "orange",
                     "no": "green",
+                    "dont_know": "red"
+                }
+            },
+            "shower_facilities_private_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes_completely_bathing_facilities_are_fully_enclosed": "green",
+                    "no_partially": "orange",
+                    "no_multiple_showers": "red"
+                }
+            },
+            "shower_gender_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes": "green",
+                    "partially_not_all": "orange",
+                    "no": "red",
+                    "not_sure": "red"
+                }
+            },
+            "shower_hot_water_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes": "green",
+                    "partially_not_available_everywhere": "orange",
+                    "no": "red",
+                    "not_sure": "red"
+                }
+            },
+            "fire_extinguishers_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes_sufficient_number": "green",
+                    "yes_but_insufficient": "orange",
+                    "no": "red",
                     "dont_know": "red"
                 }
             }

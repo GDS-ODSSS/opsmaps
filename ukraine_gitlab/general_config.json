@@ -2,8 +2,7 @@
     "version": "v1.8.1",
     "locale": {
         "locales": [
-            "en",
-            "uk"
+            "en"
         ],
         "override": {
             "en": {

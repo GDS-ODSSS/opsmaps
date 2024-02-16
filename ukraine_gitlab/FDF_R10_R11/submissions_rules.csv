@@ -156,7 +156,7 @@ winterization_needs;bullet;group_winterization;;;;hide;;winterization_needs_opt
 winterization_needs_other;string;group_winterization;;;;hide;;
 top_3_winterization_needs;bullet;group_winterization;;;;;;winterization_needs_opt
 top_3_winterization_needs_other;string;group_winterization;;;;;;
-winterization_support;bullet;group_winterization;winterization_support_opt;;;;;winterization_support_opt
+winterization_support;bullet;group_winterization;;;;;;winterization_support_opt
 winterization_support_other;string;group_winterization;;;;;;
 sufficient_winterization_support_restoration_heating_system;string;group_winterization;ypn_opt;;;hide;;ypn_opt
 sufficient_winterization_support_repair_heating_system;string;group_winterization;ypn_opt;;;hide;;ypn_opt

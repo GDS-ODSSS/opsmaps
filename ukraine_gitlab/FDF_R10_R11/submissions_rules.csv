@@ -304,7 +304,7 @@ reachable_by_ambulance;list;group_healthcare;yesnodont;;;;;ynd_opt
 first_aid;list;group_healthcare;yesnosure;;;;;ynn_opt
 access_education;list;group_public_services;access_education_opt;;;;;access_education_opt
 mode_of_education;list;group_public_services;;;;;;mode_of_education_opt
-barriers_access_education;bullet;group_public_services;barriers_access_education_opt;;;;;barriers_access_education_opt
+barriers_access_education;bullet;group_public_services;;;;;;barriers_access_education_opt
 barriers_access_education_other;string;group_public_services;;;;;;
 prevented_access_education;list;group_public_services;prevented_access_education_opt;;;;;prevented_access_education_opt
 _id;integer;group_general_info;;;;hide;;

@@ -280,7 +280,7 @@
     "options": {
         "showCCCMLogo": false,
         "pdfColumnCount": 3,
-        "showDemoBanner": true,
+        "showDemoBanner": false,
         "exportAsCSVonHomePage": true,
         "keepThematicOrderFromFDF": true
     }

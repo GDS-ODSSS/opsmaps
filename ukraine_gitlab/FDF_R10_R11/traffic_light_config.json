@@ -188,21 +188,14 @@
         "period_opt": {
             "type": "key_value",
             "values": {
-                "Up to 1 month": "orange",
-                "Up to 3 months": "orange",
-                "up_3_months": "orange",
-                "Up to 6 months": "orange",
-                "up_6_months": "orange",
-                "Up to 9 months": "red",
-                "up_9_months": "red",
-                "Up to 1 year": "red",
-                "up_1_year": "red",
-                "Up to 1,5 year": "red",
-                "up_1_year_and_half": "red",
                 "no_hosted_idps_yet": "green",
-                "up_1_year_and_3_months": "red",
-                "less_month": "orange",
-                "other": "orange"
+                "up_to_1_month": "orange",
+                "up_to_3_months": "orange",
+                "up_to_6_months": "orange",
+                "up_to_9_months": "red",
+                "up_to_1_year": "red",
+                "up_to_1_5_year": "red",
+                "more_than_1_5_year": "red"
             }
         },
         "yndr_opt": {
@@ -299,9 +292,9 @@
             "toilet_private_opt": {
                 "type": "key_value",
                 "values": {
-                    "yes": "green",
+                    "yes_completely_toilets_are_fully_enclosed": "green",
                     "no_partially": "orange",
-                    "no": "red"
+                    "no_multiple_toilets": "red"
                 }
             },
             "social_activity_opt": {
@@ -371,8 +364,8 @@
             "food_products_needs_opt": {
                 "type": "key_value",
                 "values": {
-                    "yes": "red",
-                    "partially": "orange",
+                    "yes_extreme_need": "red",
+                    "partially_need": "orange",
                     "no": "green",
                     "not_sure": "orange"
                 }
@@ -434,6 +427,41 @@
                     "yes": "red",
                     "partially": "orange",
                     "no": "green",
+                    "dont_know": "red"
+                }
+            },
+            "shower_facilities_private_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes_completely_bathing_facilities_are_fully_enclosed": "green",
+                    "no_partially": "orange",
+                    "no_multiple_showers": "red"
+                }
+            },
+            "shower_gender_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes": "green",
+                    "partially_not_all": "orange",
+                    "no": "red",
+                    "not_sure": "red"
+                }
+            },
+            "shower_hot_water_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes": "green",
+                    "partially_not_available_everywhere": "orange",
+                    "no": "red",
+                    "not_sure": "red"
+                }
+            },
+            "fire_extinguishers_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes_sufficient_number": "green",
+                    "yes_but_insufficient": "orange",
+                    "no": "red",
                     "dont_know": "red"
                 }
             }

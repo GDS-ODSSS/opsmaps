@@ -1,0 +1,194 @@
+{
+    "trafficLights": {
+        "yesno": {
+            "type": "key_value",
+            "values": {
+                "yes": "green",
+                "no": "red"
+            }
+        },
+        "noyes": {
+            "type": "key_value",
+            "values": {
+                "yes": "red",
+                "no": "green"
+            }
+        },
+        "eviction": {
+            "type": "key_value",
+            "values": {
+                "3_months": "red",
+                "1_month": "darkred",
+                "6_months": "red",
+                "7_months_1_year": "red",
+                "1_2_year": "orange",
+                "no_renewal": "green",
+                "more_2_years": "green",
+                "dnk": "green"
+            }
+        },
+        "eviction_risk": {
+            "type": "key_value",
+            "values": {
+                "low": "green",
+                "moderate_moderate": "orange",
+                "NC": "grey",
+                "very_high": "darkred",
+                "pnta": "grey"
+            }
+        },
+        "latr_pwd": {
+            "type": "key_value",
+            "values": {
+                "all": "green",
+                "many": "yellow",
+                "some": "orange",
+                "few": "red",
+                "none": "darkred"
+            }
+        },
+        "cccm_cfm": {
+            "type": "key_value",
+            "values": {
+                "none": "darkred",
+                "few": "red",
+                "some": "yellow",
+                "many": "orange",
+                "all": "green",
+                "NC": "grey"
+            }
+        },
+        "water_sources_working": {
+            "type": "key_value",
+            "values": {
+                "none": "red",
+                "some": "orange",
+                "few": "orange",
+                "many": "green"
+            }
+        },
+        "water_access_distance_min": {
+            "type": "key_value",
+            "values": {
+                "less_15": "green",
+                "15_30": "orange",
+                "31_60": "red",
+                "more_60": "darkred",
+                "NC": "grey"
+            }
+        },
+        "sanitation_desludging": {
+            "type": "key_value",
+            "values": {
+                "no_desludging": "red",
+                "daily": "green",
+                "weekly": "green",
+                "1_3_months": "yellow",
+                "4_6_months": "orange",
+                "1_2_years": "red",
+                "more_2_years": "darkred",
+                "dnk": "grey"
+            }
+        },
+        "adeqaute_health_men": {
+            "type": "key_value",
+            "values": {
+                "none": "green",
+                "few": "orange",
+                "some": "orange",
+                "many": "red",
+                "all": "darkred",
+                "NC": "grey"
+            }
+        },
+        "type_agreement": {
+            "type": "key_value",
+            "values": {
+                "oral": "orange",
+                "written": "green",
+                "dnk": "grey"
+            }
+        },
+        "sanitation": {
+            "type": "math",
+            "values": {
+                "x<=5": "red",
+                "x>5 and x<=10": "orange",
+                "x>10": "green"
+            }
+        },
+        "score_g": {
+            "type": "math",
+            "values": {
+                "x>=4": "red",
+                "x>2 and x<4": "orange",
+                "x>=2": "green"
+            }
+        },
+        "score": {
+            "type": "math",
+            "values": {
+                "x==2": "red",
+                "x==1": "orange",
+                "x==0": "green"
+            }
+        },
+        "water_sources_present": {
+            "type": "math",
+            "values": {
+                "x==0": "red",
+                "x>0 and x<=2": "orange",
+                "x>=2": "green"
+            }
+        },
+        "sickness": {
+            "type": "key_value",
+            "values": {
+                "none": "green",
+                "few": "green",
+                "some": "orange",
+                "many": "red",
+                "all": "darkred",
+                "NC": "grey"
+            }
+        },
+        "difficulty": {
+            "type": "key_value",
+            "values": {
+                "no_difficulty": "green",
+                "some_difficulty": "orange",
+                "cannot_at_all": "green",
+                "lot_difficulty": "red",
+                "NC": "grey"
+            }
+        },
+        "nfi_access_dist_min_int": {
+            "type": "math",
+            "values": {
+                "x<=15": "green",
+                "x>15 and x<=30": "yellow",
+                "x>30 and x<=45": "orange",
+                "x>45": "red"
+            }
+        },
+        "lattrines": {
+            "type": "key_value",
+            "values": {
+                "none": "red",
+                "protacted_standard": "green",
+                "1st_phase_emergency_standard": "green",
+                "2nd_phase_emergency_standard": "green",
+                "below_standards": "orange"
+            }
+        },
+        "contigency_plan": {
+            "type": "key_value",
+            "values": {
+                "yes_floods": "green",
+                "yes_fires": "green",
+                "spontaneous_arrivals_returns": "green",
+                "no_contigency": "red"
+            }
+        }
+    }
+}

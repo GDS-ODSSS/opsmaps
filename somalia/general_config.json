@@ -98,6 +98,10 @@
     "surveys": [
         {
             "type": "gsheet",
+            "name": "DSA VII",
+            "fdf": {
+                "folder": "FDF_DSA_VII"
+            },
             "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSq0vS3rj8y-Y3kHXsnxh150bD0SU7vPT_Dxiabd3IrniTcyD42R_HoduxuH-CDOGGdURFD8dXBeTil/pub?gid=0&single=true&output=csv",
             "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSq0vS3rj8y-Y3kHXsnxh150bD0SU7vPT_Dxiabd3IrniTcyD42R_HoduxuH-CDOGGdURFD8dXBeTil/pub?gid=1908543421&single=true&output=csv",
             "additionalFiltersDescription": [
@@ -179,6 +183,190 @@
                     }
                 ]
             }
+        },
+        {
+            "type": "gsheet",
+            "name": "DSA VI",
+            "fdf": {
+                "folder": "FDF_DSA_VI"
+            },
+            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSq0vS3rj8y-Y3kHXsnxh150bD0SU7vPT_Dxiabd3IrniTcyD42R_HoduxuH-CDOGGdURFD8dXBeTil/pub?gid=1417439956&single=true&output=csv",
+            "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSq0vS3rj8y-Y3kHXsnxh150bD0SU7vPT_Dxiabd3IrniTcyD42R_HoduxuH-CDOGGdURFD8dXBeTil/pub?gid=1908543421&single=true&output=csv",
+            "additionalFiltersDescription": [
+                {
+                    "field": "settlement_type",
+                    "name": {
+                        "en": "Settlement setting type",
+                        "so": "Nooca dejinta dejinta"
+                    }
+                }               
+            ],
+            "spatial": {
+                "siteFields": {
+                    "id": "idp_code",
+                    "lastUpdate": "last_update",
+                    "latitude": "gps_latitude",
+                    "longitude": "gps_longitude",
+                    "manageBy": "cccm_management",
+                    "name": "settlement_name",
+                    "type": "settlement_type"
+                },
+                "admins": {
+                    "admin1": {
+                        "pcode": "localisation_region",
+                        "name": "localisation_region_label"
+                    },
+                    "admin2": {
+                        "pcode": "district",
+                        "name": "localisation_district_label"
+                    }
+                }
+            },
+            "indicators": {
+                "area": [
+                    {
+                        "type": "site_count"
+                    },
+                    {
+                        "type": "people_count",
+                        "entryCode": "cccm_populationestimates_individuals"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "No. of Households",
+                            "so": "Tirada Qoyska"
+                        },
+                        "entryCode": "cccm_populationestimates_families",
+                        "iconOchaName": "Children"
+                    }
+                ],
+                "site": [
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Site type",
+                            "so": "Nooca goobta"
+                        },
+                        "entryCode": "settlement_type",
+                        "iconOchaName": "House-not-affected"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Access to a food market",
+                            "so": "Helitaanka suuqa cuntada"
+                        },
+                        "entryCode": "foodsecurity_access",
+                        "iconOchaName": "Food"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Site management",
+                            "so": "Maareynta goobta"
+                        },
+                        "entryCode": "cccm_management",
+                        "iconOchaName": "Missing"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "gsheet",
+            "name": "DSA V",
+            "fdf": {
+                "folder": "FDF_DSA_V"
+            },
+            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSq0vS3rj8y-Y3kHXsnxh150bD0SU7vPT_Dxiabd3IrniTcyD42R_HoduxuH-CDOGGdURFD8dXBeTil/pub?gid=1958738530&single=true&output=csv",
+            "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSq0vS3rj8y-Y3kHXsnxh150bD0SU7vPT_Dxiabd3IrniTcyD42R_HoduxuH-CDOGGdURFD8dXBeTil/pub?gid=1908543421&single=true&output=csv",
+            "additionalFiltersDescription": [
+                {
+                    "field": "settlement_type",
+                    "name": {
+                        "en": "Settlement setting type",
+                        "so": "Nooca dejinta dejinta"
+                    }
+                }               
+            ],
+            "spatial": {
+                "siteFields": {
+                    "id": "idp_code",
+                    "lastUpdate": "last_update",
+                    "latitude": "gps_latitude",
+                    "longitude": "gps_longitude",
+                    "manageBy": "cccm_management",
+                    "name": "settlement_name",
+                    "type": "settlement_type"
+                },
+                "admins": {
+                    "admin1": {
+                        "pcode": "localisation_region",
+                        "name": "localisation_region_label"
+                    },
+                    "admin2": {
+                        "pcode": "district",
+                        "name": "localisation_district_label"
+                    }
+                }
+            },
+            "indicators": {
+                "area": [
+                    {
+                        "type": "site_count"
+                    },
+                    {
+                        "type": "people_count",
+                        "entryCode": "cccm_populationestimates_individuals"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "No. of Households",
+                            "so": "Tirada Qoyska"
+                        },
+                        "entryCode": "cccm_populationestimates_families",
+                        "iconOchaName": "Children"
+                    }
+                ],
+                "site": [
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Site type",
+                            "so": "Nooca goobta"
+                        },
+                        "entryCode": "settlement_type",
+                        "iconOchaName": "House-not-affected"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Access to a food market",
+                            "so": "Helitaanka suuqa cuntada"
+                        },
+                        "entryCode": "foodsecurity_access",
+                        "iconOchaName": "Food"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Site management",
+                            "so": "Maareynta goobta"
+                        },
+                        "entryCode": "cccm_management",
+                        "iconOchaName": "Missing"
+                    }
+                ]
+            }
         }
-    ]
+    ],
+    "options": {
+        "showCCCMLogo": false,
+        "pdfColumnCount": 3,
+        "showDemoBanner": false,
+        "exportAsCSVonHomePage": true,
+        "keepThematicOrderFromFDF": true,
+        "mapLegendDisplayStyle": "default"
+    }
 }

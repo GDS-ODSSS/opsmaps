@@ -1,9 +1,8 @@
 {
-    "version": "v1.8",
+    "version": "v1.8.2",
     "locale": {
         "locales": [
-            "en",
-            "uk"
+            "en"
         ],
         "override": {
             "en": {
@@ -275,122 +274,12 @@
                     }
                 ]
             }
-        },
-        {
-            "type": "gsheet",
-            "name": "Round 9 -10",
-            "fdf": {
-                "folder": "FDF"
-            },
-            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBmbKAnHKCbcUedyc4xtDvtio-BHnTgPDgaKD-jFlHbrfBOrr4yxtJF9zBvWVgglJs9g9oMeQ7rys6/pub?gid=1300856791&single=true&output=csv",
-            "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBmbKAnHKCbcUedyc4xtDvtio-BHnTgPDgaKD-jFlHbrfBOrr4yxtJF9zBvWVgglJs9g9oMeQ7rys6/pub?gid=1362757150&single=true&output=csv",
-            "options": {
-                "anonymousMode": "text",
-                "siteZoomMode": "admin",
-                "listSeparator": ";",
-                "sitesMapVisualisation": [
-                    {
-                        "type": "populationCount",
-                        "field": "site_individuals"
-                    }
-                ]
-            },
-            "additionalFiltersDescription": [
-                {
-                    "field": "round",
-                    "name": {
-                        "en": "Round",
-                        "uk": "Раунд"
-                    }
-                },
-                {
-                    "field": "settlement_name",
-                    "name": {
-                        "en": "Settlement",
-                        "uk": "Населений пункт"
-                    }
-                }
-            ],
-            "spatial": {
-                "siteFields": {
-                    "id": "site_pcode_updated",
-                    "lastUpdate": "date_assessment",
-                    "latitude": "latitude",
-                    "longitude": "longitude",
-                    "manageBy": "organization_manages_2",
-                    "name": "site_pcode_updated",
-                    "type": "site_type"
-                },
-                "admins": {
-                    "admin1": {
-                        "pcode": "oblast",
-                        "name": "strata"
-                    },
-                    "admin2": {
-                        "pcode": "raion",
-                        "name": "raion_name"
-                    },
-                    "admin3": {
-                        "pcode": "hromada",
-                        "name": "hromada_name"
-                    }
-                }
-            },
-            "indicators": {
-                "area": [
-                    {
-                        "type": "site_count"
-                    },
-                    {
-                        "type": "people_count",
-                        "entryCode": "site_individuals"
-                    },
-                    {
-                        "type": "standard",
-                        "name": {
-                            "en": "Total people who can be hosted in sites covered in CSM round",
-                            "uk": "Місткість МКП, які були досліджені під час моніторингу"
-                        },
-                        "entryCode": "people_can_hosted_number",
-                        "iconOchaName": "Camp-Coordination-and-Camp-Management"
-                    }
-                ],
-                "site": [
-                    {
-                        "type": "standard",
-                        "name": {
-                            "en": "Site active?",
-                            "uk": "Чи активне MКП?"
-                        },
-                        "entryCode": "site_active",
-                        "iconOchaName": "Selected"
-                    },
-                    {
-                        "type": "standard",
-                        "name": {
-                            "en": "Type of building",
-                            "uk": "Тип будівлі"
-                        },
-                        "entryCode": "building_type",
-                        "iconOchaName": "Building"
-                    },
-                    {
-                        "type": "standard",
-                        "name": {
-                            "en": "Individuals",
-                            "uk": "Кількість осіб, розміщених в МКП"
-                        },
-                        "entryCode": "site_individuals",
-                        "iconOchaName": "People-in-need"
-                    }
-                ]
-            }
         }
     ],
     "options": {
         "showCCCMLogo": false,
         "pdfColumnCount": 3,
-        "showDemoBanner": true,
+        "showDemoBanner": false,
         "exportAsCSVonHomePage": true,
         "keepThematicOrderFromFDF": true
     }

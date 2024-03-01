@@ -48,7 +48,7 @@ idps_pay_utility_bills_yn;list;group_site_management;;;;hide;;yn_opt
 idps_pay_utility_bills;integer;group_site_management;;;;;;
 feedback_mechanism;bullet;group_protection;mechanism_opt;;;;;mechanism_opt
 feedback_mechanism_other;string;group_protection;;;;;;
-administration_training;bullet;group_protection;administration_training_opt;;;;;administration_training_opt
+administration_training;bullet;group_protection;;;;;;administration_training_opt
 administration_training_other;string;group_protection;;;;;;
 data_availability;bullet;group_protection;;;;;;data_availability_opt
 gbv_report;list;group_protection;yesnosure;;;;;ynn_opt
@@ -124,7 +124,7 @@ square_meters_per_person;list;group_shelter;square_meters_per_person;;;;;square_
 sleeping_in_common_use;list;group_shelter;noyesdont;;;;;ynd_opt
 gender_individual_zones;list;group_shelter;yesnodont;;;;;individual_zones_opt
 evacuation_plan;list;group_protection;yesnodont;;;;;ynd_opt
-fire_extinguishers;list;group_protection;;;;;;fire_extinguishers_opt
+fire_extinguishers;list;group_protection;fire_extinguishers_opt;;;;;fire_extinguishers_opt
 lockers;list;group_shelter;lockers_opt;;;;;lockers_opt
 conditions_site;list;group_shelter;;;;;;conditions_site_opt
 shelter_concerns_or_needs;bullet;group_shelter;;;;hide;;shelter_concerns_or_needs_opt
@@ -156,7 +156,7 @@ winterization_needs;bullet;group_winterization;;;;hide;;winterization_needs_opt
 winterization_needs_other;string;group_winterization;;;;hide;;
 top_3_winterization_needs;bullet;group_winterization;;;;;;winterization_needs_opt
 top_3_winterization_needs_other;string;group_winterization;;;;;;
-winterization_support;bullet;group_winterization;winterization_support_opt;;;;;winterization_support_opt
+winterization_support;bullet;group_winterization;;;;;;winterization_support_opt
 winterization_support_other;string;group_winterization;;;;;;
 sufficient_winterization_support_restoration_heating_system;string;group_winterization;ypn_opt;;;hide;;ypn_opt
 sufficient_winterization_support_repair_heating_system;string;group_winterization;ypn_opt;;;hide;;ypn_opt
@@ -204,9 +204,9 @@ bathing_facilities;list;group_wash;yesnosure;;;;;ynn_opt
 distance_to_bathing_facilities;list;group_wash;;;;;;ynd_opt
 number_showers_yn;list;group_wash;;;;hide;;yn_opt
 number_showers;integer;group_wash;number_showers;;;;;
-shower_facilities_private;list;group_wash;ypn_opt;;;;;shower_facilities_private_opt
-shower_gender;list;group_wash;ypn_opt;;;;;shower_gender_opt
-shower_hot_water;list;group_wash;ypn_opt;;;;;shower_hot_water_opt
+shower_facilities_private;list;group_wash;shower_facilities_private_opt;;;;;shower_facilities_private_opt
+shower_gender;list;group_wash;shower_gender_opt;;;;;shower_gender_opt
+shower_hot_water;list;group_wash;shower_hot_water_opt;;;;;shower_hot_water_opt
 disability_showers;list;group_wash;yesnosure;;;;;ynn_opt
 number_disability_showers_yn;list;group_wash;;;;hide;;yn_opt
 number_disability_showers;integer;group_wash;;;;;;
@@ -231,7 +231,7 @@ waste_disposal_capacity;list;group_wash;yesnosure;;;;;ynd_opt
 garbage_bins_radius_50;list;group_wash;yesnodont;;;;;ynd_opt
 access_food;bullet;group_food_security;;;;;;food_access_opt
 access_food_other;string;group_food_security;;;;;;
-food_products_needs;string;group_food_security;ypn_opt;;;;;food_products_needs_opt
+food_products_needs;string;group_food_security;food_products_needs_opt;;;;;food_products_needs_opt
 food_products_type;bullet;group_food_security;;;;;;food_opt
 top_3_food_products_needs;bullet;group_food_security;;;;;;food_opt
 types_food_provided;bullet;group_food_security;;;;;;food_support_opt
@@ -304,7 +304,7 @@ reachable_by_ambulance;list;group_healthcare;yesnodont;;;;;ynd_opt
 first_aid;list;group_healthcare;yesnosure;;;;;ynn_opt
 access_education;list;group_public_services;access_education_opt;;;;;access_education_opt
 mode_of_education;list;group_public_services;;;;;;mode_of_education_opt
-barriers_access_education;bullet;group_public_services;barriers_access_education_opt;;;;;barriers_access_education_opt
+barriers_access_education;bullet;group_public_services;;;;;;barriers_access_education_opt
 barriers_access_education_other;string;group_public_services;;;;;;
 prevented_access_education;list;group_public_services;prevented_access_education_opt;;;;;prevented_access_education_opt
 _id;integer;group_general_info;;;;hide;;
@@ -321,8 +321,8 @@ settlement_name;list;group_general_info;;;;;;settlement2_opt
 Hub;list;group_general_info;;;;;;hub_opt
 admin4ClassType_1;list;group_general_info;;;;;;admin4ClassType_1_opt
 site_pcode_updated;list;group_general_info;;;;;;site_pcode_updated_opt
-site_name_eng;list;group_general_info;;;;;;site_name_eng_opt
-site_address_ukr;list;group_general_info;;;;;;site_address_ukr_opt
+site_name_eng;list;group_general_info;;;;hide;;site_name_eng_opt
+site_address_ukr;list;group_general_info;;;;hide;;site_address_ukr_opt
 site_address_eng;list;group_general_info;;;;;;site_address_eng_opt
 latitude;integer;group_general_info;;;;hide;;
 longitude;integer;group_general_info;;;;hide;;

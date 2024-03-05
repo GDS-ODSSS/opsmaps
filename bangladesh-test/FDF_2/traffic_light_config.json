@@ -1,0 +1,576 @@
+{
+    "trafficLights": {
+        "yesno": {
+            "type": "key_value",
+            "values": {
+                "Yes": "green",
+                "No": "red"
+            }
+        },
+        "noyes": {
+            "type": "key_value",
+            "values": {
+                "Yes": "red",
+                "No": "green"
+            }
+        },
+        "CFRMCasesResolved": {
+            "type": "math",
+            "values": {
+                "x<=0.74": "red",
+                "x>0.75 and x<=0.99": "yellow",
+                "x>0.99": "green"
+            }
+        },
+        "facilities_accessible_PWDs": {
+            "type": "math",
+            "values": {
+                "x<=0.6": "red",
+                "x>0.6 and x<=0.8": "yellow",
+                "x>0.8": "green"
+            }
+        },
+        "clean": {
+            "type": "key_value",
+            "values": {
+                "Very Clean": "green",
+                "Clean": "green",
+                "OK": "red",
+                "Dirty": "red",
+                "Very Dirty": "red"
+            }
+        },
+        "clean_water": {
+            "type": "key_value",
+            "values": {
+                "Very good": "green",
+                "Good": "green",
+                "Average": "orange",
+                "Limited": "red",
+                "Bad/poor": "red"
+            }
+        },
+        "iCWC_1": {
+            "type": "math",
+            "scope": {
+                "x": "group_cwc/CWC_1",
+                "y": "blocks"
+            },
+            "values": {
+                "(x/y)>= 1": "green",
+                "(x/y)<1 and (x/y)>0.25": "yellow",
+                "(x/y)<= 0.25": "red"
+            }
+        },
+        "iCWC_2": {
+            "type": "math",
+            "values": {
+                "x>=1": "green",
+                "x<1": "red"
+            }
+        },
+        "Comp_CWC3ba": {
+            "type": "math",
+            "scope": {
+                "x": "group_cwc/CWC_3_b",
+                "y": "group_cwc/CWC_3_a"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100 and ((x*100)/y)>=75": "yellow",
+                "((x*100)/y)<75": "red"
+            }
+        },
+        "iCWC_4": {
+            "type": "key_value",
+            "values": {
+                "always": "green",
+                "occasional": "yellow",
+                "never": "red"
+            }
+        },
+        "iFS_2b": {
+            "type": "math",
+            "values": {
+                "x>=1": "green",
+                "x<1 and x>0":"yellow",
+                "x<=0": "red"
+            }
+        },
+        "Comp_FS2ba": {
+            "type": "math",
+            "scope": {
+                "x": "group_food_security/FS_2_b",
+                "y": "group_food_security/FS_2_a"
+            },
+            "values": {
+                "((x*100)/y)>= 80": "green",
+                "((x*100)/y)<80 and ((x*100)/y)>=60": "yellow",
+                "((x*100)/y)<60": "red"
+            }
+        },
+        "Comp_FS32a": {
+            "type": "math",
+            "scope": {
+                "x": "group_food_security/FS_3",
+                "y": "group_food_security/FS_2_a"
+            },
+            "values": {
+                "((x*100)/y)>= 80": "green",
+                "((x*100)/y)<80 and ((x*100)/y)>=60": "yellow",
+                "((x*100)/y)<60": "red"
+            }
+        },
+        "iFS_5": {
+            "type": "math",
+            "values": {
+                "x>=1": "green",
+                "x<1 and x>=0.9":"yellow",
+                "x<0.9": "red"
+            }
+        },
+        "Comp_FS62a": {
+            "type": "math",
+            "scope": {
+                "x": "group_food_security/FS_6",
+                "y": "group_food_security/FS_2_a"
+            },
+            "values": {
+                "((x*100)/y)>= 80": "green",
+                "((x*100)/y)<80 and ((x*100)/y)>=60": "yellow",
+                "((x*100)/y)<60": "red"
+            }
+        },
+        "Comp_FS7n_7a": {
+            "type": "math",
+            "scope": {
+                "x": "group_food_security/FS_7_b",
+                "y": "group_food_security/FS_2_a"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100 and ((x*100)/y)>=90": "yellow",
+                "((x*100)/y)<90": "red"
+            }
+        },
+        "Comp_EDU7sum": {
+            "type": "math",
+            "scope": {
+                "x": "group_education/EDU_7",
+                "y": "SUM_group_education/EDU_6_a_b_c"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100 and ((x*100)/y)>=96": "yellow",
+                "((x*100)/y)<96": "red"
+            }
+        },
+        "Comp_EDU8sum": {
+            "type": "math",
+            "scope": {
+                "x": "group_education/EDU_8",
+                "y": "SUM_group_education/EDU_6_a_b_c"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100 and ((x*100)/y)>=96": "yellow",
+                "((x*100)/y)<96": "red"
+            }
+        },
+        "Comp_EDU9sum": {
+            "type": "math",
+            "scope": {
+                "x": "group_education/EDU_9",
+                "y": "SUM_group_education/EDU_6_a_b_c"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100 and ((x*100)/y)>=99": "yellow",
+                "((x*100)/y)<99": "red"
+            }
+        },
+        "Comp_EDU11sum": {
+            "type": "math",
+            "scope": {
+                "x": "group_education/EDU_11",
+                "y": "SUM_group_education/EDU_6_a_b_c"
+            },
+            "values": {
+                "((x*100)/y)>= 10": "red",
+                "((x*100)/y)<10 and ((x*100)/y)>=1": "yellow",
+                "((x*100)/y)<1": "red"
+            }
+        },
+        "Comp_EDU12tt": {
+            "type": "math",
+            "scope": {
+                "x": "group_education/EDU_12",
+                "y": "group_education/EDU_6_a"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100 and ((x*100)/y)>=90": "yellow",
+                "((x*100)/y)<90": "red"
+            }
+        },
+        "Comp_EDU13tt": {
+            "type": "math",
+            "scope": {
+                "x": "group_education/EDU_13",
+                "y": "group_education/EDU_6_a"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100 and ((x*100)/y)>=91": "yellow",
+                "((x*100)/y)<91": "red"
+            }
+        },
+        "Comp_EDU15tt": {
+            "type": "math",
+            "scope": {
+                "x": "group_education/EDU_15_b",
+                "y": "group_education/EDU_15_a"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100 and ((x*100)/y)>=85": "yellow",
+                "((x*100)/y)<85": "red"
+            }
+        },
+        "Comp_Hind": {
+            "type": "math",
+            "scope": {
+                "x": "demo_num_indv",
+                "y": "group_health/HEA_2_a"
+            },
+            "values": {
+                "((x*100)/y)>= 15001": "red",
+                "((x*100)/y)<15001 and ((x*100)/y)>=10001": "yellow",
+                "((x*100)/y)<10001": "green"
+            }
+        },
+        "Comp_H32a": {
+            "type": "math",
+            "scope": {
+                "x": "group_health/HEA_3",
+                "y": "group_health/HEA_2_a"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100 and ((x*100)/y)>=80": "yellow",
+                "((x*100)/y)<80": "red"
+            }
+        },
+        "Comp_H4ba": {
+            "type": "math",
+            "scope": {
+                "x": "group_health/HEA_4_b",
+                "y": "group_health/HEA_4_a"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100 and ((x*100)/y)>=89": "yellow",
+                "((x*100)/y)<89": "red"
+            }
+        },
+        "Comp_NUT3ba": {
+            "type": "math",
+            "scope": {
+                "x": "group_nutrition/NUT_3_b",
+                "y": "group_nutrition/NUT_3_a"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100": "red"
+            }
+        },
+        "iNUT_45": {
+            "type": "math",
+            "values": {
+                "x>=100": "green",
+                "x<100":"red"
+            }
+        },
+        "iNUT_5": {
+            "type": "math",
+            "values": {
+                "x>=100": "green",
+                "x<100":"yellow"
+            }
+        },
+        "iNUT_6": {
+            "type": "math",
+            "values": {
+                "x>=1": "red",
+                "x<1":"green"
+            }
+        },
+        "Comp_NUT73a": {
+            "type": "math",
+            "scope": {
+                "x": "group_nutrition/NUT_7",
+                "y": "group_nutrition/NUT_3_a"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100": "red"
+            }
+        },
+        "Comp_NUT8ba": {
+            "type": "math",
+            "scope": {
+                "x": "group_nutrition/NUT_8_b",
+                "y": "group_nutrition/NUT_8_a"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100": "yellow"
+            }
+        },
+        "Comp_PRO4ab": {
+            "type": "math",
+            "scope": {
+                "x": "group_protection/PRO_4_b",
+                "y": "group_protection/PRO_4_a"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100": "yellow"
+            }
+        },
+        "Comp_PRO76": {
+            "type": "math",
+            "scope": {
+                "x": "group_protection/PRO_7",
+                "y": "group_protection/PRO_6"
+            },
+            "values": {
+                "((x*100)/y)>= 80": "green",
+                "((x*100)/y)<80 and ((x*100)/y)>=60": "yellow",
+                "((x*100)/y)<60": "red"
+            }
+        },
+        "Comp_PRO86": {
+            "type": "math",
+            "scope": {
+                "x": "group_protection/PRO_8",
+                "y": "group_protection/PRO_6"
+            },
+            "values": {
+                "((x*100)/y)>= 15": "red",
+                "((x*100)/y)<15 and ((x*100)/y)>=1": "yellow",
+                "((x*100)/y)<1": "green"
+            }
+        },
+        "Comp_PRO96": {
+            "type": "math",
+            "scope": {
+                "x": "group_protection/PRO_9",
+                "y": "group_protection/PRO_6"
+            },
+            "values": {
+                "((x*100)/y)>= 75": "green",
+                "((x*100)/y)<75 and ((x*100)/y)>=50": "yellow",
+                "((x*100)/y)<50": "red"
+            }
+        },
+        "Comp_PRO15aa": {
+            "type": "math",
+            "scope": {
+                "x": "group_protection/PRO_15_a",
+                "y": "group_protection/PRO_15_a"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100 and ((x*100)/y)>=80": "yellow",
+                "((x*100)/y)<80": "red"
+            }
+        },
+        "Comp_PRO1815": {
+            "type": "math",
+            "scope": {
+                "x": "group_protection/PRO_18",
+                "y": "group_protection/PRO_15_a"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100": "red"
+            }
+        },
+        "Comp_SMS6ba": {
+            "type": "math",
+            "scope": {
+                "x": "group_smsd/SMS_6_b",
+                "y": "group_smsd/SMS_6_a"
+            },
+            "values": {
+                "((x*100)/y)>= 80": "green",
+                "((x*100)/y)<80 and ((x*100)/y)>=60": "yellow",
+                "((x*100)/y)<60": "red"
+            }
+        },
+        "Comp_SMS7HH": {
+            "type": "math",
+            "scope": {
+                "x": "group_smsd/SMS_7",
+                "y": "demo_num_hh"
+            },
+            "values": {
+                "((x*100)/y)>= 24": "red",
+                "((x*100)/y)<24 and ((x*100)/y)>=20": "yellow",
+                "((x*100)/y)<20": "green"
+            }
+        },
+        "Comp_SMS11ba": {
+            "type": "math",
+            "scope": {
+                "x": "group_smsd/SMS_11_b",
+                "y": "group_smsd/SMS_11_a"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100 and ((x*100)/y)>=90": "yellow",
+                "((x*100)/y)<90": "red"
+            }
+        },
+        "Comp_SNFI1711": {
+            "type": "math",
+            "scope": {
+                "x": "group_snfi/SNFI_17",
+                "y": "group_snfi/SNFI_11"
+            },
+            "values": {
+                "((x*100)/y)>= 80": "green",
+                "((x*100)/y)<80 and ((x*100)/y)>=50": "yellow",
+                "((x*100)/y)<50": "red"
+            }
+        },
+        "Comp_SNFI23b23a": {
+            "type": "math",
+            "scope": {
+                "x": "group_snfi/SNFI_23_b",
+                "y": "group_snfi/SNFI_23_a"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100 and ((x*100)/y)>=85": "yellow",
+                "((x*100)/y)<84": "red"
+            }
+        },
+        "Comp_SNFI212210119": {
+            "type": "math",
+            "scope": {
+                "x": "SUM_group_snfi/SNFI_21_22",
+                "y": "SUM_group_snfi/SNFI_10_11_9"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100 and ((x*100)/y)>=80": "yellow",
+                "((x*100)/y)<80": "red"
+            }
+        },
+        "Comp_SNFI2410119": {
+            "type": "math",
+            "scope": {
+                "x": "group_snfi/SNFI_24",
+                "y": "SUM_group_snfi/SNFI_10_11_9"
+            },
+            "values": {
+                "((x*100)/y)>= 100": "green",
+                "((x*100)/y)<100": "red"
+            }
+        },
+        "TotalLatrinesVsIndidual": {
+            "type": "math",
+            "scope": {
+                "x": "group_wash/WSH_2",
+                "y": "demo_num_indv"
+            },
+            "values": {
+                "(((y/x)*100)/20)< 100": "green",
+                "(((y/x)*100)/20) >=100 and (((y/x)*100)/20)<200 ": "yellow",
+                "(((y/x)*100)/20)>= 200 and (((y/x)*100)/20) <1000": "red",
+                "(((y/x)*100)/20)>= 1000": "darkred"
+            }
+        },
+        "TotalshowerVsIndidual": {
+            "type": "math",
+            "scope": {
+                "x": "group_wash/WSH_3",
+                "y": "demo_num_indv"
+            },
+            "values": {
+                "(((y/x)*100)/20)< 100": "green",
+                "(((y/x)*100)/20) >=100 and (((y/x)*100)/20)<200 ": "yellow",
+                "(((y/x)*100)/20)>= 200 and (((y/x)*100)/20) <1000": "red",
+                "(((y/x)*100)/20)>= 1000": "darkred"
+            }
+        },
+        "iWSH_5": {
+            "type": "math",
+            "values": {
+                "x>= 3": "red",
+                "x<3": "green"
+            }
+        },
+        "Comp_EDU2ind": {
+            "type": "math",
+            "scope": {
+                "x": "group_education/EDU_2",
+                "y": "INDS_3_4Yrs"
+            },
+            "values": {
+                "((x/y)*100)< 80": "red",
+                "((x/y)*100) >=80 and ((x/y)*100)<=94 ": "yellow",
+                "((x/y)*100)> 94": "green"
+            }
+        },
+        "Comp_EDU3ind": {
+            "type": "math",
+            "scope": {
+                "x": "group_education/EDU_3",
+                "y": "INDS_5_14Yrs"
+            },
+            "values": {
+                "((x/y)*100)< 60": "red",
+                "((x/y)*100) >=60 and ((x/y)*100)<=69 ": "yellow",
+                "((x/y)*100)> 69": "green"
+            }
+        },
+        "Comp_EDU4ind": {
+            "type": "math",
+            "scope": {
+                "x": "group_education/EDU_4",
+                "y": "INDS_15_18Yrs"
+            },
+            "values": {
+                "((x/y)*100)< 10": "red",
+                "((x/y)*100) >=10 and ((x/y)*100)<=14 ": "yellow",
+                "((x/y)*100)> 14": "green"
+            }
+        },
+        "Comp_EDU5ind": {
+            "type": "math",
+            "scope": {
+                "x": "group_education/EDU_5",
+                "y": "INDS_19_24Yrs"
+            },
+            "values": {
+                "((x/y)*100)< 10": "red",
+                "((x/y)*100) >=10 and ((x/y)*100)<=14 ": "yellow",
+                "((x/y)*100)> 14": "green"
+            }
+        },
+        "Comp_EDUmulti": {
+            "type": "math",
+            "scope": {
+                "x": "SUM_group_education_INDS_3_to_24",
+                "y": "SUM_group_education/EDU_6_a_b_c"
+            },
+            "values": {
+                "((x/y)*100)< 7": "red",
+                "((x/y)*100) >=7": "yellow"
+            }
+        }
+    }
+}

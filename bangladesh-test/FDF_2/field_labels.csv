@@ -1,0 +1,248 @@
+field_name;field_label_en;field_label_bn
+formhub/uuid;UUID;UUID
+today;Date;তারিখ
+phonenumber;Phone number;ফোন নম্বর
+group_general_question/organization;Organization;সংগঠন
+group_general_question/name;Name;নাম
+group_general_question/camp;Camp;ক্যাম্প
+group_general_question/date_entry;Date entry;তারিখ এন্ট্রি
+group_cwc/CWC_1;Number of accessible operational information hubs;অ্যাক্সেসযোগ্য অপারেশনাল তথ্য কেন্দ্রের সংখ্যা
+group_cwc/CWC_2;Number of operational information hubs with at least one female volunteer/staff person;কমপক্ষে একজন মহিলা স্বেচ্ছাসেবক/স্টাফ ব্যক্তি সহ অপারেশনাল তথ্য কেন্দ্রের সংখ্যা
+group_cwc/CWC_3_a;Number of CFRM cases recorded in the reporting period;রিপোর্টিং সময়ের মধ্যে রেকর্ডকৃত CFRM মামলার সংখ্যা
+group_cwc/CWC_3_b;Number of CFRM cases resolved in the reporting period;রিপোর্টিং সময়ের মধ্যে সমাধান করা CFRM মামলার সংখ্যা
+group_cwc/Comp_CWC3ba; % CFRM cases resolved within 30 days;% CFRM কেস 30 দিনের মধ্যে সমাধান করা হয়েছে
+group_cwc/CWC_4;Information about feedback and complaints mechanisms is available in the locally used language(s);প্রতিক্রিয়া এবং অভিযোগের প্রক্রিয়া সম্পর্কে তথ্য স্থানীয়ভাবে ব্যবহৃত ভাষায় পাওয়া যায়
+group_education/EDU_1;Education Focal Point operational in camp;শিবিরে কর্মক্ষম শিক্ষা ফোকাল পয়েন্ট
+group_education/EDU_2;Number of children (boys & girls) aged 3-4 enrolled in learning facilities (Learning Centers, Community Based Learning Facility and Cross Sector Shared Learning Facility);3-4 বছর বয়সী শিশুর সংখ্যা (ছেলে এবং মেয়েরা) শেখার সুবিধাগুলিতে নথিভুক্ত (লার্নিং সেন্টার, কমিউনিটি ভিত্তিক লার্নিং ফ্যাসিলিটি এবং ক্রস সেক্টর শেয়ারড লার্নিং ফ্যাসিলিটি)
+group_education/EDU_3;Number of adolescents (boys & girls) aged 5-14 enrolled in learning facilities(Learning Centers, Community Based Learning Facility and Cross Sector Shared Learning Facility);5-14 বছর বয়সী কিশোর-কিশোরীদের সংখ্যা (ছেলে এবং মেয়ে) শেখার সুবিধাগুলিতে নথিভুক্ত (লার্নিং সেন্টার, কমিউনিটি ভিত্তিক লার্নিং ফ্যাসিলিটি এবং ক্রস সেক্টর শেয়ারড লার্নিং ফ্যাসিলিটি)
+group_education/EDU_4;Number of adults (boys & girls) aged 15-18 enrolled in learning facilities(Learning Centers, Community Based Learning Facility and Cross Sector Shared Learning Facility);15-18 বছর বয়সী প্রাপ্তবয়স্কদের (ছেলে এবং মেয়ে) শিক্ষার সুবিধাগুলিতে নথিভুক্ত (লার্নিং সেন্টার, কমিউনিটি ভিত্তিক লার্নিং সুবিধা এবং ক্রস সেক্টর শেয়ারড লার্নিং সুবিধা)
+group_education/EDU_5;Number of adults (boys & girls) aged 19-24 enrolled in learning facilities(Learning Centers, Community Based Learning Facility and Cross Sector Shared Learning Facility);19-24 বছর বয়সী প্রাপ্তবয়স্কদের (ছেলে এবং মেয়ে) শিক্ষার সুবিধাগুলিতে নথিভুক্ত করা হয়েছে (লার্নিং সেন্টার, কমিউনিটি ভিত্তিক লার্নিং সুবিধা এবং ক্রস সেক্টর শেয়ারড লার্নিং সুবিধা)
+group_education/EDU_6_a;Total Number of Learning Centers;শিক্ষা কেন্দ্রের মোট সংখ্যা
+group_education/EDU_6_b;Total Number of Community Based Learning Facility;কমিউনিটি ভিত্তিক শিক্ষার সুবিধার মোট সংখ্যা
+group_education/EDU_6_c;Total Number of Cross Sectoral Shared Learning Facility;ক্রস সেক্টরাল শেয়ারড লার্নিং সুবিধার মোট সংখ্যা
+group_education/EDU_7;Number of facilities open during standard times;প্রমিত সময়ে খোলা সুবিধার সংখ্যা
+group_education/EDU_8;Number of learning spaces with WASH facilities;ওয়াশ সুবিধা সহ শেখার স্থানের সংখ্যা
+group_education/EDU_9;Number of learning facilities with sex segregated WASH facilities;সেক্স সেগ্রিগেটেড ওয়াশ সুবিধা সহ শেখার সুবিধার সংখ্যা
+group_education/EDU_10;Number of learning facilities with functioning handwashing stations;কার্যকরী হ্যান্ডওয়াশিং স্টেশন সহ শেখার সুবিধার সংখ্যা
+group_education/EDU_11;Number of learning facilities in risk zones (landslide, floods, soil erosion);ঝুঁকিপূর্ণ অঞ্চলে শিক্ষার সুবিধার সংখ্যা (ভূমিধস, বন্যা, মাটি ক্ষয়)
+group_education/EDU_12;Number of learning centers that are accessible for people with special needs;বিশেষ চাহিদা সম্পন্ন লোকেদের জন্য অ্যাক্সেসযোগ্য শিক্ষা কেন্দ্রের সংখ্যা
+group_education/EDU_13;Number of learning facilities with drinking water available;পানীয় জল উপলব্ধ শেখার সুবিধার সংখ্যা
+group_education/EDU_14;Number of learning facilities that are clean both inside and outside;শেখার সুবিধার সংখ্যা যা ভিতরে এবং বাইরে উভয়ই পরিষ্কার
+group_education/EDU_15_a;Number of CFRM Education cases recorded in the reporting period;রিপোর্টিং সময়ের মধ্যে রেকর্ডকৃত CFRM শিক্ষা মামলার সংখ্যা
+group_education/EDU_15_b;Number of CFRM Education cases resolved in the reporting period;রিপোর্টিং সময়ের মধ্যে সমাধান করা CFRM শিক্ষা মামলার সংখ্যা
+group_education/Comp_EDU2ind;% of children age 3-4 enrolled in learning facilities;3-4 বছর বয়সী শিশুদের % শিক্ষার সুবিধাগুলিতে নথিভুক্ত
+group_education/Comp_EDU3ind;% of children age 5-14 enrolled in learning facilities;5-14 বছর বয়সী শিশুদের % শিক্ষার সুবিধাগুলিতে নথিভুক্ত
+group_education/Comp_EDU4ind;% of young adult age 15-18 enrolled in learning facilities;15-18 বছর বয়সী তরুণ প্রাপ্তবয়স্কদের % শেখার সুবিধাগুলিতে নথিভুক্ত
+group_education/Comp_EDU5ind;% of young adult age 19-24 enrolled in learning facilities;19-24 বছর বয়সী তরুণ প্রাপ্তবয়স্কদের % শেখার সুবিধাগুলিতে নথিভুক্ত
+group_education/Comp_EDUmulti;Proportion of learning spaces;শেখার স্থানের অনুপাত
+group_education/Comp_EDU7sum;% of learning spaces open during standard times;% শেখার স্থানগুলি আদর্শ সময়ে খোলা থাকে
+group_education/Comp_EDU8sum;% of learning spaces with WASH facilities;ওয়াশ সুবিধা সহ শেখার স্থানের %
+group_education/Comp_EDU9sum;% of learning spaces with segragated WASH facilities;বিচ্ছিন্ন ওয়াশ সুবিধা সহ শেখার স্থানের %
+group_education/Comp_EDU11sum;% of learning centers in risk zones (landslide, floods, soil erosion);ঝুঁকিপূর্ণ অঞ্চলে শিক্ষা কেন্দ্রের % (ভূমিধস, বন্যা, মাটি ক্ষয়)
+group_education/Comp_EDU12tt;% of learning centers that are accessible for people with special needs ;শিক্ষা কেন্দ্রের % যা বিশেষ চাহিদা সম্পন্ন লোকেদের জন্য অ্যাক্সেসযোগ্য
+group_education/Comp_EDU13tt;% of learning centers with drinking water available.;পানীয় জল উপলব্ধ শিক্ষা কেন্দ্রের %.
+group_education/Comp_EDU15tt;% of CFRM Education cases resolved within the 30 days.;30 দিনের মধ্যে সিএফআরএম শিক্ষা মামলার % সমাধান করা হয়েছে।
+group_education/Comp_Hind;Proportion of functional health facilities;কার্যকরী স্বাস্থ্য সুবিধার অনুপাত
+group_education/Comp_H32a;% of health facilities with operational CFRMs;কর্মক্ষম CFRM সহ স্বাস্থ্য সুবিধার %
+group_education/Comp_H4ba;% of CFRM health cases resolved within 30 days.;30 দিনের মধ্যে সিএফআরএম স্বাস্থ্যের ক্ষেত্রে সমাধান করা হয়েছে।
+group_education/Comp_EDU2ind;% of children age 3-4 enrolled in learning facilities;3-4 বছর বয়সী শিশুদের % শিক্ষার সুবিধাগুলিতে নথিভুক্ত
+group_education/Comp_EDU3ind;% of children age 5-14 enrolled in learning facilities;5-14 বছর বয়সী শিশুদের % শিক্ষার সুবিধাগুলিতে নথিভুক্ত
+group_education/Comp_EDU4ind;% of young adult age 15-18 enrolled in learning facilities;15-18 বছর বয়সী তরুণ প্রাপ্তবয়স্কদের % শেখার সুবিধাগুলিতে নথিভুক্ত
+group_education/Comp_EDU5ind;% of young adult age 19-24 enrolled in learning facilities;19-24 বছর বয়সী তরুণ প্রাপ্তবয়স্কদের % শেখার সুবিধাগুলিতে নথিভুক্ত
+group_food_security/FS_1;Food security focal point is operational and present in the camp.;খাদ্য নিরাপত্তা কেন্দ্র বিন্দু চালু আছে এবং ক্যাম্পে উপস্থিত।
+group_food_security/FS_2_a;Total number of food distribution point in the camp;ক্যাম্পে খাদ্য বিতরণ কেন্দ্রের মোট সংখ্যা
+group_food_security/FS_2_b;Number of distribution points with on-site monitoring and accountability systems including feedback;প্রতিক্রিয়া সহ অন-সাইট পর্যবেক্ষণ এবং জবাবদিহি ব্যবস্থা সহ বিতরণ পয়েন্টের সংখ্যা
+group_food_security/Comp_FS2ba;% of distribution points with appropriate security measures, such as crowd control and safety of commodities;যথাযথ নিরাপত্তা ব্যবস্থা সহ বিতরণ পয়েন্টের %, যেমন ভিড় নিয়ন্ত্রণ এবং পণ্যের নিরাপত্তা
+group_food_security/Comp_FS32a;% of distribution points with sex segregated lines;লিঙ্গ বিচ্ছিন্ন লাইন সহ বিতরণ পয়েন্টের %
+group_food_security/FS_3;Number of distribution points with appropriate security measures, such as crowd control and safety of commodities;যথাযথ নিরাপত্তা ব্যবস্থা সহ বিতরণ পয়েন্টের সংখ্যা, যেমন ভিড় নিয়ন্ত্রণ এবং পণ্যের নিরাপত্তা
+group_food_security/FS_4;Number of distribution points with sex segregated lines;লিঙ্গ বিচ্ছিন্ন লাইন সহ বিতরণ পয়েন্টের সংখ্যা
+group_food_security/FS_5;Number of refugee households receiving regular food assistance through e-vouchers.;ই-ভাউচারের মাধ্যমে নিয়মিত খাদ্য সহায়তা গ্রহণকারী শরণার্থী পরিবারের সংখ্যা।
+group_food_security/FS_6;Number of distribution centers that are accessible for people with special needs and women.;বিশেষ চাহিদা সম্পন্ন ব্যক্তি এবং মহিলাদের জন্য অ্যাক্সেসযোগ্য বিতরণ কেন্দ্রের সংখ্যা।
+group_food_security/Comp_FS62a;% of distribution centers that are accessible for people with special needs and women;বিতরণ কেন্দ্রের % যা বিশেষ চাহিদা সম্পন্ন ব্যক্তি এবং মহিলাদের জন্য অ্যাক্সেসযোগ্য
+group_food_security/FS_7_a;Number of FSS tickets from CFRM recorded in the reporting period;রিপোর্টিং সময়ের মধ্যে রেকর্ড করা CFRM থেকে FSS টিকিটের সংখ্যা
+group_food_security/FS_7_b;Number of FSS tickets from CFRM that were resolved in the reporting period;CFRM থেকে FSS টিকিটের সংখ্যা যা রিপোর্টিং সময়ের মধ্যে সমাধান করা হয়েছিল
+group_food_security/Comp_FS7n_7a;% of FSS tickets from CFRM that were resolved or refferred to within 30 days;CFRM থেকে FSS টিকিটের % যা সমাধান করা হয়েছে বা 30 দিনের মধ্যে রেফার করা হয়েছে
+group_health/HEA_1;Sector focal point is present and operational at the camp-level;সেক্টর ফোকাল পয়েন্ট ক্যাম্প পর্যায়ে উপস্থিত এবং চালু আছে
+group_health/HEA_2_a;Total number of health facilities;মোট স্বাস্থ্য সুবিধার সংখ্যা
+group_health/HEA_2_b;Number of functional health facilities;কার্যকরী স্বাস্থ্য সুবিধার সংখ্যা
+group_health/HEA_3;Number of health facilities with operational CFRMs;কর্মক্ষম CFRM সহ স্বাস্থ্য সুবিধার সংখ্যা
+group_health/HEA_4_a;Number of CFRM health cases recorded in the reporting period.;রিপোর্টিং সময়ের মধ্যে নথিভুক্ত CFRM স্বাস্থ্য মামলার সংখ্যা।
+group_health/HEA_4_b;Number of CFRM health cases resolved in the reporting period.;রিপোর্টিং সময়ের মধ্যে সমাধান করা CFRM স্বাস্থ্য মামলার সংখ্যা।
+group_nutrition/NUT_1;Sector focal point is present and operational at the camp-level;সেক্টর ফোকাল পয়েন্ট ক্যাম্প পর্যায়ে উপস্থিত এবং চালু আছে
+group_nutrition/NUT_2;Number of nutrition facilities open during business hours Sunday – Thursday;রবিবার-বৃহস্পতিবার ব্যবসায়িক সময়ে খোলা পুষ্টি সুবিধার সংখ্যা
+group_nutrition/NUT_3_a;Total number of nutritional facilities;পুষ্টি সুবিধার মোট সংখ্যা
+group_nutrition/NUT_3_b;Number of nutrition facilities with an operational handwashing station;একটি অপারেশনাল হ্যান্ডওয়াশিং স্টেশন সহ পুষ্টি সুবিধার সংখ্যা
+group_nutrition/Comp_NUT3ba;% of nutrition facilities with an operational handwashing station;একটি অপারেশনাল হ্যান্ডওয়াশিং স্টেশন সহ পুষ্টি সুবিধার %
+group_nutrition/NUT_4;Number of facilities with clear pathways for treatment and crowd control;চিকিত্সা এবং ভিড় নিয়ন্ত্রণের জন্য পরিষ্কার পথ সহ সুবিধার সংখ্যা
+group_nutrition/NUT_5;Number of facilities with female IYCF counsellor providing Integrated skilled breastfeeding counselling interventions to pregnant and breastfeeding women with children aged 0–24 months;মহিলা আইওয়াইসিএফ কাউন্সেলরের সুবিধার সংখ্যা 0-24 মাস বয়সী শিশুদের সহ গর্ভবতী এবং স্তন্যপান করান মহিলাদের সমন্বিত দক্ষ স্তন্যপান করানোর পরামর্শ হস্তক্ষেপ প্রদান করে
+group_nutrition/NUT_6;Number of nutrition facilities in risk zones (landslide, soil erosion, flooding);ঝুঁকিপূর্ণ অঞ্চলে পুষ্টি সুবিধার সংখ্যা (ভূমিধস, মাটি ক্ষয়, বন্যা)
+group_nutrition/NUT_7;Number of nutrition facilities that are accessible for people with special needs;পুষ্টি সুবিধার সংখ্যা যা বিশেষ চাহিদা সম্পন্ন ব্যক্তিদের জন্য অ্যাক্সেসযোগ্য
+group_nutrition/Comp_NUT73a;% of nutrition facilities that are accessible for people with special needs;পুষ্টি সুবিধার % যা বিশেষ চাহিদা সম্পন্ন ব্যক্তিদের জন্য অ্যাক্সেসযোগ্য
+group_nutrition/NUT_8_a;Number of nutrition cases received at CFRM within the reporting period.;রিপোর্টিং সময়ের মধ্যে CFRM-এ প্রাপ্ত পুষ্টি মামলার সংখ্যা।
+group_nutrition/NUT_8_b;Number of CFRM health cases resolved in the reporting period.;রিপোর্টিং সময়ের মধ্যে সমাধান করা CFRM স্বাস্থ্য মামলার সংখ্যা।
+group_nutrition/Comp_NUT8ba;% of nutrition CFRM resolved cases within the reporting period;% পুষ্টি CFRM রিপোর্টিং সময়ের মধ্যে কেস সমাধান
+group_protection/PRO_1;Protection Focal Point present and operational in camp level;সুরক্ষা ফোকাল পয়েন্ট ক্যাম্প পর্যায়ে উপস্থিত এবং কার্যকরী
+group_protection/PRO_2;PERU team available in the camp;পেরুর দল ক্যাম্পে উপলব্ধ
+group_protection/PRO_3;functional refferal pathway for protection operation in the camp;ক্যাম্পে সুরক্ষা অপারেশনের জন্য কার্যকরী রেফারাল পথ
+group_protection/PRO_4_a;Number of Protection related cases (including registration) received at CFRM system in the reporting period;রিপোর্টিং সময়ের মধ্যে CFRM সিস্টেমে প্রাপ্ত সুরক্ষা সংক্রান্ত মামলার সংখ্যা (রেজিস্ট্রেশন সহ)
+group_protection/PRO_4_b;Number of protection related cases (including registration) received at CFRM system actioned within the reporting period;রিপোর্টিং সময়ের মধ্যে CFRM সিস্টেমে প্রাপ্ত সুরক্ষা সম্পর্কিত মামলার সংখ্যা (নিবন্ধন সহ)
+group_protection/PRO_5;Child protection focal point present in camp;ক্যাম্পে উপস্থিত শিশু সুরক্ষা কেন্দ্রবিন্দু
+group_protection/PRO_6;Number of functioning child friendly/adolescent/multipurpose spaces;কার্যকরী শিশু-বান্ধব/কিশোর/বহুমুখী স্থানের সংখ্যা
+group_protection/PRO_7;Number of Child Friendly/adolescent/multipurpose spaces with sex seggregated latrines;সেক্স সেগ্রিগেটেড ল্যাট্রিন সহ শিশু-বান্ধব/কিশোর/বহুমুখী স্থানের সংখ্যা
+group_protection/PRO_8;Number of Child Friendly/adolescent/multipurpose spaces in risk zones (landslide, soil erosion, flood).;ঝুঁকিপূর্ণ অঞ্চলে শিশু-বান্ধব/কিশোর/বহুমুখী স্থানের সংখ্যা (ভূমিধস, মাটি ক্ষয়, বন্যা)।
+group_protection/PRO_9;Number of Child Friendly/adolescent/multipurpose spaces that are accessible for people with special needs;শিশু-বান্ধব/কিশোর/বহুমুখী স্থানের সংখ্যা যা বিশেষ চাহিদা সম্পন্ন ব্যক্তিদের জন্য অ্যাক্সেসযোগ্য
+group_protection/PRO_10;Functional refferal pathway for child protection operation in the camp;ক্যাম্পে শিশু সুরক্ষা অপারেশনের জন্য কার্যকরী রেফারাল পথ
+group_protection/PRO_11;Child protection case management system operational in camp?;শিবিরে শিশু সুরক্ষা কেস ম্যানেজমেন্ট সিস্টেম চালু আছে?
+group_protection/PRO_12;Number of community based child protection committees/mechanisms actively present in the camp.;ক্যাম্পে সক্রিয়ভাবে উপস্থিত সম্প্রদায় ভিত্তিক শিশু সুরক্ষা কমিটি/যন্ত্রের সংখ্যা।
+group_protection/PRO_13_a;Number of child protection related cases (including registration) received at cfrm system actioned within the reporting period;রিপোর্টিং সময়ের মধ্যে সিএফআরএম সিস্টেমে প্রাপ্ত শিশু সুরক্ষা সংক্রান্ত মামলার সংখ্যা (নিবন্ধন সহ)
+group_protection/PRO_14;GBV focal point present in camp;ক্যাম্পে উপস্থিত জিবিভি ফোকাল পয়েন্ট
+group_protection/PRO_15_a;Total number of safe spaces for women and girls/women friendly spaces;মহিলা এবং মেয়েদের/নারী বান্ধব স্থানগুলির জন্য মোট নিরাপদ স্থানের সংখ্যা
+group_protection/PRO_15_b;Total number of functioning safe spaces for women and girls/women friendly spaces (operating from sun - thursday) during starndard operating times;স্টারন্ডার্ড অপারেটিং সময়ে মহিলা এবং মেয়েদের/নারী বান্ধব স্থানগুলির জন্য (সূর্য-বৃহস্পতিবার থেকে কাজ করা) মোট কার্যকরী নিরাপদ স্থানের সংখ্যা
+group_protection/PRO_16;Number of Women and Girls Safe spaces that are accessible for people with special needs;মহিলা এবং মেয়েদের নিরাপদ স্থানের সংখ্যা যা বিশেষ চাহিদা সম্পন্ন ব্যক্তিদের জন্য অ্যাক্সেসযোগ্য
+group_protection/PRO_17;Functional refferal pathway for GBV operation in the camp;ক্যাম্পে GBV অপারেশনের জন্য কার্যকরী রেফারাল পথ
+group_protection/PRO_18;Number of women/girls safe spaces with handwashing station;হাত ধোয়ার স্টেশন সহ মহিলা/মেয়েদের নিরাপদ স্থানের সংখ্যা
+group_protection/PRO_19_a;Number of GBV related cases (including registration) received at CFRM system in the reporting period;রিপোর্টিং সময়ের মধ্যে CFRM সিস্টেমে প্রাপ্ত জিবিভি সম্পর্কিত মামলার সংখ্যা (নিবন্ধন সহ)
+group_protection/PRO_20;Number of operational community center in camp;ক্যাম্পে কর্মক্ষম কমিউনিটি সেন্টারের সংখ্যা
+group_protection/Comp_PRO4ab;% of protection cases received at CFRM that are actioned within 30 days;CFRM-এ প্রাপ্ত সুরক্ষা মামলাগুলির % যা 30 দিনের মধ্যে কার্যকর করা হয়
+group_protection/Comp_PRO76;% of Child Friendly/adolescent/multipurpose spaces with sex segregated latrines ;যৌন-বিচ্ছিন্ন ল্যাট্রিন সহ শিশু-বান্ধব/কিশোর/বহুমুখী স্থানের %
+group_protection/Comp_PRO86;% of Child Friendly/adolescent/multipurpose spaces in risk zones (landslide, soil erosion, flood).;ঝুঁকিপূর্ণ অঞ্চলে শিশু-বান্ধব/কিশোর/বহুমুখী স্থানের % (ভূমিধস, মাটি ক্ষয়, বন্যা)।
+group_protection/Comp_PRO96;% of Child Friendly/adolescent/multipurpose spaces that are accessible for people with special needs;শিশু-বান্ধব/কিশোর/বহুমুখী স্থানের % যা বিশেষ চাহিদা সম্পন্ন ব্যক্তিদের জন্য অ্যাক্সেসযোগ্য
+group_protection/Comp_PRO13ba;% of child protection cases received at CFRM that are actioned within 30 days;CFRM-এ প্রাপ্ত শিশু সুরক্ষা মামলাগুলির % যা 30 দিনের মধ্যে ব্যবস্থা নেওয়া হয়
+group_protection/Comp_PRO15ba;% of functioning safe spaces for women and girls/Women Friendly spaces  (operating from Sun - Thursday) during starndard operating times;স্টারন্ডার্ড অপারেটিং সময়ে নারী ও মেয়েদের/নারী বান্ধব স্থান (রবি-বৃহস্পতি থেকে অপারেটিং) জন্য নিরাপদ স্থানের %
+group_protection/Comp_PRO15aa;% of Women and Girls Safe spaces that are accessible for people with special needs;মহিলা এবং মেয়েদের নিরাপদ স্থানের % যা বিশেষ চাহিদা সম্পন্ন ব্যক্তিদের জন্য অ্যাক্সেসযোগ্য
+group_protection/Comp_PRO1815;% of Women and Girls Safe  space with functioning handwashing station;কার্যকরী হ্যান্ডওয়াশিং স্টেশন সহ মহিলা এবং মেয়েদের % নিরাপদ স্থান
+group_snfi/SNFI_1;Sector focal point is present and operational at the camp-level.;সেক্টর ফোকাল পয়েন্ট ক্যাম্প পর্যায়ে উপস্থিত এবং চালু আছে।
+group_snfi/SNFI_2;Number of empty shelters;খালি আশ্রয়ের সংখ্যা
+group_snfi/SNFI_3;Number of empty plots;খালি প্লটের সংখ্যা
+group_snfi/SNFI_4;Number of Shelter Partners present in camp (implementing and planning to implement shelter assistance);শিবিরে উপস্থিত আশ্রয় সহযোগীদের সংখ্যা (আশ্রয় সহায়তা বাস্তবায়ন ও পরিকল্পনা)
+group_snfi/SNFI_5;Number of NFI partners present in camp (implementing and planning to implement NFI assistance);ক্যাম্পে উপস্থিত এনএফআই অংশীদারদের সংখ্যা (এনএফআই সহায়তা বাস্তবায়ন এবং পরিকল্পনা বাস্তবায়ন)
+group_snfi/SNFI_6_a;Number of shelter/NFI/LP Partners;আশ্রয়/NFI/LP অংশীদারদের সংখ্যা
+group_snfi/SNFI_6_b;Number of Shelter/NFI/LP Partners who ensured training venue arranged separately for female and male;আশ্রয়কেন্দ্র/এনএফআই/এলপি অংশীদারদের সংখ্যা যারা প্রশিক্ষণের স্থান নিশ্চিত করেছেন মহিলা এবং পুরুষদের জন্য আলাদাভাবে ব্যবস্থা করা হয়েছে
+group_snfi/SNFI_7;From partner present in the camps, how many partners assist vulnerable people and people with specific needs with construction/upgrades;ক্যাম্পে উপস্থিত অংশীদার থেকে, কতজন অংশীদার দুর্বল মানুষ এবং নির্দিষ্ট চাহিদা সম্পন্ন ব্যক্তিদের নির্মাণ/আপগ্রেডে সহায়তা করে
+group_snfi/SNFI_8_a;Total number of distribution points in the camp;ক্যাম্পে মোট বিতরণ পয়েন্টের সংখ্যা
+group_snfi/SNFI_8_b;Total number of functional distribution points in the camp;ক্যাম্পে কার্যকরী বিতরণ পয়েন্টের মোট সংখ্যা
+group_snfi/SNFI_9;Total number of LPG distribution points in the camp;ক্যাম্পে এলপিজি বিতরণ পয়েন্টের মোট সংখ্যা
+group_snfi/SNFI_10;Total number of Shelter distribution points in the camp;ক্যাম্পে মোট আশ্রয় বিতরণ পয়েন্টের সংখ্যা
+group_snfi/SNFI_11;Total number of NFI distribution points in the camp;ক্যাম্পে NFI বিতরণ পয়েন্টের মোট সংখ্যা
+group_snfi/SNFI_12;Number of shelters in the camp;ক্যাম্পে আশ্রয়কেন্দ্রের সংখ্যা
+group_snfi/SNFI_13;Number of mid term shelters built in the camp;শিবিরে নির্মিত মধ্যমেয়াদী আশ্রয়ের সংখ্যা
+group_snfi/SNFI_14_a;Total number of households eligible for emergency shelter kits following the shelter damage from a weather-related event (landslide, soil erosion, flood);আবহাওয়া-সম্পর্কিত ঘটনা (ভূমিধস, মাটি ক্ষয়, বন্যা) থেকে আশ্রয়ের ক্ষতির পরে জরুরী আশ্রয়ের কিটের জন্য যোগ্য পরিবারের মোট সংখ্যা
+group_snfi/SNFI_14_b;Total number of households receiving emergency shelter kits following verified shelter damage from a weather-related event (landslide, soil erosion, flood). within 72 hrs;আবহাওয়া-সম্পর্কিত ঘটনা (ভূমিধস, মাটি ক্ষয়, বন্যা) থেকে যাচাইকৃত আশ্রয়ের ক্ষতির পরে জরুরী আশ্রয়ের কিট প্রাপ্ত পরিবারের মোট সংখ্যা। 72 ঘন্টার মধ্যে
+group_snfi/SNFI_15;Number of LPG distribution points that are accessible for people with special needs.;এলপিজি বিতরণ পয়েন্টের সংখ্যা যা বিশেষ চাহিদা সম্পন্ন ব্যক্তিদের জন্য অ্যাক্সেসযোগ্য।
+group_snfi/SNFI_16;Number of Shelter distribution points that are accessible for people with special needs.;বিশেষ চাহিদা সম্পন্ন লোকেদের জন্য অ্যাক্সেসযোগ্য আশ্রয়কেন্দ্র বিতরণ পয়েন্টের সংখ্যা।
+group_snfi/SNFI_17;Number of NFI distribution points that are accessible for people with special needs.;এনএফআই বিতরণ পয়েন্টের সংখ্যা যা বিশেষ চাহিদা সম্পন্ন ব্যক্তিদের জন্য অ্যাক্সেসযোগ্য।
+group_snfi/SNFI_18;Number of LPG distribution points with Porter assistance for EVHHS available to assist with LPG delivery;এলপিজি বিতরণে সহায়তা করার জন্য EVHHS-এর জন্য পোর্টার সহায়তা সহ এলপিজি বিতরণ পয়েন্টের সংখ্যা
+group_snfi/SNFI_19;Number of Shelter distribution points with porter assistance for EVHHS available to assist with material/shelter delivery;উপাদান/আশ্রয় বিতরণে সহায়তা করার জন্য EVHHS-এর জন্য পোর্টার সহায়তা সহ আশ্রয় বিতরণ পয়েন্টের সংখ্যা
+group_snfi/SNFI_20;Number of NFI distribution points with Porter assistance for EVHHS available to assist with material/NFI delivery;EVHHS এর জন্য পোর্টার সহায়তা সহ NFI বিতরণ পয়েন্টের সংখ্যা উপাদান/NFI বিতরণে সহায়তা করার জন্য উপলব্ধ
+group_snfi/SNFI_21;Number of LPG distribution points with feedback mechanisms available at the distribution point;ডিস্ট্রিবিউশন পয়েন্টে উপলব্ধ ফিডব্যাক মেকানিজম সহ এলপিজি ডিস্ট্রিবিউশন পয়েন্টের সংখ্যা
+group_snfi/SNFI_22;Number of Shelter/NFI distribution points with feedback mechanisms available at the distribution point.;ডিস্ট্রিবিউশন পয়েন্টে উপলব্ধ ফিডব্যাক মেকানিজম সহ শেল্টার/এনএফআই ডিস্ট্রিবিউশন পয়েন্টের সংখ্যা।
+group_snfi/SNFI_23_a;Number of shelter-related feedback received at the CFRM during a reporting period.;রিপোর্টিং সময়কালে CFRM-এ প্রাপ্ত আশ্রয়-সম্পর্কিত প্রতিক্রিয়ার সংখ্যা।
+group_snfi/SNFI_23_b;Number of shelter-related feedback received at the CFRM that is resolved in a reporting period.;CFRM-এ প্রাপ্ত আশ্রয়-সম্পর্কিত প্রতিক্রিয়ার সংখ্যা যা রিপোর্টিং সময়ের মধ্যে সমাধান করা হয়।
+group_snfi/SNFI_24;Number of LPG & S/NFI distribution points with operational handwashing stations;অপারেশনাল হ্যান্ডওয়াশিং স্টেশন সহ এলপিজি এবং এস/এনএফআই বিতরণ পয়েন্টের সংখ্যা
+group_snfi/Comp_SNFI6ba;% of Shelter/NFI/LPG partners who ensured training venue arranged separately for female and male;শেল্টার/এনএফআই/এলপিজি অংশীদারদের % যারা প্রশিক্ষণের স্থান নিশ্চিত করেছেন মহিলা এবং পুরুষদের জন্য আলাদাভাবে ব্যবস্থা করা হয়েছে
+group_snfi/Comp_SNFI76a;% of shelter partners assisting Extremely Vulnerable HHs with construction/upgrades and with transportation of shelter materials. ;আশ্রয় অংশীদারদের % যারা নির্মাণ/আপগ্রেড এবং আশ্রয় সামগ্রী পরিবহনে অত্যন্ত দুর্বল এইচএইচ-কে সহায়তা করে।
+group_snfi/Comp_SNFI14ba; % of households receiving emergency shelter kits following verified shelter damage from a weather-related event (landslide, soil erosion, flood).; আবহাওয়া-সম্পর্কিত ঘটনা (ভূমিধস, মাটি ক্ষয়, বন্যা) থেকে যাচাইকৃত আশ্রয়ের ক্ষতির পরে জরুরী আশ্রয়ের কিট প্রাপ্ত পরিবারের %।
+group_snfi/Comp_SNFI1519;% of LPG distribution points that are accessible for people with special needs. ;LPG ডিস্ট্রিবিউশন পয়েন্টের % যা বিশেষ চাহিদা সম্পন্ন লোকেদের জন্য অ্যাক্সেসযোগ্য।
+group_snfi/Comp_SNFI1610;%  Shelter distribution points that are accessible for people with special needs.;% আশ্রয় বিতরণ পয়েন্ট যা বিশেষ চাহিদা সম্পন্ন ব্যক্তিদের জন্য অ্যাক্সেসযোগ্য।
+group_snfi/Comp_SNFI1711;%  NFI distribution points that are accessible for people with special needs.;% NFI ডিস্ট্রিবিউশন পয়েন্ট যা বিশেষ চাহিদা সম্পন্ন ব্যক্তিদের জন্য অ্যাক্সেসযোগ্য।
+group_snfi/Comp_SNFI189;% of LPG distribution points with porter assistance for Extremely Vulnerable HHs available to assist with materials/LPG delivery;উপকরণ/এলপিজি ডেলিভারিতে সহায়তার জন্য উপলব্ধ চরম দুর্বল এইচএইচ-এর জন্য পোর্টার সহায়তা সহ এলপিজি বিতরণ পয়েন্টের %
+group_snfi/Comp_SNFI1910;Shelter distribution points with porter assistance for Extremely Vulnerable HHs available to assist with materials/shelter delivery;উপকরণ/আশ্রয় বিতরণে সহায়তার জন্য উপলব্ধ চরম দুর্বল এইচএইচ-এর জন্য পোর্টার সহায়তা সহ আশ্রয় বিতরণ পয়েন্ট
+group_snfi/Comp_SNFI2011;% of NFI distribution points with porter assistance for Extremely Vulnerable HHs available to assist with materials/NFI delivery;উপকরণ/এনএফআই ডেলিভারিতে সহায়তা করার জন্য উপলব্ধ অত্যন্ত দুর্বল এইচএইচগুলির জন্য পোর্টার সহায়তা সহ NFI বিতরণ পয়েন্টের %
+group_snfi/Comp_SNFI212210119;% of LPG and Shelter/NFI distribution points with feedback mechanisms available at the distribution point.;ডিস্ট্রিবিউশন পয়েন্টে উপলব্ধ ফিডব্যাক মেকানিজম সহ এলপিজি এবং শেল্টার/এনএফআই ডিস্ট্রিবিউশন পয়েন্টের %।
+group_snfi/Comp_SNFI23b23a;% of shelter-related feedback received at the CFRM that is resolved within 30 days. ;CFRM-এ প্রাপ্ত আশ্রয়-সম্পর্কিত প্রতিক্রিয়ার % যা 30 দিনের মধ্যে সমাধান করা হয়।
+group_snfi/Comp_SNFI2410119;% of LPG and Shelter & NFI distribution points with operational handwashing stations and separate male and female lines;এলপিজি এবং শেল্টার এবং এনএফআই ডিস্ট্রিবিউশন পয়েন্টের % অপারেশনাল হ্যান্ডওয়াশিং স্টেশন এবং পৃথক পুরুষ ও মহিলা লাইন সহ
+group_smsd/SMS_1;SMS Focal is operational and present in the camp?;এসএমএস ফোকাল চালু আছে এবং ক্যাম্পে উপস্থিত?
+group_smsd/SMS_2;Number of camp coordination meetings with all sector focal points, an agenda, and minutes held in the reporting period;রিপোর্টিং পিরিয়ডে অনুষ্ঠিত সমস্ত সেক্টর ফোকাল পয়েন্ট, একটি এজেন্ডা এবং মিনিটের সাথে ক্যাম্প সমন্বয় বৈঠকের সংখ্যা
+group_smsd/SMS_3;Number of sector coordination meeting minutes to SMS and/or the CiC during the reporting period.;প্রতিবেদনের সময়কালে এসএমএস এবং/অথবা সিআইসি-তে সেক্টর সমন্বয় বৈঠকের মিনিটের সংখ্যা।
+group_smsd/SMS_4;Agenda items includes issues raised by representatives of the refugees and/or host community;এজেন্ডা আইটেমগুলি শরণার্থী এবং/অথবা হোস্ট সম্প্রদায়ের প্রতিনিধিদের দ্বারা উত্থাপিত সমস্যাগুলি অন্তর্ভুক্ত করে
+group_smsd/SMS_5;Camp 4W and contact list shared to CiC and other sector focal points;ক্যাম্প 4W এবং যোগাযোগের তালিকা CiC এবং অন্যান্য সেক্টর ফোকাল পয়েন্টে ভাগ করা হয়েছে
+group_smsd/SMS_6_a;Total number of blocks;ব্লকের মোট সংখ্যা
+group_smsd/SMS_6_b;Number of blocks with AGD groups represented including women, men, imams, older persons, young men, young women and people with disability;নারী, পুরুষ, ইমাম, বয়স্ক ব্যক্তি, যুবক, যুবতী এবং প্রতিবন্ধী ব্যক্তিদের সহ প্রতিনিধিত্বকারী AGD গ্রুপের ব্লকের সংখ্যা
+group_smsd/SMS_7;Number of hhs in risky areas.;ঝুঁকিপূর্ণ এলাকায় এইচএইচ এর সংখ্যা।
+group_smsd/SMS_8;Multi hazard and/or contingency plans developed and updated;মাল্টি হ্যাজার্ড এবং/অথবা আকস্মিক পরিকল্পনা তৈরি এবং আপডেট করা হয়েছে
+group_smsd/SMS_9_a;Number of SMS related CFRM cases recorded in the reporting period;রিপোর্টিং সময়ের মধ্যে নথিভুক্ত এসএমএস সম্পর্কিত CFRM মামলার সংখ্যা
+group_smsd/SMS_9_b;Number of SMS related CFRM casesreceived and reffered within 72 hours in the reporting period;রিপোর্টিং সময়ের মধ্যে 72 ঘন্টার মধ্যে এসএমএস সম্পর্কিত CFRM কেস প্রাপ্ত এবং রেফার করা হয়েছে
+group_smsd/SMS_11_a;Number of methods formal/informal to submit feedback and complaints help desk, (hotlines, mobile teams, and adhoc interviews);প্রতিক্রিয়া এবং অভিযোগ জমা দেওয়ার জন্য আনুষ্ঠানিক/অনানুষ্ঠানিক পদ্ধতির সংখ্যা সাহায্য ডেস্ক, (হটলাইন, মোবাইল টিম এবং অ্যাডহক ইন্টারভিউ)
+group_smsd/SMS_13_a;Functioning referral pathways are in place to ensure that people with specific or specialised needs receive the assistance and protection required.;নির্দিষ্ট বা বিশেষ চাহিদা সম্পন্ন ব্যক্তিরা প্রয়োজনীয় সহায়তা এবং সুরক্ষা পান তা নিশ্চিত করার জন্য কার্যকরী রেফারেল পথ রয়েছে।
+group_smsd/Comp_SMS6ba;% of blocks with AGD groups represented including women, men, older persons, young men, young women and people with disabilities;নারী, পুরুষ, বয়স্ক ব্যক্তি, যুবক, যুবতী এবং প্রতিবন্ধী ব্যক্তিদের সহ প্রতিনিধিত্বকারী AGD গ্রুপ সহ ব্লকের %
+group_smsd/Comp_SMS7HH;% of HHS in risky areas;ঝুঁকিপূর্ণ এলাকায় HHS %
+group_smsd/Comp_SMS11ba;% of SMS CFRM desks operational (open during work hours 8.30am to 3.30pm with a register or formal system for recording feedback and referrals);এসএমএস সিএফআরএম ডেস্কের % চালু থাকে (কাজের সময় সকাল 8.30টা থেকে বিকাল 3.30টা পর্যন্ত একটি রেজিস্টার বা প্রতিক্রিয়া এবং রেফারেল রেকর্ড করার জন্য আনুষ্ঠানিক ব্যবস্থা সহ খোলা থাকে)
+group_wash/WSH_1;Camp level Sector Focal Point is present and operational;ক্যাম্প স্তরের সেক্টর ফোকাল পয়েন্ট বর্তমান এবং চালু আছে
+group_wash/WSH_2;Number of total functioning latrines for men and women;পুরুষ ও মহিলাদের জন্য মোট কার্যকরী ল্যাট্রিনের সংখ্যা
+group_wash/WSH_3;Number functioning bathing spaces/washrooms for men/women;পুরুষ/মহিলাদের জন্য স্নানের স্থান/শৌচাগারের সংখ্যা
+group_wash/WSH_4;Number of functional waste communal pits;কার্যকরী বর্জ্য সাম্প্রদায়িক গর্ত সংখ্যা
+group_wash/WSH_5;Observations on the cleanliness of the camps (On a scale from 1 (very clean) to 5 (v. dirty), how clean regarding solid waste do you think is the camp?);ক্যাম্পের পরিচ্ছন্নতার উপর পর্যবেক্ষণ (একটি স্কেলে 1 (খুব পরিষ্কার) থেকে 5 (v. নোংরা), কঠিন বর্জ্য সম্পর্কে আপনি ক্যাম্পটি কতটা পরিষ্কার বলে মনে করেন?)
+group_wash/WSH_6;How is drinking water availability in this camp?;এই ক্যাম্পে পানীয় জলের প্রাপ্যতা কেমন?
+group_wash/WSH_7;Soap distributed last month?;গত মাসে সাবান বিতরণ?
+group_wash/WSH_8;Date of of last received menstrual hygiene management (mhm) items;সর্বশেষ প্রাপ্ত মাসিক স্বাস্থ্যবিধি ব্যবস্থাপনা (mhm) আইটেমগুলির তারিখ৷
+group_wash/WSH_9_a;Total CFRM issues related to WASH recorded in the reporting period;রিপোর্টিং সময়ের মধ্যে রেকর্ড করা ওয়াশ সম্পর্কিত মোট CFRM সমস্যা
+group_wash/WSH_10_b;Total CFRM issues related to WASH resolved within the reporting period;ওয়াশ সম্পর্কিত মোট CFRM সমস্যা রিপোর্টিং সময়ের মধ্যে সমাধান করা হয়েছে
+INDS_3_4Yrs;Number individuals 3-4 years;সংখ্যা ব্যক্তি 3-4 বছর
+INDS_5_14Yrs;Number individuals 5-14 years;সংখ্যা ব্যক্তি 5-14 বছর
+INDS_15_18Yrs;Number individuals 15-18 years;সংখ্যা ব্যক্তি 15-18 বছর
+INDS_19_24Yrs;Number individuals 19-24 years;সংখ্যা ব্যক্তি 19-24 বছর
+site_id;site id;সাইট আইডি
+site_name;site name;সাইটের নাম
+country;country;দেশ
+Division;Division;বিভাগ
+Upazila;Upazila;উপজেলা
+District;District;জেলা
+adm1_pcode;adm1 pcode;adm1 পিকোড
+adm2_pcode;adm2 pcode;adm2 পিকোড
+adm3_pcode;adm3 pcode;adm3 পিকোড
+Shelters;Shelters;আশ্রয়
+cccm_shelter__mangmt;cccm shelter mangmt;cccm আশ্রয় mangmt
+Camp_Area_SqM;Camp Area SqM;ক্যাম্প এলাকা SqM
+camp_perimeter;camp perimeter;ক্যাম্প পরিধি
+geopoint 1;;
+latitude;Latitude;অক্ষাংশ
+longitude;Longitude;দ্রাঘিমাংশ
+geopoint 1 altitude;;
+geopoint 1 precision;;
+last_update;Date of Report;রিপোর্টের তারিখ
+blocks;Number of Blocks;ব্লকের সংখ্যা
+sublocks;Number of Sub-blocks;সাব-ব্লকের সংখ্যা
+Camp_Area_SqM;Camp Area (Sq.M);ক্যাম্প এলাকা (Sq.M)
+cccm_shelter__mangmt;Camp managed by;ক্যাম্প পরিচালিত
+CiC_Officer;CiC Officer;সিআইসি অফিসার
+Camp_Commander;Camp Commander;ক্যাম্প কমান্ডার
+Camp_Manager;Camp Manager;ক্যাম্প ম্যানেজার
+type;Location type;অবস্থানের ধরন
+demo_num_hh;Number families;পরিবারের সংখ্যা
+demo_num_indv;Number individuals;ব্যক্তি সংখ্যা
+demo_male_0_1;Males 0-1 years;পুরুষ 0-1 বছর
+demo_female_0_1;Females 0-1 years;মহিলা 0-1 বছর
+demo_male_1_4;Males 1-4 years;পুরুষ 1-4 বছর
+demo_female_1_4;Females 1-4 year;মহিলা 1-4 বছর
+demo_male_5_11;Males 5-11 years;পুরুষ 5-11 বছর
+demo_female_5_11;Females 5-11 years;মহিলা 5-11 বছর
+demo_male_12_17;Males 12-17 years;পুরুষ 12-17 বছর
+demo_female_12_17;Females 12-17 years;মহিলা 12-17 বছর
+demo_male_18_59;Males 18-59 years;পুরুষ 18-59 বছর
+demo_female_18_59;Females 18-59 years;মহিলা 18-59 বছর
+demo_male_60+;Males 60 or older;60 বা তার বেশি বয়সী পুরুষ
+demo_female_60+;Females 60 or older;মহিলা 60 বা তার বেশি বয়সী
+PSN_SingleParent;Single Parent of Caregivers;যত্নশীলদের একক অভিভাবক
+PSN_PersonsDisability;Persons with Disability;প্রতিবন্ধী ব্যক্তি
+PSN_Legal_ProtectionNeeds;Persons with Specific Legal & Physical Protection Needs;নির্দিষ্ট আইনি ও শারীরিক সুরক্ষার প্রয়োজন আছে এমন ব্যক্তিদের
+PSN_SeriousMedical;Persons with Serious medical Condition;গুরুতর মেডিকেল অবস্থার ব্যক্তিদের
+PSN_ChildrenRisk;Children at Risk;ঝুঁকিতে শিশু
+PSN_UASC;Unaccompanied/Seperated Children;সঙ্গহীন/বিচ্ছিন্ন শিশু
+PSN_OlderAtRisk;Older Persons at Risk;ঝুঁকিপূর্ণ বয়স্ক ব্যক্তিরা
+PSN_OtherPSN;Other PSNs;অন্যান্য PSN
+Percent_of_health_facilities_with_operational_CFRMs;Perc of health facilities with operational CFRMs;কর্মক্ষম CFRM সহ স্বাস্থ্য সুবিধার %
+Percent_of_CFRM_health_cases_resolved_within_30_days;Perc of CFRM health cases resolved within 30 days;30 দিনের মধ্যে সিএফআরএম স্বাস্থ্যের ক্ষেত্রে সমাধান করা হয়েছে
+Percent_of_distribution_centers_that_are_accessible_for_people_with_special_needs_and_women;% of distribution centers that are accessible for people with special needs and women;বন্টন কেন্দ্রের % যা বিশেষ চাহিদা সম্পন্ন ব্যক্তি এবং মহিলাদের জন্য অ্যাক্সেসযোগ্য
+Percent_Nutritiona_facilities_accessible_for_PWSN;% Nutritiona facilities accessible for PWSN;PWSN-এর জন্য % পুষ্টি সুবিধা অ্যাক্সেসযোগ্য
+Percent__Shelter_distribution_points_that_are_accessible_for_people_with_special_needs;%  Shelter distribution points that are accessible for people with special needs;% আশ্রয় বন্টন পয়েন্ট যা বিশেষ চাহিদা সম্পন্ন ব্যক্তিদের জন্য অ্যাক্সেসযোগ্য
+Total_Shelter_and_NFI_distribution_points;Total Shelter and NFI distribution points;মোট আশ্রয় এবং NFI বিতরণ পয়েন্ট
+Percent_of_shelter-related_feedback_received_at_the_CFRM_that_is_resolved_within_30_days;% of shelter-related feedback received at the CFRM that is resolved within 30 days;CFRM-এ প্রাপ্ত আশ্রয়-সম্পর্কিত প্রতিক্রিয়ার % যা 30 দিনের মধ্যে সমাধান করা হয়
+Percent_Protection_refferal_cases_actioned;% Protection refferal cases actioned;% সুরক্ষা রেফারাল কেস অ্যাকশন করা হয়েছে
+Percent_Child_friendly_space__in_risk_zones;% Child friendly space  in risk zones;ঝুঁকিপূর্ণ অঞ্চলে % শিশুবান্ধব স্থান
+SUM_group_education/EDU_6_a_b_c;X;X
+SUM_group_snfi/SNFI_10_11_9;X;X
+SUM_group_snfi/SNFI_21_22;X;X
+SUM_group_education_INDS_3_to_24;Number individuals 3 to 24 years;সংখ্যা ব্যক্তি 3 থেকে 24 বছর
+group_education/Comp_EDUmulti;Proportion of learning spaces;শেখার স্থানের অনুপাত
+group_snfi/Comp_SNFI212210119;% of LPG and Shelter/NFI distribution points with feedback mechanisms available at the distribution point;ডিস্ট্রিবিউশন পয়েন্টে উপলব্ধ ফিডব্যাক মেকানিজম সহ এলপিজি এবং শেল্টার/এনএফআই ডিস্ট্রিবিউশন পয়েন্টের %
+group_snfi/Comp_SNFI2410119;% of LPG and Shelter & NFI distribution points with operational handwashing stations and separate male and female lines;এলপিজি এবং শেল্টার এবং এনএফআই ডিস্ট্রিবিউশন পয়েন্টের % অপারেশনাল হ্যান্ডওয়াশিং স্টেশন এবং পৃথক পুরুষ ও মহিলা লাইন সহ

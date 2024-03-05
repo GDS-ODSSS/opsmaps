@@ -1,0 +1,307 @@
+field_name;field_label_en;field_label_bn
+ordre;ordre;আদেশ
+_id;id;আইডি
+education_A_name;Name A;নাম এ
+fs_A_name;Name A;নাম এ
+fs_B_name;Name B;নাম বি
+gbv_A_name;Name A;নাম এ
+gbv_B_name;Name B;নাম বি
+gbv_C_name;Name C;নাম সি
+health_A_name;Name A;নাম এ
+lsds_A_name;Name A;নাম এ
+lsds_B_name;Name B;নাম বি
+nutrition_A_name;Name A;নাম এ
+nutrition_B_name;Name B;নাম বি
+protection__name;Name ;নাম
+protection_A_name;Name A;নাম এ
+protection_B_name;Name B;নাম বি
+shelternfi__name;Name ;নাম
+shelternfi_A_name;Name A;নাম এ
+shelternfi_B_name;Name B;নাম বি
+shelternfi_C_name;Name C;নাম সি
+shelternfi_D_name;Name D;নাম ডি
+smsd_A_name;Name A;নাম এ
+smsd_B_name;Name B;নাম বি
+smsd_C_name;Name C;নাম সি
+smsd_D_name;Name D;নাম ডি
+smsd_E_name;Name E;নাম ই
+smsd_F_name;Name F;নাম এফ
+smsd_G_name;Name G;নাম জি
+smsd_H_name;Name H;নাম এইচ
+smsd_I_name;Name I;নাম I
+smsd_J_name;Name J;নাম জে
+smsd_K_name;Name K;নাম কে
+wash_A_name;Name A;নাম এ
+wash_B_name;Name B;নাম বি
+wash_C_name;Name C;নাম সি
+wash_D_name;Name D;নাম ডি
+wash_E_name;Name E;নাম ই
+wash_F_name;Name F;নাম এফ
+X1_name;Name X1;নাম X1
+X2_name;Name X2;নাম X2
+X3_name;Name X3;নাম X3
+X4_name;Name X4;নাম X4
+X5_name;Name X5;নাম X5
+education_A_sector;Sector A;সেক্টর এ
+fs_A_sector;Sector A;সেক্টর এ
+fs_B_sector;Sector B;সেক্টর বি
+gbv_A_sector;Sector A;সেক্টর এ
+gbv_B_sector;Sector B;সেক্টর বি
+gbv_C_sector;Sector C;সেক্টর সি
+health_A_sector;Sector A;সেক্টর এ
+lsds_A_sector;Sector A;সেক্টর এ
+lsds_B_sector;Sector B;সেক্টর বি
+nutrition_A_sector;Sector A;সেক্টর এ
+nutrition_B_sector;Sector B;সেক্টর বি
+protection__sector;Sector ;সেক্টর
+protection_A_sector;Sector A;সেক্টর এ
+protection_B_sector;Sector B;সেক্টর বি
+shelternfi__sector;Sector ;সেক্টর
+shelternfi_A_sector;Sector A;সেক্টর এ
+shelternfi_B_sector;Sector B;সেক্টর বি
+shelternfi_C_sector;Sector C;সেক্টর সি
+shelternfi_D_sector;Sector D;সেক্টর ডি
+smsd_A_sector;Sector A;সেক্টর এ
+smsd_B_sector;Sector B;সেক্টর বি
+smsd_C_sector;Sector C;সেক্টর সি
+smsd_D_sector;Sector D;সেক্টর ডি
+smsd_E_sector;Sector E;সেক্টর ই
+smsd_F_sector;Sector F;সেক্টর এফ
+smsd_G_sector;Sector G;সেক্টর জি
+smsd_H_sector;Sector H;সেক্টর এইচ
+smsd_I_sector;Sector I;সেক্টর আই
+smsd_J_sector;Sector J;সেক্টর জে
+smsd_K_sector;Sector K;সেক্টর কে
+wash_A_sector;Sector A;সেক্টর এ
+wash_B_sector;Sector B;সেক্টর বি
+wash_C_sector;Sector C;সেক্টর সি
+wash_D_sector;Sector D;সেক্টর ডি
+wash_E_sector;Sector E;সেক্টর ই
+wash_F_sector;Sector F;সেক্টর এফ
+X1_sector;Sector X1;সেক্টর X1
+X2_sector;Sector X2;সেক্টর X2
+X3_sector;Sector X3;সেক্টর X3
+X4_sector;Sector X4;সেক্টর X4
+X5_sector;Sector X5;সেক্টর X5
+education_A_role;Role A;ভূমিকা A
+fs_A_role;Role A;ভূমিকা A
+fs_B_role;Role B;ভূমিকা বি
+gbv_A_role;Role A;ভূমিকা A
+gbv_B_role;Role B;ভূমিকা বি
+gbv_C_role;Role C;ভূমিকা সি
+health_A_role;Role A;ভূমিকা A
+lsds_A_role;Role A;ভূমিকা A
+lsds_B_role;Role B;ভূমিকা বি
+nutrition_A_role;Role A;ভূমিকা A
+nutrition_B_role;Role B;ভূমিকা বি
+protection__role;Role ;ভূমিকা
+protection_A_role;Role A;ভূমিকা A
+protection_B_role;Role B;ভূমিকা বি
+shelternfi__role;Role ;ভূমিকা
+shelternfi_A_role;Role A;ভূমিকা A
+shelternfi_B_role;Role B;ভূমিকা বি
+shelternfi_C_role;Role C;ভূমিকা সি
+shelternfi_D_role;Role D;ভূমিকা ডি
+smsd_A_role;Role A;ভূমিকা A
+smsd_B_role;Role B;ভূমিকা বি
+smsd_C_role;Role C;ভূমিকা সি
+smsd_D_role;Role D;ভূমিকা ডি
+smsd_E_role;Role E;ভূমিকা ই
+smsd_F_role;Role F;ভূমিকা F
+smsd_G_role;Role G;ভূমিকা জি
+smsd_H_role;Role H;ভূমিকা H
+smsd_I_role;Role I;ভূমিকা I
+smsd_J_role;Role J;ভূমিকা জে
+smsd_K_role;Role K;ভূমিকা কে
+wash_A_role;Role A;ভূমিকা A
+wash_B_role;Role B;ভূমিকা বি
+wash_C_role;Role C;ভূমিকা সি
+wash_D_role;Role D;ভূমিকা ডি
+wash_E_role;Role E;ভূমিকা ই
+wash_F_role;Role F;ভূমিকা F
+X1_role;Role X1;ভূমিকা X1
+X2_role;Role X2;ভূমিকা X2
+X3_role;Role X3;ভূমিকা X3
+X4_role;Role X4;ভূমিকা X4
+X5_role;Role X5;ভূমিকা X5
+education_A_agency;Agency A;এজেন্সি এ
+fs_A_agency;Agency A;এজেন্সি এ
+fs_B_agency;Agency B;সংস্থা বি
+gbv_A_agency;Agency A;এজেন্সি এ
+gbv_B_agency;Agency B;সংস্থা বি
+gbv_C_agency;Agency C;এজেন্সি সি
+health_A_agency;Agency A;এজেন্সি এ
+lsds_A_agency;Agency A;এজেন্সি এ
+lsds_B_agency;Agency B;সংস্থা বি
+nutrition_A_agency;Agency A;এজেন্সি এ
+nutrition_B_agency;Agency B;সংস্থা বি
+protection__agency;Agency ;এজেন্সি
+protection_A_agency;Agency A;এজেন্সি এ
+protection_B_agency;Agency B;সংস্থা বি
+shelternfi__agency;Agency ;এজেন্সি
+shelternfi_A_agency;Agency A;এজেন্সি এ
+shelternfi_B_agency;Agency B;সংস্থা বি
+shelternfi_C_agency;Agency C;এজেন্সি সি
+shelternfi_D_agency;Agency D;এজেন্সি ডি
+smsd_A_agency;Agency A;এজেন্সি এ
+smsd_B_agency;Agency B;সংস্থা বি
+smsd_C_agency;Agency C;এজেন্সি সি
+smsd_D_agency;Agency D;এজেন্সি ডি
+smsd_E_agency;Agency E;এজেন্সি ই
+smsd_F_agency;Agency F;এজেন্সি এফ
+smsd_G_agency;Agency G;এজেন্সি জি
+smsd_H_agency;Agency H;এজেন্সি এইচ
+smsd_I_agency;Agency I;এজেন্সি আই
+smsd_J_agency;Agency J;এজেন্সি জে
+smsd_K_agency;Agency K;এজেন্সি কে
+wash_A_agency;Agency A;এজেন্সি এ
+wash_B_agency;Agency B;সংস্থা বি
+wash_C_agency;Agency C;এজেন্সি সি
+wash_D_agency;Agency D;এজেন্সি ডি
+wash_E_agency;Agency E;এজেন্সি ই
+wash_F_agency;Agency F;এজেন্সি এফ
+X1_agency;Agency X1;এজেন্সি X1
+X2_agency;Agency X2;এজেন্সি X2
+X3_agency;Agency X3;এজেন্সি X3
+X4_agency;Agency X4;এজেন্সি X4
+X5_agency;Agency X5;এজেন্সি X5
+education_A_contact_number;Number A;সংখ্যা A
+fs_A_contact_number;Number A;সংখ্যা A
+fs_B_contact_number;Number B;সংখ্যা বি
+gbv_A_contact_number;Number A;সংখ্যা A
+gbv_B_contact_number;Number B;সংখ্যা বি
+gbv_C_contact_number;Number C;সংখ্যা গ
+health_A_contact_number;Number A;সংখ্যা A
+lsds_A_contact_number;Number A;সংখ্যা A
+lsds_B_contact_number;Number B;সংখ্যা বি
+nutrition_A_contact_number;Number A;সংখ্যা A
+nutrition_B_contact_number;Number B;সংখ্যা বি
+protection__contact_number;Number ;সংখ্যা
+protection_A_contact_number;Number A;সংখ্যা A
+protection_B_contact_number;Number B;সংখ্যা বি
+shelternfi__contact_number;Number ;সংখ্যা
+shelternfi_A_contact_number;Number A;সংখ্যা A
+shelternfi_B_contact_number;Number B;সংখ্যা বি
+shelternfi_C_contact_number;Number C;সংখ্যা গ
+shelternfi_D_contact_number;Number D;সংখ্যা D
+smsd_A_contact_number;Number A;সংখ্যা A
+smsd_B_contact_number;Number B;সংখ্যা বি
+smsd_C_contact_number;Number C;সংখ্যা গ
+smsd_D_contact_number;Number D;সংখ্যা D
+smsd_E_contact_number;Number E;সংখ্যা ই
+smsd_F_contact_number;Number F;সংখ্যা F
+smsd_G_contact_number;Number G;নম্বর জি
+smsd_H_contact_number;Number H;সংখ্যা H
+smsd_I_contact_number;Number I;নম্বর I
+smsd_J_contact_number;Number J;নম্বর জে
+smsd_K_contact_number;Number K;নম্বর কে
+wash_A_contact_number;Number A;সংখ্যা A
+wash_B_contact_number;Number B;সংখ্যা বি
+wash_C_contact_number;Number C;সংখ্যা গ
+wash_D_contact_number;Number D;সংখ্যা D
+wash_E_contact_number;Number E;সংখ্যা ই
+wash_F_contact_number;Number F;সংখ্যা F
+X1_contact_number;Number X1;নম্বর X1
+X2_contact_number;Number X2;নম্বর X2
+X3_contact_number;Number X3;নম্বর X3
+X4_contact_number;Number X4;সংখ্যা X4
+X5_contact_number;Number X5;নম্বর X5
+education_A_email;Email A;ইমেল একটি
+fs_A_email;Email A;ইমেল একটি
+fs_B_email;Email B;ইমেইল বি
+gbv_A_email;Email A;ইমেল একটি
+gbv_B_email;Email B;ইমেইল বি
+gbv_C_email;Email C;ইমেইল সি
+health_A_email;Email A;ইমেল একটি
+lsds_A_email;Email A;ইমেল একটি
+lsds_B_email;Email B;ইমেইল বি
+nutrition_A_email;Email A;ইমেল একটি
+nutrition_B_email;Email B;ইমেইল বি
+protection__email;Email ;ইমেইল
+protection_A_email;Email A;ইমেল একটি
+protection_B_email;Email B;ইমেইল বি
+shelternfi__email;Email ;ইমেইল
+shelternfi_A_email;Email A;ইমেল একটি
+shelternfi_B_email;Email B;ইমেইল বি
+shelternfi_C_email;Email C;ইমেইল সি
+shelternfi_D_email;Email D;ইমেল ডি
+smsd_A_email;Email A;ইমেল একটি
+smsd_B_email;Email B;ইমেইল বি
+smsd_C_email;Email C;ইমেইল সি
+smsd_D_email;Email D;ইমেল ডি
+smsd_E_email;Email E;ইমেইল করুন
+smsd_F_email;Email F;ইমেল এফ
+smsd_G_email;Email G;ইমেইল জি
+smsd_H_email;Email H;ইমেল এইচ
+smsd_I_email;Email I;ইমেল আই
+smsd_J_email;Email J;ইমেইল জে
+smsd_K_email;Email K;ইমেল কে
+wash_A_email;Email A;ইমেল একটি
+wash_B_email;Email B;ইমেইল বি
+wash_C_email;Email C;ইমেইল সি
+wash_D_email;Email D;ইমেল ডি
+wash_E_email;Email E;ইমেইল করুন
+wash_F_email;Email F;ইমেল এফ
+X1_email;Email X1;ইমেইল X1
+X2_email;Email X2;ইমেল X2
+X3_email;Email X3;ইমেল X3
+X4_email;Email X4;ইমেল X4
+X5_email;Email X5;ইমেল X5
+site_id;site id;সাইট আইডি
+site_name;site name;সাইটের নাম
+country;country;দেশ
+Division;Division;বিভাগ
+Upazila;Upazila;উপজেলা
+District;District;জেলা
+adm1_pcode;adm1 pcode;adm1 পিকোড
+adm2_pcode;adm2 pcode;adm2 পিকোড
+adm3_pcode;adm3 pcode;adm3 পিকোড
+Shelters;Shelters;আশ্রয়
+cccm_shelter__mangmt;cccm shelter mangmt;cccm আশ্রয় mangmt
+Camp_Area_SqM;Camp Area SqM;ক্যাম্প এলাকা SqM
+camp_perimeter;camp perimeter;ক্যাম্প পরিধি
+geopoint 1;;
+latitude;Latitude;অক্ষাংশ
+longitude;Longitude;দ্রাঘিমাংশ
+geopoint 1 altitude;;
+geopoint 1 precision;;
+last_update;Date of Report;রিপোর্টের তারিখ
+blocks;Number of Blocks;ব্লকের সংখ্যা
+sublocks;Number of Sub-blocks;সাব-ব্লকের সংখ্যা
+Camp_Area_SqM;Camp Area (Sq.M);ক্যাম্প এলাকা (Sq.M)
+cccm_shelter__mangmt;Camp managed by;ক্যাম্প পরিচালিত
+CiC_Officer;CiC Officer;সিআইসি অফিসার
+Camp_Commander;Camp Commander;ক্যাম্প কমান্ডার
+Camp_Manager;Camp Manager;ক্যাম্প ম্যানেজার
+type;Location type;অবস্থানের ধরন
+demo_num_hh;Number families;পরিবারের সংখ্যা
+demo_num_indv;Number individuals;ব্যক্তি সংখ্যা
+demo_male_0_1;Males 0-1 years;পুরুষ 0-1 বছর
+demo_female_0_1;Females 0-1 years;মহিলা 0-1 বছর
+demo_male_1_4;Males 1-4 years;পুরুষ 1-4 বছর
+demo_female_1_4;Females 1-4 year;মহিলা 1-4 বছর
+demo_male_5_11;Males 5-11 years;পুরুষ 5-11 বছর
+demo_female_5_11;Females 5-11 years;মহিলা 5-11 বছর
+demo_male_12_17;Males 12-17 years;পুরুষ 12-17 বছর
+demo_female_12_17;Females 12-17 years;মহিলা 12-17 বছর
+demo_male_18_59;Males 18-59 years;পুরুষ 18-59 বছর
+demo_female_18_59;Females 18-59 years;মহিলা 18-59 বছর
+demo_male_60+;Males 60 or older;60 বা তার বেশি বয়সী পুরুষ
+demo_female_60+;Females 60 or older;মহিলা 60 বা তার বেশি বয়সী
+PSN_SingleParent;Single Parent of Caregivers;যত্নশীলদের একক অভিভাবক
+PSN_PersonsDisability;Persons with Disability;প্রতিবন্ধী ব্যক্তি
+PSN_Legal_ProtectionNeeds;Persons with Specific Legal & Physical Protection Needs;নির্দিষ্ট আইনি ও শারীরিক সুরক্ষার প্রয়োজন আছে এমন ব্যক্তিদের
+PSN_SeriousMedical;Persons with Serious medical Condition;গুরুতর মেডিকেল অবস্থার ব্যক্তিদের
+PSN_ChildrenRisk;Children at Risk;ঝুঁকিতে শিশু
+PSN_UASC;Unaccompanied/Seperated Children;সঙ্গহীন/বিচ্ছিন্ন শিশু
+PSN_OlderAtRisk;Older Persons at Risk;ঝুঁকিপূর্ণ বয়স্ক ব্যক্তিরা
+PSN_OtherPSN;Other PSNs;অন্যান্য PSN
+Percent_of_health_facilities_with_operational_CFRMs;Perc of health facilities with operational CFRMs;কর্মক্ষম CFRM সহ স্বাস্থ্য সুবিধার %
+Percent_of_CFRM_health_cases_resolved_within_30_days;Perc of CFRM health cases resolved within 30 days;30 দিনের মধ্যে সিএফআরএম স্বাস্থ্যের ক্ষেত্রে সমাধান করা হয়েছে
+Percent_of_distribution_centers_that_are_accessible_for_people_with_special_needs_and_women;% of distribution centers that are accessible for people with special needs and women;বন্টন কেন্দ্রের % যা বিশেষ চাহিদা সম্পন্ন ব্যক্তি এবং মহিলাদের জন্য অ্যাক্সেসযোগ্য
+Percent_Nutritiona_facilities_accessible_for_PWSN;% Nutritiona facilities accessible for PWSN;PWSN-এর জন্য % পুষ্টি সুবিধা অ্যাক্সেসযোগ্য
+Percent__Shelter_distribution_points_that_are_accessible_for_people_with_special_needs;%  Shelter distribution points that are accessible for people with special needs;% আশ্রয় বন্টন পয়েন্ট যা বিশেষ চাহিদা সম্পন্ন ব্যক্তিদের জন্য অ্যাক্সেসযোগ্য
+Total_Shelter_and_NFI_distribution_points;Total Shelter and NFI distribution points;মোট আশ্রয় এবং NFI বিতরণ পয়েন্ট
+Percent_of_shelter-related_feedback_received_at_the_CFRM_that_is_resolved_within_30_days;% of shelter-related feedback received at the CFRM that is resolved within 30 days;CFRM-এ প্রাপ্ত আশ্রয়-সম্পর্কিত প্রতিক্রিয়ার % যা 30 দিনের মধ্যে সমাধান করা হয়
+Percent_Protection_refferal_cases_actioned;% Protection refferal cases actioned;% সুরক্ষা রেফারাল কেস অ্যাকশন করা হয়েছে
+Percent_Child_friendly_space__in_risk_zones;% Child friendly space  in risk zones;ঝুঁকিপূর্ণ অঞ্চলে % শিশুবান্ধব স্থান

@@ -1,0 +1,111 @@
+{
+    "charts": {
+        "age_pyramid#1": {
+            "type": "bar",
+            "direction": "horizontal",
+            "barType": "duo",
+            "axis": {
+                "x": {
+                    "title": "charts.titleX"
+                },
+                "y": {
+                    "title": "charts.titleY",
+                    "labels": [
+                        {
+                            "en": "60+",
+                            "bn":"60+"
+                        },
+                        {
+                            "en": "18-59",
+                            "bn":"18-59"
+                        },
+                        {
+                            "en": "12-17",
+                            "bn":"12-17"
+                        },
+                        {
+                            "en": "5-11",
+                            "bn":"5-11"
+                        },
+                        {
+                            "en": "1-4",
+                            "bn":"1-4"
+                        },
+                        {
+                            "en": "0-1",
+                            "bn":"0-1"
+                        }
+                    ]
+                }
+            },
+            "series": [
+                {
+                    "id": "m",
+                    "index": 0,
+                    "color": "#6FC5BC",
+                    "label": "charts.male"
+                },
+                {
+                    "id": "f",
+                    "index": 1,
+                    "color": "#1B657C",
+                    "label": "charts.female"
+                }
+            ]
+        },
+        "age_pyramid#2": {
+            "type": "bar",
+            "direction": "horizontal",
+            "barType": "single",
+            "axis": {
+                "x": {
+                    "title": {
+                        "en": "# people",
+                        "bn": "# জন"
+                    },
+                    "min": 0,
+                    "max": 40000,
+                    "interval": 500
+                },
+                "y": {
+                    "title": {
+                        "bn": "বয়স পরিসীমা",
+                        "en": "Age range"
+                    },
+                    "labels": [
+                        {
+                            "en": "(19-24)",
+                            "bn": "(19-24)"
+                        },
+                        {
+                            "en": "(15-18)",
+                            "bn": "(15-18)"
+                        },
+                        {
+                            "en": "(5-14)",
+                            "bn": "(5-14)"
+                        },
+                        {
+                            "fr": "(3-4)",
+                            "en": "(3-4)"
+                        }
+                    ]
+                }
+            },
+            "series": [
+                {
+                    "id": "g",
+                    "index": 0,
+                    "color": "#F5F3E8",
+                    "label": {
+                        "bn": "লিঙ্গ নিরপেক্ষ/অন্তর্ভুক্ত",
+                        "en": "Gender neutral/inclusive"
+                    }
+                }
+            ]
+        },
+        "doughnut_chart#2": {
+            "type": "doughnut"
+        }
+    }
+}

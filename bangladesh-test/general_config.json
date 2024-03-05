@@ -1,0 +1,333 @@
+{
+    "version": "v1.1",
+    "textContent": {
+        "name": {
+            "en": "Bangladesh",
+            "bn": "বাংলাদেশ"
+        },
+        "opsmapDescr": {
+            "en": "<p> The Service Monitoring tool plays a pivotal role in the Rohingya refugee crisis in Bangladesh, providing essential information on the situation across 33 camps. It ensures adherence to minimum humanitarian standards and enables targeted service delivery through its analysis of standardized indicators, essential for effective coordination. Historically, the large-scale forced displacement of the Rohingya — an ethnic, linguistic, and religious minority from Myanmar’s northern Rakhine State — into Bangladesh occurred in 1978, 1992, 2012, and again in 2016. On all occasions, Bangladesh has generously sheltered Rohingya refugees temporarily. For the most part on previous occasions, the Rohingya have returned to their ancestral home in Rakhine State. Under the leadership of the Government of Bangladesh, the humanitarian response of over 116+ partners including 10 UN agencies and 106 NGOs, is working to support the refugees and the half-million Bangladeshi host community members. Efforts are focused on finding a durable solution, outlined in the annually issued Joint Response Plan.</p><p><span class=\"font-weight-medium\"> More Information about the Shelter-CCCM sector </p><p> <a href=\" https://rohingyaresponse.org/sectors/coxs-bazar/shelter-cccm\" target=\"_blank\"> https://rohingyaresponse.org/sectors/coxs-bazar/shelter-cccm</a></span></p>",
+            "bn": "<p> বাংলাদেশে রোহিঙ্গা শরণার্থী সংকটে সার্ভিস মনিটরিং টূল একটি কেন্দ্রীয় ভূমিকা পালন করে, ৩৩টি শিবির জুড়ে পরিস্থিতি সম্পর্কিত অপরিহার্য তথ্য সরবরাহ করে। এটি ন্যূনতম মানবিক মানদণ্ডের প্রতি অনুগত থাকার নিশ্চিত করে এবং প্রমিত সূচকগুলির বিশ্লেষণের মাধ্যমে লক্ষ্যবস্তু সেবা প্রদান সক্ষম করে, যা কার্যকর সমন্বয়ের জন্য অপরিহার্য।. ইতিহাসগতভাবে, রোহিঙ্গা—মায়ানমারের উত্তর রাখাইন রাজ্য থেকে একটি জাতিগত, ভাষাগত, এবং ধর্মীয় সংখ্যালঘু—এর বড় মাপের জোরপূর্বক উচ্ছেদ বাংলাদেশে ১৯৭৮, ১৯৯২, ২০১২, এবং ২০১৬ সালে ঘটেছিল। সব ঘটনায়, বাংলাদেশ সাময়িকভাবে রোহিঙ্গা শরণার্থীদের উদারভাবে আশ্রয় দিয়েছে। অধিকাংশ ঘটনায়, রোহিঙ্গারা তাদের ঐতিহ্যগত বাড়ি রাখাইন রাজ্যে ফিরে গিয়েছিল।.বাংলাদেশ সরকারের নেতৃত্বে, ১১৬+ অংশীদারসহ ১০টি জাতিসংঘ সংস্থা এবং ১০৬টি এনজিও, শরণার্থীদের এবং অর্ধ-মিলিয়ন বাংলাদেশি আতিথেয়তা সম্প্রদায়ের সদস্যদের সমর্থ. শেল্টার-সিসিএম সেক্টর সম্পর্কে আরও তথ্য <a href=\" https://rohingyaresponse.org/sectors/coxs-bazar/shelter-cccm \" target=\"_blank\"> https://rohingyaresponse.org/sectors/coxs-bazar/shelter-cccm </a></span></p>"
+        }
+    },
+    "iframe": {
+        "url": "https://www.arcgis.com/apps/dashboards/64b39338db334ea892eee051ad4423e3",
+        "display": true
+    },
+    "locale": {
+        "locales": [
+            "en",
+            "bn"
+        ],
+        "override": {
+            "en": {
+                "title": "Service Monitoring",
+                "infosSite": "Camp",
+                "infosAdmins": {
+                    "admin1": "Division",
+                    "admin2": "District",
+                    "admin3": "Upazila"
+                }
+            },
+            "bn": {
+                "title": "ক্যাম্প প্রোফাইল",
+                "infosSite": "শিবির",
+                "infosAdmins": {
+                    "admin1": "বিভাগ",
+                    "admin2": "জেলা",
+                    "admin3": "উপজেলা"
+                }
+            }
+        }
+    },
+    "headerLogos": [
+        {
+            "name": "CCCM Bangladesh",
+            "urlLogo": "Logo/SCCCM_Logo_small.png",
+            "urlRedirection": "https://www.cccmcluster.org/where-we-work/bangladesh"
+        }
+    ],
+    "footerLogos": [
+        {
+            "title": {
+                "en": "Webdev",
+                "bn": "ওয়েবডেভ"
+            },
+            "logos": [
+                {
+                    "name": "CartONG",
+                    "urlLogo": "Logo/CartONG_logo.png",
+                    "urlRedirection": "https://www.cartong.org"
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Fieldwork",
+                "bn": "মাঠকর্ম"
+            },
+            "logos": []
+        },
+        {
+            "title": {
+                "en": "Coordination and IM support",
+                "bn": "সমন্বয় এবং IM সমর্থন"
+            },
+            "logos": []
+        },
+        {
+            "title": {
+                "en": "Sector Lead",
+                "bn": "সেক্টর লিড"
+            },
+            "logos": []
+        }
+    ],
+    "spatial": {
+        "mapConfig": {
+            "bounds": [
+                91.84,
+                21.378,
+                92.64,
+                20.88
+            ]
+        },
+        "dbConfig": {
+            "admin1": "pcode",
+            "admin2": "pcode",
+            "admin3": "pcode"
+        },
+        "adminLevels": [
+            "admin1",
+            "admin2",
+            "admin3"
+        ],
+        "adminLevelsMap": [
+            "admin1",
+            "admin2"
+        ]
+    },
+    "surveys": [
+        {
+            "type": "gsheet",
+            "name": "Camp Basic Information",
+            "fdf": {
+                "folder": "FDF"
+            },
+            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR1FjIohCvSE6Hk9YV4kS0rK_7YW5t7JjrkSy9WXW5gvomwrE8avGhKwKTKA5YbPj3_PBWZ0rRhmaH/pub?gid=0&single=true&output=csv",
+            "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR1FjIohCvSE6Hk9YV4kS0rK_7YW5t7JjrkSy9WXW5gvomwrE8avGhKwKTKA5YbPj3_PBWZ0rRhmaH/pub?gid=2106117370&single=true&output=csv",
+            "options": {
+                "sitesMapVisualisation": [
+                    {
+                        "type": "populationCount",
+                        "field": "demo_num_indv",
+                        "tresholds": [
+                            300,
+                            50000
+                        ]
+                    }
+                ]
+            },
+            "additionalFiltersDescription": [
+                {
+                    "field": "cccm_shelter__mangmt",
+                    "name": {
+                        "en": "Manage by",
+                        "bn": "দ্বারা পরিচালনা করুন"
+                    }
+                }
+            ],
+            "indicators": {
+                "area": [
+                    {
+                        "type": "site_count"
+                    },
+                    {
+                        "type": "people_count",
+                        "entryCode": "demo_num_indv"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Number families",
+                            "bn": "সংখ্যা পরিবার"
+                        },
+                        "entryCode": "demo_num_hh",
+                        "iconOchaName": "People-targeted"
+                    }
+                ],
+                "site": [
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Number families",
+                            "bn": "সংখ্যা পরিবার"
+                        },
+                        "entryCode": "demo_num_hh",
+                        "iconOchaName": "People-targeted"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Number individuals",
+                            "bn": "সংখ্যা ব্যক্তি"
+                        },
+                        "entryCode": "demo_num_indv",
+                        "iconOchaName": "People-in-need"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Total Number of shelters",
+                            "bn": "আশ্রয়কেন্দ্রের মোট সংখ্যা"
+                        },
+                        "entryCode": "group_snfi/SNFI_12",
+                        "iconOchaName": "Shelter"
+                    }
+                ]
+            },
+            "spatial": {
+                "siteFields": {
+                    "id": "site_id",
+                    "lastUpdate": "last_update",
+                    "latitude": "latitude",
+                    "longitude": "longitude",
+                    "manageBy": "cccm_shelter__mangmt",
+                    "name": "group_general_question/camp",
+                    "type": "type"
+                },
+                "admins": {
+                    "admin1": {
+                        "pcode": "adm1_pcode",
+                        "name": "Division"
+                    },
+                    "admin2": {
+                        "pcode": "adm2_pcode",
+                        "name": "District"
+                    },
+                    "admin3": {
+                        "pcode": "adm3_pcode",
+                        "name": "Upazila"
+                    }
+                }
+            }
+        },
+        {
+            "type": "gsheet",
+            "name": "Service monitoring",
+            "fdf": {
+                "folder": "FDF_2"
+            },
+            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR1FjIohCvSE6Hk9YV4kS0rK_7YW5t7JjrkSy9WXW5gvomwrE8avGhKwKTKA5YbPj3_PBWZ0rRhmaH/pub?gid=47417686&single=true&output=csv",
+            "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR1FjIohCvSE6Hk9YV4kS0rK_7YW5t7JjrkSy9WXW5gvomwrE8avGhKwKTKA5YbPj3_PBWZ0rRhmaH/pub?gid=1729489555&single=true&output=csv",
+            "options": {
+                "inputDateFormat": "DD/MM/YYYY",
+                "displayDateFormat": "DD/MM/YYYY",
+                "listSeparator": ";",
+                "anonymousMode": "none",
+                "siteZoomMode": "site",
+                "sitesMapVisualisation": [
+                    {
+                        "type": "populationCount",
+                        "field": "demo_num_indv",
+                        "tresholds": [
+                            300,
+                            600
+                        ]
+                    }
+                ]
+            },
+            "additionalFiltersDescription": [
+                {
+                    "field": "cccm_shelter__mangmt",
+                    "name": {
+                        "en": "Manage by",
+                        "bn": "দ্বারা পরিচালনা করুন"
+                    }
+                }
+            ],
+            "indicators": {
+                "area": [
+                    {
+                        "type": "site_count"
+                    },
+                    {
+                        "type": "people_count",
+                        "entryCode": "demo_num_indv"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Number families",
+                            "bn": "সংখ্যা পরিবার"
+                        },
+                        "entryCode": "demo_num_hh",
+                        "iconOchaName": "People-targeted"
+                    }
+                ],
+                "site": [
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Number families",
+                            "bn": "সংখ্যা পরিবার"
+                        },
+                        "entryCode": "demo_num_hh",
+                        "iconOchaName": "People-targeted"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Number individuals",
+                            "bn": "সংখ্যা ব্যক্তি"
+                        },
+                        "entryCode": "demo_num_indv",
+                        "iconOchaName": "People-in-need"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Total Number of shelters",
+                            "bn": "আশ্রয়কেন্দ্রের মোট সংখ্যা"
+                        },
+                        "entryCode": "group_snfi/SNFI_12",
+                        "iconOchaName": "Shelter"
+                    }
+                ]
+            },
+            "spatial": {
+                "siteFields": {
+                    "id": "site_id",
+                    "lastUpdate": "group_general_question/date_entry",
+                    "latitude": "latitude",
+                    "longitude": "longitude",
+                    "manageBy": "cccm_shelter__mangmt",
+                    "name": "group_general_question/camp",
+                    "type": "type"
+                },
+                "admins": {
+                    "admin1": {
+                        "pcode": "adm1_pcode",
+                        "name": "Division"
+                    },
+                    "admin2": {
+                        "pcode": "adm2_pcode",
+                        "name": "District"
+                    },
+                    "admin3": {
+                        "pcode": "adm3_pcode",
+                        "name": "Upazila"
+                    }
+                }
+            }
+        }
+    ],
+    "options": {
+        "showCCCMLogo": false,
+        "pdfColumnCount": 3,
+        "showDemoBanner": false,
+        "exportAsCSVonHomePage": true,
+        "keepThematicOrderFromFDF": true,
+        "mapLegendDisplayStyle": "default"
+    }
+}

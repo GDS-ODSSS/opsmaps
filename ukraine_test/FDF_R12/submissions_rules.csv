@@ -329,3 +329,4 @@ longitude;integer;group_general_info;;;;hide;;
 site_type;list;group_general_info;;;;;;site_type_opt
 organization_manages_2;string;group_site_management;;;;hide;;authority_opt
 type_residential_building;list;group_site_information;;;;;;residential_building_opt
+type_non_residential_building;list;group_site_information;;;;;;non_residential_building_opt

@@ -464,6 +464,14 @@
                     "no": "red",
                     "dont_know": "red"
                 }
+            },
+            "building_opt": {
+                "type": "key_value",
+                "values": {
+                    "residential_building": "green",
+                    "non_residential_building": "orange",
+                }
             }
         }
 }
+

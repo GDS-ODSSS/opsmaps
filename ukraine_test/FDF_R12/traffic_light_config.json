@@ -469,7 +469,7 @@
                 "type": "key_value",
                 "values": {
                     "residential_building": "green",
-                    "non_residential_building": "orange",
+                    "non_residential_building": "orange"
                 }
             }
         }

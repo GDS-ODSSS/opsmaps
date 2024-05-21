@@ -20,7 +20,7 @@ extra_bed_yn;list;group_site_management;;;;hide;;yn_opt
 extra_bed_number;integer;group_site_management;;;;;;
 site_ownership;list;group_site_information;;;;;;ownership_opt
 site_listed;list;group_site_information;site_listed;;;;;site_listed_opt
-building_type;list;group_site_information;;;;;;building_opt
+building_type;list;group_site_information;building_opt;;;;;building_opt
 site_closure;list;group_site_information;noyesdont;;;;;ynd_opt
 yes_site_closure;bullet;group_site_information;;;;;;closure_opt
 site_closure_other;string;group_site_information;;;;;;

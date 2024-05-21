@@ -354,3 +354,6 @@ wash_concerns_needs;Are boilers installed on site?;Чи наявні в МТП �
 type_waste_disposal;The most common type of waste disposal on site;Яким чином утилізується сміття в МТП?
 food_products_type_other;Other (specify);Інше, уточніть
 top_3_food_products_needs_other;Other (specify);Інше, уточніть
+hygiene_cleaning_items_need;Hygiene and cleaning items needs;Які засоби особистої гігієни та/або чистячі засоби потрібні?
+hygiene_cleaning_items_need_other;Other (specify);Інше, уточніть
+services_children_well_being_other;Other (specify);Інше, уточніть

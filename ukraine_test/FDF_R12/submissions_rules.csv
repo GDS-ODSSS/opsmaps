@@ -21,6 +21,8 @@ extra_bed_number;integer;group_site_management;;;;;;
 site_ownership;list;group_site_information;;;;;;ownership_opt
 site_listed;list;group_site_information;site_listed;;;;;site_listed_opt
 building_type;list;group_site_information;building_opt;;;;;building_opt
+type_residential_building;list;group_site_information;;;;;;residential_building_opt
+type_non_residential_building;list;group_site_information;;;;;;non_residential_building_opt
 site_closure;list;group_site_information;noyesdont;;;;;ynd_opt
 yes_site_closure;bullet;group_site_information;;;;;;closure_opt
 site_closure_other;string;group_site_information;;;;;;
@@ -48,9 +50,17 @@ idps_pay_utility_bills_yn;list;group_site_management;;;;hide;;yn_opt
 idps_pay_utility_bills;integer;group_site_management;;;;;;
 feedback_mechanism;bullet;group_protection;mechanism_opt;;;;;mechanism_opt
 feedback_mechanism_other;string;group_protection;;;;;;
+access_site_feedback;list;group_protection;;;;;;ynd_opt
 administration_training;bullet;group_protection;;;;;;administration_training_opt
 administration_training_other;string;group_protection;;;;;;
 data_availability;bullet;group_protection;;;;;;data_availability_opt
+services_of_gbv;list;group_protection;;;;;;ynn_opt
+gbv_report_incidents;bullet;group_protection;;;;;;gbv_report_incidents_opt
+gbv_report_incidents_other;string;group_protection;;;;;;
+hotline;string;group_protection;;;;;;
+barriers_gbv_report_incidents;bullet;group_protection;;;;;;barriers_gbv_report_incidents_opt
+violations_gbv;list;group_protection;;;;;;
+how_many_violations_gbv;list;group_protection;;;;;;
 gbv_report;list;group_protection;yesnosure;;;;;ynn_opt
 hum_assist;list;group_site_management;yesnodont;;;;;ynd_opt
 organization_provided_assistance;bullet;group_site_management;;;;;;authority_opt
@@ -127,6 +137,13 @@ evacuation_plan;list;group_protection;yesnodont;;;;;ynd_opt
 fire_extinguishers;list;group_protection;fire_extinguishers_opt;;;;;fire_extinguishers_opt
 lockers;list;group_shelter;lockers_opt;;;;;lockers_opt
 conditions_site;list;group_shelter;;;;;;conditions_site_opt
+engineering_systems;bullet;group_shelter;;;;;;engineering_systems_opt
+smooth_functioning_electricity_supply;list;group_shelter;;;;;;smooth_functioning_engineering_systems_opt
+smooth_functioning_heating_system;list;group_shelter;;;;;;smooth_functioning_engineering_systems_opt
+smooth_functioning_cold_water_supply;list;group_shelter;;;;;;smooth_functioning_engineering_systems_opt
+smooth_functioning_hot_water_supply;list;group_shelter;;;;;;smooth_functioning_engineering_systems_opt
+smooth_functioning_drainage_system;list;group_shelter;;;;;;smooth_functioning_engineering_systems_opt
+smooth_functioning_ventlation_system;list;group_shelter;;;;;;smooth_functioning_engineering_systems_opt
 shelter_concerns_or_needs;bullet;group_shelter;;;;hide;;shelter_concerns_or_needs_opt
 shelter_concerns_or_needs_other;string;group_shelter;;;;hide;;
 shelter_concerns_or_needs_top_3;bullet;group_shelter;;;;;;shelter_concerns_or_needs_opt
@@ -170,6 +187,7 @@ sufficient_winterization_support_oth;list;group_winterization;ypn_opt;;;hide;;yp
 main_type_heating;list;group_winterization;;;;;;main_type_heating_opt
 main_type_heating_other;string;group_winterization;;;;;;
 fuel_needed_heating;list;group_winterization;contra_ypn_opt;;;;;ypn_opt
+alternative_source_heating;list;group_winterization;;;;;;ynn_opt
 back_up_source_of_power;list;group_shelter;yesnosure;;;;;ynn_opt
 back_up_source_of_power_extent;list;group_shelter;back_up_source_of_power_extent_opt;;;;;back_up_source_of_power_extent_opt
 access_water;bullet;group_wash;;;;;;access_water_opt
@@ -258,6 +276,8 @@ types_nfi_need;bullet;group_nonfood;;;;;;types_nfi_need_opt
 types_nfi_need_other;string;group_nonfood;;;;;;
 furniture_need;bullet;group_nonfood;;;;;;furniture_need_opt
 furniture_need_other;string;group_nonfood;;;;;;
+hygiene_cleaning_items_need;bullet;group_nonfood;;;;;;hygiene_cleaning_items_need_opt
+hygiene_cleaning_items_need_other;string;group_nonfood;;;;;;
 sleeping_nfi_need;bullet;group_nonfood;;;;;;sleeping_nfi_need_opt
 kitchen_amenities_nfi_need;bullet;group_nonfood;;;;;;kitchen_amenities_nfi_need_opt
 kitchen_amenities_nfi_need_other;string;group_nonfood;;;;;;
@@ -299,6 +319,7 @@ adult_pss_yes;list;group_protection;;;;;;pss_opt
 adult_pss_other;string;group_protection;;;;;;
 advisory_service;list;group_protection;;;;;;advisory_service_opt
 services_children_well_being;bullet;group_protection;;;;;;services_children_well_being_opt
+services_children_well_being_other;string;group_protection;;;;;;
 known_pss_children;list;group_protection;yesnosure;;;;;ynn_opt
 social_workers_visit;list;group_protection;yesnodont;;;;;ynd_opt
 social_workers_visit_frequency;list;group_protection;;;;;;frequency_social_opt
@@ -334,23 +355,6 @@ latitude;integer;group_general_info;;;;hide;;
 longitude;integer;group_general_info;;;;hide;;
 site_type;list;group_general_info;;;;;;site_type_opt
 organization_manages_2;string;group_site_management;;;;hide;;authority_opt
-type_residential_building;list;group_site_information;;;;;;residential_building_opt
-type_non_residential_building;list;group_site_information;;;;;;non_residential_building_opt
-access_site_feedback;list;group_protection;;;;;;ynd_opt
-services_of_gbv;list;group_protection;;;;;;ynn_opt
-gbv_report_incidents;bullet;group_protection;;;;;;gbv_report_incidents_opt
-gbv_report_incidents_other;string;group_protection;;;;;;
-hotline;string;group_protection;;;;;;
-barriers_gbv_report_incidents;bullet;group_protection;;;;;;barriers_gbv_report_incidents_opt
-violations_gbv;list;group_protection;;;;;;
-how_many_violations_gbv;list;group_protection;;;;;;
-engineering_systems;bullet;group_shelter;;;;;;engineering_systems_opt
-smooth_functioning_electricity_supply;list;group_shelter;;;;;;smooth_functioning_engineering_systems_opt
-smooth_functioning_heating_system;list;group_shelter;;;;;;smooth_functioning_engineering_systems_opt
-smooth_functioning_cold_water_supply;list;group_shelter;;;;;;smooth_functioning_engineering_systems_opt
-smooth_functioning_hot_water_supply;list;group_shelter;;;;;;smooth_functioning_engineering_systems_opt
-smooth_functioning_drainage_system;list;group_shelter;;;;;;smooth_functioning_engineering_systems_opt
-smooth_functioning_ventlation_system;list;group_shelter;;;;;;smooth_functioning_engineering_systems_opt
-alternative_source_heating;list;group_winterization;;;;;;ynn_opt
+
 
 

@@ -331,3 +331,4 @@ organization_manages_2;string;group_site_management;;;;hide;;authority_opt
 type_residential_building;list;group_site_information;;;;;;residential_building_opt
 type_non_residential_building;list;group_site_information;;;;;;non_residential_building_opt
 access_site_feedback;list;group_protection;;;;;;access_site_feedback
+services_of_gbv;list;group_protection;;;;;;services_of_gbv

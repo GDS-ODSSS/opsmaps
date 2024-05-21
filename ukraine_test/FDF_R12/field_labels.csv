@@ -331,3 +331,4 @@ vulnerable_3;Vulnerable groups;Вразливі групи населення
 spaces_cooking_eating_food_storage_3;Are there common spaces for the purposes of cooking (kitchen), eating, and food storage?;Чи існують приміщення спільного користування для приготування їжі (кухня), прийому їжі та зберігання продуктів?
 maintain_temperature_3;Is it possible to maintain the temperature within 18-25 C° in the collective site?;Чи можна підтримувати в МКП температурний режим 18-25 С°?
 type_residential_building;Type of residential building;Тип житлової будівлі:
+type_non_residential_building;Type of non-residential building;Тип нежитлової будівлі:

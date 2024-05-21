@@ -123,12 +123,8 @@
             "type": "key_value",
             "values": {
                 "yes": "red",
-                "no_charge": "green",
-                "dont_know": "red",
-                "yes_staying": "red",
-                "yes_utilities": "red",
-                "other": "red",
-                "yes_both_staying_utilities": "red"
+                "no": "green",
+                "dont_know": "red"
             }
         },
         "mechanism_opt": {
@@ -253,9 +249,9 @@
             "rate_opt": {
                 "type": "key_value",
                 "values": {
-                    "good": "orange",
+                    "good_mobile_signal": "green",
                     "ok": "green",
-                    "poor": "red",
+                    "poor_mobile_signal": "red",
                     "dont_know": "red"
                 }
             },
@@ -459,7 +455,7 @@
             "fire_extinguishers_opt": {
                 "type": "key_value",
                 "values": {
-                    "yes_sufficient_number": "green",
+                    "yes_in_sufficient_number": "green",
                     "yes_but_insufficient": "orange",
                     "no": "red",
                     "dont_know": "red"
@@ -470,6 +466,80 @@
                 "values": {
                     "residential_building": "green",
                     "non_residential_building": "orange"
+                }
+            },
+            "site_active_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes_active": "green",
+                    "no_host_but_ready": "orange",
+                    "no_active": "red"
+                }
+            },
+            "ynd_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes": "green",
+                    "dont_know_prefer_not_to_say": "orange",
+                    "no": "red"
+                }
+            },
+            "contra_ynd_opt": {
+                "type": "key_value",
+                "values": {
+                    "no": "green",
+                    "dont_know_prefer_not_to_say": "orange",
+                    "yes": "red"
+                }
+            },
+            "support_administration_cs_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes": "green",
+                    "dont_know": "orange",
+                    "no": "red"
+                }
+            },
+            "square_meters_per_person_opt": {
+                "type": "key_value",
+                "values": {
+                    "6_and_more": "green",
+                    "both_modalities": "orange",
+                    "dont_know": "orange",
+                    "up_to_6": "red"
+                }
+            },
+            "common_areas_separate_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes": "green",
+                    "dont_know": "orange",
+                    "no": "red"
+                }
+            },
+            "sleeping_in_common_use_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes": "green",
+                    "no_also_other": "red"
+                }
+            },
+            "doors_locks_on_sleeping_places_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes": "green",
+                    "yes_partially": "orange",
+                    "dont_know": "orange",
+                    "no": "red"
+                }
+            },
+            "toilet_gender_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes": "green",
+                    "partially": "orange",
+                    "dont_know": "red",
+                    "no": "red"
                 }
             }
         }

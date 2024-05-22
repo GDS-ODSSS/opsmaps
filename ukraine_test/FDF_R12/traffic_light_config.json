@@ -130,33 +130,23 @@
         "mechanism_opt": {
             "type": "key_value",
             "values": {
-                "none": "red",
                 "site_management": "green",
-                "site_management;ombudsman": "green",
-                "site_management;ombudsman;suggestion_box": "green",
-                "site_management;ombudsman;suggestion_box;toll_free": "green",
-                "site_management;ombudsman;toll_free": "green",
-                "site_management;ombudsman;toll_free;suggestion_box": "green",
-                "site_management;other": "green",
                 "site_management;suggestion_box": "green",
-                "site_management;suggestion_box;toll_free": "green",
-                "site_management;toll_free": "green",
                 "site_management;toll_free;suggestion_box": "green",
-                "ombudsman": "green",
-                "ombudsman;site_management": "green",
-                "ombudsman;suggestion_box": "green",
-                "ombudsman;toll_free;suggestion_box": "green",
+                "site_management;toll_free": "green",
+                "suggestion_box;site_management": "green",
+                "suggestion_box": "green",
+                "suggestion_box;toll_free;site_management": "green",
+                "none": "red",
+                "site_management;suggestion_box;toll_free": "green",
                 "toll_free": "green",
-                "toll_free;ombudsman;site_management": "green",
                 "toll_free;site_management": "green",
                 "toll_free;site_management;suggestion_box": "green",
+                "suggestion_box;site_management;toll_free": "green",
+                "suggestion_box;toll_free": "green",
                 "toll_free;suggestion_box": "green",
                 "toll_free;suggestion_box;site_management": "green",
-                "suggestion_box": "green",
-                "suggestion_box;site_management": "green",
-                "suggestion_box;site_management;ombudsman": "green",
-                "suggestion_box;site_management;toll_free": "green",
-                "suggestion_box;toll_free;site_management": "green",
+                "site_management;other": "green",
                 "other": "green"
             }
         },
@@ -219,15 +209,6 @@
                 "dont_know": "orange"
             }
         },
-        "kitchen_availability_opt": {
-            "type": "list_count",
-            "values": {
-                "x<1": "grey",
-                "x>=1 and x<3": "orange",
-                "x>=3 and x<9": "green",
-                "x>=9": "red"
-            }
-        },
         "square_meters_per_person": {
             "type": "key_value",
             "values": {
@@ -267,11 +248,12 @@
             "quality_drinking_water_opt": {
                 "type": "key_value",
                 "values": {
-                    "very_good": "green",
-                    "good": "green",
-                    "regular": "orange",
-                    "poor": "red",
-                    "very_poor": "red"
+                    "very_good_quality_drinking_water": "green",
+                    "good_quality_drinking_water": "green",
+                    "regular_quality_drinking_water": "orange",
+                    "poor_quality_drinking_water": "red",
+                    "very_poor_quality_drinking_water": "red",
+                    "dont_know": "red"
                 }
             },
             "number_toilets": {
@@ -288,8 +270,8 @@
             "toilet_private_opt": {
                 "type": "key_value",
                 "values": {
-                    "yes_completely_toilets_are_fully_enclosed": "green",
-                    "no_partially": "orange",
+                    "yes_completely_toilets": "green",
+                    "no_partially_toilets": "orange",
                     "no_multiple_toilets": "red"
                 }
             },
@@ -362,7 +344,7 @@
                 "values": {
                     "yes_extreme_need": "red",
                     "partially_need": "orange",
-                    "no": "green",
+                    "no_need": "green",
                     "not_sure": "orange"
                 }
             },
@@ -429,8 +411,8 @@
             "shower_facilities_private_opt": {
                 "type": "key_value",
                 "values": {
-                    "yes_completely_bathing_facilities_are_fully_enclosed": "green",
-                    "no_partially": "orange",
+                    "yes_completely_bathing_facilities": "green",
+                    "no_partially_showers": "orange",
                     "no_multiple_showers": "red"
                 }
             },
@@ -540,6 +522,143 @@
                     "partially": "orange",
                     "dont_know": "red",
                     "no": "red"
+                }
+            },
+            "conditions_site_opt": {
+                "type": "key_value",
+                "values": {
+                    "very_good_conditions_site": "green",
+                    "good_conditions_site": "green",
+                    "regular_conditions_site": "orange",
+                    "poor_conditions_site": "red",
+                    "very_poor_conditions_site": "red"
+                }
+            },
+            "individual_zones_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes": "green",
+                    "partially": "orange",
+                    "no": "red",
+                    "refuse_to_answer": "red"
+                }
+            },
+            "individual_zones_opt": {
+                "type": "key_value",
+                "values": {
+                    "common_spaces_cooking": "green",
+                    "common_spaces_cooking;common_spaces_eating;common_spaces_food_storage": "green",
+                    "common_spaces_cooking;common_spaces_eating": "green",
+                    "common_spaces_eating": "green",
+                    "common_spaces_cooking;common_spaces_food_storage": "green",
+                    "common_spaces_eating;common_spaces_food_storage": "green",
+                    "common_spaces_eating;common_spaces_cooking;common_spaces_food_storage": "green",
+                    "common_spaces_eating;common_spaces_cooking": "green",
+                    "common_spaces_food_storage;common_spaces_eating;common_spaces_cooking": "green",
+                    "common_spaces_food_storage;common_spaces_eating": "green",
+                    "common_spaces_cooking;common_spaces_food_storage;common_spaces_eating": "green",
+                    "common_spaces_food_storage": "green",
+                    "common_spaces_food_storage;common_spaces_cooking;common_spaces_eating": "green",
+                    "common_spaces_eating;common_spaces_food_storage;common_spaces_cooking": "green",
+                    "none": "red"
+                }
+            },
+            "smooth_functioning_engineering_systems_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes_totally": "green",
+                    "no_interruptions_occur": "orange",
+                    "no_insufficient_capacity": "red",
+                    "no_system_is_under_refurbishment": "red",
+                    "no_system_is_missing_or_not_working_at_all": "red"
+                }
+            },
+            "ynn_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes": "green",
+                    "not_sure": "orange",
+                    "no": "red"
+                }
+            },
+            "main_type_heating_opt": {
+                "type": "key_value",
+                "values": {
+                    "no_heating_system": "red",
+                    "central_heating": "green",
+                    "individual_boiler_room_heating": "green",
+                    "gas": "green",
+                    "wood": "orange",
+                    "coal": "orange",
+                    "electricity": "green",
+                    "other": "orange"                   
+                }
+            },
+            "wash_concerns_needs_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes_functional": "green",
+                    "yes_need_repair": "orange",
+                    "no_exist_but_need_replacement": "orange",
+                    "no_boilers_on_site": "red"                  
+                }
+            },
+            "drying_clothing_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes": "green",
+                    "yes_but_insufficient_needs_idps": "orange",
+                    "no": "red",
+                    "dont_know": "red"                  
+                }
+            },
+            "type_waste_disposal_opt": {
+                "type": "key_value",
+                "values": {
+                    "disposed_specific_collection_point": "green",
+                    "disposed_burning": "red",
+                    "disposed_burying": "red",
+                    "disposed_on_street_or_public_places_with_no_collection": "red",
+                    "sorted_and_given_recycling": "green",
+                    "other": "orange"     
+                }
+            },
+            "garbage_bins_radius_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes": "green",
+                    "yes_but_insufficient_amount_waste_generated": "orange",
+                    "no": "red",
+                    "dont_know": "red"                  
+                }
+            },
+            "relationship_site_residents_host_community_opt": {
+                "type": "key_value",
+                "values": {
+                    "very_good_relationship_site_residents_host_community": "green",
+                    "relatively_good": "green",
+                    "neutral": "orange",
+                    "relatively_bad": "red",
+                    "very_bad": "red",
+                    "dont_know_dont_want_to_answer": "red"     
+                }
+            },
+            "healthcare_facilities_near_site_opt": {
+                "type": "key_value",
+                "values": {
+                    "yes_both_primary_secondary_healthcare_facilities": "green",
+                    "yes_but_only_primary_healthcare_facilities": "orange",
+                    "yes_but_only_secondary_healthcare_facilities": "orange",
+                    "neither_primary_nor_secondary_healthcare_facilities": "red",
+                    "dont_know_refuse_to_answer": "red"     
+                }
+            },
+            "wifi_opt": {
+                "type": "key_value",
+                "values": {
+                    "free": "green",
+                    "metered": "orange",
+                    "dont_know": "red"   
                 }
             }
         }

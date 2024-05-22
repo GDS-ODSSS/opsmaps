@@ -543,7 +543,7 @@
                     "refuse_to_answer": "red"
                 }
             },
-            "individual_zones_opt": {
+            "kitchen_availability_opt": {
                 "type": "key_value",
                 "values": {
                     "common_spaces_cooking": "green",

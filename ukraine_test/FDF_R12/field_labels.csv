@@ -357,3 +357,6 @@ top_3_food_products_needs_other;Other (specify);Інше, уточніть
 hygiene_cleaning_items_need;Hygiene and cleaning items needs;Які засоби особистої гігієни та/або чистячі засоби потрібні?
 hygiene_cleaning_items_need_other;Other (specify);Інше, уточніть
 services_children_well_being_other;Other (specify);Інше, уточніть
+idp_employment;Proportion of employed among the working-age site residents (18-59 years old);Відсоток працюючих серед мешканців МТП працездатного віку (18-59 років)
+causes_of_unemployment;Main reasons why site residents are unemployed;Якими є основні причини безробіття серед непрацюючих мешканців МТП?
+causes_of_unemployment_other;Other (specify);Інше, уточніть

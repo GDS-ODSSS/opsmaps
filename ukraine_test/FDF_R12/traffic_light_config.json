@@ -660,6 +660,32 @@
                     "metered": "orange",
                     "dont_know": "red"   
                 }
+            },
+            "sleeping_space_division_opt": {
+                "type": "key_value",
+                "values": {
+                    "up_4_people": "green",
+                    "up_4_people;up_to_8_people": "orange",
+                    "up_to_8_people": "red",
+                    "up_4_people;up_to_8_people;up_to_12_people": "orange",
+                    "up_to_8_people;up_4_people": "orange",
+                    "up_to_8_people;up_to_12_people": "red",
+                    "up_4_people;up_to_12_people": "orange",
+                    "up_to_12_people": "red",
+                    "over_20_people": "red",
+                    "up_4_people;up_to_8_people;up_to_20_people": "orange",
+                    "up_to_12_people;up_4_people": "orange",
+                    "up_to_8_people;up_to_12_people;up_to_20_people;over_20_people": "red",
+                    "up_to_20_people": "red",
+                    "dont_know": "red",
+                    "up_4_people;up_to_20_people;over_20_people": "orange",
+                    "up_to_8_people;up_to_12_people;up_to_20_people": "red",
+                    "up_to_8_people;up_to_20_people": "red",
+                    "up_4_people;up_to_8_people;up_to_20_people;over_20_people": "orange",
+                    "up_to_12_people;up_to_8_people;up_4_people;up_to_20_people": "orange",
+                    "up_4_people;up_to_12_people;up_to_8_people": "orange",
+                    "up_to_8_people;up_to_12_people;over_20_people": "red" 
+                }
             }
         }
 }

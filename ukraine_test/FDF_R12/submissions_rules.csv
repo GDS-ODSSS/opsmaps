@@ -334,10 +334,10 @@ relationship_site_residents_host_community;list;group_protection;;;;;;relationsh
 social_cohesion_negative_factors;bullet;group_protection;;;;;;social_cohesion_negative_factors_opt
 social_cohesion_negative_factors_other;string;group_protection;;;;;;
 reachable_by_ambulance;list;group_healthcare;ynd_opt;;;;;ynd_opt
+first_aid;list;group_healthcare;ynn_opt;;;;;ynn_opt
 healthcare_facilities_near_site;list;group_healthcare;;;;;;healthcare_facilities_near_site_opt
 access_healthcare_services;bullet;group_healthcare;;;;;;access_healthcare_services_opt
 access_healthcare_services_other;string;group_healthcare;;;;;;
-first_aid;list;group_healthcare;ynn_opt;;;;;ynn_opt
 access_education;list;group_public_services;access_education_opt;;;;;access_education_opt
 mode_of_education;list;group_public_services;;;;;;mode_of_education_opt
 barriers_access_education;bullet;group_public_services;;;;;;barriers_access_education_opt

@@ -165,10 +165,9 @@
         "vulnerability_opt": {
             "type": "list_count",
             "values": {
-                "x<1": "grey",
+                "x<1": "green",
                 "x>=1 and x<4": "orange",
-                "x>=4 and x<9": "red",
-                "x>=9": "green"
+                "x>=4 and x<9": "red"
             }
         },
         "period_opt": {

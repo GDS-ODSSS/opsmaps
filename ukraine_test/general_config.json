@@ -50,7 +50,7 @@
     },
     "iframe": {
         "url": "https://reach-info.org/ukr/unhcr_cccm/",
-        "display": true
+        "display": false
     },
     "footerLogos": [
         {

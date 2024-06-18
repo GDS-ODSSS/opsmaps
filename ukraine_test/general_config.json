@@ -230,7 +230,7 @@
                         "type": "standard",
                         "name": {
                             "en": "Site active?",
-                            "uk": "Чи активне MКП?"
+                            "uk": "Чи активне MTП?"
                         },
                         "entryCode": "site_active",
                         "iconOchaName": "Selected"
@@ -248,7 +248,7 @@
                         "type": "standard",
                         "name": {
                             "en": "Individuals",
-                            "uk": "Кількість осіб, розміщених в МКП"
+                            "uk": "Кількість осіб, розміщених в МTП"
                         },
                         "entryCode": "site_individuals",
                         "iconOchaName": "People-in-need"

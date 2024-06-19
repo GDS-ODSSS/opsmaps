@@ -77,7 +77,7 @@ children_male;integer;group_demography;;;;hide;;
 children_female;integer;group_demography;;;;hide;;
 children_0_5;integer;group_demography;;;;;;
 children_6_17;integer;group_demography;;;;;;
-unaccompanied_children;list;group_demography;contra_ynd_bis_opt;;;;;ynd_opt
+unaccompanied_children;list;group_demography;contra_ynd_opt;;;;;ynd_opt
 sum_unaccompanied_children;integer;group_demography;;;;hide;;
 caregiver_support;list;group_demography;caregiver_support;;;;;caregiver_support_opt
 caregiver_support_number;integer;group_demography;;;;hide;;
@@ -97,7 +97,7 @@ minority_groups_number;integer;group_demography;;;;hide;;
 child_headed_households_number;integer;group_demography;;;;hide;;
 older_people_that_require_caragiver_support_number;integer;group_demography;;;;hide;;
 other_number;integer;group_demography;;;;hide;;
-new_arrivals_register;list;group_site_management;contra_ynd_bis_opt;;;;;ynd_opt
+new_arrivals_register;list;group_site_management;contra_ynd_opt;;;;;ynd_opt
 arrived_site;list;group_site_management;;;;hide;;yn_opt
 arrived_site_number;integer;group_site_management;;;;;;
 reasons_settling_in_cs;bullet;group_site_management;;;;;;reasons_settling_in_cs_opt
@@ -115,7 +115,7 @@ eviction_reason_other;string;group_protection;;;;;;
 allocation_plan;list;group_site_management;allocation_opt;;;;;allocation_opt
 used_collective_site;list;group_shelter;used_collective_site_opt;;;;;used_collective_site_opt
 individual_zones;list;group_shelter;ynd_opt;;;;;ynd_opt
-overcrowded_collective_site;list;group_shelter;contra_ynd_bis_opt;;;;;ynd_opt
+overcrowded_collective_site;list;group_shelter;contra_ynd_opt;;;;;ynd_opt
 spaces_cooking_eating_food_storage;bullet;group_shelter;kitchen_availability_opt;;;;;kitchen_availability_opt
 common_spaces_other_kitchens;list;group_shelter;;;;;;ynd_opt
 purpose_spaces_serves;bullet;group_shelter;;;;;;purpose_spaces_serves_opt

@@ -505,7 +505,7 @@
                     "yes": "red"
                 }
             },
-            "contra_ynd_opt_bis": {
+            "contra_ynd_bis_opt": {
                 "type": "key_value",
                 "values": {
                     "no": "green",

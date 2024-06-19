@@ -505,14 +505,6 @@
                     "yes": "red"
                 }
             },
-            "new_arrivals_register_ynd_opt": {
-                "type": "key_value",
-                "values": {
-                    "no": "green",
-                    "dont_know": "orange",
-                    "yes": "red"
-                }
-            },
             "support_administration_cs_opt": {
                 "type": "key_value",
                 "values": {

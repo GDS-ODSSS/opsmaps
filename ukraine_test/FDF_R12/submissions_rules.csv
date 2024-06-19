@@ -97,7 +97,7 @@ minority_groups_number;integer;group_demography;;;;hide;;
 child_headed_households_number;integer;group_demography;;;;hide;;
 older_people_that_require_caragiver_support_number;integer;group_demography;;;;hide;;
 other_number;integer;group_demography;;;;hide;;
-new_arrivals_register;list;group_site_management;new_arrivals_register_ynd_opt;;;;;ynd_opt
+new_arrivals_register;list;group_site_management;contra_ynd_opt;;;;;ynd_opt
 arrived_site;list;group_site_management;;;;hide;;yn_opt
 arrived_site_number;integer;group_site_management;;;;;;
 reasons_settling_in_cs;bullet;group_site_management;;;;;;reasons_settling_in_cs_opt

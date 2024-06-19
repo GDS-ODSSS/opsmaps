@@ -505,6 +505,14 @@
                     "yes": "red"
                 }
             },
+            "contra_ynd_opt_bis": {
+                "type": "key_value",
+                "values": {
+                    "no": "green",
+                    "dont_know": "orange",
+                    "yes": "red"
+                }
+            },
             "support_administration_cs_opt": {
                 "type": "key_value",
                 "values": {

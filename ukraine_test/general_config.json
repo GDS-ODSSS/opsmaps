@@ -230,7 +230,7 @@
                         "type": "standard",
                         "name": {
                             "en": "Site active?",
-                            "uk": "Чи активне MTП?"
+                            "uk": "Чи активне МTП?"
                         },
                         "entryCode": "site_active",
                         "iconOchaName": "Selected"

@@ -1,0 +1,345 @@
+{
+    "version": "v1.3",
+    "locale": {
+        "locales": [
+            "en",
+            "fr"
+        ],
+        "default": "fr",
+        "override": {
+            "en": {
+                "infosAdmins": {
+                    "admin1": "Region",
+                    "admin2": "Province",
+                    "admin3": "Commune"
+                }
+            },
+            "fr": {
+                "infosAdmins": {
+                    "admin1": "Region",
+                    "admin2": "Province",
+                    "admin3": "City"
+                }
+            }
+        }
+    },
+    "textContent": {
+        "name": {
+            "en": "Burkina Faso",
+            "fr": "Burkina Faso"
+        },
+        "opsmapDescr": {
+            "en": " Le Burkina Faso vit une crise humanitaire d’une grande complexité et caractérisée par des déplacements forcés, généralisés et continus à travers le pays, particulièrement dans les régions du Centre Nord, le Sahel, le Nord, l’Est et la Boucle du Mouhoun. En date du 31 mars 2023, le pays compte 2 062 534 personnes déplacées internes (PDI) réparties à travers 303 communes d’accueil. <br /> Les personnes déplacées internes sont installées au sein des communautés hôtes, dans les sites d’accueil temporaires (sites aménagés et spontanés) et des centres collectifs (établissement scolaires, bâtiments publics etc.). Au vu de la complexité et des aspects multidimensionnels de la crise, le Cluster gestion des sites d’accueil temporaires – GSAT (CCCM) activé en juin 2021, a dès lors identifié plus de 100 sites de PDI uniquement dans les régions du Centre-Nord, du Sahel et du Nord. Le Cluster en collaboration avec la structure gouvernementale (CONASUR) chargé de la coordination de la réponse humanitaire et de l’enregistrement des PDI, les directions de l’Action Humanitaires et les partenaires GSAT travaillent afin de cartographier et mettre en place des mécanismes de gestion dans l’ensemble des SAT et les zones d’accueil de déplacés (ZAD) <br /> <br />  <div style='clear: both;'> <p style ='float: left'>This site is a temporary shelter tracking Tool (OSSAT). </p> <p style='float: right; white-space: nowrap; font-size: 14px; color: #b3b3b3; line-height: 1.375; text-justify: inter-word;'> <i> Contact:<br /> Eric Bazie (IMO) <br /> <a style='text-decoration: none;white-space: nowrap; font-size: 14px; color: #b3b3b3; line-height: 1.375; text-justify: inter-word;' href=\"mailto:bazie@unhcr.org\">bazie@unhcr.org</a></i> </p></div>",
+            "fr": "Le Burkina Faso vit une crise humanitaire d’une grande complexité et caractérisée par des déplacements forcés, généralisés et continus à travers le pays, particulièrement dans les régions du Centre Nord, le Sahel, le Nord, l’Est et la Boucle du Mouhoun. En date du 31 mars 2023, le pays compte 2 062 534 personnes déplacées internes (PDI) réparties à travers 303 communes d’accueil. <br /> Les personnes déplacées internes sont installées au sein des communautés hôtes, dans les sites d’accueil temporaires (sites aménagés et spontanés) et des centres collectifs (établissement scolaires, bâtiments publics etc.). Au vu de la complexité et des aspects multidimensionnels de la crise, le Cluster gestion des sites d’accueil temporaires – GSAT (CCCM) activé en juin 2021, a dès lors identifié plus de 100 sites de PDI uniquement dans les régions du Centre-Nord, du Sahel et du Nord. Le Cluster en collaboration avec la structure gouvernementale (CONASUR) chargé de la coordination de la réponse humanitaire et de l’enregistrement des PDI, les directions de l’Action Humanitaires et les partenaires GSAT travaillent afin de cartographier et mettre en place des mécanismes de gestion dans l’ensemble des SAT et les zones d’accueil de déplacés (ZAD) <br /> <br /> <div style='clear: both;'> <p style ='float: left'>Ce site est l'Outil de Suivi des Sites d’Accueil Temporaires (OSSAT).</p> <p style='float: right;white-space: nowrap; font-size: 14px; color: #b3b3b3; line-height: 1.375; text-justify: inter-word;'> <i> Contact:<br /> Eric Bazie (IMO) <br /> <a style='text-decoration: none;white-space: nowrap; font-size: 14px; color: #b3b3b3; line-height: 1.375; text-justify: inter-word;' href=\"mailto:bazie@unhcr.org\">bazie@unhcr.org</a></i> </p></div>"
+            }
+    },
+    "footerLogos": [
+        {
+            "title": {
+                "en": "Webdev",
+                "fr":"Webdev"
+            },
+            "logos": [
+                {
+                    "name": "CartONG",
+                    "urlLogo": "Logo/CartONG_logo_long_0_0_0.png",
+                    "urlRedirection": "https://www.cartong.org"
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Fieldwork",
+                "fr":"Travail de terrain"
+            },
+            "logos": [
+                {
+                    "name": "CONASUR",
+                    "urlLogo": "Logo/CONASUR.png",
+                    "urlRedirection": "http://www.conasur.gov.bf/"
+                },
+                {
+                    "name": "ACTED",
+                    "urlLogo": "Logo/ACTED.png",
+                    "urlRedirection": "https://www.acted.org/en/"
+                },
+                {
+                    "name": "NRC",
+                    "urlLogo": "Logo/NRC.png",
+                    "urlRedirection": "https://www.nrc.no/"
+                },
+                {
+                    "name": "TEARFUND",
+                    "urlLogo": "Logo/tearfund.png",
+                    "urlRedirection": "https://www.tearfund.org/"
+                },
+                {
+                    "name": "REACH IMPACT",
+                    "urlLogo": "Logo/REACH.png",
+                    "urlRedirection": "https://www.impact-initiatives.org/"
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Coordination and IM support",
+                "fr":"Coordination et support IM"
+            },
+            "logos": [
+                {
+                    "name": "Gestion des Sites d’Accueil Temporaires",
+                    "urlLogo": "Logo/GSAT.png",
+                    "urlRedirection": "https://www.humanitarianresponse.info/en/operations/burkina-faso/gestion-des-sites-d%E2%80%99accueil-temporaires"
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Cluster Lead",
+                "fr":"Responsable de Cluster"
+            },
+            "logos": [
+                {
+                    "name": "UNHCR",
+                    "urlLogo": "Logo/UNHCR.png",
+                    "urlRedirection": "https://www.unhcr.org/"
+                }
+            ]
+        }
+    ],
+    "spatial": {
+        "mapConfig": {
+            "bounds": [
+                4.81,
+                15.19,
+                -8.36,
+                9.34
+            ]
+        },
+        "dbConfig": {
+            "admin1": "pcode",
+            "admin2": "pcode",
+            "admin3": "pcode"
+        },
+        "adminLevels": [
+            "admin1",
+            "admin2",
+            "admin3"
+        ],
+        "adminLevelsMap": [
+            "admin1",
+            "admin2"
+        ]
+    },
+    "surveys": [
+        {
+            "type": "gsheet",
+            "name": "Sites fonctionnels",
+            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSwJUqFNu8DnMQ2ngYdu3vH5P9UqUWya25ntpwio2kjfe0tfdO76zfUYGUwKNKOTA-vrSp1EEi8wDzz/pub?gid=43995107&single=true&output=csv",
+            "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQqHYWvLt3uEfNwicLy4ySHA_DBUOA8XFdinalMD2yVqKyd0qAXT61jZ-6DHZTdTAN7nSyT7NOhF3D0/pub?gid=2018622187&single=true&output=csv",
+            "options": {
+                "inputDateFormat": "DD/MM/YYYY",
+                "displayDateFormat": "MM/YYYY",
+                "listSeparator": ";",
+                "anonymousMode": "none"
+            },
+            "additionalFiltersDescription": [
+                {
+                    "field": "SupportSiteAgence",
+                    "name": {
+                        "en": "Support organization",
+                        "fr": "Organisation de support"
+                    }
+                }
+            ],
+            "indicators": {
+                "area": [
+                    {
+                        "type": "site_count"
+                    },
+                    {
+                        "type": "people_count",
+                        "entryCode": "IndividlPopulation"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Households",
+                            "fr": "Familles"
+                        },
+                        "entryCode": "FamillPopulation",
+                        "iconOchaName": "Children"
+                    }
+                ],
+                "site": [
+                    {
+                        "type": "site_occupation",
+                        "name": {
+                            "en": "Site capacity",
+                            "fr": "Capacité du site"
+                        },
+                        "iconOchaName": "Camp-Coordination-and-Camp-Management",
+                        "entryCodePeopleCount": "FamillPopulation",
+                        "entryCodeMaxPeopleCount": "HebergementCapacite"
+                    },
+                    {
+                        "type": "computation",
+                        "name": {
+                            "en": "Unsuitable occupied shelters",
+                            "fr": "Abris occupés non adéquat"
+                        },
+                        "entryCode1": "abrietat",
+                        "entryCode2": "abriremplac",
+                        "operator": "+",
+                        "iconOchaName": "House-destroyed"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Peoples per latrine",
+                            "fr": "Personnes par latrine"
+                        },
+                        "entryCode": "nb_ind_per_latrines2",
+                        "iconOchaName": "Latrine-cabin"
+                    }
+                ]
+            },
+            "spatial": {
+                "siteFields": {
+                    "id": "ID",
+                    "lastUpdate": "DateUpdate",
+                    "latitude": "latitude",
+                    "longitude": "longitude",
+                    "manageBy": "SupportSiteAgence",
+                    "name": "site",
+                    "type": "type_installation"
+                },
+                "admins": {
+                    "admin1": {
+                        "pcode": "adm1pcode",
+                        "name": "region"
+                    },
+                    "admin2": {
+                        "pcode": "adm2pcode",
+                        "name": "province"
+                    },
+                    "admin3": {
+                        "pcode": "adm3pcode",
+                        "name": "Comm"
+                    }
+                }
+            }
+        },
+        {
+            "type": "gsheet",
+            "fdf": {
+                "folder": "FDF_site_closed"
+            },
+            "name": "Sites fermés",
+            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQqHYWvLt3uEfNwicLy4ySHA_DBUOA8XFdinalMD2yVqKyd0qAXT61jZ-6DHZTdTAN7nSyT7NOhF3D0/pub?gid=1746694017&single=true&output=csv",
+            "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQqHYWvLt3uEfNwicLy4ySHA_DBUOA8XFdinalMD2yVqKyd0qAXT61jZ-6DHZTdTAN7nSyT7NOhF3D0/pub?gid=1490870118&single=true&output=csv",
+            "options": {
+                "inputDateFormat": "DD/MM/YYYY",
+                "displayDateFormat": "MM/YYYY",
+                "listSeparator": ";",
+                "anonymousMode": "none"
+            },
+            "additionalFiltersDescription": [
+                {
+                    "field": "SupportSiteAgence",
+                    "name": {
+                        "en": "Support organization",
+                        "fr": "Organisation de support"
+                    }
+                }
+            ],
+            "indicators": {
+                "area": [
+                    {
+                        "type": "site_count"
+                    },
+                    {
+                        "type": "people_count",
+                        "entryCode": "IndividlPopulation"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Households",
+                            "fr": "Familles"
+                        },
+                        "entryCode": "FamillPopulation",
+                        "iconOchaName": "Children"
+                    }
+                ],
+                "site": [
+                    {
+                        "type": "site_occupation",
+                        "name": {
+                            "en": "Site capacity",
+                            "fr": "Capacité du site"
+                        },
+                        "iconOchaName": "Camp-Coordination-and-Camp-Management",
+                        "entryCodePeopleCount": "FamillPopulation",
+                        "entryCodeMaxPeopleCount": "HebergementCapacite"
+                    },
+                    {
+                        "type": "computation",
+                        "name": {
+                            "en": "Unsuitable occupied shelters",
+                            "fr": "Abris occupés non adéquat"
+                        },
+                        "entryCode1": "abrietat",
+                        "entryCode2": "abriremplac",
+                        "operator": "+",
+                        "iconOchaName": "House-destroyed"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Peoples per latrine",
+                            "fr": "Personnes par latrine"
+                        },
+                        "entryCode": "nb_ind_per_latrines2",
+                        "iconOchaName": "Latrine-cabin"
+                    }
+                ]
+            },
+            "spatial": {
+                "siteFields": {
+                    "id": "ID",
+                    "lastUpdate": "DateUpdate",
+                    "latitude": "latitude",
+                    "longitude": "longitude",
+                    "manageBy": "SupportSiteAgence",
+                    "name": "site",
+                    "type": "type_installation"
+                },
+                "admins": {
+                    "admin1": {
+                        "pcode": "adm1pcode",
+                        "name": "region"
+                    },
+                    "admin2": {
+                        "pcode": "adm2pcode",
+                        "name": "province"
+                    },
+                    "admin3": {
+                        "pcode": "adm3pcode",
+                        "name": "Comm"
+                    }
+                }
+            }
+        }
+    ],
+    "options": {
+        "showCCCMLogo": true,
+        "dark": false,
+        "pdfColumnCount": 3,
+        "exportForEsite": false,
+        "showDemoBanner": false,
+        "exportAsCSVonHomePage": true,
+        "keepThematicOrderFromFDF": true,
+        "desactivateGlobalIndicatorsAtIndermediateLevels": true
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "charts": {
+        "age_pyramid#1": {
+            "type": "bar",
+            "direction": "horizontal",
+            "barType": "duo",
+            "axis": {
+                "x": {
+                    "title": "charts.titleX"
+                },
+                "y": {
+                    "title": "charts.titleY",
+                    "labels": [
+                        {
+                            "en": "60+",
+                            "fr": "60+"
+                        },
+                        {
+                            "en": "36-59",
+                            "fr": "36-59"
+                        },
+                        {
+                            "en": "18-35",
+                            "fr": "18-35"
+                        },
+                        {
+                            "en": "5-17",
+                            "fr": "5-17"
+                        },
+                        {
+                            "en": "0-4",
+                            "fr": "0-4"
+                        }
+                    ]
+                }
+            },
+            "series": [
+                {
+                    "id": "m",
+                    "index": 0,
+                    "color": "#6FC5BC",
+                    "label": "charts.male"
+                },
+                {
+                    "id": "f",
+                    "index": 1,
+                    "color": "#1B657C",
+                    "label": "charts.female"
+                }
+            ]
+        },
+        "doughnut_chart#2": {
+            "type": "doughnut"
+        }
+    }
+}

@@ -52,7 +52,7 @@ administration_training;Did site administration complete any training?;Чи пр
 administration_training_other;If other, please specify:;Інше, уточніть
 data_availability;What information is available to residents in the site;Яка інформація доступна мешканцям в МТП
 gbv_report;Report GBV and human trafficking system available;Доступність системи повідомлення про гендерно зумовлене насильство, торгівлю людьми, сексуальну експлуатацію та насильство?
-hum_assist;Has this center received any humanitarian assistance last 60 days? ;Чи отримував цей МТП гуманітарну допомогу протягом останніх 60 днів? 
+hum_assist;Humanitarian assistance received in the last three (3) months ;Чи отримувало це МТП будь-яку гуманітарну допомогу за останні 3 (три) місяці?  
 organization_provided_assistance;Entity/organization that provided assistance;Структура/організація, яка надала допомогу
 ngo_provided_assistance;NGO that provided assistance;Назва неурядової організацїі, яка надала допомогу
 ngo_provided_assistance_other;If other, please specify:;Інше, уточніть
@@ -87,19 +87,19 @@ minority_groups_number;No. of minority groups (such as Roma);Кількість 
 child_headed_households_number;Child headed households number;Кількість домогосподарств, очолюваних дітьми
 older_people_that_require_caragiver_support_number;Older people that require caragiver support number;Людям похилого віку, яким потрібен номер служби догляду
 other_number;Other;Інше
-new_arrivals_register;Did you register new arrivals over past 60 days?;Чи були новоприбулі ВПО за останні 60 днів?
+new_arrivals_register;New arrivals registered over the past three (3) months;Чи прибували ВПО до МТП за останні 3 (три) місяці?
 arrived_site;Can you indicate how many site's residents have arrived in the site in the last 60 days?;Чи можете сказати, скільки мешканців в'їхали до МКП за останні 60 днів?
 arrived_site_number;How many site's residents have arrived in the last 60 days?;Скільки мешканців поселено до МТП за останні 60 днів?
 reasons_settling_in_cs;What reasons did they give for settling in the collective site?;Які причини приїзду до МТП вони назвали?
 reasons_settling_in_cs_other;If other, please specify:;Інше, уточніть
 stay_long;Usual lenght of stay;Середня тривалість перебування
 transit_site;Is this collective center a transit site? ;Це транзитне МТП?
-idp_left_site_at_will;Have any site's residents voluntarily left the site in the last 60 days?;Протягом останніх 60 днів, чи залишали мешканці МТП за власним бажанням?
+idp_left_site_at_will;Have any site's residents voluntarily left the site in the last three (3) months?;Протягом останніх 3 (трьох) місяці, чи залишали мешканці МТП за власним бажанням?
 idp_left_site_at_will_yn;Can you indicate how many site's residents have left the site in the last 60 days?;Чи можете сказати, скільки мешканців залишили МКП за останні 60 днів?
-idp_left_site_at_will_number;How many site's residents have left in the last 60 days?;Скільки мешканців залишили МТП за останні 60 днів?
+idp_left_site_at_will_number;No. of site's residents have left in the last three (3) months;Скільки мешканців залишили МТП за останні 3 (три) місяці?
 idp_groups;Destination planned (among those who plan to move);Запланований пункт призначення (серед тих, хто планує переїхати)
 idp_groups_other;If other, please specify:;Інше, уточніть
-individuals_evicted;Have any site's residents been evicted from the site during the last 60 days?;Чи був хтось із мешканців МТП примусово виселений з МТП за останні 60 днів?
+individuals_evicted;Have any site's residents been evicted from the site during the last three (3) months?;Чи був хтось із мешканців МТП виселений з МТП за останні 3 (три) місяці?
 eviction_reason;Reasons for eviction ;Причини виселення 
 eviction_reason_other;If other, please specify:;Інше, уточніть
 allocation_plan;Allocation plan for IDPs with specific needs;План розміщення ВПО з особливими потребами
@@ -131,7 +131,7 @@ shelter_concerns_or_needs;What are shelter concerns or needs in the collective s
 shelter_concerns_or_needs_other;Other (specify);Інше, уточніть
 shelter_concerns_or_needs_top_3;Top 3 shelter needs;Топ-3 потреб, пов'язаних із умовами проживання
 shelter_concerns_or_needs_top_3_other;Other (specify);Інше, уточніть
-receiving_shelter_support;What shelter support, if any, was received over the past 60 days on the site?;Яку допомогу, якщо така була, отримало МТП за останні 60 днів?
+receiving_shelter_support;What shelter support, if any, was received over the past three (3) months on the site?;Яку допомогу щодо умов проживання ВПО та облаштування МТП, якщо така була, отримало МТП за останні 3 (три) місяці?
 sufficient_needs_shelter_support_repairs_electricity_system;Was the shelter support received sufficient to answer the needs of IDPs in the collective site? - {Repairs: electricity system };Чи була отримана допомога, пов'язана із поліпшенням умов проживання, достатньою для задоволення потреб ВПО в МКП? - {Ремонт системи електропостачання}
 sufficient_needs_shelter_support_repairs_heating_system;Was the shelter support received sufficient to answer the needs of IDPs in the collective site? - {Repairs: heating system};Чи була отримана допомога, пов'язана із поліпшенням умов проживання, достатньою для задоволення потреб ВПО в МКП? - {Ремонт опалювальної системи}
 sufficient_needs_shelter_support_repairs_ventilation_system;Was the shelter support received sufficient to answer the needs of IDPs in the collective site? - {Repairs: ventilation system};Чи була отримана допомога, пов'язана із поліпшенням умов проживання, достатньою для задоволення потреб ВПО в МКП? - {Ремонт вентиляційної системи}
@@ -184,7 +184,7 @@ wash_needs;What are WASH concerns or needs in the collective site?;Які про
 wash_needs_other;If other, please specify:;Інше, уточніть
 top_3_wash_needs;Top 3 WASH needs;Топ-3 проблем, пов'язаних із водопостачанням, санітарією та гігієною
 top_3_wash_needs_other;If other, please specify:;Інше, уточніть
-wash_support;What WASH support, if any, was received over the past 60 days on the site?;Чи отримував МТП будь-яку допомогу у сфері водопостачання, санітарії та гігієни за останні 60 днів?
+wash_support;WASH support was received over the past three (3) months on the site?;Чи надавалася будь-яка допомога МТП у сфері водопостачання, санітарії та гігієни за останні 3 (три) місяці?
 wash_support_other;If other, please specify:;Інше, уточніть
 sufficient_wash_support_repairs_water_supply_infrastructure_drainage_system;Was the WASH support received sufficient to answer the needs of IDPs in the collective site?-{Repairs of water supply infrastructure and/or drainage system};Чи була отримана допомога у сфері водопостачання, санітарії та гігієни достатньою, щоб задовольнити потреби ВПО в МКП? -{Ремонт інфраструктури водопостачання та/або водовідведення}
 sufficient_wash_support_repairs_bathing_facilities_toilets;Was the WASH support received sufficient to answer the needs of IDPs in the collective site?-{Repairs of bathing facilities | toilets};Чи була отримана допомога у сфері водопостачання, санітарії та гігієни достатньою, щоб задовольнити потреби ВПО в МКП? -{Ремонт душових/ванних кімнат та туалетів }
@@ -234,7 +234,7 @@ access_food_other;Other (specify);Інше, уточніть
 food_products_needs;Food products needs;Чи потрібні цьому МТП продукти харчування?
 food_products_type;If yes, which type of food products?;Якщо так, то які саме продукти харчування?
 top_3_food_products_needs;Top 3 types of food products needed;Топ-3 найбільш потрібних продуктів харчування
-types_food_provided;What types of food were provided in the past 60 days to IDPs in the collective site?;Які продукти харчування були надані ВПО в МТП протягом останніх 60 днів?
+types_food_provided;Types of food were provided in the past three (3) months to IDPs in the collective site;Які продукти харчування були надані ВПО в МТП протягом останніх 3 (трьох) місяців?
 sufficient_food_received_fresh_or_frozen_meat;Was the food received sufficient to answer the needs of IDPs in the collective site? -{Fresh or frozen meat (chicken, beef, pork) };Чи достатньо було отриманих продуктів харчування для задоволення потреб ВПО в МКП? -{Свіже або заморожене м'ясо (курка, яловичина, свинина)}
 sufficient_food_received_canned_fish_or_meat;Was the food received sufficient to answer the needs of IDPs in the collective site? -{Canned fish or meat };Чи достатньо було отриманих продуктів харчування для задоволення потреб ВПО в МКП? -{Рибні чи м'ясні консерви}
 sufficient_food_received_vegetables;Was the food received sufficient to answer the needs of IDPs in the collective site? -{Vegetables};Чи достатньо було отриманих продуктів харчування для задоволення потреб ВПО в МКП? -{Овочі}
@@ -258,7 +258,7 @@ kitchen_amenities_nfi_need_other;Other (specify);Інше, уточніть
 clothing_shoe_nfi_need;What clothing or shoe NFIs are needed?;Який одяг чи взуття потрібні?
 clothing_shoe_nfi_need_other;Other (specify);Інше, уточніть
 items_for_arranging_beds;Are the residents of the collective provided with items for arranging beds, including beds, furniture for storing personal belongings, bedding (mattresses, pillows, blankets, bed linen)?;Чи забезпечені мешканці МТП предметами для облаштування спальних місц=?
-types_nfis_provided;What types of NFIs were provided in the past 60 days to IDPs in the collective site?;Яка допомога у вигляді непродовольчих товарів була надана ВПО в МВП протягом останніх 60 днів?
+types_nfis_provided;Types of NFIs were provided in the past three (3) months;Які типи непродовольчих товарів були надані ВПО в МТП протягом останніх 3 (трьох) місяців?
 types_nfis_provided_other;Other (specify);Інше, уточніть
 provided_furniture;Was the NFIs received sufficient to answer the needs of IDPs in the collective site? -{Furniture (communal and individual use)};Чи були отримані непродовольчі товари достатніми, щоб задовольнити потреби ВПО в МКП? -{Меблі (загального та індивідуального користування)}
 provided_sleeping_items;Was the NFIs received sufficient to answer the needs of IDPs in the collective site? -{Sleeping items};Чи були отримані непродовольчі товари достатніми, щоб задовольнити потреби ВПО в МКП? -{Постільні речі}
@@ -273,7 +273,7 @@ protection_needs;What are Protection concerns or needs in the collective site?;�
 protection_needs_other;If other, please specify:;Інше, уточніть
 top_3_protection_needs; Top 3 protection needs;Топ-3 проблем у сфері захисту
 top_3_protection_needs_other;If other, please specify:;Інше, уточніть
-protection_support;What Protection support, if any, was received over the past 60 days on the site?;Яку підтримку у сфері захисту, якщо така була, отримало МТП впродовж останніх 60 днів? 
+protection_support;Protection support was received over the past three (3) months on the site;Яку допомогу у сфері захисту, якщо така була, отримало МТП впродовж останніх 3 (трьох) місяців?
 protection_support_other;If other, please specify:;Інше, уточніть
 sufficient_protection_support_provision_information_individual_counselling;Was the Protection support received sufficient to answer the needs of IDPs in the collective site? -{Provision of information or individual counselling};Чи була отримана підтримка у сфері захисту достатньою для задоволення потреб ВПО в МКП? -{Надання інформації чи індивідуального консультування }
 sufficient_protection_support_legal_assistance;Was the Protection support received sufficient to answer the needs of IDPs in the collective site? -{Legal assistance};Чи була отримана підтримка у сфері захисту достатньою для задоволення потреб ВПО в МКП? -{Юридична допомога }

@@ -33,7 +33,7 @@
         }
     },
     "iframe": {
-        "url": "https://app.powerbi.com/view?r=eyJrIjoiNjY3NmVjMWItZjM4MS00NjM5LTk1ZDMtYjQzMjI5ODY3YzU2IiwidCI6ImQyMDBlOTAzLTE5YjAtNDUyZS1iZDIxLWQxYWEwMTEzOTBkNSIsImMiOjh9",
+        "url": "https://dashboards.impact-initiatives.org/yem/cccm_sites/",
         "display": true
     },
     "footerLogos": [

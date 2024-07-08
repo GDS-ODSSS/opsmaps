@@ -150,7 +150,8 @@
             "type": "gsheet",
             "name": "Round 12",
             "fdf": {
-                "folder": "FDF_R12"
+                "folder": "FDF_R12",
+                "fdfId": "UKRAINE_1"
             },
             "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBmbKAnHKCbcUedyc4xtDvtio-BHnTgPDgaKD-jFlHbrfBOrr4yxtJF9zBvWVgglJs9g9oMeQ7rys6/pub?gid=980410203&single=true&output=csv",
             "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBmbKAnHKCbcUedyc4xtDvtio-BHnTgPDgaKD-jFlHbrfBOrr4yxtJF9zBvWVgglJs9g9oMeQ7rys6/pub?gid=1926221309&single=true&output=csv",

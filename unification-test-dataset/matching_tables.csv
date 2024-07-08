@@ -1,0 +1,2 @@
+iso3,fdf_id,site_id,pcode,name,location_type,latitude,longitude,population,hh,num_shelters,last_update,site_status,num_rounds,num_thematics,list_thematics,adm1,adm2,adm3
+BFA,TEST_1,ID,site_pcode,site,type_installation,latitude,longitude,IndividlPopulation,FamillPopulation,,DateUpdate,site_status,,,,adm1pcode,adm2pcode,adm3pcode

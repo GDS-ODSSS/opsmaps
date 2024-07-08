@@ -90,7 +90,8 @@
         {
             "type": "gsheet",
             "fdf": {
-                "folder": "FDF_distribution"
+                "folder": "FDF_distribution",
+                "fdfId": "BULGARIA_1"
             },
             "name": "Distribution",
             "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSp5dhD38qRP3GQIyA4iakdYPYPxOmHZvjq3u85fTJFJYxZg7TDSmej_J8NuTzih9TrmVhGKRNBiD78/pub?gid=392014172&single=true&output=csv",
@@ -182,7 +183,8 @@
         {
             "type": "gsheet",
             "fdf": {
-                "folder": "FDF_accomodation"
+                "folder": "FDF_accomodation",
+                "fdfId": "BULGARIA_2"
             },
             "name": "Accommodation",
             "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSp5dhD38qRP3GQIyA4iakdYPYPxOmHZvjq3u85fTJFJYxZg7TDSmej_J8NuTzih9TrmVhGKRNBiD78/pub?gid=0&single=true&output=csv",

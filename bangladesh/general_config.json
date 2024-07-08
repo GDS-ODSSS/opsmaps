@@ -112,7 +112,8 @@
             "type": "gsheet",
             "name": "Camp Basic Information",
             "fdf": {
-                "folder": "FDF"
+                "folder": "FDF",
+                "fdfId": "BANGLADESH_1"
             },
             "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR1FjIohCvSE6Hk9YV4kS0rK_7YW5t7JjrkSy9WXW5gvomwrE8avGhKwKTKA5YbPj3_PBWZ0rRhmaH/pub?gid=0&single=true&output=csv",
             "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR1FjIohCvSE6Hk9YV4kS0rK_7YW5t7JjrkSy9WXW5gvomwrE8avGhKwKTKA5YbPj3_PBWZ0rRhmaH/pub?gid=2106117370&single=true&output=csv",
@@ -216,7 +217,8 @@
             "type": "gsheet",
             "name": "Service monitoring",
             "fdf": {
-                "folder": "FDF_2"
+                "folder": "FDF_2",
+                "fdfId": "BANGLADESH_2"
             },
             "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR1FjIohCvSE6Hk9YV4kS0rK_7YW5t7JjrkSy9WXW5gvomwrE8avGhKwKTKA5YbPj3_PBWZ0rRhmaH/pub?gid=47417686&single=true&output=csv",
             "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR1FjIohCvSE6Hk9YV4kS0rK_7YW5t7JjrkSy9WXW5gvomwrE8avGhKwKTKA5YbPj3_PBWZ0rRhmaH/pub?gid=1729489555&single=true&output=csv",

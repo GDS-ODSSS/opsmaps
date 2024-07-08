@@ -134,6 +134,10 @@
     "surveys": [
         {
             "type": "gsheet",
+            "fdf": {
+                "folder": "FDF",
+                "fdfId": "BURKINA_FASO_1"
+            },
             "name": "Sites fonctionnels",
             "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQqHYWvLt3uEfNwicLy4ySHA_DBUOA8XFdinalMD2yVqKyd0qAXT61jZ-6DHZTdTAN7nSyT7NOhF3D0/pub?gid=43995107&single=true&output=csv",
             "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQqHYWvLt3uEfNwicLy4ySHA_DBUOA8XFdinalMD2yVqKyd0qAXT61jZ-6DHZTdTAN7nSyT7NOhF3D0/pub?gid=2018622187&single=true&output=csv",
@@ -233,7 +237,8 @@
         {
             "type": "gsheet",
             "fdf": {
-                "folder": "FDF_site_closed"
+                "folder": "FDF_site_closed",
+                "fdfId": "BURKINA_FASO_2"
             },
             "name": "Sites fermés",
             "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQqHYWvLt3uEfNwicLy4ySHA_DBUOA8XFdinalMD2yVqKyd0qAXT61jZ-6DHZTdTAN7nSyT7NOhF3D0/pub?gid=1746694017&single=true&output=csv",

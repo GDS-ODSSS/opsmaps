@@ -232,6 +232,10 @@
     "surveys": [
         {
             "type": "gsheet",
+            "fdf": {
+                "folder": "FDF",
+                "fdfId": "YEMEN_1"
+            },
             "name": "CCCM Yemen - Site Reporting Tool (SMT)",
             "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2DKV-aqg-9SZMBBtg7A3bWShMdZPLoT5HLOQY_bjpREMa4cC91YAu-DWsMDNdo5rm71G2uh7b8DBl/pub?gid=0&single=true&output=csv",
             "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2DKV-aqg-9SZMBBtg7A3bWShMdZPLoT5HLOQY_bjpREMa4cC91YAu-DWsMDNdo5rm71G2uh7b8DBl/pub?gid=845458241&single=true&output=csv",

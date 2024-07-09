@@ -24,10 +24,10 @@
                     "admin2": "Район",
                     "admin3": "Громада"
                 },
-                "infosSite": "П-код МКП",
+                "infosSite": "П-код МTП",
                 "indicator": {
                     "siteCount": "Кількість MTП, які були досліджені під час моніторингу",
-                    "peopleCount": "Кількість ВПО у МКП, які були досліджені під час моніторингу"
+                    "peopleCount": "Кількість ВПО у МTП, які були досліджені під час моніторингу"
                 },
                 "home": {
                     "lastUpdate": "Останнє оновлення",
@@ -45,7 +45,7 @@
         },
         "opsmapDescr": {
             "en": "The Collective Sites Monitoring (CSM) site profile dashboard is an output of the CCCM cluster in Ukraine implemented with the technical support of the REACH Initiative. The profiles display site-level information collected by Neeka, Neemia, NRC, REACH, Right to Protection, ROKADA, TTA with the overall objective of strengthening the effectiveness of multi-sectorial interventions at site level. Information is collected through key informant interviews with site managers reflecting the latest round of Collective Site Monitoring surveys. For further information, please visit the CCCM Cluster Ukraine website https://cccmcluster.org/operations/ukraine, or provide feedback to the cluster Coordinator Miranda Gaanderse at gaanders@unhcr.org or Information Management Officer Asim Younis at younisa@unhcr.org.",
-            "uk": "Iнформаційна панель з профілювання місць колективного проживання ВПО є результатом роботи кластеру CCCM в Україні, що реалізується за технічної підтримки Ініціативи REACH. Профілі відображають інформацію на рівні окремих місць колективного проживання ВПО, зібрану Neeka, Neemia, NRC, REACH, Right to Protection, ROKADA, TTA із загальною метою посилення ефективності міжсекторальних втручань на рівні місць колективного проживання. Інформація збирається шляхом опитування ключових інформаторів з керівниками об’єктів, що відображає останній раунд опитувань у рамках моніторингу місць колективного проживання ВПО. Для отримання додаткової інформації відвідайте веб-сайт Кластеру з питань управління та координації МКП в Україні https://cccmcluster.org/operations/ukraine або надішліть відгук на електронну адресу Координатора кластера (Міранда Гаандерсе) за адресою gaanders@unhcr.org або Спеціаліста з управління інформацією Асіма Юніса за адресою younisa@unhcr.org."
+            "uk": "Iнформаційна панель з профілювання місць колективного проживання ВПО є результатом роботи кластеру CCCM в Україні, що реалізується за технічної підтримки Ініціативи REACH. Профілі відображають інформацію на рівні окремих місць колективного проживання ВПО, зібрану Neeka, Neemia, NRC, REACH, Right to Protection, ROKADA, TTA із загальною метою посилення ефективності міжсекторальних втручань на рівні місць колективного проживання. Інформація збирається шляхом опитування ключових інформаторів з керівниками об’єктів, що відображає останній раунд опитувань у рамках моніторингу місць колективного проживання ВПО. Для отримання додаткової інформації відвідайте веб-сайт Кластеру з питань управління та координації МTП в Україні https://cccmcluster.org/operations/ukraine або надішліть відгук на електронну адресу Координатора кластера (Міранда Гаандерсе) за адресою gaanders@unhcr.org або Спеціаліста з управління інформацією Асіма Юніса за адресою younisa@unhcr.org."
         }
     },
     "iframe": {
@@ -220,7 +220,7 @@
                         "type": "standard",
                         "name": {
                             "en": "Total people who can be hosted in sites covered in CSM round",
-                            "uk": "Місткість МКП, які були досліджені під час моніторингу"
+                            "uk": "Місткість МTП, які були досліджені під час моніторингу"
                         },
                         "entryCode": "people_can_hosted_number",
                         "iconOchaName": "Camp-Coordination-and-Camp-Management"
@@ -231,7 +231,7 @@
                         "type": "standard",
                         "name": {
                             "en": "Site active?",
-                            "uk": "Чи активне MКП?"
+                            "uk": "Чи активне МTП?"
                         },
                         "entryCode": "site_active",
                         "iconOchaName": "Selected"
@@ -249,7 +249,7 @@
                         "type": "standard",
                         "name": {
                             "en": "Individuals",
-                            "uk": "Кількість осіб, розміщених в МКП"
+                            "uk": "Кількість осіб, розміщених в МTП"
                         },
                         "entryCode": "site_individuals",
                         "iconOchaName": "People-in-need"

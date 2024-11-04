@@ -1,0 +1,10 @@
+{
+    "charts": {
+        "doughnut_chart#2": {
+            "type": "doughnut"
+        },
+        "radar_chart#1": {
+            "type": "radar"
+        }
+    }
+}

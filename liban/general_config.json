@@ -24,8 +24,8 @@
     },
     "textContent": {
         "name": {
-            "en": "Yemen",
-            "ar": "اليمن"
+            "en": "Lebanon",
+            "ar": "لبنان"
         },
         "opsmapDescr": {
             "en": "More than 1.5 million displaced Yemenis have spontaneously settled in 2,300+ unplanned sites and camp-like settings. Conflict-related damage to infrastructure, and natural hazards including floods, have further disrupted safe access to a minimum level of services. The CCCM Cluster is working with +20 partners and with the authorities to improve the living conditions and protection of IDPs in sites and ensure equitable access to services and assistance of all persons in need, with a focus on moving towards durable solutions with full participation of the displaced and host communities.",
@@ -208,10 +208,10 @@
     "spatial": {
         "mapConfig": {
             "bounds": [
-                43.28,
-                12.401,
-                52.35,
-                19.43
+                34.20,
+                32.49,
+                34.45,
+                36.51
             ]
         },
         "dbConfig": {

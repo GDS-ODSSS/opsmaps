@@ -167,7 +167,7 @@
             },
             "additionalFiltersDescription": [
                 {
-                    "field": "round",
+                    "field": "round_test",
                     "name": {
                         "en": "Round",
                         "uk": "Раунд"

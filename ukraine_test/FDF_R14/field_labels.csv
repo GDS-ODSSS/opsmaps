@@ -361,3 +361,13 @@ idp_employment;Proportion of employed among the working-age site residents (18-5
 causes_of_unemployment;Main reasons why site residents are unemployed;Якими є основні причини безробіття серед непрацюючих мешканців МТП?
 causes_of_unemployment_other;Other (specify);Інше, уточніть
 type_residential_building_other;Other (specify);Інше, уточніть
+evacuated_from_dangerous_areas_number;No. of newly arrived IDPs recently evacuated or self-evauated from dangerous areas;Скільки ВПО були нещодавно евакуйованими або самостійно виїхали з небезпечних районів?
+arrived_over_60_and_all_ages_with_disabilities_number;No. of those who arrived during this period were people aged over 60, including people of all ages with disabilities;Скільки ВПО, хто прибув у цей період, були люди віком понад 60 років, включаючи людей з інвалідністю всіх вікових категорій?
+refusals_accommodate_newly_arrived;In the last three (3) months was there a situation where this collective site had to refuse any newly arrived IDPs seeking residence?;Чи були випадки відмови у розміщенні новоприбулим ВПО в цьому МТП за останні 3 (три) місяці?
+reasons_for_refusal;What were the reasons for refusal?;Які були причини відмов?
+reasons_for_refusal_other;Other (specify);Інше, уточніть
+type_sanitary_unit_other;Other (specify);Інше, уточніть
+types_food_provided_other;Other (specify);Інше, уточніть
+clothing_shoe_nfi_need_other;Other (specify);Інше, уточніть
+sufficient_recreational_sports_ground;Are sports ground sufficient?;Чи достатньо спортивного майданчика?
+sufficient_spaces_multiply_purposes;Is one space used for multiple purposes sufficient?;Чи достатньо одного приміщення, яке використовується за кількома призначеннями?

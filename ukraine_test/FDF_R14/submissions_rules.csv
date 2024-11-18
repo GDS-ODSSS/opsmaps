@@ -365,5 +365,13 @@ longitude;integer;group_general_info;;;;hide;;
 site_type;list;group_general_info;;;;;;site_type_opt
 organization_manages_2;string;group_site_management;;;;hide;;authority_opt
 type_residential_building_other;string;group_site_information;;;;;;
-
-
+evacuated_from_dangerous_areas_number;integer;group_site_information;;;;;;
+arrived_over_60_and_all_ages_with_disabilities_number;integer;group_site_information;;;;;;
+refusals_accommodate_newly_arrived;string;group_site_information;;;;;;
+reasons_for_refusal;string;group_site_information;;;;;;
+reasons_for_refusal_other;string;group_site_information;;;;;;
+type_sanitary_unit_other;string;group_wash;;;;;;
+types_food_provided_other;string;group_food_security;;;;;;
+clothing_shoe_nfi_need_other;string;group_nonfood;;;;;;
+sufficient_recreational_sports_ground;list;group_shelter;ypn_opt;;;;;ypn_opt
+sufficient_spaces_multiply_purposes;list;group_shelter;ypn_opt;;;;;ypn_opt

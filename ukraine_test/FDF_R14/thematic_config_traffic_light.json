@@ -1,0 +1,13 @@
+﻿{
+    "trafficLights": {
+        "max": {
+            "type": "max"
+        },
+        "mean": {
+            "type": "mean"
+        },
+        "min": {
+            "type": "min"
+        }
+    }
+}

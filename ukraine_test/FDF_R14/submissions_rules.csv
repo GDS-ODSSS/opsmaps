@@ -25,6 +25,8 @@ type_residential_building;list;group_site_information;;;;;;residential_building_
 type_residential_building_other;string;group_site_information;;;;;;
 special_living_conditions_servis;string;group_site_information;;;;;;
 type_non_residential_building;list;group_site_information;;;;;;non_residential_building_opt
+accommodated_hotel_hostel_servis;string;group_site_information;;;;;;
+accommodate_general_basis_servis;string;group_site_information;;;;;;
 site_closure;list;group_site_information;contra_ynd_opt;;;;;ynd_opt
 yes_site_closure;bullet;group_site_information;;;;;;closure_opt
 site_closure_other;string;group_site_information;;;;;;
@@ -376,3 +378,5 @@ reasons_for_refusal;string;group_site_information;;;;;;
 reasons_for_refusal_other;string;group_site_information;;;;;;
 types_food_provided_other;string;group_food_security;;;;;;
 clothing_shoe_nfi_need_other;string;group_nonfood;;;;;;
+accommodated_hotel_hostel_servis;Do IDPs are accommodated in hotel/hostel?ВПО розміщуються у готелі / хостелі?
+accommodate_general_basis_servis;Are IDPs accommodated on a general basis (payment for accommodation without discounts, etc.)?Чи розміщуються ВПО на загальних підставах (оплата проживання без скидки тощо)?

@@ -24,6 +24,8 @@ building_type;list;group_site_information;building_opt;;;;;building_opt
 type_residential_building;list;group_site_information;;;;;;residential_building_opt
 special_living_conditions_servis;string;group_site_information;;;;;;
 type_non_residential_building;list;group_site_information;;;;;;non_residential_building_opt
+accommodated_hotel_hostel_servis;string;group_site_information;;;;;;
+accommodate_general_basis_servis;string;group_site_information;;;;;;
 site_closure;list;group_site_information;contra_ynd_opt;;;;;ynd_opt
 yes_site_closure;bullet;group_site_information;;;;;;closure_opt
 site_closure_other;string;group_site_information;;;;;;

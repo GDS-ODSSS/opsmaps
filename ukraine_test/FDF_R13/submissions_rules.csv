@@ -63,6 +63,7 @@ gbv_report_incidents_other;string;group_protection;;;;;;
 hotline;bullet;group_protection;;;;;;
 hotline_other;string;group_protection;;;;;;
 barriers_gbv_report_incidents;bullet;group_protection;;;;;;barriers_gbv_report_incidents_opt
+barriers_gbv_report_incidents_other;string;group_protection;;;;;;
 violations_gbv;list;group_protection;;;;;;
 how_many_violations_gbv;list;group_protection;;;;;;
 gbv_report;list;group_protection;yesnosure;;;;;ynn_opt

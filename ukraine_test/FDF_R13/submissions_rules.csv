@@ -266,6 +266,7 @@ food_products_type_other;string;group_food_security;;;;;;
 top_3_food_products_needs;bullet;group_food_security;;;;;;food_opt
 top_3_food_products_needs_other;string;group_food_security;;;;;;
 types_food_provided;bullet;group_food_security;;;;;;food_support_opt
+types_food_provided_other;string;group_food_security;;;;;;
 sufficient_food_received_fresh_or_frozen_meat;list;group_food_security;;;;hide;;ypn_opt
 sufficient_food_received_canned_fish_or_meat;list;group_food_security;;;;hide;;ypn_opt
 sufficient_food_received_vegetables;list;group_food_security;;;;hide;;ypn_opt

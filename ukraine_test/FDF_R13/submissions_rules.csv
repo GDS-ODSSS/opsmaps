@@ -22,6 +22,7 @@ site_ownership;list;group_site_information;;;;;;ownership_opt
 site_listed;list;group_site_information;site_listed_opt;;;;;site_listed_opt
 building_type;list;group_site_information;building_opt;;;;;building_opt
 type_residential_building;list;group_site_information;;;;;;residential_building_opt
+special_living_conditions_servis;string;group_site_information;;;;;;
 type_non_residential_building;list;group_site_information;;;;;;non_residential_building_opt
 site_closure;list;group_site_information;contra_ynd_opt;;;;;ynd_opt
 yes_site_closure;bullet;group_site_information;;;;;;closure_opt

@@ -360,3 +360,4 @@ services_children_well_being_other;Other (specify);Інше, уточніть
 idp_employment;Proportion of employed among the working-age site residents (18-59 years old);Відсоток працюючих серед мешканців МТП працездатного віку (18-59 років)
 causes_of_unemployment;Main reasons why site residents are unemployed;Якими є основні причини безробіття серед непрацюючих мешканців МТП?
 causes_of_unemployment_other;Other (specify);Інше, уточніть
+special_living_conditions_servis;Only people with the listed characteristics and diseases or other groups of IDPs are accommodated in these institutions?У цих установах розміщуються лише люди з перерахованими характеристиками та захворювання чи також інші групи ВПО?

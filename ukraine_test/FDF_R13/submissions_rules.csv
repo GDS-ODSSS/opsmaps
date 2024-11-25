@@ -205,6 +205,7 @@ meeting_water_needs_everyday;list;group_wash;ynd_opt;;;;;ynd_opt
 hot_water;bullet;group_wash;;;;;;hot_water_opt
 hot_water_other;string;group_wash;;;;;;
 source_hot_water;string;group_wash;;;;;;source_hot_water_opt
+source_hot_water_other;string;group_wash;;;;;;
 wash_concerns_needs;list;group_wash;;;;;;wash_concerns_needs_opt
 wash_needs;bullet;group_wash;;;;hide;;wash_needs_opt
 wash_needs_other;string;group_wash;;;;hide;;

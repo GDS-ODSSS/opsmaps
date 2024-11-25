@@ -58,7 +58,7 @@ data_availability;bullet;group_protection;;;;;;data_availability_opt
 services_of_gbv;list;group_protection;;;;;;ynn_opt
 gbv_report_incidents;bullet;group_protection;;;;;;gbv_report_incidents_opt
 gbv_report_incidents_other;string;group_protection;;;;;;
-hotline;string;group_protection;;;;;;
+hotline;bullet;group_protection;;;;;;
 barriers_gbv_report_incidents;bullet;group_protection;;;;;;barriers_gbv_report_incidents_opt
 violations_gbv;list;group_protection;;;;;;
 how_many_violations_gbv;list;group_protection;;;;;;

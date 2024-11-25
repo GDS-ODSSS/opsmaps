@@ -381,7 +381,4 @@ arrived_over_60_and_all_ages_with_disabilities_number;integer;group_site_informa
 refusals_accommodate_newly_arrived;string;group_site_information;;;;;;
 reasons_for_refusal;string;group_site_information;;;;;;
 reasons_for_refusal_other;string;group_site_information;;;;;;
-types_food_provided_other;string;group_food_security;;;;;;
 clothing_shoe_nfi_need_other;string;group_nonfood;;;;;;
-accommodated_hotel_hostel_servis;Do IDPs are accommodated in hotel/hostel?ВПО розміщуються у готелі / хостелі?
-accommodate_general_basis_servis;Are IDPs accommodated on a general basis (payment for accommodation without discounts, etc.)?Чи розміщуються ВПО на загальних підставах (оплата проживання без скидки тощо)?

@@ -371,13 +371,13 @@ types_food_provided_other;Other (specify);Інше, уточніть
 clothing_shoe_nfi_need_other;Other (specify);Інше, уточніть
 sufficient_recreational_sports_ground;Are sports ground sufficient?;Чи достатньо спортивного майданчика?
 sufficient_spaces_multiply_purposes;Is one space used for multiple purposes sufficient?;Чи достатньо одного приміщення, яке використовується за кількома призначеннями?
-special_living_conditions_servis;Only people with the listed characteristics and diseases or other groups of IDPs are accommodated in these institutions?У цих установах розміщуються лише люди з перерахованими характеристиками та захворювання чи також інші групи ВПО?
-accommodated_hotel_hostel_servis;Do IDPs are accommodated in hotel/hostel?ВПО розміщуються у готелі / хостелі?
-accommodate_general_basis_servis;Are IDPs accommodated on a general basis (payment for accommodation without discounts, etc.)?Чи розміщуються ВПО на загальних підставах (оплата проживання без скидки тощо)?
+special_living_conditions_servis;Only people with the listed characteristics and diseases or other groups of IDPs are accommodated in these institutions?;У цих установах розміщуються лише люди з перерахованими характеристиками та захворювання чи також інші групи ВПО?
+accommodated_hotel_hostel_servis;Do IDPs are accommodated in hotel/hostel?;ВПО розміщуються у готелі / хостелі?
+accommodate_general_basis_servis;Are IDPs accommodated on a general basis (payment for accommodation without discounts, etc.)?;Чи розміщуються ВПО на загальних підставах (оплата проживання без скидки тощо)?
 hotline_other;Other (specify);Інше, уточніть
 barriers_gbv_report_incidents_other;Other (specify);Інше, уточніть
 source_hot_water_other;Other (specify);Інше, уточніть
 type_waste_disposal_other;Other (specify);Інше, уточніть
-assessin_need_social_services;Do the local authorities carry out on-site visit after you notice?Чи здійснюється представниками місцевої влади оцінка потреби мешканців МТП у соціальних послугах на підставі Вашого повідомлення?
-organize_provision_social_services;Do local authorities organise the provision of social services based on the visit?Чи організовується представниками місцевої влади надання соціальних послуг за результатами проведеної оцінки потреб?
+assessin_need_social_services;Do the local authorities carry out on-site visit after you notice?;Чи здійснюється представниками місцевої влади оцінка потреби мешканців МТП у соціальних послугах на підставі Вашого повідомлення?
+organize_provision_social_services;Do local authorities organise the provision of social services based on the visit?;Чи організовується представниками місцевої влади надання соціальних послуг за результатами проведеної оцінки потреб?
 missing_social_services;What social services are missing?;Надання яких соціальних послуг не було організовано?

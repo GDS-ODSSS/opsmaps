@@ -22,6 +22,7 @@ site_ownership;list;group_site_information;;;;;;ownership_opt
 site_listed;list;group_site_information;site_listed_opt;;;;;site_listed_opt
 building_type;list;group_site_information;building_opt;;;;;building_opt
 type_residential_building;list;group_site_information;;;;;;residential_building_opt
+type_residential_building_other;string;group_site_information;;;;;;
 type_non_residential_building;list;group_site_information;;;;;;non_residential_building_opt
 site_closure;list;group_site_information;contra_ynd_opt;;;;;ynd_opt
 yes_site_closure;bullet;group_site_information;;;;;;closure_opt
@@ -122,9 +123,11 @@ purpose_spaces_serves;bullet;group_shelter;;;;;;purpose_spaces_serves_opt
 purpose_spaces_serves_other;string;group_shelter;;;;;;
 sufficient_child_spaces_indoor;list;group_shelter;ypn_opt;;;;;ypn_opt
 sufficient_child_spaces_outdoor;list;group_shelter;ypn_opt;;;;;ypn_opt
+sufficient_recreational_sports_ground;list;group_shelter;ypn_opt;;;;;ypn_opt
 sufficient_spaces_distance_learning_working;list;group_shelter;ypn_opt;;;;;ypn_opt
 sufficient_recreational_spaces_adults;list;group_shelter;ypn_opt;;;;;ypn_opt
 sufficient_spaces_services_provision;list;group_shelter;ypn_opt;;;;;ypn_opt
+sufficient_spaces_multiply_purposes;list;group_shelter;ypn_opt;;;;;ypn_opt
 sufficient_oth;list;group_shelter;ypn_opt;;;;;ypn_opt
 common_areas_separate;list;group_shelter;common_areas_separate_opt;;;;;common_areas_separate_opt
 accommodated;bullet;group_shelter;;;;;;accommodation_opt
@@ -232,6 +235,7 @@ disability_showers;list;group_wash;ynn_opt;;;;;ynn_opt
 number_disability_showers_yn;list;group_wash;;;;hide;;yn_opt
 number_disability_showers;integer;group_wash;;;;;;
 type_sanitary_unit;list;group_wash;;;;;;type_sanitary_unit_opt
+type_sanitary_unit_other;string;group_wash;;;;;;
 toilets;list;group_wash;ynn_opt;;;;;ynn_opt
 distance_to_toilets;list;group_wash;ynn_opt;;;;;ynd_opt
 number_toilets_yn;list;group_wash;;;;hide;;yn_opt
@@ -364,14 +368,10 @@ latitude;integer;group_general_info;;;;hide;;
 longitude;integer;group_general_info;;;;hide;;
 site_type;list;group_general_info;;;;;;site_type_opt
 organization_manages_2;string;group_site_management;;;;hide;;authority_opt
-type_residential_building_other;string;group_site_information;;;;;;
 evacuated_from_dangerous_areas_number;integer;group_site_information;;;;;;
 arrived_over_60_and_all_ages_with_disabilities_number;integer;group_site_information;;;;;;
 refusals_accommodate_newly_arrived;string;group_site_information;;;;;;
 reasons_for_refusal;string;group_site_information;;;;;;
 reasons_for_refusal_other;string;group_site_information;;;;;;
-type_sanitary_unit_other;string;group_wash;;;;;;
 types_food_provided_other;string;group_food_security;;;;;;
 clothing_shoe_nfi_need_other;string;group_nonfood;;;;;;
-sufficient_recreational_sports_ground;list;group_shelter;ypn_opt;;;;;ypn_opt
-sufficient_spaces_multiply_purposes;list;group_shelter;ypn_opt;;;;;ypn_opt

@@ -189,7 +189,8 @@
                 "yes": "red",
                 "no": "green",
                 "dont_know": "orange",
-                "refuse_to_answer": "red"
+                "refuse_to_answer": "red",
+                "has_not_hosted_idps_in_the_last_three_month": "green"
             }
         },
         "allocation_opt": {

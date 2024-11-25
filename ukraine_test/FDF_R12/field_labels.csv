@@ -108,7 +108,7 @@ individual_zones;Are spaces allocated for IDPs separated from the spaces used fo
 overcrowded_collective_site;Is the collective site overcrowded, in your opinion?;На Вашу думку, чи перенаселений МТП?
 spaces_cooking_eating_food_storage;Are there common spaces for the purposes of cooking (kitchen), eating, and food storage?;Чи існують спільні приміщення для приготування їжі (кухня), прийому їжі та зберігання продуктів?
 common_spaces_other_kitchens;Are there common spaces other than kitchens, eating spaces, and food storage?;Чи існують спільні приміщення, крім кухонь, місць для прийому їжі та ванн?
-purpose_spaces_serves;Which purpose do these spaces serve?;Яку функцію виконують ці приміщення?
+purpose_spaces_serves;Spaces available for residents;Наявні в МТП приміщення
 purpose_spaces_serves_other;Other (specify);Інше, уточніть
 sufficient_child_spaces_indoor;Are child spaces (indoor) sufficient?;Чи достатньо дитячих ігрових майданчиків (в приміщенні МТП)
 sufficient_child_spaces_outdoor;Are child spaces (outdoor) sufficient?;Чи достатньо дитячих ігрових майданчиків (на вулиці)

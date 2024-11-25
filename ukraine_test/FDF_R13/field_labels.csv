@@ -371,3 +371,4 @@ types_food_provided_other;Other (specify);Інше, уточніть
 assessin_need_social_services;Do the local authorities carry out on-site visit after you notice?;Чи здійснюється представниками місцевої влади оцінка потреби мешканців МТП у соціальних послугах на підставі Вашого повідомлення?
 organize_provision_social_services;Do local authorities organise the provision of social services based on the visit?;Чи організовується представниками місцевої влади надання соціальних послуг за результатами проведеної оцінки потреб?
 missing_social_services;What social services are missing?;Надання яких соціальних послуг не було організовано?
+missing_social_services_other;Other (specify);Інше, уточніть

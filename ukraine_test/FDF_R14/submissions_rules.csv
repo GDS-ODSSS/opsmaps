@@ -337,6 +337,7 @@ social_workers_visit;list;group_protection;ynd_opt;;;;;ynd_opt
 assessin_need_social_services;string;group_protection;;;;;;
 organize_provision_social_services;string;group_protection;;;;;;
 missing_social_services;string;group_protection;;;;;;
+missing_social_services_other;string;group_protection;;;;;;
 social_workers_visit_frequency;list;group_protection;;;;;;frequency_social_opt
 sufficient_visits_social_workers;list;group_protection;ypn_opt;;;;;ypn_opt
 idp_employment;list;group_protection;;;;;;idp_employment_opt

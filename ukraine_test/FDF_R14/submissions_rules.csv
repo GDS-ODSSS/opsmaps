@@ -259,6 +259,7 @@ number_drying_machines_yn;list;group_wash;;;;hide;;yn_opt
 number_drying_machines;integer;group_wash;;;;;;
 drying_clothing;list;group_wash;drying_clothing_opt;;;;;drying_clothing_opt
 type_waste_disposal;list;group_wash;;;;;;type_waste_disposal_opt
+type_waste_disposal_other;string;group_wash;;;;;;
 waste_disposal_capacity;list;group_wash;yesnosure;;;;;ynd_opt
 garbage_bins_radius_50;list;group_wash;garbage_bins_radius_opt;;;;;garbage_bins_radius_opt
 access_food;bullet;group_food_security;;;;;;food_access_opt

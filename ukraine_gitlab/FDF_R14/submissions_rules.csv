@@ -22,7 +22,11 @@ site_ownership;list;group_site_information;;;;;;ownership_opt
 site_listed;list;group_site_information;site_listed_opt;;;;;site_listed_opt
 building_type;list;group_site_information;building_opt;;;;;building_opt
 type_residential_building;list;group_site_information;;;;;;residential_building_opt
+type_residential_building_other;string;group_site_information;;;;;;
+special_living_conditions_servis;list;group_site_information;;;;;;
 type_non_residential_building;list;group_site_information;;;;;;non_residential_building_opt
+accommodated_hotel_hostel_servis;list;group_site_information;;;;;;
+accommodate_general_basis_servis;list;group_site_information;;;;;;
 site_closure;list;group_site_information;contra_ynd_opt;;;;;ynd_opt
 yes_site_closure;bullet;group_site_information;;;;;;closure_opt
 site_closure_other;string;group_site_information;;;;;;
@@ -57,8 +61,10 @@ data_availability;bullet;group_protection;;;;;;data_availability_opt
 services_of_gbv;list;group_protection;;;;;;ynn_opt
 gbv_report_incidents;bullet;group_protection;;;;;;gbv_report_incidents_opt
 gbv_report_incidents_other;string;group_protection;;;;;;
-hotline;string;group_protection;;;;;;
+hotline;bullet;group_protection;;;;;;
+hotline_other;string;group_protection;;;;;;
 barriers_gbv_report_incidents;bullet;group_protection;;;;;;barriers_gbv_report_incidents_opt
+barriers_gbv_report_incidents_other;string;group_protection;;;;;;
 violations_gbv;list;group_protection;;;;;;
 how_many_violations_gbv;list;group_protection;;;;;;
 gbv_report;list;group_protection;yesnosure;;;;;ynn_opt
@@ -122,9 +128,11 @@ purpose_spaces_serves;bullet;group_shelter;;;;;;purpose_spaces_serves_opt
 purpose_spaces_serves_other;string;group_shelter;;;;;;
 sufficient_child_spaces_indoor;list;group_shelter;ypn_opt;;;;;ypn_opt
 sufficient_child_spaces_outdoor;list;group_shelter;ypn_opt;;;;;ypn_opt
+sufficient_recreational_sports_ground;list;group_shelter;ypn_opt;;;;;ypn_opt
 sufficient_spaces_distance_learning_working;list;group_shelter;ypn_opt;;;;;ypn_opt
 sufficient_recreational_spaces_adults;list;group_shelter;ypn_opt;;;;;ypn_opt
 sufficient_spaces_services_provision;list;group_shelter;ypn_opt;;;;;ypn_opt
+sufficient_spaces_multiply_purposes;list;group_shelter;ypn_opt;;;;;ypn_opt
 sufficient_oth;list;group_shelter;ypn_opt;;;;;ypn_opt
 common_areas_separate;list;group_shelter;common_areas_separate_opt;;;;;common_areas_separate_opt
 accommodated;bullet;group_shelter;;;;;;accommodation_opt
@@ -200,6 +208,7 @@ meeting_water_needs_everyday;list;group_wash;ynd_opt;;;;;ynd_opt
 hot_water;bullet;group_wash;;;;;;hot_water_opt
 hot_water_other;string;group_wash;;;;;;
 source_hot_water;string;group_wash;;;;;;source_hot_water_opt
+source_hot_water_other;string;group_wash;;;;;;
 wash_concerns_needs;list;group_wash;;;;;;wash_concerns_needs_opt
 wash_needs;bullet;group_wash;;;;hide;;wash_needs_opt
 wash_needs_other;string;group_wash;;;;hide;;
@@ -232,6 +241,7 @@ disability_showers;list;group_wash;ynn_opt;;;;;ynn_opt
 number_disability_showers_yn;list;group_wash;;;;hide;;yn_opt
 number_disability_showers;integer;group_wash;;;;;;
 type_sanitary_unit;list;group_wash;;;;;;type_sanitary_unit_opt
+type_sanitary_unit_other;string;group_wash;;;;;;
 toilets;list;group_wash;ynn_opt;;;;;ynn_opt
 distance_to_toilets;list;group_wash;ynn_opt;;;;;ynd_opt
 number_toilets_yn;list;group_wash;;;;hide;;yn_opt
@@ -249,6 +259,7 @@ number_drying_machines_yn;list;group_wash;;;;hide;;yn_opt
 number_drying_machines;integer;group_wash;;;;;;
 drying_clothing;list;group_wash;drying_clothing_opt;;;;;drying_clothing_opt
 type_waste_disposal;list;group_wash;;;;;;type_waste_disposal_opt
+type_waste_disposal_other;string;group_wash;;;;;;
 waste_disposal_capacity;list;group_wash;yesnosure;;;;;ynd_opt
 garbage_bins_radius_50;list;group_wash;garbage_bins_radius_opt;;;;;garbage_bins_radius_opt
 access_food;bullet;group_food_security;;;;;;food_access_opt
@@ -259,6 +270,7 @@ food_products_type_other;string;group_food_security;;;;;;
 top_3_food_products_needs;bullet;group_food_security;;;;;;food_opt
 top_3_food_products_needs_other;string;group_food_security;;;;;;
 types_food_provided;bullet;group_food_security;;;;;;food_support_opt
+types_food_provided_other;string;group_food_security;;;;;;
 sufficient_food_received_fresh_or_frozen_meat;list;group_food_security;;;;hide;;ypn_opt
 sufficient_food_received_canned_fish_or_meat;list;group_food_security;;;;hide;;ypn_opt
 sufficient_food_received_vegetables;list;group_food_security;;;;hide;;ypn_opt
@@ -322,6 +334,10 @@ services_children_well_being;bullet;group_protection;;;;;;services_children_well
 services_children_well_being_other;string;group_protection;;;;;;
 known_pss_children;list;group_protection;ynn_opt;;;;;ynn_opt
 social_workers_visit;list;group_protection;ynd_opt;;;;;ynd_opt
+assessin_need_social_services;list;group_protection;;;;;;
+organize_provision_social_services;list;group_protection;;;;;;
+missing_social_services;bullet;group_protection;;;;;;
+missing_social_services_other;string;group_protection;;;;;;
 social_workers_visit_frequency;list;group_protection;;;;;;frequency_social_opt
 sufficient_visits_social_workers;list;group_protection;ypn_opt;;;;;ypn_opt
 idp_employment;list;group_protection;;;;;;idp_employment_opt
@@ -364,6 +380,9 @@ latitude;integer;group_general_info;;;;hide;;
 longitude;integer;group_general_info;;;;hide;;
 site_type;list;group_general_info;;;;;;site_type_opt
 organization_manages_2;string;group_site_management;;;;hide;;authority_opt
-
-
-
+evacuated_from_dangerous_areas_number;integer;group_site_information;;;;;;
+arrived_over_60_and_all_ages_with_disabilities_number;integer;group_site_information;;;;;;
+refusals_accommodate_newly_arrived;string;group_site_information;;;;;;
+reasons_for_refusal;string;group_site_information;;;;;;
+reasons_for_refusal_other;string;group_site_information;;;;;;
+clothing_shoe_nfi_need_other;string;group_nonfood;;;;;;

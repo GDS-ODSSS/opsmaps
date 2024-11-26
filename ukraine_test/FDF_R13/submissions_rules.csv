@@ -22,10 +22,10 @@ site_ownership;list;group_site_information;;;;;;ownership_opt
 site_listed;list;group_site_information;site_listed_opt;;;;;site_listed_opt
 building_type;list;group_site_information;building_opt;;;;;building_opt
 type_residential_building;list;group_site_information;;;;;;residential_building_opt
-special_living_conditions_servis;string;group_site_information;;;;;;
+special_living_conditions_servis;list;group_site_information;;;;;;
 type_non_residential_building;list;group_site_information;;;;;;non_residential_building_opt
-accommodated_hotel_hostel_servis;string;group_site_information;;;;;;
-accommodate_general_basis_servis;string;group_site_information;;;;;;
+accommodated_hotel_hostel_servis;list;group_site_information;;;;;;
+accommodate_general_basis_servis;list;group_site_information;;;;;;
 site_closure;list;group_site_information;contra_ynd_opt;;;;;ynd_opt
 yes_site_closure;bullet;group_site_information;;;;;;closure_opt
 site_closure_other;string;group_site_information;;;;;;
@@ -330,9 +330,9 @@ services_children_well_being;bullet;group_protection;;;;;;services_children_well
 services_children_well_being_other;string;group_protection;;;;;;
 known_pss_children;list;group_protection;ynn_opt;;;;;ynn_opt
 social_workers_visit;list;group_protection;ynd_opt;;;;;ynd_opt
-assessin_need_social_services;string;group_protection;;;;;;
-organize_provision_social_services;string;group_protection;;;;;;
-missing_social_services;string;group_protection;;;;;;
+assessin_need_social_services;list;group_protection;;;;;;
+organize_provision_social_services;list;group_protection;;;;;;
+missing_social_services;bullet;group_protection;;;;;;
 missing_social_services_other;string;group_protection;;;;;;
 social_workers_visit_frequency;list;group_protection;;;;;;frequency_social_opt
 sufficient_visits_social_workers;list;group_protection;ypn_opt;;;;;ypn_opt

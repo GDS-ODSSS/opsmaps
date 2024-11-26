@@ -44,8 +44,8 @@
             "uk": "Україна"
         },
         "opsmapDescr": {
-            "en": "The Collective Sites Monitoring (CSM) site profile dashboard is an output of the CCCM cluster in Ukraine implemented with the technical support of the REACH Initiative. The profiles display site-level information collected by Neeka, Neemia, NRC, REACH, Right to Protection, ROKADA, TTA with the overall objective of strengthening the effectiveness of multi-sectorial interventions at site level. Information is collected through key informant interviews with site managers reflecting the latest round of Collective Site Monitoring surveys. For further information, please visit the CCCM Cluster Ukraine website https://cccmcluster.org/operations/ukraine, or provide feedback to the cluster Coordinator Miranda Gaanderse at gaanders@unhcr.org or Information Management Officer Asim Younis at younisa@unhcr.org.",
-            "uk": "Iнформаційна панель з профілювання місць колективного проживання ВПО є результатом роботи кластеру CCCM в Україні, що реалізується за технічної підтримки Ініціативи REACH. Профілі відображають інформацію на рівні окремих місць колективного проживання ВПО, зібрану Neeka, Neemia, NRC, REACH, Right to Protection, ROKADA, TTA із загальною метою посилення ефективності міжсекторальних втручань на рівні місць колективного проживання. Інформація збирається шляхом опитування ключових інформаторів з керівниками об’єктів, що відображає останній раунд опитувань у рамках моніторингу місць колективного проживання ВПО. Для отримання додаткової інформації відвідайте веб-сайт Кластеру з питань управління та координації МTП в Україні https://cccmcluster.org/operations/ukraine або надішліть відгук на електронну адресу Координатора кластера (Міранда Гаандерсе) за адресою gaanders@unhcr.org або Спеціаліста з управління інформацією Асіма Юніса за адресою younisa@unhcr.org."
+            "en": "The Collective Sites Monitoring (CSM) site profile dashboard is an output of the CCCM cluster in Ukraine implemented with the technical support of the REACH Initiative. The profiles display site-level information collected by Neeka, Neemia, NRC, REACH, Right to Protection, ROKADA, TTA, DRC, Petro Kalnyshevsky Charitable Foundation, Posmishka, Proliska, PUI with the overall objective of strengthening the effectiveness of multi-sectorial interventions at site level. Information is collected through key informant interviews with site managers reflecting the latest round of Collective Site Monitoring surveys. For further information, please visit the CCCM Cluster Ukraine website https://cccmcluster.org/operations/ukraine, or provide feedback to the cluster Coordinator Miranda Gaanderse at gaanders@unhcr.org or Information Management Officer Asim Younis at younisa@unhcr.org.",
+            "uk": "Iнформаційна панель з профілювання місць колективного проживання ВПО є результатом роботи кластеру CCCM в Україні, що реалізується за технічної підтримки Ініціативи REACH. Профілі відображають інформацію на рівні окремих місць колективного проживання ВПО, зібрану Neeka, Neemia, NRC, REACH, Right to Protection, ROKADA, TTA, DRC, Petro Kalnyshevsky Charitable Foundation, Posmishka, Proliska, PUI із загальною метою посилення ефективності міжсекторальних втручань на рівні місць колективного проживання. Інформація збирається шляхом опитування ключових інформаторів з керівниками об’єктів, що відображає останній раунд опитувань у рамках моніторингу місць колективного проживання ВПО. Для отримання додаткової інформації відвідайте веб-сайт Кластеру з питань управління та координації МТП в Україні https://cccmcluster.org/operations/ukraine або надішліть відгук на електронну адресу Координатора кластера (Міранда Гаандерсе) за адресою gaanders@unhcr.org або Спеціаліста з управління інформацією Асіма Юніса за адресою younisa@unhcr.org."
         }
     },
     "iframe": {
@@ -148,12 +148,234 @@
     "surveys": [
         {
             "type": "gsheet",
+            "name": "Round 14",
+            "fdf": {
+                "folder": "FDF_R14",
+                "fdfId": "UKRAINE_1"
+            },
+            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBmbKAnHKCbcUedyc4xtDvtio-BHnTgPDgaKD-jFlHbrfBOrr4yxtJF9zBvWVgglJs9g9oMeQ7rys6/pub?gid=83157763&single=true&output=csv",
+            "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBmbKAnHKCbcUedyc4xtDvtio-BHnTgPDgaKD-jFlHbrfBOrr4yxtJF9zBvWVgglJs9g9oMeQ7rys6/pub?gid=1926221309&single=true&output=csv",
+            "options": {
+                "anonymousMode": "text",
+                "siteZoomMode": "admin",
+                "listSeparator": ";",
+                "sitesMapVisualisation": [
+                    {
+                        "type": "populationCount",
+                        "field": "site_individuals"
+                    }
+                ]
+            },
+            "additionalFiltersDescription": [
+                {
+                    "field": "round",
+                    "name": {
+                        "en": "Round",
+                        "uk": "Раунд"
+                    }
+                },
+                {
+                    "field": "settlement_name",
+                    "name": {
+                        "en": "Settlement",
+                        "uk": "Населений пункт"
+                    }
+                }
+            ],
+            "spatial": {
+                "siteFields": {
+                    "id": "site_pcode_updated",
+                    "lastUpdate": "date_assessment",
+                    "latitude": "latitude",
+                    "longitude": "longitude",
+                    "manageBy": "organization_manages",
+                    "name": "site_pcode_updated",
+                    "type": "site_type"
+                },
+                "admins": {
+                    "admin1": {
+                        "pcode": "oblast",
+                        "name": "strata"
+                    },
+                    "admin2": {
+                        "pcode": "raion",
+                        "name": "raion_name"
+                    },
+                    "admin3": {
+                        "pcode": "hromada",
+                        "name": "hromada_name"
+                    }
+                }
+            },
+            "indicators": {
+                "area": [
+                    {
+                        "type": "site_count"
+                    },
+                    {
+                        "type": "people_count",
+                        "entryCode": "site_individuals"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Total people who can be hosted in sites covered in CSM round",
+                            "uk": "Місткість МTП, які були досліджені під час моніторингу"
+                        },
+                        "entryCode": "people_can_hosted_number",
+                        "iconOchaName": "Camp-Coordination-and-Camp-Management"
+                    }
+                ],
+                "site": [
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Site active?",
+                            "uk": "Чи активне МTП?"
+                        },
+                        "entryCode": "site_active",
+                        "iconOchaName": "Selected"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Type of building",
+                            "uk": "Тип будівлі"
+                        },
+                        "entryCode": "building_type",
+                        "iconOchaName": "Building"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Individuals",
+                            "uk": "Кількість осіб, розміщених в МTП"
+                        },
+                        "entryCode": "site_individuals",
+                        "iconOchaName": "People-in-need"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "gsheet",
+            "name": "Round 13",
+            "fdf": {
+                "folder": "FDF_R13",
+                "fdfId": "UKRAINE_2"
+            },
+            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBmbKAnHKCbcUedyc4xtDvtio-BHnTgPDgaKD-jFlHbrfBOrr4yxtJF9zBvWVgglJs9g9oMeQ7rys6/pub?gid=1736995562&single=true&output=csv",
+            "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBmbKAnHKCbcUedyc4xtDvtio-BHnTgPDgaKD-jFlHbrfBOrr4yxtJF9zBvWVgglJs9g9oMeQ7rys6/pub?gid=1926221309&single=true&output=csv",
+            "options": {
+                "anonymousMode": "text",
+                "siteZoomMode": "admin",
+                "listSeparator": ";",
+                "sitesMapVisualisation": [
+                    {
+                        "type": "populationCount",
+                        "field": "site_individuals"
+                    }
+                ]
+            },
+            "additionalFiltersDescription": [
+                {
+                    "field": "round",
+                    "name": {
+                        "en": "Round",
+                        "uk": "Раунд"
+                    }
+                },
+                {
+                    "field": "settlement_name",
+                    "name": {
+                        "en": "Settlement",
+                        "uk": "Населений пункт"
+                    }
+                }
+            ],
+            "spatial": {
+                "siteFields": {
+                    "id": "site_pcode_updated",
+                    "lastUpdate": "date_assessment",
+                    "latitude": "latitude",
+                    "longitude": "longitude",
+                    "manageBy": "organization_manages",
+                    "name": "site_pcode_updated",
+                    "type": "site_type"
+                },
+                "admins": {
+                    "admin1": {
+                        "pcode": "oblast",
+                        "name": "strata"
+                    },
+                    "admin2": {
+                        "pcode": "raion",
+                        "name": "raion_name"
+                    },
+                    "admin3": {
+                        "pcode": "hromada",
+                        "name": "hromada_name"
+                    }
+                }
+            },
+            "indicators": {
+                "area": [
+                    {
+                        "type": "site_count"
+                    },
+                    {
+                        "type": "people_count",
+                        "entryCode": "site_individuals"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Total people who can be hosted in sites covered in CSM round",
+                            "uk": "Місткість МTП, які були досліджені під час моніторингу"
+                        },
+                        "entryCode": "people_can_hosted_number",
+                        "iconOchaName": "Camp-Coordination-and-Camp-Management"
+                    }
+                ],
+                "site": [
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Site active?",
+                            "uk": "Чи активне МTП?"
+                        },
+                        "entryCode": "site_active",
+                        "iconOchaName": "Selected"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Type of building",
+                            "uk": "Тип будівлі"
+                        },
+                        "entryCode": "building_type",
+                        "iconOchaName": "Building"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Individuals",
+                            "uk": "Кількість осіб, розміщених в МTП"
+                        },
+                        "entryCode": "site_individuals",
+                        "iconOchaName": "People-in-need"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "gsheet",
             "name": "Round 12",
             "fdf": {
                 "folder": "FDF_R12",
-                "fdfId": "UKRAINE_1"
+                "fdfId": "UKRAINE_3"
             },
-            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBmbKAnHKCbcUedyc4xtDvtio-BHnTgPDgaKD-jFlHbrfBOrr4yxtJF9zBvWVgglJs9g9oMeQ7rys6/pub?gid=980410203&single=true&output=csv",
+            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBmbKAnHKCbcUedyc4xtDvtio-BHnTgPDgaKD-jFlHbrfBOrr4yxtJF9zBvWVgglJs9g9oMeQ7rys6/pub?gid=1487471762&single=true&output=csv",
             "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBmbKAnHKCbcUedyc4xtDvtio-BHnTgPDgaKD-jFlHbrfBOrr4yxtJF9zBvWVgglJs9g9oMeQ7rys6/pub?gid=1926221309&single=true&output=csv",
             "options": {
                 "anonymousMode": "text",

@@ -110,11 +110,6 @@
                     "urlRedirection": "https://www.globalr2p.org/"
                 },
                 {
-                    "name": "TTA",
-                    "urlLogo": "Logo/tta.png",
-                    "urlRedirection": "https://civitta.com/"
-                },
-                {
                     "name": "UNHCR",
                     "urlLogo": "Logo/unhcr.png",
                     "urlRedirection": "https://www.unhcr.org/ua"

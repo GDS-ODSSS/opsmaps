@@ -109,12 +109,13 @@
     },
     "surveys": [
         {
-            "type": "gsheet",
+            "type": "arcgis_server",
             "name": "Camp Basic Information",
             "fdf": {
                 "folder": "FDF"
             },
-            "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSp8zKX7Zcd0D-bQoYCrutESaPqz5VSnnED5HZlI6eXNLhFPup_OQs_beJd03hVYEmTeppDYIlR8F8N/pub?gid=0&single=true&output=csv",
+            "dataServiceNumber": 1,
+            "fieldMappingServiceNumber": 2,
             "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSp8zKX7Zcd0D-bQoYCrutESaPqz5VSnnED5HZlI6eXNLhFPup_OQs_beJd03hVYEmTeppDYIlR8F8N/pub?gid=2106117370&single=true&output=csv",
             "options": {
                 "sitesMapVisualisation": [

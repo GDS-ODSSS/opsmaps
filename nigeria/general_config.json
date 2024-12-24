@@ -133,14 +133,14 @@
     ],
     "surveys": [
         {
-            "type": "kobo",
+            "type": "arcgis_server",
             "fdf": {
                 "folder": "FDF",
                 "fdfId": "NIGERIA_1"
             },
+            "dataServiceNumber": 19,
+            "fieldMappingServiceNumber": 20,
             "name": "2020-2021",
-            "url": "https://kobo.humanitarianresponse.info/api/v2/assets/aJ7uW4DUnpfsn6kRjvQWFq/data.json",
-            "token": "c6d24e0275d1ca5be2231496a3ceeddd5e78bdc4",
             "spatial": {
                 "siteFields": {
                     "id": "group_general_info/site",

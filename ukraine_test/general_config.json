@@ -142,12 +142,14 @@
     },
     "surveys": [
         {
-            "type": "gsheet",
+            "type": "arcgis_server",
             "name": "Round 14",
             "fdf": {
                 "folder": "FDF_R14",
                 "fdfId": "UKRAINE_1"
             },
+            "dataServiceNumber": 33,
+            "fieldMappingServiceNumber": 34,
             "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKSEGN6yFnBxJoVtd7ztRqD08lumjPV2Om5iQV5ozK5c8lWkS8ISYsE6PXbziFF73VOpIiACbTDIXD/pub?gid=1771630021&single=true&output=csv",
             "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKSEGN6yFnBxJoVtd7ztRqD08lumjPV2Om5iQV5ozK5c8lWkS8ISYsE6PXbziFF73VOpIiACbTDIXD/pub?gid=1569212946&single=true&output=csv",
             "options": {
@@ -253,12 +255,14 @@
             }
         },
         {
-            "type": "gsheet",
+            "type": "arcgis_server",
             "name": "Round 13",
             "fdf": {
                 "folder": "FDF_R13",
                 "fdfId": "UKRAINE_2"
             },
+            "dataServiceNumber": 35,
+            "fieldMappingServiceNumber": 36,
             "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKSEGN6yFnBxJoVtd7ztRqD08lumjPV2Om5iQV5ozK5c8lWkS8ISYsE6PXbziFF73VOpIiACbTDIXD/pub?gid=229736679&single=true&output=csv",
             "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKSEGN6yFnBxJoVtd7ztRqD08lumjPV2Om5iQV5ozK5c8lWkS8ISYsE6PXbziFF73VOpIiACbTDIXD/pub?gid=1569212946&single=true&output=csv",
             "options": {
@@ -364,12 +368,14 @@
             }
         },
         {
-            "type": "gsheet",
+            "type": "arcgis_server",
             "name": "Round 12",
             "fdf": {
                 "folder": "FDF_R12",
                 "fdfId": "UKRAINE_3"
             },
+            "dataServiceNumber": 37,
+            "fieldMappingServiceNumber": 38,
             "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKSEGN6yFnBxJoVtd7ztRqD08lumjPV2Om5iQV5ozK5c8lWkS8ISYsE6PXbziFF73VOpIiACbTDIXD/pub?gid=2044881600&single=true&output=csv",
             "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRKSEGN6yFnBxJoVtd7ztRqD08lumjPV2Om5iQV5ozK5c8lWkS8ISYsE6PXbziFF73VOpIiACbTDIXD/pub?gid=1569212946&single=true&output=csv",
             "options": {

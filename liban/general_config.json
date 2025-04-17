@@ -169,9 +169,9 @@
                 "sitesMapVisualisation": [
                     {
                         "type": "populationCount",
-                        "field": "demo_num_indv",
+                        "field": "Total_Ind_site",
                         "tresholds": [
-                            300,
+                            100,
                             600
                         ]
                     }

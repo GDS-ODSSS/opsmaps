@@ -1,7 +1,2 @@
 formatted_name;icon_file_name;icon_file_name_selected;label_en;label_ar
-planned_camp;planned_site;planned_site_selected;Planned camp;المخيم المخطط
-self_settled_camp_settlement;spontaneous_site;spontaneous_site_selected;Self settled camp/settlement;تسوية المخيم
-reception_and_transit_evacuation;transit_site;transit_site_selected;Reception and transit/Evacuation Centre;الاستقبال والإخلاء العابر
-collective_centre;collective_site;collective_site_selected;Collective center;مركز جماعي
-dispersed_location;reception_site;reception_site_selected;Dispersed location;موقع مشتت
-location;coordination_site;coordination_site_selected;Location;موقع
+collective;collective_site;collective_site_selected;Collective site;موقع جماعي

@@ -1,5 +1,66 @@
 {
     "charts": {
+        "age_pyramid#1": {
+            "type": "bar",
+            "direction": "horizontal",
+            "barType": "duo",
+            "axis": {
+                "x": {
+                    "title": "charts.titleX"
+                },
+                "y": {
+                    "title": "charts.titleY",
+                    "labels": [
+                        {
+                            "en": "60+",
+                            "ar":"60+"
+                        },
+                        {
+                            "en": "18-59",
+                            "ar":"18-59"
+                        },
+                        {
+                            "en": "13-17",
+                            "ar":"13-17"
+                        },
+                        {
+                            "en": "6-12",
+                            "ar":"6-12"
+                        },
+                        {
+                            "en": "2-5",
+                            "ar":"2-5"
+                        },
+                        {
+                            "en": "1-2",
+                            "ar":"1-2"
+                        },
+                        {
+                            "en": "6-12m",
+                            "ar":"6-12m"
+                        },
+                        {
+                            "en": "0-5m",
+                            "ar":"0-5m"
+                        }
+                    ]
+                }
+            },
+            "series": [
+                {
+                    "id": "m",
+                    "index": 0,
+                    "color": "#6FC5BC",
+                    "label": "charts.male"
+                },
+                {
+                    "id": "f",
+                    "index": 1,
+                    "color": "#1B657C",
+                    "label": "charts.female"
+                }
+            ]
+        },
         "doughnut_chart#2": {
             "type": "doughnut"
         },

@@ -58,7 +58,7 @@
             "logos": [
                 {
                     "name": "CCCM cluster in Lebanon",
-                    "urlLogo": "Logo/cccm.png",
+                    "urlLogo": "Logo/cccm_lbn.png",
                     "urlRedirection": "https://www.cccmcluster.org/where-we-work/lebanon"
                 },
                 {
@@ -74,12 +74,12 @@
                 },
                 {
                     "name": "UNHCR",
-                    "urlLogo": "Logo/unhcr.png",
+                    "urlLogo": "Logo/unhcr_lbn.png",
                     "urlRedirection": "https://www.unhcr.org/ua"
                 },
                 {
                     "name": "DRC",
-                    "urlLogo": "Logo/drc_lbn.png",
+                    "urlLogo": "Logo/drc_lbn2.png",
                     "urlRedirection": "https://pro.drc.ngo/"
                 },
                 {
@@ -107,7 +107,7 @@
             "logos": [
                 {
                     "name": "CCCM cluster in Lebanon",
-                    "urlLogo": "Logo/cccm.png",
+                    "urlLogo": "Logo/cccm_lbn.png",
                     "urlRedirection": "https://www.cccmcluster.org/where-we-work/lebanon"
                 }
             ]
@@ -120,7 +120,7 @@
             "logos": [
                 {
                     "name": "CCCM cluster in Lebanon",
-                    "urlLogo": "Logo/cccm.png",
+                    "urlLogo": "Logo/cccm_lbn.png",
                     "urlRedirection": "https://www.cccmcluster.org/where-we-work/lebanon"
                 }
             ]

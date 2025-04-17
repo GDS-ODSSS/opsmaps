@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.2",
+    "version": "v1.0.0",
     "locale": {
         "locales": [
             "en",
@@ -28,13 +28,13 @@
             "ar": "لبنان"
         },
         "opsmapDescr": {
-            "en": "More than 1.5 million displaced Yemenis have spontaneously settled in 2,300+ unplanned sites and camp-like settings. Conflict-related damage to infrastructure, and natural hazards including floods, have further disrupted safe access to a minimum level of services. The CCCM Cluster is working with +20 partners and with the authorities to improve the living conditions and protection of IDPs in sites and ensure equitable access to services and assistance of all persons in need, with a focus on moving towards durable solutions with full participation of the displaced and host communities.",
-            "ar": "استقر أكثر من 1.5 مليون يمني نازح تلقائيًا في أكثر من 2300 موقع غير مخطط وأماكن شبيهة بالمخيمات. أدت الأضرار التي لحقت بالبنية التحتية المرتبطة بالنزاع ، والأخطار الطبيعية بما في ذلك الفيضانات ، إلى مزيد من تعطيل الوصول الآمن إلى الحد الأدنى من الخدمات. تعمل مجموعة تنسيق وإدارة المخيمات مع +20 شريك ومع السلطات لتحسين الظروف المعيشية وحماية النازحين داخليًا في المواقع وضمان الوصول العادل إلى الخدمات والمساعدة لجميع الأشخاص المحتاجين ، مع التركيز على التحرك نحو حلول دائمة بمشاركة كاملة من النازحين والمجتمعات المضيفة."
+            "en": "Emergency RNA Plus - Site Management",
+            "ar": "إدارة موقع إمرجنسي آر إن إيه بلس"
         }
     },
     "iframe": {
-        "url": "https://dashboards.impact-initiatives.org/yem/cccm_sites/",
-        "display": true
+        "url": "",
+        "display": false
     },
     "footerLogos": [
         {
@@ -57,137 +57,38 @@
             },
             "logos": [
                 {
-                    "name": "UNHCR",
-                    "urlLogo": "Logo/UNHCR.png",
-                    "urlRedirection": "https://www.unhcr.org"
+                    "name": "CCCM cluster in Lebanon",
+                    "urlLogo": "Logo/cccm.png",
+                    "urlRedirection": "https://www.cccmcluster.org/where-we-work/lebanon"
                 },
                 {
-                    "name": "DRC",
-                    "urlLogo": "Logo/DRC.png",
-                    "urlRedirection": "https://www.facebook.com/drcyemen"
+                    "name": "ACTED",
+                    "urlLogo": "Logo/acted.png",
+                    "urlRedirection": "https://www.acted.org/en/"
+                },
+
+                {
+                    "name": "REACH Initiative",
+                    "urlLogo": "Logo/reach.png",
+                    "urlRedirection": "https://www.reach-initiative.org/"
+                },
+                {
+                    "name": "UNHCR",
+                    "urlLogo": "Logo/unhcr.png",
+                    "urlRedirection": "https://www.unhcr.org/ua"
                 }
             ]
         },
         {
             "title": {
-                "en": "Fieldwork - CCCM members",
-                "ar": "العمل الميداني - أعضاء قطاع تنسيق وإدارة المخيمات"
+                "en": "Fieldwork",
+                "ar": "العمل الميداني"
             },
             "logos": [
                 {
-                    "name": "Norwegian Refugee Council (NRC)",
-                    "urlLogo": "Logo/NRC.png",
-                    "urlRedirection": "https://www.nrc.no/countries/middle-east/yemen/"
-                },
-                {
-                    "name": "JAAHD",
-                    "urlLogo": "Logo/JAAHD.png",
-                    "urlRedirection": "https://jaahd.org"
-                },
-                {
-                    "name": "YGUSSWP",
-                    "urlLogo": "Logo/YGUSSWP.png",
-                    "urlRedirection": "http://www.ygusswp.org"
-                },
-                {
-                    "name": "BCFHD",
-                    "urlLogo": "Logo/BCFHD.png",
-                    "urlRedirection": "https://www.benaye.org"
-                },
-                {
-                    "name": "ACTED",
-                    "urlLogo": "Logo/ACTED.png",
-                    "urlRedirection": "https://www.acted.org"
-                },
-                {
-                    "name": "DRC",
-                    "urlLogo": "Logo/DRC.png",
-                    "urlRedirection": "https://www.facebook.com/drcyemen"
-                },
-                {
-                    "name": "RADF",
-                    "urlLogo": "Logo/RADF.png",
-                    "urlRedirection": "http://radf-y.org/"
-                },
-                {
-                    "name": "GWQ",
-                    "urlLogo": "Logo/GWQ.png",
-                    "urlRedirection": "http://gwq-ye.org"
-                },
-                {
-                    "name": "YCRs",
-                    "urlLogo": "Logo/YCRs.png",
-                    "urlRedirection": "http://www.yrcamran.org"
-                },
-                {
-                    "name": "TYF",
-                    "urlLogo": "Logo/TYF.png",
-                    "urlRedirection": "https://www.tamdeen-ye.org"
-                },
-                {
-                    "name": "SDF",
-                    "urlLogo": "Logo/SDF.png",
-                    "urlRedirection": "http://sdf-yemen.org/"
-                },
-                {
-                    "name": "Mona Relief",
-                    "urlLogo": "Logo/Mona.png",
-                    "urlRedirection": "https://www.monarelief.ngo/"
-                },
-                {
-                    "name": "AOBWC",
-                    "urlLogo": "Logo/AOBWC.png",
-                    "urlRedirection": "https://alaman.org/en/home-2/"
-                },
-                {
-                    "name": "DEEM",
-                    "urlLogo": "Logo/DEEM.png",
-                    "urlRedirection": "https://deemyemen.org/"
-                },
-                {
-                    "name": "FMF",
-                    "urlLogo": "Logo/FMF.png",
-                    "urlRedirection": "https://fmfyemen.org/en/"
-                },
-                {
-                    "name": "NMO",
-                    "urlLogo": "Logo/NMO.png",
-                    "urlRedirection": "https://nahdamakers.org/"
-                },
-                {
-                    "name": "PAH",
-                    "urlLogo": "Logo/PAH.png",
-                    "urlRedirection": "https://www.pah.org.pl/en/yemen-2/"
-                },
-                {
-                    "name": "SHS",
-                    "urlLogo": "Logo/SHS.png",
-                    "urlRedirection": "https://shsye.org/en/"
-                },
-                {
-                    "name": "YARD",
-                    "urlLogo": "Logo/YARD.png",
-                    "urlRedirection": "https://yard-yemen.org/"
-                },
-                {
-                    "name": "YDF",
-                    "urlLogo": "Logo/YDF.png",
-                    "urlRedirection": "https://ydfy.org/subpages.php?keyID=24"
-                },
-                {
-                    "name": "YFCA",
-                    "urlLogo": "Logo/YFCA.png",
-                    "urlRedirection": "https://www.yfca.org/en/"
-                },
-                {
-                    "name": "EXU",
-                    "urlLogo": "Logo/exu.png",
-                    "urlRedirection": "https://www.exuye.org/en/home"
-                },
-                {
-                    "name": "SCMCHA",
-                    "urlLogo": "Logo/SCMCHA.png",
-                    "urlRedirection": "https://www.scmcha.org/en/about-namcha"
+                    "name": "CCCM cluster in Lebanon",
+                    "urlLogo": "Logo/cccm.png",
+                    "urlRedirection": "https://www.cccmcluster.org/where-we-work/lebanon"
                 }
             ]
         },
@@ -197,6 +98,11 @@
                 "ar": "التنسيق ودعم الرسائل الفورية"
             },
             "logos": [
+                {
+                    "name": "CCCM cluster in Lebanon",
+                    "urlLogo": "Logo/cccm.png",
+                    "urlRedirection": "https://www.cccmcluster.org/where-we-work/lebanon"
+                },
                 {
                     "name": "Impact Initiatives",
                     "urlLogo": "Logo/impact.png",
@@ -232,9 +138,10 @@
     "surveys": [
         {
             "type": "gsheet",
+            "name": "Round 1",
             "fdf": {
-                "folder": "FDF",
-                "fdfId": "YEMEN_1"
+                "folder": "FDF_R1",
+                "fdfId": "LEBANON_1"
             },
             "name": "CCCM Yemen - Site Reporting Tool (SMT)",
             "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2DKV-aqg-9SZMBBtg7A3bWShMdZPLoT5HLOQY_bjpREMa4cC91YAu-DWsMDNdo5rm71G2uh7b8DBl/pub?gid=0&single=true&output=csv",
@@ -329,7 +236,7 @@
         }
     ],
     "options": {
-        "showDemoBanner": false,
+        "showDemoBanner": true,
         "keepThematicOrderFromFDF": true,
         "exportAsCSVonHomePage": true,
         "mapLegendDisplayStyle":"folded"

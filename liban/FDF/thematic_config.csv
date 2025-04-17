@@ -1,21 +1,12 @@
 formatted_name;icon_file_name;traffic_light_name;thematic_label_en;thematic_label_ar
-group_hh_ind;People-in-need;;Household size;حجم الأسرة
-group_shelter_ind;Camp-Coordination-and-Camp-Management;;Shelter occupancy rate;معدل إشغال المأوى
-group_manage_ind;People-targeted-2;;Management rate;معدل الإدارة
-group_general_info;About;;General;عام
-group_demo;People-in-need;;Demographic distribution;التوزيع الديموغرافي
-group_cccm;Camp-Coordination-and-Camp-Management;;Camp management;إدارة المخيم
-group_wash;Water-Sanitation-and-Hygiene;;Water, sanitation and hygiene;المياه والصرف الصحي والنظافة
-group_shelternfi;Shelter;;Shelter - NFI;المأوى - مواد غير غذائية
-group_protection;Protection;;Protection;حماية
-group_fs;Food-Security;;Food security;أمن غذائي
-group_infrastructure;Infrastructure;;Infrastructure;بنية تحتية
-group_site_access_safety;Safety-and-security;;Site access & safety;وصول سيتا والسلامة
-group_health;Health;;Health;صحة
-group_cash_Markets;Cash-transfer;;Cash & markets;النقد والأسواق
-group_committees;Community-engagement;;Site Committiees;لجان الموقع
-group_service_access;Services-and-tools;;Service access;الوصول إلى الخدمة
-group_community_needs;Services-and-tools;;Community needs;احتياجات المجتمع
-group_sectoral_Response_Capacity;Response;;Sectoral response capacity;القدرة على الاستجابة القطاعية
-group_displacement;Internally-displaced;;Displacement;الإزاحة
-group_comments;Blog;;Comments;تعليقات
+Site_information;About;mean;Section 2 - Site Information;القسم 2 -تفاصيل الموقع
+Demographics;People-in-need;mean;Demographics;تعداد السكان
+Site_Management;Camp-Coordination-and-Camp-Management;mean;Site Management;إدارة الموقع
+Basic_Assistance;Non-food-items;mean;Basic Assistance;مواد الإغاثة الأساسية غير الغذائية
+Food_safety_security;Food-Security;mean;Food safety and security ;سلامة الأغذية والأمن 
+Shelter;Shelter;mean;Shelter;المأوى
+WASH;Water-Sanitation-and-Hygiene;mean;WASH;المياه والصرف الصحي والنظافة الصحية
+Protection;Protection;mean;Protection ;حماية
+Health;Health;mean;Health;الصحة
+Nutrition;Nutrition;mean;Nutrition;التغذية
+Education;Education;mean;Education;تعليم

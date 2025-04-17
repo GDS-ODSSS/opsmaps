@@ -10,7 +10,7 @@
                 "infosAdmins": {
                     "admin1": "Governorate",
                     "admin2": "District",
-                    "admin3": "Sub district"
+                    "admin3": "cadaster"
                 }
             },
             "ar": {
@@ -28,9 +28,7 @@
             "ar": "لبنان"
         },
         "opsmapDescr": {
-            "en": "The Site Management and Coordination (SMC) sector was activated in October 2024 under the Flash Appeal after the escalation of hostilities and mass displacement Through its partners, the sector conducted activities in 483 collective sites supporting 100,877 Internally Displaced Persons (IDP)s. 
-the sector prioritized site monitoring to support monitor minimum sector standards and inform site level gaps.ERNA plus-Site monitoring tool was rolled out in December 2024 in 47 open collective sites based on the sector Geo-Split. With participation from the sector partners.
-Future rounds will cover the open collective sites.",
+            "en": "The Site Management and Coordination (SMC) sector was activated in October 2024 under the Flash Appeal after the escalation of hostilities and mass displacement Through its partners, the sector conducted activities in 483 collective sites supporting 100,877 Internally Displaced Persons (IDP)s.The sector prioritized site monitoring to support monitor minimum sector standards and inform site level gaps.ERNA plus-Site monitoring tool was rolled out in December 2024 in 47 open collective sites based on the sector Geo-Split. With participation from the sector partners.Future rounds will cover the open collective sites.",
             "ar": "في أكتوبر 2024، تم تفعيل قطاع إدارة وتنسيق المواقع (SMC) في إطار النداء العاجل بعد تصاعد العدائيات والنزوح الجماعي. من خلال شركائها، نفذ القطاع أنشطة في 483 موقعًا جماعيًا لدعم 100,877 من النازحين داخلياً (IDPs).أولى القطاع أولوية لمراقبة المواقع لدعم مراقبة المعايير الدنيا للقطاع وتوعية الفجوات على مستوى المواقع.تم إطلاق أداة مراقبة المواقع ERNA Plus في ديسمبر 2024 في 47 موقعًا جماعيًا مفتوحًا بناءً على التقسيم الجغرافي للقطاع. بمشاركة من شركاء القطاع.ستغطي الجولات المستقبلية المواقع الجماعية المفتوحة."
         }
     },
@@ -65,19 +63,39 @@ Future rounds will cover the open collective sites.",
                 },
                 {
                     "name": "ACTED",
-                    "urlLogo": "Logo/acted.png",
+                    "urlLogo": "Logo/acted_lbn.png",
                     "urlRedirection": "https://www.acted.org/en/"
                 },
 
                 {
-                    "name": "REACH Initiative",
-                    "urlLogo": "Logo/reach.png",
-                    "urlRedirection": "https://www.reach-initiative.org/"
+                    "name": "ACF",
+                    "urlLogo": "Logo/acf_lbn.png",
+                    "urlRedirection": "https://www.actioncontrelafaim.org/"
                 },
                 {
                     "name": "UNHCR",
                     "urlLogo": "Logo/unhcr.png",
                     "urlRedirection": "https://www.unhcr.org/ua"
+                },
+                {
+                    "name": "DRC",
+                    "urlLogo": "Logo/drc_lbn.png",
+                    "urlRedirection": "https://pro.drc.ngo/"
+                },
+                {
+                    "name": "IOM",
+                    "urlLogo": "Logo/iom_lbn.png",
+                    "urlRedirection": "https://www.iom.int/fr"
+                },
+                {
+                    "name": "MEDAIR",
+                    "urlLogo": "Logo/medair_lbn.png",
+                    "urlRedirection": "https://www.medair.org/fr"
+                },
+                {
+                    "name": "NABAD",
+                    "urlLogo": "Logo/nabad_lbn.png",
+                    "urlRedirection": "https://nabadassociation.org/"
                 }
             ]
         },
@@ -104,11 +122,6 @@ Future rounds will cover the open collective sites.",
                     "name": "CCCM cluster in Lebanon",
                     "urlLogo": "Logo/cccm.png",
                     "urlRedirection": "https://www.cccmcluster.org/where-we-work/lebanon"
-                },
-                {
-                    "name": "Impact Initiatives",
-                    "urlLogo": "Logo/impact.png",
-                    "urlRedirection": "https://www.impact-initiatives.org"
                 }
             ]
         }
@@ -140,49 +153,48 @@ Future rounds will cover the open collective sites.",
     "surveys": [
         {
             "type": "gsheet",
-            "name": "Round 1",
             "fdf": {
-                "folder": "FDF_R1",
+                "folder": "FDF",
                 "fdfId": "LEBANON_1"
             },
-            "name": "CCCM Yemen - Site Reporting Tool (SMT)",
+            "name": "Survey 2025",
             "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRs974UDtwX7eUZs85oCNhI_zGX2URH7P2W71DkeiyuLKx6pGMLaCVZHfRk6z_FjQ/pub?gid=1775313954&single=true&output=csv",
-            "submissionsTrUrl": https://docs.google.com/spreadsheets/d/e/2PACX-1vRs974UDtwX7eUZs85oCNhI_zGX2URH7P2W71DkeiyuLKx6pGMLaCVZHfRk6z_FjQ/pub?gid=1391379263&single=true&output=csv",
+            "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRs974UDtwX7eUZs85oCNhI_zGX2URH7P2W71DkeiyuLKx6pGMLaCVZHfRk6z_FjQ/pub?gid=1391379263&single=true&output=csv",
             "options": {
                 "anonymousMode": "text",
                 "siteZoomMode": "admin"
             },
             "additionalFiltersDescription": [
                 {
-                    "field": "smc_agency",
+                    "field": "Organization_visit",
                     "name": {
-                        "en": "Organization",
-                        "ar": "وكالة تنسيق وإدارة الموقع (SMC)"
+                        "en": "Organization visit",
+                        "ar": "زيارة المنظمة"
                     }
                 }
             ],
             "spatial": {
                 "siteFields": {
-                    "id": "site",
-                    "lastUpdate": "reporting_month",
-                    "latitude": "latitude",
-                    "longitude": "longitude",
-                    "manageBy": "smc_agency",
-                    "name": "site_name_en",
-                    "type": "type_of_settlement"
+                    "id": "IDP_Collective_shelter_center",
+                    "lastUpdate": "Date_of_Visit",
+                    "latitude": "latitude_s",
+                    "longitude": "longitude_s",
+                    "manageBy": "Organization_visit",
+                    "name": "name",
+                    "type": "Site_type"
                 },
                 "admins": {
                     "admin1": {
                         "pcode": "Admin1",
-                        "name": "governorate"
+                        "name": "Governorate"
                     },
                     "admin2": {
                         "pcode": "Admin2",
-                        "name": "district"
+                        "name": "District"
                     },
                     "admin3": {
                         "pcode": "Admin3",
-                        "name": "sub_district"
+                        "name": "cadaster"
                     }
                 }
             },
@@ -193,15 +205,15 @@ Future rounds will cover the open collective sites.",
                     },
                     {
                         "type": "people_count",
-                        "entryCode": "nb_site_residents_ind"
+                        "entryCode": "Total_Ind_site"
                     },
                     {
                         "type": "standard",
                         "name": {
-                            "en": "# Shelters",
-                            "ar": "عدد المآوي في الموقع"
+                            "en": "Maximum total number of people the site can accommodate",
+                            "ar": "لحد الأقصى لعدد الأشخاص الذين يمكن للموقع استيعابهم"
                         },
-                        "entryCode": "nb_shelters",
+                        "entryCode": "site_capacity",
                         "iconOchaName": "Shelter"
                     }
                 ],
@@ -209,29 +221,29 @@ Future rounds will cover the open collective sites.",
                     {
                         "type": "standard",
                         "name": {
-                            "en": "Site Residents",
-                            "ar": "ادخل إجمالي عدد سكان الموقع -  الأفراد"
+                            "en": "Total number of  individuals on site",
+                            "ar": "إجمالي عدد الأفراد في الموقع"
                         },
-                        "entryCode": "nb_site_residents_ind",
+                        "entryCode": "Total_Ind_site",
+                        "iconOchaName": "People-in-need"
+                    },
+                    {
+                        "type": "standard",
+                        "name": {
+                            "en": "Total number of  families on site",
+                            "ar": "عدد المآوي في الموقع"
+                        },
+                        "entryCode": "Total_HH_site",
                         "iconOchaName": "People-affected"
                     },
                     {
                         "type": "standard",
                         "name": {
-                            "en": "# Shelters",
-                            "ar": "عدد المآوي في الموقع"
+                            "en": "Maximum total number of people the site can accommodate",
+                            "ar": "لحد الأقصى لعدد الأشخاص الذين يمكن للموقع استيعابهم"
                         },
-                        "entryCode": "nb_shelters",
+                        "entryCode": "site_capacity",
                         "iconOchaName": "Shelter"
-                    },
-                    {
-                        "type": "standard",
-                        "name": {
-                            "en": "# SMC Staff",
-                            "ar": "العدد الكلي لموظفي إدارة وتنسيق الموقع"
-                        },
-                        "entryCode": "smc_total",
-                        "iconOchaName": "Staff-management"
                     }
                 ]
             }

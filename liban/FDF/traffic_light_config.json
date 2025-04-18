@@ -262,7 +262,7 @@
         "No_space_in_school, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_transportation": "darkred",
         "Unable_register, No_space_in_school, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_transportation": "red",
         "Cannot_afford_tuition, Cannot_afford_transportation": "darkred",
-        "Unable_register, Cannot_afford_tuition, Cannot_afford_transportation": "red",
+        "Unable_register;Cannot_afford_tuition;Cannot_afford_transportation": "red",
         "No_space_in_school, Cannot_afford_tuition, Cannot_afford_transportation": "darkred",
         "Unable_register, No_space_in_school, Cannot_afford_tuition, Cannot_afford_transportation": "red",
         "School_is_closed, Cannot_afford_tuition, Cannot_afford_transportation": "darkred",

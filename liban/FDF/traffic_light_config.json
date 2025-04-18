@@ -174,9 +174,9 @@
         "On_site": "yellow",
         "Off_site": "orange",
         "Online, On_site": "yellow",
-        "Online, Off_site": "orange",
-        "On_site, Off_site": "darkred",
-        "Online, On_site, Off_site": "red"
+        "Online;Off_site": "orange",
+        "On_site;Off_site": "darkred",
+        "Online;On_site;Off_site": "red"
       }
     },
     "reasons_not_engaged_learning": {

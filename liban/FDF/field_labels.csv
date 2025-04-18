@@ -1,6 +1,7 @@
 field_name;field_label_en;field_label_ar
 Round; Round;دائري
 Site_type; Site type;نوع الموقع
+name; Site name;اسم الموقع
 Date_of_Visit;Date of Visit;تاريخ الزيارة
 Organization_visit;Organization undertaking the visit;المنظمة التي تقوم بالزيارة
 Other_Organization_visit;Specify name of the other organization undertaking the visit;تحديد اسم المنظمة الأخرى التي تقوم بالزيارة

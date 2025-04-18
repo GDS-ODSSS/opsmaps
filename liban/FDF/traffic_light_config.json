@@ -1,468 +1,592 @@
 {
-    "trafficLights": {
-      "yesno": {
-        "type": "key_value",
-        "values": {
-          "Yes": "green",
-          "No": "red"
-        }
-      },
-      "noyes": {
-        "type": "key_value",
-        "values": {
-          "Yes": "red",
-          "No": "green"
-        }
-      },
-      "Shelter_type": {
-        "type": "key_value",
-        "values": {
-          "IDP_Collective_center": "yellow",
-          "Residential_shelters": "green",
-          "Non_residential_unfinished_shelters": "darkred",
-          "Hosted_with_another_family": "orange",
-          "Informal_settlements": "red",
-          "Other": "darkred"
-        }
-      },
-      "minor_repair": {
-        "type": "key_value",
-        "values": {
-          "Partitioning": "green",
-          "Safety": "orange",
-          "Security": "red",
-          "Fire_risk_prevention": "darkred",
-          "Plumbing_sanitation_repair": "yellow",
-          "PwSN_GBV_mainstreaming": "darkred"
-        }
-      },
-      "cooking_facilities_type": {
-        "type": "key_value",
-        "values": {
-          "Individual_cooking_facilities": "green",
-          "Communal_cooking_facilities": "orange"
-        }
-      },
-      "position_site_manager": {
-        "type": "key_value",
-        "values": {
-          "Association_Represantatives": "yellow",
-          "Community_leader": "green",
-          "Ex-Municipality_Employee": "orange",
-          "Ex-Municipality_Mayor": "orange",
-          "Land_Owner": "yellow",
-          "Mukhtar": "yellow",
-          "Municipality_Mayor": "green",
-          "Municipality_Official": "green",
-          "Political_Activist": "red",
-          "Resident_/Worker": "green",
-          "Resort_Owner": "yellow",
-          "Social_Activist": "yellow",
-          "School_director": "green"
-        }
-      },
-      "water_source": {
-        "type": "key_value",
-        "values": {
-          "Public_supply_piped": "green",
-          "Tank_with_purchased_water_trucking": "yellow",
-          "Rainwater_harvesting_tank": "orange",
-          "Hand_pump": "darkred",
-          "Spring": "red",
-          "Well": "orange",
-          "Bottled": "yellow",
-          "Other": "yellow"
-        }
-      },
-      "safety_concerns": {
-        "type": "key_value",
-        "values": {
-          "No_safety_concern_reported": "green",
-          "Lack_of_privacy_for_families_individuals": "darkred",
-          "Lack_of_separate_latrines": "red",
-          "Physical_structure_building": "yellow",
-          "Site_location": "orange"
-        }
-      },
-      "Health_need": {
-        "type": "key_value",
-        "values": {
-          "First_aid_emergency_care": "green",
-          "Acute_Watery_Diarrhea": "green",
-          "Childhood_vaccination": "green",
-          "Surgery": "yellow",
-          "Psychiatric_care": "yellow",
-          "Scabies_Lice_skin_diseases": "yellow",
-          "Suspected_measles": "orange",
-          "Referral_service": "orange",
-          "Reproductive_health_care": "orange",
-          "Treatment_for_chronic_disease": "red",
-          "Rehabilitation": "red",
-          "Assistive_devices": "red",
-          "Malnutrition": "darkred",
-          "Other": "darkred"
-        }
-      },
-      "types_education_support": {
-        "type": "key_value",
-        "values": {
-          "learning_activities_in_the_displacement_site": "green",
-          "learning_materials_for_children": "green",
-          "school_classroom_furniture": "yellow",
-          "materials_for_public_school": "yellow",
-          "support_to_attend_public_school": "orange"
-        }
-      },
-      "Electricity_Network": {
-        "type": "key_value",
-        "values": {
-          "Fully_functional": "green",
-          "Irregular_partially_functional": "yellow",
-          "Not_functional": "red",
-          "it_doesnt_exist": "darkred"
-        }
-      },
-      "Telephone_Network": {
-        "type": "key_value",
-        "values": {
-          "Fully_functional": "green",
-          "Irregular_partially_functional": "yellow",
-          "Not_functional": "red",
-          "it_doesnt_exist": "darkred"
-        }
-      },
-      "Heating_system": {
-        "type": "key_value",
-        "values": {
-          "Fully_functional": "green",
-          "Irregular_partially_functional": "yellow",
-          "Not_functional": "red",
-          "it_doesnt_exist": "darkred"
-        }
-      },
-      "Internet_Network": {
-        "type": "key_value",
-        "values": {
-          "Fully_functional": "green",
-          "Irregular_partially_functional": "yellow",
-          "Not_functional": "red",
-          "it_doesnt_exist": "darkred"
-        }
-      },
-      "status_generators": {
-        "type": "key_value",
-        "values": {
-          "Fully_functional": "green",
-          "Irregular_partially_functional": "yellow",
-          "Not_functional": "red",
-          "it_doesnt_exist": "darkred"
-        }
-      },
-      "proportion_primary_aged_children_attended_school": {
-        "type": "math",
-        "values": {
-          "25": "red",
-          "50": "orange",
-          "75": "yellow",
-          "100": "green"
-        }
-      },
-      "access_primary_education_modality": {
-        "type": "key_value",
-        "values": {
-          "Online": "green",
-          "On_site": "yellow",
-          "Off_site": "orange"
-        }
-      },
-      "reasons_not_engaged_learning": {
-        "type": "key_value",
-        "values": {
-          "Unable_register": "yellow",
-          "No_space_in_school": "orange",
-          "School_is_closed": "red",
-          "Location_of_school_is_unsafe": "darkred",
-          "Cannot_afford_tuition": "red",
-          "Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
-          "Cannot_afford_transportation": "darkred"
-        }
-      },
-      "Water_network": {
-        "type": "key_value",
-        "values": {
-          "No_Damage": "green",
-          "Mild": "yellow",
-          "Moderate": "orange",
-          "Severe": "red",
-          "Very_Severe": "darkred"
-        }
-      },
-      "Wastewater_network": {
-        "type": "key_value",
-        "values": {
-          "No_Damage": "green",
-          "Mild": "yellow",
-          "Moderate": "orange",
-          "Severe": "red",
-          "Very_Severe": "darkred"
-        }
-      },
-      "Solid_waste_collect": {
-        "type": "key_value",
-        "values": {
-          "Not_collected_spread": "darkred",
-          "Trash_bin": "yellow",
-          "Waste_collection_point": "yellow",
-          "Garbage_pit": "orange",
-          "Landfill": "red",
-          "Recycling_centre": "green",
-          "Informal_waste_collection": "darkred",
-          "Other": "orange"
-        }
-      },
-      "Solid_waste_manage": {
-        "type": "key_value",
-        "values": {
-          "Not_Collected_by_anyone": "darkred",
-          "Collected_by_authority": "green",
-          "Burned": "red",
-          "Other": "yellow"
-        }
-      },
-      "Living_conditions": {
-        "type": "key_value",
-        "values": {
-          "No_Separation_available_for_families": "red",
-          "Separation_available_for_families": "green",
-          "Families_separated_by_gender": "yellow"
-        }
-      },
-      "Original_use_of_the_site": {
-        "type": "key_value",
-        "values": {
-          "School": "red",
-          "Sports_centre": "orange",
-          "Communal_municipal_centre": "yellow",
-          "Religious_centre": "orange",
-          "Medical_centre": "red",
-          "Governmental_centre": "yellow",
-          "Other": "red"
-        }
-      },
-      "yes_no_partially": {
-        "type": "key_value",
-        "values": {
-          "Yes": "green",
-          "Partially": "orange",
-          "No": "red"
-        }
-      },
-      "Condtion": {
-        "type": "key_value",
-        "values": {
-          "Usable": "green",
-          "Damaged": "red"
-        }
-      },
-      "Electricity_source": {
-        "type": "key_value",
-        "values": {
-          "PV_system": "yellow",
-          "Onsite_generator": "yellow",
-          "Public_generator": "orange",
-          "Public_grid": "green",
-          "No_source_of_Electricity": "darkred"
-        }
-      },
-      "Other_type_groups_committies": {
-        "type": "key_value",
-        "values": {
-          "Community_Leadership_Representation_group_committee": "yellow",
-          "Womens_group_committee": "orange",
-          "Youth_group_committee": "orange",
-          "Protection_group_committee": "green",
-          "Food_Distribution_group_committee": "yellow",
-          "WASH_group_committee": "yellow",
-          "Health_group_committee": "green",
-          "Education_group_committee": "green",
-          "Shelter_group_committee": "orange",
-          "Livelihoods_group_committee": "orange",
-          "Site_Security_group_committee": "red",
-          "Other": "darkred"
-        }
-      },
-      "Actors_present_site_regularly": {
-        "type": "key_value",
-        "values": {
-          "MoSA": "yellow",
-          "INGOs": "yellow",
-          "NGOs": "green",
-          "local_organizations_charities": "green",
-          "Politically_affiliated_party": "orange",
-          "Other": "red"
-        }
-      },
-      "plans_to_close_site_move_residents_in_coming_months": {
-        "type": "key_value",
-        "values": {
-          "Yes_closure_site": "green",
-          "Yes_movement_of_all_residents": "green",
-          "Yes_movement_of_some_of_the_residents": "yellow",
-          "No_closure_or_movement_residents_planned": "orange",
-          "Don’t_know": "darkred"
-        }
-      },
-      "expected_date_closure_move": {
-        "type": "key_value",
-        "values": {
-          "Within_1_week": "green",
-          "Within_2_weeks": "yellow",
-          "Within_1_month": "orange",
-          "Within_2-3_months": "red"
-        }
-      },
-      "reason_closure_movement_IDPs": {
-        "type": "key_value",
-        "values": {
-          "Overcrowding": "red",
-          "School_needs_to_be_emptied_for_students": "yellow",
-          "Building_not_suitable_for_longer_term_habitation": "orange",
-          "Don’t_know": "darkred",
-          "Other": "red"
-        }
-      },
-      "site_need_winter_related_site_improvements": {
-        "type": "key_value",
-        "values": {
-          "Yes_extensive_site_improvements": "green",
-          "Moderate_amount_improvements_needed": "yellow",
-          "Small_amount_improvements_needed": "orange",
-          "No_improvements_needed": "darkred"
-        }
-      },
-      "existing_community": {
-        "type": "key_value",
-        "values": {
-          "None": "darkred",
-          "Site_Management_committee": "green",
-          "WASH_committee": "green",
-          "Women_committee": "yellow",
-          "Youth_committee": "yellow",
-          "Men_committee": "orange",
-          "Committee_for_people_with_disabilities": "green",
-          "Security_committee": "orange"
-        }
-      },
-      "winter_site_improvements": {
-        "type": "key_value",
-        "values": {
-          "Insulation": "green",
-          "Roof_waterproofing": "yellow",
-          "Roof_drainage_system": "orange",
-          "Site_drainage_system": "red"
-        }
-      },
-      "source_domestic_service_water": {
-        "type": "key_value",
-        "values": {
-          "Water_Establishment_public_network": "green",
-          "Private_network": "yellow",
-          "Onsite_well_spring": "orange",
-          "Tankering": "red"
-        }
-      },
-      "Hours_domestic_service_water": {
-        "type": "key_value",
-        "values": {
-          "0h": "green",
-          "1_3h": "yellow",
-          "4_6h": "orange",
-          "7_12h": "red",
-          "13_18h": "darkred",
-          "19_24h": "darkred"
-        }
-      },
-      "source_drinking_water": {
-        "type": "key_value",
-        "values": {
-          "bottled_water": "darkred",
-          "onsite_treatment_of_water_eg_filters": "red",
-          "trucked_water": "orange",
-          "private_network": "yellow",
-          "public_Water_establishment_network": "green"
-        }
-      },
-      "All_some_none": {
-        "type": "key_value",
-        "values": {
-          "All": "green",
-          "Some": "orange",
-          "None": "red"
-        }
-      },
-      "wash_clothes": {
-        "type": "key_value",
-        "values": {
-          "By_hand_outside": "orange",
-          "By_hand_inside": "yellow",
-          "Washing_machine": "green"
-        }
-      },
-      "items_needed_site": {
-        "type": "key_value",
-        "values": {
-          "None": "green",
-          "Wheel_chair": "red",
-          "Walker": "orange",
-          "Crutches": "darkred",
-          "Gel_air_Cushion_Mattress": "darkred",
-          "Urine_bags": "yellow",
-          "Oxygen_machine": "darkred"
-        }
-      },
-      "ECD_services_available": {
-        "type": "key_value",
-        "values": {
-          "None_of_below": "red",
-          "Nutrition_ECD_Counselling": "orange",
-          "Counselling_education_caregivers_breast_feeding": "yellow",
-          "Support_on_breastfed_children_emergency_nutrition": "green"
-        }
-      },
-      "functioning_refrigerator_water_boiler_utensil_facility_available_MBC": {
-        "type": "key_value",
-        "values": {
-          "None": "darkred",
-          "Functioning_refrigerator": "green",
-          "Water_boiler": "green",
-          "Baby_feeding_utensil_cleaning_equipment": "green"
-        }
-      },
-      "comm_kitchen_equip": {
-        "type": "key_value",
-        "values": {
-          "Cold_storage": "green",
-          "Cooking_utensils": "green",
-          "Cooking_Gas": "green"
-        }
-      },
-      "types_food_assistance_provided": {
-        "type": "key_value",
-        "values": {
-          "None_purchase_own_food": "green",
-          "Provision_ready_cooked_hot_meals": "red",
-          "Distribution_food_rations": "darkred"
-        }
-      },
-      "proportion_households_received_assistance": {
-        "type": "math",
-        "values": {
-          "25": "darkred",
-          "50": "red",
-          "75": "yellow",
-          "100": "green"
-        }
+  "trafficLights": {
+    "yesno": {
+      "type": "key_value",
+      "values": {
+        "Yes": "green",
+        "No": "red"
+      }
+    },
+    "noyes": {
+      "type": "key_value",
+      "values": {
+        "Yes": "red",
+        "No": "green"
+      }
+    },
+    "Shelter_type": {
+      "type": "key_value",
+      "values": {
+        "IDP_Collective_center": "yellow",
+        "Residential_shelters": "green",
+        "Non_residential_unfinished_shelters": "darkred",
+        "Hosted_with_another_family": "orange",
+        "Informal_settlements": "red",
+        "Other": "darkred"
+      }
+    },
+    "minor_repair": {
+      "type": "key_value",
+      "values": {
+        "Partitioning": "green",
+        "Safety": "orange",
+        "Security": "red",
+        "Fire_risk_prevention": "darkred",
+        "Plumbing_sanitation_repair": "yellow",
+        "PwSN_GBV_mainstreaming": "darkred"
+      }
+    },
+    "cooking_facilities_type": {
+      "type": "key_value",
+      "values": {
+        "Individual_cooking_facilities": "green",
+        "Communal_cooking_facilities": "orange"
+      }
+    },
+    "position_site_manager": {
+      "type": "key_value",
+      "values": {
+        "Association_Represantatives": "yellow",
+        "Community_leader": "green",
+        "Ex-Municipality_Employee": "orange",
+        "Ex-Municipality_Mayor": "orange",
+        "Land_Owner": "yellow",
+        "Mukhtar": "yellow",
+        "Municipality_Mayor": "green",
+        "Municipality_Official": "green",
+        "Political_Activist": "red",
+        "Resident_/Worker": "green",
+        "Resort_Owner": "yellow",
+        "Social_Activist": "yellow",
+        "School_director": "green"
+      }
+    },
+    "water_source": {
+      "type": "key_value",
+      "values": {
+        "Public_supply_piped": "green",
+        "Tank_with_purchased_water_trucking": "yellow",
+        "Rainwater_harvesting_tank": "orange",
+        "Hand_pump": "darkred",
+        "Spring": "red",
+        "Well": "orange",
+        "Bottled": "yellow",
+        "Other": "yellow"
+      }
+    },
+    "safety_concerns": {
+      "type": "key_value",
+      "values": {
+        "No_safety_concern_reported": "green",
+        "Lack_of_privacy_for_families_individuals": "darkred",
+        "Lack_of_separate_latrines": "red",
+        "Physical_structure_building": "yellow",
+        "Site_location": "orange"
+      }
+    },
+    "Health_need": {
+      "type": "key_value",
+      "values": {
+        "First_aid_emergency_care": "green",
+        "Acute_Watery_Diarrhea": "green",
+        "Childhood_vaccination": "green",
+        "Surgery": "yellow",
+        "Psychiatric_care": "yellow",
+        "Scabies_Lice_skin_diseases": "yellow",
+        "Suspected_measles": "orange",
+        "Referral_service": "orange",
+        "Reproductive_health_care": "orange",
+        "Treatment_for_chronic_disease": "red",
+        "Rehabilitation": "red",
+        "Assistive_devices": "red",
+        "Malnutrition": "darkred",
+        "Other": "darkred"
+      }
+    },
+    "types_education_support": {
+      "type": "key_value",
+      "values": {
+        "learning_activities_in_the_displacement_site": "green",
+        "learning_materials_for_children": "green",
+        "school_classroom_furniture": "yellow",
+        "materials_for_public_school": "yellow",
+        "support_to_attend_public_school": "orange"
+      }
+    },
+    "Electricity_Network": {
+      "type": "key_value",
+      "values": {
+        "Fully_functional": "green",
+        "Irregular_partially_functional": "yellow",
+        "Not_functional": "red",
+        "it_doesnt_exist": "darkred"
+      }
+    },
+    "Telephone_Network": {
+      "type": "key_value",
+      "values": {
+        "Fully_functional": "green",
+        "Irregular_partially_functional": "yellow",
+        "Not_functional": "red",
+        "it_doesnt_exist": "darkred"
+      }
+    },
+    "Heating_system": {
+      "type": "key_value",
+      "values": {
+        "Fully_functional": "green",
+        "Irregular_partially_functional": "yellow",
+        "Not_functional": "red",
+        "it_doesnt_exist": "darkred"
+      }
+    },
+    "Internet_Network": {
+      "type": "key_value",
+      "values": {
+        "Fully_functional": "green",
+        "Irregular_partially_functional": "yellow",
+        "Not_functional": "red",
+        "it_doesnt_exist": "darkred"
+      }
+    },
+    "status_generators": {
+      "type": "key_value",
+      "values": {
+        "Fully_functional": "green",
+        "Irregular_partially_functional": "yellow",
+        "Not_functional": "red",
+        "it_doesnt_exist": "darkred"
+      }
+    },
+    "proportion_primary_aged_children_attended_school": {
+      "type": "math",
+      "values": {
+        "25": "red",
+        "50": "orange",
+        "75": "yellow",
+        "100": "green"
+      }
+    },
+    "access_primary_education_modality": {
+      "type": "key_value",
+      "values": {
+        "Online": "green",
+        "On_site": "yellow",
+        "Off_site": "orange"
+      }
+    },
+    "reasons_not_engaged_learning": {
+      "type": "key_value",
+      "values": {
+        "Unable_register": "yellow",
+        "No_space_in_school": "orange",
+        "Unable_register, No_space_in_school": "yellow",
+        "School_is_closed": "red",
+        "Unable_register, School_is_closed": "orange",
+        "No_space_in_school, School_is_closed": "red",
+        "Unable_register, No_space_in_school, School_is_closed": "orange",
+        "Location_of_school_is_unsafe": "darkred",
+        "Unable_register, Location_of_school_is_unsafe": "red",
+        "No_space_in_school, Location_of_school_is_unsafe": "darkred",
+        "Unable_register, No_space_in_school, Location_of_school_is_unsafe": "red",
+        "School_is_closed, Location_of_school_is_unsafe": "darkred",
+        "Unable_register, School_is_closed, Location_of_school_is_unsafe": "red",
+        "No_space_in_school, School_is_closed, Location_of_school_is_unsafe": "darkred",
+        "Unable_register, No_space_in_school, School_is_closed, Location_of_school_is_unsafe": "red",
+        "Cannot_afford_tuition": "red",
+        "Unable_register, Cannot_afford_tuition": "orange",
+        "No_space_in_school, Cannot_afford_tuition": "red",
+        "Unable_register, No_space_in_school, Cannot_afford_tuition": "orange",
+        "School_is_closed, Cannot_afford_tuition": "red",
+        "Unable_register, School_is_closed, Cannot_afford_tuition": "red",
+        "No_space_in_school, School_is_closed, Cannot_afford_tuition": "red",
+        "Unable_register, No_space_in_school, School_is_closed, Cannot_afford_tuition": "red",
+        "Location_of_school_is_unsafe, Cannot_afford_tuition": "darkred",
+        "Unable_register, Location_of_school_is_unsafe, Cannot_afford_tuition": "red",
+        "No_space_in_school, Location_of_school_is_unsafe, Cannot_afford_tuition": "darkred",
+        "Unable_register, No_space_in_school, Location_of_school_is_unsafe, Cannot_afford_tuition": "red",
+        "School_is_closed, Location_of_school_is_unsafe, Cannot_afford_tuition": "darkred",
+        "Unable_register, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_tuition": "red",
+        "No_space_in_school, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_tuition": "darkred",
+        "Unable_register, No_space_in_school, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_tuition": "red",
+        "Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "Unable_register, Lack_equipment_electricity_Internet_to_follow_courses_online": "orange",
+        "No_space_in_school, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "Unable_register, No_space_in_school, Lack_equipment_electricity_Internet_to_follow_courses_online": "orange",
+        "School_is_closed, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "Unable_register, School_is_closed, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "No_space_in_school, School_is_closed, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "Unable_register, No_space_in_school, School_is_closed, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "Location_of_school_is_unsafe, Lack_equipment_electricity_Internet_to_follow_courses_online": "darkred",
+        "Unable_register, Location_of_school_is_unsafe, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "No_space_in_school, Location_of_school_is_unsafe, Lack_equipment_electricity_Internet_to_follow_courses_online": "darkred",
+        "Unable_register, No_space_in_school, Location_of_school_is_unsafe, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "School_is_closed, Location_of_school_is_unsafe, Lack_equipment_electricity_Internet_to_follow_courses_online": "darkred",
+        "Unable_register, School_is_closed, Location_of_school_is_unsafe, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "No_space_in_school, School_is_closed, Location_of_school_is_unsafe, Lack_equipment_electricity_Internet_to_follow_courses_online": "darkred",
+        "Unable_register, No_space_in_school, School_is_closed, Location_of_school_is_unsafe, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "Unable_register, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "No_space_in_school, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "Unable_register, No_space_in_school, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "School_is_closed, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "Unable_register, School_is_closed, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "No_space_in_school, School_is_closed, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "Unable_register, No_space_in_school, School_is_closed, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "Location_of_school_is_unsafe, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online": "darkred",
+        "Unable_register, Location_of_school_is_unsafe, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "No_space_in_school, Location_of_school_is_unsafe, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online": "darkred",
+        "Unable_register, No_space_in_school, Location_of_school_is_unsafe, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "School_is_closed, Location_of_school_is_unsafe, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online": "darkred",
+        "Unable_register, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "No_space_in_school, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online": "darkred",
+        "Unable_register, No_space_in_school, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online": "red",
+        "Cannot_afford_transportation": "darkred",
+        "Unable_register, Cannot_afford_transportation": "red",
+        "No_space_in_school, Cannot_afford_transportation": "darkred",
+        "Unable_register, No_space_in_school, Cannot_afford_transportation": "red",
+        "School_is_closed, Cannot_afford_transportation": "darkred",
+        "Unable_register, School_is_closed, Cannot_afford_transportation": "red",
+        "No_space_in_school, School_is_closed, Cannot_afford_transportation": "darkred",
+        "Unable_register, No_space_in_school, School_is_closed, Cannot_afford_transportation": "red",
+        "Location_of_school_is_unsafe, Cannot_afford_transportation": "darkred",
+        "Unable_register, Location_of_school_is_unsafe, Cannot_afford_transportation": "red",
+        "No_space_in_school, Location_of_school_is_unsafe, Cannot_afford_transportation": "darkred",
+        "Unable_register, No_space_in_school, Location_of_school_is_unsafe, Cannot_afford_transportation": "red",
+        "School_is_closed, Location_of_school_is_unsafe, Cannot_afford_transportation": "darkred",
+        "Unable_register, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_transportation": "red",
+        "No_space_in_school, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_transportation": "darkred",
+        "Unable_register, No_space_in_school, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_transportation": "red",
+        "Cannot_afford_tuition, Cannot_afford_transportation": "darkred",
+        "Unable_register, Cannot_afford_tuition, Cannot_afford_transportation": "red",
+        "No_space_in_school, Cannot_afford_tuition, Cannot_afford_transportation": "darkred",
+        "Unable_register, No_space_in_school, Cannot_afford_tuition, Cannot_afford_transportation": "red",
+        "School_is_closed, Cannot_afford_tuition, Cannot_afford_transportation": "darkred",
+        "Unable_register, School_is_closed, Cannot_afford_tuition, Cannot_afford_transportation": "red",
+        "No_space_in_school, School_is_closed, Cannot_afford_tuition, Cannot_afford_transportation": "darkred",
+        "Unable_register, No_space_in_school, School_is_closed, Cannot_afford_tuition, Cannot_afford_transportation": "red",
+        "Location_of_school_is_unsafe, Cannot_afford_tuition, Cannot_afford_transportation": "darkred",
+        "Unable_register, Location_of_school_is_unsafe, Cannot_afford_tuition, Cannot_afford_transportation": "red",
+        "No_space_in_school, Location_of_school_is_unsafe, Cannot_afford_tuition, Cannot_afford_transportation": "darkred",
+        "Unable_register, No_space_in_school, Location_of_school_is_unsafe, Cannot_afford_tuition, Cannot_afford_transportation": "red",
+        "School_is_closed, Location_of_school_is_unsafe, Cannot_afford_tuition, Cannot_afford_transportation": "darkred",
+        "Unable_register, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_tuition, Cannot_afford_transportation": "red",
+        "No_space_in_school, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_tuition, Cannot_afford_transportation": "darkred",
+        "Unable_register, No_space_in_school, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_tuition, Cannot_afford_transportation": "red",
+        "Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "darkred",
+        "Unable_register, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "red",
+        "No_space_in_school, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "darkred",
+        "Unable_register, No_space_in_school, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "red",
+        "School_is_closed, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "darkred",
+        "Unable_register, School_is_closed, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "red",
+        "No_space_in_school, School_is_closed, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "darkred",
+        "Unable_register, No_space_in_school, School_is_closed, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "red",
+        "Location_of_school_is_unsafe, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "darkred",
+        "Unable_register, Location_of_school_is_unsafe, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "red",
+        "No_space_in_school, Location_of_school_is_unsafe, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "darkred",
+        "Unable_register, No_space_in_school, Location_of_school_is_unsafe, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "red",
+        "School_is_closed, Location_of_school_is_unsafe, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "darkred",
+        "Unable_register, School_is_closed, Location_of_school_is_unsafe, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "red",
+        "No_space_in_school, School_is_closed, Location_of_school_is_unsafe, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "darkred",
+        "Unable_register, No_space_in_school, School_is_closed, Location_of_school_is_unsafe, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "red",
+        "Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "darkred",
+        "Unable_register, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "red",
+        "No_space_in_school, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "darkred",
+        "Unable_register, No_space_in_school, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "red",
+        "School_is_closed, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "darkred",
+        "Unable_register, School_is_closed, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "red",
+        "No_space_in_school, School_is_closed, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "darkred",
+        "Unable_register, No_space_in_school, School_is_closed, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "red",
+        "Location_of_school_is_unsafe, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "darkred",
+        "Unable_register, Location_of_school_is_unsafe, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "red",
+        "No_space_in_school, Location_of_school_is_unsafe, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "darkred",
+        "Unable_register, No_space_in_school, Location_of_school_is_unsafe, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "red",
+        "School_is_closed, Location_of_school_is_unsafe, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "darkred",
+        "Unable_register, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "red",
+        "No_space_in_school, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "darkred",
+        "Unable_register, No_space_in_school, School_is_closed, Location_of_school_is_unsafe, Cannot_afford_tuition, Lack_equipment_electricity_Internet_to_follow_courses_online, Cannot_afford_transportation": "red"        
+      }
+    },
+    "Water_network": {
+      "type": "key_value",
+      "values": {
+        "No_Damage": "green",
+        "Mild": "yellow",
+        "Moderate": "orange",
+        "Severe": "red",
+        "Very_Severe": "darkred"
+      }
+    },
+    "Wastewater_network": {
+      "type": "key_value",
+      "values": {
+        "No_Damage": "green",
+        "Mild": "yellow",
+        "Moderate": "orange",
+        "Severe": "red",
+        "Very_Severe": "darkred"
+      }
+    },
+    "Solid_waste_collect": {
+      "type": "key_value",
+      "values": {
+        "Not_collected_spread": "darkred",
+        "Trash_bin": "yellow",
+        "Waste_collection_point": "yellow",
+        "Garbage_pit": "orange",
+        "Landfill": "red",
+        "Recycling_centre": "green",
+        "Informal_waste_collection": "darkred",
+        "Other": "orange"
+      }
+    },
+    "Solid_waste_manage": {
+      "type": "key_value",
+      "values": {
+        "Not_Collected_by_anyone": "darkred",
+        "Collected_by_authority": "green",
+        "Burned": "red",
+        "Other": "yellow"
+      }
+    },
+    "Living_conditions": {
+      "type": "key_value",
+      "values": {
+        "No_Separation_available_for_families": "red",
+        "Separation_available_for_families": "green",
+        "Families_separated_by_gender": "yellow"
+      }
+    },
+    "Original_use_of_the_site": {
+      "type": "key_value",
+      "values": {
+        "School": "red",
+        "Sports_centre": "orange",
+        "Communal_municipal_centre": "yellow",
+        "Religious_centre": "orange",
+        "Medical_centre": "red",
+        "Governmental_centre": "yellow",
+        "Other": "red"
+      }
+    },
+    "yes_no_partially": {
+      "type": "key_value",
+      "values": {
+        "Yes": "green",
+        "Partially": "orange",
+        "No": "red"
+      }
+    },
+    "Condtion": {
+      "type": "key_value",
+      "values": {
+        "Usable": "green",
+        "Damaged": "red"
+      }
+    },
+    "Electricity_source": {
+      "type": "key_value",
+      "values": {
+        "PV_system": "yellow",
+        "Onsite_generator": "yellow",
+        "Public_generator": "orange",
+        "Public_grid": "green",
+        "No_source_of_Electricity": "darkred"
+      }
+    },
+    "Other_type_groups_committies": {
+      "type": "key_value",
+      "values": {
+        "Community_Leadership_Representation_group_committee": "yellow",
+        "Womens_group_committee": "orange",
+        "Youth_group_committee": "orange",
+        "Protection_group_committee": "green",
+        "Food_Distribution_group_committee": "yellow",
+        "WASH_group_committee": "yellow",
+        "Health_group_committee": "green",
+        "Education_group_committee": "green",
+        "Shelter_group_committee": "orange",
+        "Livelihoods_group_committee": "orange",
+        "Site_Security_group_committee": "red",
+        "Other": "darkred"
+      }
+    },
+    "Actors_present_site_regularly": {
+      "type": "key_value",
+      "values": {
+        "MoSA": "yellow",
+        "INGOs": "yellow",
+        "NGOs": "green",
+        "local_organizations_charities": "green",
+        "Politically_affiliated_party": "orange",
+        "Other": "red"
+      }
+    },
+    "plans_to_close_site_move_residents_in_coming_months": {
+      "type": "key_value",
+      "values": {
+        "Yes_closure_site": "green",
+        "Yes_movement_of_all_residents": "green",
+        "Yes_movement_of_some_of_the_residents": "yellow",
+        "No_closure_or_movement_residents_planned": "orange",
+        "Don’t_know": "darkred"
+      }
+    },
+    "expected_date_closure_move": {
+      "type": "key_value",
+      "values": {
+        "Within_1_week": "green",
+        "Within_2_weeks": "yellow",
+        "Within_1_month": "orange",
+        "Within_2-3_months": "red"
+      }
+    },
+    "reason_closure_movement_IDPs": {
+      "type": "key_value",
+      "values": {
+        "Overcrowding": "red",
+        "School_needs_to_be_emptied_for_students": "yellow",
+        "Building_not_suitable_for_longer_term_habitation": "orange",
+        "Don’t_know": "darkred",
+        "Other": "red"
+      }
+    },
+    "site_need_winter_related_site_improvements": {
+      "type": "key_value",
+      "values": {
+        "Yes_extensive_site_improvements": "green",
+        "Moderate_amount_improvements_needed": "yellow",
+        "Small_amount_improvements_needed": "orange",
+        "No_improvements_needed": "darkred"
+      }
+    },
+    "existing_community": {
+      "type": "key_value",
+      "values": {
+        "None": "darkred",
+        "Site_Management_committee": "green",
+        "WASH_committee": "green",
+        "Women_committee": "yellow",
+        "Youth_committee": "yellow",
+        "Men_committee": "orange",
+        "Committee_for_people_with_disabilities": "green",
+        "Security_committee": "orange"
+      }
+    },
+    "winter_site_improvements": {
+      "type": "key_value",
+      "values": {
+        "Insulation": "green",
+        "Roof_waterproofing": "yellow",
+        "Roof_drainage_system": "orange",
+        "Site_drainage_system": "red"
+      }
+    },
+    "source_domestic_service_water": {
+      "type": "key_value",
+      "values": {
+        "Water_Establishment_public_network": "green",
+        "Private_network": "yellow",
+        "Onsite_well_spring": "orange",
+        "Tankering": "red"
+      }
+    },
+    "Hours_domestic_service_water": {
+      "type": "key_value",
+      "values": {
+        "0h": "green",
+        "1_3h": "yellow",
+        "4_6h": "orange",
+        "7_12h": "red",
+        "13_18h": "darkred",
+        "19_24h": "darkred"
+      }
+    },
+    "source_drinking_water": {
+      "type": "key_value",
+      "values": {
+        "bottled_water": "darkred",
+        "onsite_treatment_of_water_eg_filters": "red",
+        "trucked_water": "orange",
+        "private_network": "yellow",
+        "public_Water_establishment_network": "green"
+      }
+    },
+    "All_some_none": {
+      "type": "key_value",
+      "values": {
+        "All": "green",
+        "Some": "orange",
+        "None": "red"
+      }
+    },
+    "wash_clothes": {
+      "type": "key_value",
+      "values": {
+        "By_hand_outside": "orange",
+        "By_hand_inside": "yellow",
+        "Washing_machine": "green"
+      }
+    },
+    "items_needed_site": {
+      "type": "key_value",
+      "values": {
+        "None": "green",
+        "Wheel_chair": "red",
+        "Walker": "orange",
+        "Crutches": "darkred",
+        "Gel_air_Cushion_Mattress": "darkred",
+        "Urine_bags": "yellow",
+        "Oxygen_machine": "darkred"
+      }
+    },
+    "ECD_services_available": {
+      "type": "key_value",
+      "values": {
+        "None_of_below": "red",
+        "Nutrition_ECD_Counselling": "orange",
+        "Counselling_education_caregivers_breast_feeding": "yellow",
+        "Support_on_breastfed_children_emergency_nutrition": "green"
+      }
+    },
+    "functioning_refrigerator_water_boiler_utensil_facility_available_MBC": {
+      "type": "key_value",
+      "values": {
+        "None": "darkred",
+        "Functioning_refrigerator": "green",
+        "Water_boiler": "green",
+        "Baby_feeding_utensil_cleaning_equipment": "green"
+      }
+    },
+    "comm_kitchen_equip": {
+      "type": "key_value",
+      "values": {
+        "Cold_storage": "green",
+        "Cooking_utensils": "green",
+        "Cooking_Gas": "green"
+      }
+    },
+    "types_food_assistance_provided": {
+      "type": "key_value",
+      "values": {
+        "None_purchase_own_food": "green",
+        "Provision_ready_cooked_hot_meals": "orange",
+        "Distribution_food_rations": "darkred",
+        "None_purchase_own_food, Provision_ready_cooked_hot_meals": "green",
+        "None_purchase_own_food, Distribution_food_rations": "yellow",
+        "Provision_ready_cooked_hot_meals, Distribution_food_rations": "orange",
+        "None_purchase_own_food, Provision_ready_cooked_hot_meals, Distribution_food_rations": "red"
+      }
+    },
+    "proportion_households_received_assistance": {
+      "type": "math",
+      "values": {
+        "25": "darkred",
+        "50": "red",
+        "75": "yellow",
+        "100": "green"
       }
     }
   }
-  
+}
+

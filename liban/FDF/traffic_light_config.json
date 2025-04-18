@@ -553,7 +553,7 @@
         "Nutrition_ECD_Counselling": "orange",
         "Support_on_breastfed_children_emergency_nutrition, Nutrition_ECD_Counselling": "orange",
         "Counselling_education_caregivers_breast_feeding, Nutrition_ECD_Counselling": "orange",
-        "Nutrition_ECD_Counselling,Counselling_education_caregivers_breast_feeding,Support_on_breastfed_children_emergency_nutrition": "yellow",
+        "Nutrition_ECD_Counselling;Counselling_education_caregivers_breast_feeding;Support_on_breastfed_children_emergency_nutrition": "yellow",
         "None_of_below": "red",
         "None_of_below, Nutrition_ECD_Counselling": "red",
         "None_of_below, Counselling_education_caregivers_breast_feeding": "orange",

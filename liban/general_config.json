@@ -161,8 +161,8 @@
             "submissionsUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRs974UDtwX7eUZs85oCNhI_zGX2URH7P2W71DkeiyuLKx6pGMLaCVZHfRk6z_FjQ/pub?gid=1775313954&single=true&output=csv",
             "submissionsTrUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRs974UDtwX7eUZs85oCNhI_zGX2URH7P2W71DkeiyuLKx6pGMLaCVZHfRk6z_FjQ/pub?gid=1391379263&single=true&output=csv",
             "options": {
-                "inputDateFormat": "DD/MM/YYYY",
-                "displayDateFormat": "DD/MM/YYYY",
+                "inputDateFormat": "MM/DD/YYYY",
+                "displayDateFormat": "MM/DD/YYYY",
                 "listSeparator": ";",
                 "anonymousMode": "text",
                 "siteZoomMode": "admin",
@@ -207,7 +207,7 @@
                     },
                     "admin3": {
                         "pcode": "Admin3",
-                        "name": "cadaster"
+                        "name": "Cadaster"
                     }
                 }
             },

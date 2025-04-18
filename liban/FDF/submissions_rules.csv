@@ -1,6 +1,5 @@
 field_name;type;thematic_group;traffic_light_name;chart_id;chart_data;display_condition;computed_rule;list_name
 Round;string;Site_information;;;;;;
-Site_type;string;Site_information;;;;;;
 name;string;Site_information;;;;;;
 Date_of_Visit;date;Site_information;;;;;;
 Organization_visit;list;Site_information;;;;;;

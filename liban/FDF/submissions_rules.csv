@@ -161,4 +161,4 @@ access_primary_education_modality;bullet;Education;access_primary_education_moda
 displaced_children_attend_secondary_school;string;Education;yesno;;;;;
 proportion_secondary_aged_children_attended_school;string;Education;;;;;;
 access_secondary_education_modality;bullet;Education;access_primary_education_modality;;;;;
-reasons_not_engaged_learning;bullet;Education;reasons_not_engaged_learning;;;;;
+reasons_not_engaged_learning;list;Education;reasons_not_engaged_learning;;;;;

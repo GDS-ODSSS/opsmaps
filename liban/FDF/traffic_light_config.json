@@ -547,10 +547,21 @@
     "ECD_services_available": {
       "type": "key_value",
       "values": {
-        "None_of_below": "red",
-        "Nutrition_ECD_Counselling": "orange",
+        "Support_on_breastfed_children_emergency_nutrition": "green",
         "Counselling_education_caregivers_breast_feeding": "yellow",
-        "Support_on_breastfed_children_emergency_nutrition": "green"
+        "Support_on_breastfed_children_emergency_nutrition, Counselling_education_caregivers_breast_feeding": "yellow",
+        "Nutrition_ECD_Counselling": "orange",
+        "Support_on_breastfed_children_emergency_nutrition, Nutrition_ECD_Counselling": "orange",
+        "Counselling_education_caregivers_breast_feeding, Nutrition_ECD_Counselling": "orange",
+        "Support_on_breastfed_children_emergency_nutrition, Counselling_education_caregivers_breast_feeding, Nutrition_ECD_Counselling": "yellow",
+        "None_of_below": "red",
+        "None_of_below, Nutrition_ECD_Counselling": "red",
+        "None_of_below, Counselling_education_caregivers_breast_feeding": "orange",
+        "None_of_below, Support_on_breastfed_children_emergency_nutrition": "orange",
+        "None_of_below, Nutrition_ECD_Counselling, Counselling_education_caregivers_breast_feeding": "orange",
+        "None_of_below, Nutrition_ECD_Counselling, Support_on_breastfed_children_emergency_nutrition": "orange",
+        "None_of_below, Counselling_education_caregivers_breast_feeding, Support_on_breastfed_children_emergency_nutrition": "yellow",
+        "None_of_below, Nutrition_ECD_Counselling, Counselling_education_caregivers_breast_feeding, Support_on_breastfed_children_emergency_nutrition": "orange"
       }
     },
     "functioning_refrigerator_water_boiler_utensil_facility_available_MBC": {

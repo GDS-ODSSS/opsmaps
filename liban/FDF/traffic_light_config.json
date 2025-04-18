@@ -587,9 +587,9 @@
         "None_purchase_own_food": "green",
         "Provision_ready_cooked_hot_meals": "orange",
         "Distribution_food_rations": "darkred",
-        "None_purchase_own_food, Provision_ready_cooked_hot_meals": "green",
+        "Provision_ready_cooked_hot_meals;None_purchase_own_food ": "green",
         "None_purchase_own_food, Distribution_food_rations": "yellow",
-        "Provision_ready_cooked_hot_meals, Distribution_food_rations": "orange",
+        "Distribution_food_rations;Provision_ready_cooked_hot_meals": "orange",
         "None_purchase_own_food, Provision_ready_cooked_hot_meals, Distribution_food_rations": "red"
       }
     },

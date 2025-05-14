@@ -198,15 +198,15 @@
                 },
                 "admins": {
                     "admin1": {
-                        "pcode": "Admin1",
+                        "pcode": "Adm1_Pcode",
                         "name": "Governorate"
                     },
                     "admin2": {
-                        "pcode": "Admin2",
+                        "pcode": "Adm2_Pcode",
                         "name": "District"
                     },
                     "admin3": {
-                        "pcode": "Admin3",
+                        "pcode": "Admin3_Pcode",
                         "name": "cadaster"
                     }
                 }
